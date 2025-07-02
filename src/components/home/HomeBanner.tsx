@@ -6,22 +6,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { sliderText } from "@/utils/motion";
 import Link from "next/link";
 import { MdArrowRightAlt } from "react-icons/md";
-import { cloude } from "@/assets";
 
 
 export default function HomeBanner({ data }: any) {
   return (
     <section className="relative md:h-[105vh] h-[94vh] w-full ">
-       <Image
-              src={cloude}
-              alt={`cloud`}
-              className="w-full   absolute -bottom-7 left-0 z-30"
-            /> <Image
-            src={cloude}
-            alt={`cloud`}
-            className="w-full   absolute -bottom-7 left-0 z-30"
-          />
-             
+                    
       {data?.imgs && 
       <Marquee className="w-full h-full" speed={50} gradient={false} gradientWidth={0}>
         {data?.imgs?.map((bnr: any) => (
