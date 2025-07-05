@@ -145,11 +145,14 @@ export default Header;
 function RightSide(onTop :any) {
   return (
     <div className="h-max border-2 border-red-100">
-      <a href="tel:+911234567890" className={` text-center shadow-lg flex hover:text-white hover:bg-black bg-red-100 rounded-sm duration-300 font1 gap-2  text-black md:text-lg font-bold   
- px-6 py-4 group w-max h-max`}>
-       <BiSolidPhoneCall className="mt-1  text-xl group-hover:scale-x-[-1] transition-all"/>
-         Call Now
+      <a href="tel:+911234567890" className={` text-center shadow-lg flex text-white group relative bg-gradient-to-l from-red-900 to-color1 overflow-hidden rounded-sm font1 gap-2  md:text-lg font-bold   
+ px-6 py-4  w-max h-max`}>
+   
+        <div className="group-hover:w-full duration-300 h-full bg-gradient-to-l from-blue-900 to-color2 absolute z-10 w-0 top-0 right-0"></div>
+       <BiSolidPhoneCall className="mt-1 z-20 text-xl group-hover:scale-x-[-1] transition-all"/>
+       <p className="z-20">Call Now</p>  
       </a>
     </div>
   );
 }
+

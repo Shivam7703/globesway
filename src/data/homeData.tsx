@@ -459,6 +459,78 @@ export const footer = {
   };
 
 
+// about us
+export const aboutsec1 = {
+  img1: about1,
+  img2: about1,
+  title1:"Who Are We",
+  title2:"Award Winning & Immigration Consultants",
+  title3:"The Best in Visa & Immigration Consultants in Delhi",
+para:"At Globesway Immigration, the best immigration consultants in Delhi. We’ve been helping people achieve their global dreams. With a decade of experience, our dedicated team ensures a smooth, hassle-free process for every client. Whether it's a tourist visa, work permit, or permanent residency, we handle every step with care and precision. Your journey begins with trusted experts who put your success first.",
+points:[{
+  id:1, text:"Fast Application Processing"
+},
+{
+  id:2, text:"High Approval Success Rate"
+},
+{
+  id:3, text:"Personalized Support at Every Step"
+},
+{
+  id:4, text:"100% Transparency & Updates"
+},
+{
+  id:5, text:"Affordable & Honest Pricing"
+},
+{
+  id:6, text:"8+ Years of Trusted Experience"
+},
+]
+}
+
+export const aboutchoose = {
+  img1: about1,
+  img2: about1,
+    img3: about1,
+
+  title1:"Why Choose Us?",
+  title2:"Trusted by Thousands for Smooth Visa Support",
+para:"People trust Globesway Immigration, the best immigration consultant in Delhi. We ensure that the visa process is easy, fast, and transparent. Being the best immigration consultants in Delhi, we are with you all the way.",
+points: [
+  {
+    id: 1,
+    icon: <TfiJoomla />,
+    heading: "Expert Guidance",
+    text: "Our team is familiar with the visa procedure and provides the appropriate advice."
+  },
+  {
+    id: 2,
+    icon: <TfiJoomla />,
+    heading: "Custom Plans",
+    text: "We develop a visa program that is tailored to your objectives and experiences."
+  },
+  {
+    id: 3,
+    icon: <TfiJoomla />,
+    heading: "Great Success Rate",
+    text: "We are careful with what we do and most of our clients are approved."
+  },
+  {
+    id: 4,
+    icon: <TfiJoomla />,
+    heading: "Clear Steps",
+    text: "No confusion or hidden costs—we explain everything in simple terms."
+  },
+  {
+    id: 5,
+    icon: <TfiJoomla />,
+    heading: "Full Support",
+    text: "We guide you at every step, starting with selecting the proper visa to landing in the foreign country."
+  }
+]
+
+}
+
   // contact page
    export const contactsec1 ={
     title:"Contact Us",

@@ -10,8 +10,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 export default function HomeBanner({ data }: any) {
   return (
-    <section className="relative md:h-[105vh] h-[94vh] w-full ">
-                    
+    <section className="relative md:h-[105vh] h-[94vh] w-full ">             
       {data?.imgs && 
       <Marquee className="w-full h-full" speed={50} gradient={false} gradientWidth={0}>
         {data?.imgs?.map((bnr: any) => (

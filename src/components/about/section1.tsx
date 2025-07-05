@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from "framer-motion";
 import { fadeIn,  staggerContainer} from '@/utils/motion';
-import { aboutdata as data } from '@/data/homeData';
-import { FaCheck, FaPeopleGroup } from 'react-icons/fa6';
+import { aboutsec1 as data } from '@/data/homeData';
+import { FaCheck} from 'react-icons/fa6';
 import { IoMedalOutline } from 'react-icons/io5';
 import Link from 'next/link';
 
@@ -22,21 +22,21 @@ function Section1() {
      <h2 className='text-zinc-800 font-bold text-3xl md:text-5xl '>{data?.title2} </h2>
 
 <div className='flex items-center gap-3'>
-  <IoMedalOutline className='text-3xl md:text-4xl text-black'/> <h3 className='text-color1 text-xl md:text-2xl'>The Best in Visa & Immigration Since 2013</h3>
+  <IoMedalOutline className='text-3xl md:text-4xl text-black'/> <h3 className='text-color1 text-xl md:text-2xl'>{data?.title3}</h3>
 </div>
 
-      {data?.para && <p className='text-zinc-600 text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eos quibusdam dignissimos illo porro optio! Laboriosam recusandae aut atque facilis mollitia possimus natus rem. Pariatur nesciunt cum sit ea laudantium.</p>}
-      <div className='flex gap-y-3 flex-wrap justify-between'>
+      {data?.para && <p className='text-zinc-600 text-sm md:text-base'>{data?.para}</p>}
+      <div className='flex flex-wrap justify-between'>
         <ul className='sm:w-[46%] space-y-3 mb-3 text-lg w-full'>
-<li className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />Fast Processing</li>
-<li className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />Guarantee Approval</li>
-<li className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />Fast Processing</li>
+          {data?.points.slice(0,3).map((point:any)=>(
+            <li key={point?.id} className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />{point?.text} </li>
+          ))}
         </ul>
 
-         <ul className='sm:w-[46%] space-y-3  text-lg w-full'>
-<li className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />Fast Processing</li>
-<li className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />Guarantee Approval</li>
-<li className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />Fast Processing</li>
+ <ul className='sm:w-[46%] space-y-3 mb-3 text-lg w-full'>
+          {data?.points.slice(3,6).map((point:any)=>(
+            <li key={point?.id} className='text-black font-medium flex gap-2'><FaCheck className='text-color1 mt-1' />{point?.text} </li>
+          ))}
         </ul>
       </div>
 

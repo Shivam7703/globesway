@@ -8,6 +8,8 @@ import about2 from "@/assets/home/about1.jpg";
 import about3 from "@/assets/home/about3.png";
 import person from "@/assets/home/person.png";
 import testbg from "@/assets/home/testimonial-bg.png";
+import missionbg from "@/assets/home/mission-bg.png";
+
 import test1 from "@/assets/home/test1.jpg";
 import review from "@/assets/review.png"
 
@@ -30,7 +32,7 @@ export {
   // Logos
   logo, logo2,
 
-  about1, about2, about3, person,test1,testbg,review,team1,team2,contact,
+  about1, about2, about3, person,test1,testbg,review,team1,team2,contact,missionbg,
 
   // country
   canadaflag, canada
