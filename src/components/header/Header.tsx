@@ -106,7 +106,7 @@ const Header = ({ header }: any) => {
 
       {/* Mobile Section */}
       <div className={`flex md:!hidden w-screen items-center  justify-between h-24 px-3 ${
-        isAtTop ? "bg-black bg-opacity-70  backdrop-blur-[7px]" : "bg-opacity-100 bg-white"
+        isAtTop ? "bg-color1" : " bg-white"
       }`}>
         <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
         <Link href={header?.href || "/"}>
@@ -124,7 +124,7 @@ const Header = ({ header }: any) => {
 
       {/* Mobile Menu */}
          <div className={`fixed h-screen left-0 top-24  md:hidden  overflow-x-hidden duration-300 transition-all ${
-          isAtTop ? "bg-color1 bg-opacity-70 backdrop-blur-[7px]" : "bg-opacity-100 bg-white"
+          isAtTop ? "bg-black" : " bg-white"
         }${
           isMobileMenuOpen ? " !w-full" : " !w-0"
         }`}>
