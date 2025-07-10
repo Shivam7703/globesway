@@ -60,7 +60,7 @@ const Header = ({ header }: any) => {
 
   return (
     <>
-   <div className="w-full md:h-32 h-1"></div>
+   <div className="w-full md:h-32 h-14"></div>
     <header
       className={`fixed  left-0 w-screen z-50 transition-all duration-300  
         ${isVisible ? "translate-y-0" : "-translate-y-full"}
@@ -124,7 +124,7 @@ const Header = ({ header }: any) => {
 
       {/* Mobile Menu */}
          <div className={`fixed h-screen left-0 top-24  md:hidden  overflow-x-hidden duration-300 transition-all ${
-          isAtTop ? "bg-black bg-opacity-70 backdrop-blur-[7px]" : "bg-opacity-100 bg-white"
+          isAtTop ? "bg-color1 bg-opacity-70 backdrop-blur-[7px]" : "bg-opacity-100 bg-white"
         }${
           isMobileMenuOpen ? " !w-full" : " !w-0"
         }`}>
