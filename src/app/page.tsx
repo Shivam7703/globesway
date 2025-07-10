@@ -19,7 +19,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     < >
-    <Image src={banner} alt='' className='w-full h-full object-cover'></Image>  
+    <Image src={banner} alt='' className='w-full h-full object-cover min-h-[440px]'></Image>  
   <Latestupdate/>
 <AboutSection />
 <Services/>
