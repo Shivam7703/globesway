@@ -1,4 +1,5 @@
 
+import { banner } from '@/assets';
 import AboutSection from '@/components/home/AboutSection';
 import Blogs from '@/components/home/blog';
 import ChooseCountry from '@/components/home/choosecountry';
@@ -11,19 +12,14 @@ import Team from '@/components/home/ourTeam';
 import Services from '@/components/home/services';
 import Testimonials from '@/components/home/testimonial';
 import Whychoose from '@/components/home/whychoose';
-import { aboutdata } from '@/data/homeData';
 import React from 'react';
+import Image from 'next/image';
 
 
 export default function Home() {
   return (
     < >
-  Hello World!
-  <p>Welcome to our website!</p>
-  <p>Explore our features and services.</p>
-  <p>Contact us for more information.</p>
-  <p>Enjoy your stay!</p>
-  <p>Have a great day!</p>    
+    <Image src={banner} alt='' className='w-full h-full object-cover'></Image>  
   <Latestupdate/>
 <AboutSection />
 <Services/>

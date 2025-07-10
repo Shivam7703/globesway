@@ -74,9 +74,9 @@ function Form() {
           <div className="md:w-[42%] p-7 w-full">
           <h4 className='text-color1 font-medium text-lg w-max'>Need any help?
 </h4>
-               <h2 className='text-zinc-800 font-extrabold text-3xl md:text-5xl '>Get in touch with us
+               <h2 className='text-zinc-800 font-extrabold text-3xl md:text-5xl '>Get in touch with us!
 </h2>
-            <p className="text-zinc-600">Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit sed do eiusmod tempor incididunt simply dolore magna.
+            <p className="text-zinc-600">Have questions or need help? Contact our support team of friendly people and request fast assistance and professional advice concerning visas and travel plans. We are here to assist you all the way around.
 </p>
             <div className="mt-6 space-y-6">
               {data?.detail?.map((data: any) => (

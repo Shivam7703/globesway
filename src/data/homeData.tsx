@@ -1,4 +1,15 @@
-import { about1, about2, about3, canada, canadaflag, logo2, person, team1, team2, test1 } from "@/assets";
+import { about1, about2, about3,   ausflag, aus,
+  canadaflag, canada,
+  euroflag, europe,
+  franceflag, france,
+  gerflag, germany,
+  italyflag, italy,
+  netherflag, nether,
+  portflag, portugal,
+  singapoflag, singapore,
+  spainflag, spain,
+  swedenflag, sweden,
+  ukflag, uk, logo2, person, team1, team2, test1 } from "@/assets";
 import { img, param } from "motion/react-client";
 import { title } from "process";
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -230,20 +241,20 @@ export const countDownData = [
 export const choosecountry = {
   title1: "Choose Your Country",
   title2: "Select your desired country to explore visa.",
-   countries : [
-  { id: 1, name: "Canada", img: canada, flag: canadaflag, href: "#", para: "Move to Canada for great jobs and a better lifestyle." },
-  { id: 2, name: "Australia", img: canada, flag: canadaflag, href: "#", para: "Live in Australia and enjoy work, nature, and sunny beaches." },
-  { id: 3, name: "Italy", img: canada, flag: canadaflag, href: "#", para: "Settle in Italy to enjoy rich culture and beautiful cities." },
-  { id: 4, name: "Germany", img: canada, flag: canadaflag, href: "#", para: "Germany offers top education, strong jobs, and a safe life." },
-  { id: 5, name: "Portugal", img: canada, flag: canadaflag, href: "#", para: "Enjoy peaceful living and golden visas in Portugal." },
-  { id: 6, name: "Sweden", img: canada, flag: canadaflag, href: "#", para: "Live in Sweden with a high quality of life and safety." },
-  { id: 7, name: "Europe", img: canada, flag: canadaflag, href: "#", para: "Explore multiple countries with easy travel across Europe." },
-  { id: 8, name: "Singapore", img: canada, flag: canadaflag, href: "#", para: "Work and grow in Singapore’s clean, modern, and smart city." },
-  { id: 9, name: "United Kingdom", img: canada, flag: canadaflag, href: "#", para: "Build your future in the UK with top opportunities." },
-  { id: 10, name: "France", img: canada, flag: canadaflag, href: "#", para: "Live in France and enjoy art, food, and family life." },
-  { id: 11, name: "Netherlands", img: canada, flag: canadaflag, href: "#", para: "Move to the Netherlands for work, study, and calm living." },
-  { id: 12, name: "Spain", img: canada, flag: canadaflag, href: "#", para: "Spain offers warm weather, rich culture, and an easy lifestyle." }
-]
+  countries: [
+    { id: 1, name: "Canada", img: canada, flag: canadaflag, href: "#", para: "Move to Canada for great jobs and a better lifestyle." },
+    { id: 2, name: "Australia", img: aus, flag: ausflag, href: "#", para: "Live in Australia and enjoy work, nature, and sunny beaches." },
+    { id: 3, name: "Italy", img: italy, flag: italyflag, href: "#", para: "Settle in Italy to enjoy rich culture and beautiful cities." },
+    { id: 4, name: "Germany", img: germany, flag: gerflag, href: "#", para: "Germany offers top education, strong jobs, and a safe life." },
+    { id: 5, name: "Portugal", img: portugal, flag: portflag, href: "#", para: "Enjoy peaceful living and golden visas in Portugal." },
+    { id: 6, name: "Sweden", img: sweden, flag: swedenflag, href: "#", para: "Live in Sweden with a high quality of life and safety." },
+    { id: 7, name: "Europe", img: europe, flag: euroflag, href: "#", para: "Explore multiple countries with easy travel across Europe." },
+    { id: 8, name: "Singapore", img: singapore, flag: singapoflag, href: "#", para: "Work and grow in Singapore’s clean, modern, and smart city." },
+    { id: 9, name: "United Kingdom", img: uk, flag: ukflag, href: "#", para: "Build your future in the UK with top opportunities." },
+    { id: 10, name: "France", img: france, flag: franceflag, href: "#", para: "Live in France and enjoy art, food, and family life." },
+    { id: 11, name: "Netherlands", img: nether, flag: netherflag, href: "#", para: "Move to the Netherlands for work, study, and calm living." },
+    { id: 12, name: "Spain", img: spain, flag: spainflag, href: "#", para: "Spain offers warm weather, rich culture, and an easy lifestyle." }
+  ]
 }
 
 export const workingProcess = {
@@ -300,7 +311,7 @@ export var faqData = {
   ]
 }
 
-export const whychoose ={
+export const whychoose = {
   img: person,
   img2: about1,
   title1: "Why Choose Us",
@@ -314,7 +325,7 @@ export const whychoose ={
 ],
 }
 
-export const testimonialdata ={
+export const testimonialdata = {
  title1: "CLIENT TESTIMONIALS",
   title2: "Real Feedback from Our Trusted Clients",
 testimonials:[
@@ -343,7 +354,7 @@ testimonials:[
   },
 ]}
 
-export const teamdata ={
+export const teamdata = {
  title1: "MEET OUR TEAM",
   title2: "Our Trusted Experts, Visa Consultants Team",
 team:[
@@ -372,7 +383,7 @@ team:[
   },
 ]}
 
-export const blogdata ={
+export const blogdata = {
  title1: "Our Blogs",
   title2: "Stay Updated with Our Latest News and Blogs",
 blog:[
