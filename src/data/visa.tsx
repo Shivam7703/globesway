@@ -34,8 +34,32 @@ export const visas =[
                     {id:6, text:"Social Security & Retirement Benefits."}
                 ]
             }
-        ]
+        ],
+        questions: [
+  {
+    id: 1,
+    que: "Who can apply for a Canada PR Visa?",
+    ans: "You can apply for a Canada PR Visa if you have good education, work experience, and language skills. You must also meet the requirements of immigration programs like Express Entry or PNP. The system uses a points-based ranking to select applicants. If you score well, you can get an invitation to apply.",
+  },
+  {
+    id: 2,
+    que: "How long is a Canada PR Visa valid?",
+    ans: "The Canada PR Visa is usually valid for 5 years. You can renew it if you meet the residency obligation of living in Canada for at least 730 days in those 5 years. It also gives you a pathway to apply for citizenship. It's perfect for long-term plans in Canada.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family with a Canada PR?",
+    ans: "Yes, you can include your spouse and dependent children in your PR application. If you are already a PR, you can sponsor your close family members later. This helps in reuniting families and living together. Canada values family unity and provides rights to sponsored members.",
+  },
+  {
+    id: 4,
+    que: "Can a PR holder work and study in Canada?",
+    ans: "Yes, PR holders can live, work, and study anywhere in Canada. You get access to public education for children and affordable university rates. You can also work in any job without needing a work permit. PR gives you almost the same rights as a citizen.",
+  },
+],
+
     },
+
     {
     id: 2,
     img: about2, // Replace with your actual image reference
@@ -71,8 +95,31 @@ export const visas =[
                 { id: 6, text: "Travel In and Out of Australia Freely." }
             ]
         }
-    ]
-},
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What are the main pathways for Australia PR?",
+    ans: "You can apply through skilled migration (subclass 189 or 190), family sponsorship, or employer nomination. Each stream has different eligibility based on your occupation, skills, and English level. You need to score points in the skilled stream to be selected. It’s a flexible system for different types of applicants.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to get an Australia PR?",
+    ans: "It usually takes between 6 to 12 months if your application and documents are in order. Delays can happen if there are missing papers or background checks take longer. Processing times also depend on the visa type and the number of applicants. Staying updated and organized helps speed up the process.",
+  },
+  {
+    id: 3,
+    que: "Can I travel in and out freely with PR?",
+    ans: "Yes, PR holders can travel freely for 5 years. After this period, you need a Resident Return Visa (RRV) to re-enter Australia. Until then, you can travel in and out without limits. PR gives you peace of mind for global travel.",
+  },
+  {
+    id: 4,
+    que: "Is PR a path to Australian citizenship?",
+    ans: "Yes, after living in Australia for at least 4 years and holding PR for 1 year, you can apply for citizenship. You also need to meet other conditions, like language skills and good character. Becoming a citizen allows you to vote and get an Australian passport. It’s a natural next step after PR.",
+  },
+],
+
+    },
 
 // Work permit visa
 {
@@ -110,8 +157,32 @@ export const visas =[
                 { id: 6, text: "Access to Healthcare & Social Benefits." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What is the difference between an open and employer-specific work permit?",
+    ans: "An open work permit lets you work for any employer in Canada. You don’t need a job offer before applying. An employer-specific work permit limits you to one job and one employer. It is issued based on a job offer and may require an LMIA.",
+  },
+  {
+    id: 2,
+    que: "Can a work permit lead to PR?",
+    ans: "Yes, many foreign workers apply for PR after gaining Canadian experience. Programs like the Canadian Experience Class (CEC) under Express Entry support this transition. You can build your profile while working. It's a great option to settle in Canada long-term.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family on a work permit?",
+    ans: "Yes, you can bring your spouse and children. Your spouse may be eligible for an open work permit. Your kids can study in public schools. This allows your family to live together while you work in Canada.",
+  },
+  {
+    id: 4,
+    que: "Is an LMIA required for all jobs?",
+    ans: "No, not all jobs require an LMIA. Some categories, like intra-company transfers or jobs under international trade agreements, are exempt. An LMIA is usually needed to show that no Canadian worker is available for the job. Your employer helps with this process.",
+  },
+],
+
 },
+
 {
     id: 4,
     img: about2, // Replace with your actual image reference
@@ -147,8 +218,32 @@ export const visas =[
                 { id: 6, text: "Chance to Settle Permanently." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What is the most common work visa in Australia?",
+    ans: "The most popular one is the Temporary Skill Shortage Visa (Subclass 482). It allows skilled workers to work for an approved employer in Australia. The employer must show they can't find a local worker. It’s a pathway to gain experience and apply for PR later.",
+  },
+  {
+    id: 2,
+    que: "Can I switch employers on a work permit?",
+    ans: "You may need to apply for a new visa or change your sponsorship if switching employers. This ensures your new job is approved by the Australian government. You can't just leave your current employer and work elsewhere without permission. Always check visa terms before switching.",
+  },
+  {
+    id: 3,
+    que: "Is there a path to PR through work visas?",
+    ans: "Yes, many temporary workers apply for PR through the Employer Nomination Scheme or skilled visas. Gaining work experience in Australia makes your PR profile stronger. Some work visas have direct PR pathways. It depends on your occupation and visa subclass.",
+  },
+  {
+    id: 4,
+    que: "Do I need a job offer for a work visa?",
+    ans: "Yes, most Australian work visas need a confirmed job offer from an approved employer. The employer must also meet certain criteria. Without a job offer, you can't apply for most work-related visas. The employer plays a key role in your visa process.",
+  },
+],
+
 },
+
 {
     id: 5,
     img: about2, // Replace with your actual image reference
@@ -184,9 +279,33 @@ export const visas =[
                 { id: 6, text: "Opportunity to Apply for Residency." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "Do I need a job offer to apply for a Croatia work visa?",
+    ans: "Yes, you must have a job offer from a Croatian employer to apply for a work visa. The employer often applies for a work permit on your behalf. After that, you apply for a long-stay visa. Both approvals are needed to start working legally.",
+  },
+  {
+    id: 2,
+    que: "Can I bring my family on a Croatia work visa?",
+    ans: "Yes, after working for a certain period, you may sponsor your family to join you. Your spouse and children can apply for residence permits. They can also access healthcare and education. This helps your whole family live together comfortably in Croatia.",
+  },
+  {
+    id: 3,
+    que: "What kind of jobs are available in Croatia?",
+    ans: "Croatia has job openings in tourism, hospitality, construction, and IT. English-speaking roles are growing, especially in tech and seasonal sectors. Knowing the local language helps in finding better opportunities. Many foreign workers are welcomed in busy cities and coastal areas.",
+  },
+  {
+    id: 4,
+    que: "Is the visa extendable?",
+    ans: "Yes, if you continue your job or get a new offer, your work visa can be extended. Your employer can help with the paperwork. You need to apply before your current visa expires. Keeping your job and staying legal is important.",
+  },
+],
+
 }
 ,
+
 {
     id: 6,
     img: about2, // Replace with your actual image reference
@@ -222,7 +341,30 @@ export const visas =[
                 { id: 6, text: "Can Apply for Temporary Residency." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "Do I need a job offer to get a Serbia work visa?",
+    ans: "Yes, a valid job offer from a Serbian employer is necessary to apply for a work visa. After receiving the offer, your employer will help initiate the permit process. Once your work permit is approved, you can apply for a temporary residence visa. Both are required to legally work in Serbia.",
+  },
+  {
+    id: 2,
+    que: "What sectors are hiring in Serbia?",
+    ans: "Serbia has a growing job demand in industries like agriculture, IT, manufacturing, and construction. Many international companies are now investing in Serbia, increasing job options. English-speaking roles are more available in the tech and business sectors. Local language knowledge can further improve your job chances.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family on a Serbia work visa?",
+    ans: "Yes, after a certain period, you can apply for family reunification. Your spouse and children may be granted temporary residence. They will have access to basic services like healthcare and schooling. This allows you to stay with your family while working in Serbia.",
+  },
+  {
+    id: 4,
+    que: "Can the visa lead to permanent residency?",
+    ans: "Yes, if you legally live and work in Serbia for several years, you may become eligible for permanent residency. You must maintain valid permits and renew them on time. Meeting residency and legal requirements is key to long-term settlement. It’s a pathway to stay in Serbia longer.",
+  },
+],
+
 }
 ,
 {
@@ -260,7 +402,30 @@ export const visas =[
                 { id: 6, text: "European Work Experience." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "How can I apply for a Romania work visa?",
+    ans: "You need a job offer from a Romanian employer and a work permit approval. Your employer will first apply for a work permit on your behalf. Once approved, you can apply for a long-stay (D-type) visa at the Romanian consulate. The process is straightforward with employer support.",
+  },
+  {
+    id: 2,
+    que: "Which industries are hiring in Romania?",
+    ans: "Romania is hiring in IT, construction, manufacturing, healthcare, and agriculture. Demand is rising as the economy grows. English-speaking jobs are more common in multinational companies. Skilled and semi-skilled workers are welcome.",
+  },
+  {
+    id: 3,
+    que: "Is it possible to bring family to Romania?",
+    ans: "Yes, family reunification is allowed after fulfilling certain criteria. Once you're settled, you can sponsor your spouse and children. They can live, study, and access medical care. It helps in building a stable family life in Romania.",
+  },
+  {
+    id: 4,
+    que: "Does the visa offer a path to PR?",
+    ans: "Yes, after several years of legal residence and employment, you can apply for permanent residency. You’ll need to show stable income and integration. This opens up more rights and long-term living in Romania. It’s ideal for building a future in the EU.",
+  },
+],
+
 },
 {
     id: 8,
@@ -297,7 +462,30 @@ export const visas =[
                 { id: 6, text: "Easy Travel Within the EU (Schengen Area)." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What is required for a Poland work visa?",
+    ans: "A confirmed job offer and work permit from a Polish employer are required. Your employer helps you apply for the work permit. After getting approval, you can apply for a national D visa. This allows you to live and work legally in Poland.",
+  },
+  {
+    id: 2,
+    que: "What jobs are in demand in Poland?",
+    ans: "Poland has job demand in logistics, construction, IT, hospitality, and agriculture. English-speaking professionals are also in demand in large companies. There are opportunities for both skilled and semi-skilled workers. Many foreigners successfully build careers here.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family to Poland?",
+    ans: "Yes, family members can join you once you're settled. Your spouse and children can apply for residence cards. They’ll be able to access public services. This allows your family to grow and live together in Poland.",
+  },
+  {
+    id: 4,
+    que: "Can this visa lead to long-term stay?",
+    ans: "Yes, after living and working legally for several years, you can apply for a long-term EU residence card. This gives you more rights and easier access to travel in the EU. It’s a pathway to settle permanently in Europe.",
+  },
+],
+
 },
 {
     id: 9,
@@ -334,7 +522,30 @@ export const visas =[
                 { id: 6, text: "Live in a Clean and Peaceful Country." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What are the requirements for a Norway work visa?",
+    ans: "You need a job offer from a Norwegian employer and qualifications that match the job. You must also meet salary and skill standards. Once approved, the visa lets you live and work in Norway. It is suitable for professionals in skilled trades and technical fields.",
+  },
+  {
+    id: 2,
+    que: "Which jobs are in demand in Norway?",
+    ans: "Norway needs workers in healthcare, engineering, oil & gas, IT, and skilled trades. English-speaking jobs are available, especially in multinational companies. Demand is high in sectors with labor shortages. This creates opportunities for skilled foreign professionals.",
+  },
+  {
+    id: 3,
+    que: "Can I apply for family reunification?",
+    ans: "Yes, you can apply to bring your spouse and children once your visa is approved. They’ll get residence permits and access to healthcare and education. The process is supportive of family unity. Norway values a strong family life.",
+  },
+  {
+    id: 4,
+    que: "Is PR possible with a Norway work visa?",
+    ans: "Yes, if you live and work in Norway for at least 3 years with steady income and integration, you may apply for permanent residency. You also need to complete a language course and meet residency conditions. It’s a great step toward long-term stability.",
+  },
+],
+
 }
 ,
 {
@@ -372,7 +583,30 @@ export const visas =[
                 { id: 6, text: "Possibility of Residency Extension." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "How do I apply for a Greece work visa?",
+    ans: "First, secure a job offer from a Greek employer. The employer applies for a work permit, and you then apply for a long-stay visa. The visa lets you enter and live in Greece legally. The entire process is regulated and employer-supported.",
+  },
+  {
+    id: 2,
+    que: "What sectors have job openings in Greece?",
+    ans: "Greece has jobs in tourism, agriculture, shipping, hospitality, and services. These sectors hire foreign workers for both seasonal and long-term roles. Tech and education roles are growing too. English speakers may find roles in cities or international businesses.",
+  },
+  {
+    id: 3,
+    que: "Can my family come with me to Greece?",
+    ans: "Yes, once you’re legally working and settled, you can apply for family reunification. Your spouse and kids can live with you in Greece. They will also have access to public healthcare and schooling. It helps create a stable family life abroad.",
+  },
+  {
+    id: 4,
+    que: "Is permanent residency possible in Greece?",
+    ans: "Yes, after five years of continuous legal stay, you may apply for permanent residency. You must show stable income and social integration. This gives you long-term rights in Greece. It also opens pathways to EU mobility.",
+  },
+],
+
 }
 ,
 {
@@ -410,7 +644,30 @@ export const visas =[
                 { id: 6, text: "Travel Within the EU (Schengen Zone)." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What’s needed to get a Netherlands work visa?",
+    ans: "A valid job offer from a recognized Dutch employer is essential. Most employers assist with visa paperwork. In many cases, you also need a highly skilled migrant permit. Once approved, you can live and work in the Netherlands.",
+  },
+  {
+    id: 2,
+    que: "What jobs are in demand in the Netherlands?",
+    ans: "IT, engineering, finance, logistics, and healthcare are top hiring sectors. The country encourages skilled professionals from abroad. English-speaking jobs are common in tech and international firms. Job prospects are strong for qualified candidates.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family to the Netherlands?",
+    ans: "Yes, family members (spouse and children) can join you. They will receive residence permits and can access services like schooling and healthcare. The country supports work-life balance and family welfare. It’s a welcoming environment for families.",
+  },
+  {
+    id: 4,
+    que: "Is this visa a route to permanent residency?",
+    ans: "Yes, after five years of continuous stay with a valid residence permit, you can apply for permanent residence. You must also show integration through language and community ties. It’s a great option for settling in the EU.",
+  },
+],
+
 },
 {
     id: 12,
@@ -447,7 +704,30 @@ export const visas =[
                 { id: 6, text: "Easy EU Travel Access." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What is required to apply for a Germany work visa?",
+    ans: "You need a job offer from a German employer and qualifications recognized in Germany. If your job is on the shortage occupation list, the process is faster. You also need proof of finances and accommodation. Once approved, you receive a long-stay visa to live and work in Germany.",
+  },
+  {
+    id: 2,
+    que: "Which sectors are hiring in Germany?",
+    ans: "Germany is hiring in healthcare, engineering, IT, construction, and skilled trades. There’s a high demand for nurses, software developers, and technicians. Jobs in the automotive and manufacturing industries are also strong. Skilled workers are highly valued in the German economy.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family to Germany on a work visa?",
+    ans: "Yes, your spouse and children can join you after you start working. They can live and study, and your spouse may be allowed to work. You must show income and housing for your family. It supports a balanced family life.",
+  },
+  {
+    id: 4,
+    que: "Can the visa lead to permanent residency?",
+    ans: "Yes, after working and living in Germany for a few years, you may apply for permanent residency. You must meet income, language, and integration requirements. This gives you more security and rights in Germany. Eventually, you can apply for citizenship.",
+  },
+],
+
 },
 {
     id: 13,
@@ -484,7 +764,30 @@ export const visas =[
                 { id: 6, text: "Centrally Located for EU Travel." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "How do I get a Luxembourg work visa?",
+    ans: "You need a job offer from a Luxembourg-based employer and approval from immigration authorities. Once approved, you apply for a long-stay visa at the embassy. After arriving, you complete residence formalities. The process is employer-supported and straightforward.",
+  },
+  {
+    id: 2,
+    que: "What industries hire foreign workers in Luxembourg?",
+    ans: "Luxembourg is strong in finance, IT, logistics, and customer service. Many international companies have offices here. English-speaking roles are common, especially in the corporate sector. Skilled workers are in high demand.",
+  },
+  {
+    id: 3,
+    que: "Can family members join me in Luxembourg?",
+    ans: "Yes, your spouse and children can join you on a family reunification permit. They can live and access public services. The country has a multilingual education system. It’s ideal for international families.",
+  },
+  {
+    id: 4,
+    que: "Is it possible to get permanent residence?",
+    ans: "Yes, after five years of legal residence, you can apply for permanent residency. You’ll need language knowledge and proof of integration. It offers greater job mobility and long-term stay in the EU. Citizenship is also possible later.",
+  },
+],
+
 },
 {
     id: 14,
@@ -521,7 +824,30 @@ export const visas =[
                 { id: 6, text: "PR and Citizenship Opportunities." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What are the steps to apply for an Ireland work visa?",
+    ans: "First, get a job offer from an Irish employer who is registered to hire foreign workers. The employer may apply for a work permit on your behalf. You then apply for a long-stay visa. Once approved, you can live and work in Ireland legally.",
+  },
+  {
+    id: 2,
+    que: "Which sectors are hiring in Ireland?",
+    ans: "Ireland is hiring in IT, finance, healthcare, education, and pharmaceuticals. Many global companies have their headquarters here. English-speaking professionals are especially welcome. Ireland’s growing economy supports skilled immigration.",
+  },
+  {
+    id: 3,
+    que: "Can I take my family to Ireland?",
+    ans: "Yes, once you have a work visa and job in Ireland, your family can apply to join you. Your spouse may work depending on the permit type. Children can attend public schools. Ireland is family-friendly and offers great public services.",
+  },
+  {
+    id: 4,
+    que: "Does the Ireland work visa lead to PR?",
+    ans: "Yes, after five years of legal residence and employment, you may be eligible for permanent residency. You need to maintain a clean record and show integration. PR offers long-term stability and more freedom. It also opens the path to citizenship.",
+  },
+],
+
 },
 
 
@@ -561,7 +887,30 @@ export const visas =[
                 { id: 6, text: "Travel Comfortably with Legal Permission." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What is a Canada tourist visa used for?",
+    ans: "A Canada tourist visa is used for visiting family, sightseeing, or attending short events. It allows you to explore Canada legally for up to 6 months. Many visitors use it for vacations or to visit loved ones. It does not allow long-term work or study.",
+  },
+  {
+    id: 2,
+    que: "How long can I stay in Canada on a tourist visa?",
+    ans: "You can stay up to 6 months per visit, depending on the officer's discretion at the port of entry. You may request an extension from within Canada. Make sure to leave before your visa expires to avoid future issues.",
+  },
+  {
+    id: 3,
+    que: "Can I extend my Canada tourist visa?",
+    ans: "Yes, you can apply for an extension at least 30 days before your status expires. You’ll need to prove your reason for staying longer and financial support. Approval depends on your travel history and current situation.",
+  },
+  {
+    id: 4,
+    que: "Can I visit family or friends on a tourist visa?",
+    ans: "The visa allows you to visit relatives or friends across Canada. You should have an invitation letter from your host. It helps prove the purpose of your visit during visa processing.",
+  },
+],
+
 }
 ,
 {
@@ -599,7 +948,30 @@ export const visas =[
                 { id: 6, text: "Explore Australia’s Diverse Culture." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What does the Australia tourist visa allow me to do?",
+    ans: "You can visit Australia for tourism, visiting friends or family, or attending business events. You’re not allowed to work under this visa. It allows short-term travel and is suitable for vacations or short stays.",
+  },
+  {
+    id: 2,
+    que: "How long is the Australia tourist visa valid?",
+    ans: "Most tourist visas allow stays up to 3 or 6 months. Some visas may allow multiple entries within 12 months. The length of stay is determined by your visa conditions.",
+  },
+  {
+    id: 3,
+    que: "Can I study while on a tourist visa in Australia?",
+    ans: "Yes, but only for a course that lasts up to 3 months. If you plan to study longer, you must apply for a student visa. Short courses like English language classes are allowed.",
+  },
+  {
+    id: 4,
+    que: "Can I apply for another visa while in Australia?",
+    ans: "Yes, but you must meet the eligibility criteria and visa conditions. Some tourist visas have a 'no further stay' condition. Always check your visa label or confirmation letter for this rule.",
+  },
+],
+
 },
 {
     id: 17,
@@ -636,7 +1008,30 @@ export const visas =[
                 { id: 6, text: "Great for Shopping and Entertainment." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "How long is a Dubai tourist visa valid for?",
+    ans: "Dubai tourist visas are typically valid for 14, 30, or 60 days. You can apply for single or multiple entry options. It depends on your travel needs and visa type.",
+  },
+  {
+    id: 2,
+    que: "Can I apply for a Dubai tourist visa online?",
+    ans: "Yes, applications can be made through travel agencies or online portals. Airlines and hotels in Dubai also help with visa processing. It's a quick and simple process if the documents are correct.",
+  },
+  {
+    id: 3,
+    que: "Can I extend my Dubai tourist visa?",
+    ans: "Yes, tourist visas can usually be extended for 30 more days. You must apply before the visa expires. Overstaying can result in fines, so plan your stay carefully.",
+  },
+  {
+    id: 4,
+    que: "Can I visit other Emirates with this visa?",
+    ans: "Yes, a Dubai tourist visa allows you to travel across all Emirates in the UAE. You can explore Abu Dhabi, Sharjah, and others. It's valid throughout the UAE.",
+  },
+],
+
 },
 {
     id: 18,
@@ -673,7 +1068,29 @@ export const visas =[
                 { id: 6, text: "Great for Tourists and Travel Lovers." }
             ]
         }
-    ]
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "What is a Schengen tourist visa?",
+    ans: "A Schengen visa allows you to visit 27 European countries for up to 90 days within 180 days. It’s great for holidays or visiting family across Europe. You can travel freely between member countries without separate visas.",
+  },
+  {
+    id: 2,
+    que: "Do I need to apply to each country I want to visit?",
+    ans: "No, you only need one Schengen visa. Apply through the country you’ll stay in the longest or enter first. Once granted, you can move across the Schengen Zone without border checks.",
+  },
+  {
+    id: 3,
+    que: "Can I work on a Schengen tourist visa?",
+    ans: "No, working is strictly prohibited under a Schengen tourist visa. It's meant only for tourism, family visits, or attending events. You’ll need a separate work visa to work legally.",
+  },
+  {
+    id: 4,
+    que: "Can I extend my Schengen visa?",
+    ans: "Extensions are rare and allowed only in special cases like medical emergencies. You must apply at the immigration office in the Schengen country you're staying in. Overstaying can result in penalties or a ban on entry.",
+  },
+    ],
 }
 
 
