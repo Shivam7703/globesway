@@ -49,7 +49,7 @@ export default function FaqSection() {
        </motion.div>
       <motion.div
        variants={fadeIn("left", "tween", 0.3, 1)} className='sm:w-[45%] w-full space-y-4'>
-    <Queans faqData={faqData}/>
+    <Queans faqData={faqData?.questions} title1={faqData?.title1} title2={faqData?.title2}/>
       </motion.div>
     </motion.div>
   )

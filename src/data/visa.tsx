@@ -4,68 +4,241 @@ export const visas =[
 
     // PR Visas
     {
-        id:1,
-        img:about2,
-        title:"Canada PR Visa",
-        desc:[
+        id: 1,
+        img: about2,
+        title: "Canada PR Visa",
+        desc: [
             {
-                heading:"Canada PR Visa",
-                para:[
-                    {id:1, text:"The Canada Permanent Residency (PR) Visa is one of the most sought-after opportunities for people and families to migrate to Canada to have a better life here. With a PR Visa, you are allowed to study, work, and live anywhere in Canada and have most of the rights or the same rights as Canadian citizens & you will have healthcare as well as social amenities. It is a very good choice when you are seeking long-term stability and development in a country that has a high standard of living, a safe area, and a multicultural habitat."},
-                    {id:2,
-                        text:"What makes the Canada PR Visa appealing is its flexibility and the various programs available, like Express Entry and Provincial Nominee Programs (PNPs). PR is valid for five years and can lead to Canadian citizenship—making it a smart choice for a secure and successful future."
+                id: 1,
+                heading: "Introduction ",
+                para: [
+                    { id: 1, text: "The Canada Permanent Residency (PR) Visa is one of the most sought-after opportunities for people and families to migrate to Canada to have a better life here. With a PR Visa, you are allowed to study, work, and live anywhere in Canada and have most of the rights or the same rights as Canadian citizens & you will have healthcare as well as social amenities. It is a very good choice when you are seeking long-term stability and development in a country that has a high standard of living, a safe area, and a multicultural habitat." },
+                    {
+                        id: 2,
+                        text: "What makes the Canada PR Visa appealing is its flexibility and the various programs available, like Express Entry and Provincial Nominee Programs (PNPs). PR is valid for five years and can lead to Canadian citizenship—making it a smart choice for a secure and successful future."
                     }
                 ]
             },
             {
-                heading:"Benefits of Canada PR Visa",
-                para:[
-                    {id:1, text:"Canada's Permanent Residency (PR) offers a wide range of benefits that make it one of the most sought-after immigration options worldwide. With PR status, you can enjoy a high standard of living, world-class healthcare, and access to top-quality education."},
-                   
+                id: 2,
+                heading: "What is a Canada PR Visa?",
+                para: [
+                    {
+                        id: 1,
+                        text: "A Canada PR Visa allows you to become a permanent resident of Canada while enjoying most of the rights that Canadian citizens do, except voting or holding certain government positions. It is valid for 5 years and can be renewed or used as a stepping stone to full citizenship."
+                    },
+                    {
+                        id: 2,
+                        text: "You can apply through various immigration programs, such as:-"
+                    }
                 ],
-                list:[
-                    {id:1, text:"Live, Work & Study Anywhere in Canada."},
-                    {id:2, text:"Access to Free Public Healthcare."},
-                    {id:3, text:"Children’s Education at No Cost (Public Schools)."},
-
-                    {id:4, text:"Eligible to Apply for Canadian Citizenship."},
-
-                    {id:5, text:"Family Sponsorship Rights."},
-                    {id:6, text:"Social Security & Retirement Benefits."}
+                list: [
+                    { id: 1, text: "Express Entry" },
+                    { id: 2, text: "Provincial Nominee Program (PNP)" },
+                    { id: 3, text: "Atlantic Immigration Program" },
+                    { id: 4, text: "Agri-Food Pilot" },
+                    { id: 5, text: "Rural and Northern Immigration Pilot (RNIP)" },
+                    { id: 6, text: "Quebec Skilled Worker Program" },
+                    { id: 7, text: "Family Sponsorship" }
+                ]
+            },
+            {
+                id: 3,
+                heading: "Canada PR Visa Eligibility Criteria",
+                para: [
+                    {
+                        id: 1,
+                        text: "To be eligible for Canada PR, you must:-"
+                    }
+                ],
+                list: [
+                    { id: 1, text: "Be between 18 to 45 years of age (for most pathways)" },
+                    { id: 2, text: "Have a recognized qualification equivalent to Canadian standards" },
+                    { id: 3, text: "Possess at least 1 year of skilled work experience in the last 10 years" },
+                    { id: 4, text: "Meet the minimum language requirement in English or French (CLB 7 for Express Entry)" },
+                    { id: 5, text: "Score well on the Comprehensive Ranking System (CRS)" },
+                    { id: 6, text: "Have sufficient funds to settle in Canada" }
+                ]
+            },
+            {
+                id: 4,
+                heading: "Complete Process to Get a Canada PR Visa",
+                para: [],
+                list: [
+                    { id: 1, text: "Profile Assessment: We evaluate your profile based on age, education, work experience, language skills, and other factors." },
+                    { id: 2, text: "IELTS & ECA: Appear for the IELTS exam and get your educational credentials assessed through WES or other recognized bodies." },
+                    { id: 3, text: "Create Express Entry Profile: Submit your profile to the Express Entry pool and aim for a high CRS score." },
+                    { id: 4, text: "Receive Invitation to Apply (ITA): If your profile is selected, you’ll receive an ITA from IRCC." },
+                    { id: 5, text: "Submit PR Application: Submit documents including police clearance, medicals, proof of funds, etc." },
+                    { id: 6, text: "Biometrics & Final Processing: Complete biometrics and await background checks." },
+                    { id: 7, text: "Get COPR (Confirmation of PR): Once approved, receive your Confirmation of Permanent Residency and travel to Canada!" }
+                ]
+            },
+            {
+                id: 5,
+                heading: "Documents You Need to Apply for a Canada PR Visa",
+                para: [
+                    {
+                        id: 1,
+                        text: "When applying for a Canada PR Visa, having the right documents is very important. Submitting complete and correct paperwork makes your application process faster and smoother. If any document is missing or incorrect, your application may get delayed or even rejected. That’s why at Globesway Immigration, we help you gather and check every required document before submitting your application. Here's a list of the key documents you will need:"
+                    },
+                    {
+                        id: 2,
+                        text: "Important Documents for Canada PR Visa"
+                    }
+                ],
+                list: [
+                    { id: 1, text: "A valid passport" },
+                    { id: 2, text: "Education certificates from your school, college, or university" },
+                    { id: 3, text: "Language test results (like IELTS or CELPIP)" },
+                    { id: 4, text: "Diplomas and degrees from your past education" },
+                    { id: 5, text: "Proof of work experience (if needed for your program)" },
+                    { id: 6, text: "A job offer letter from a Canadian employer (if applicable)" },
+                    { id: 7, text: "A filled PR application form" },
+                    { id: 8, text: "ID proof like Aadhar Card or PAN Card" },
+                    { id: 9, text: "A medical report from an approved doctor saying you're healthy" },
+                    { id: 10, text: "A police clearance certificate showing you have no criminal record" },
+                    { id: 11, text: "Proof of funds to show you can support yourself and your family in Canada" }
+                ]
+            },
+            {
+                id: 6,
+                heading: "Canada Express Entry—The Fastest Route to PR",
+                para: [
+                    {
+                        id: 1,
+                        text: "The Express Entry system is an entry-point-based selection model that includes"
+                    }
+                ],
+                list: [
+                    { id: 1, text: "Federal Skilled Worker Program" },
+                    { id: 2, text: "Federal Skilled Trades Program" },
+                    { id: 3, text: "Canadian Experience Class" }
+                ]
+            },
+            {
+                id: 7,
+                heading: "",
+                para: [
+                    {
+                        id: 1,
+                        text: "It is ideal for skilled workers looking to move permanently to Canada within 6 to 12 months."
+                    }
+                ]
+            },
+            {
+                id: 8,
+                heading: "Provincial Nominee Program (PNP)",
+                para: [
+                    {
+                        id: 1,
+                        text: "If your CRS score is lower, you can still qualify through the PNP. Each province selects immigrants based on its labor market needs. PNP nomination can add 600 points to your Express Entry profile. Popular provinces include"
+                    }
+                ],
+                list: [
+                    { id: 1, text: "Ontario" },
+                    { id: 2, text: "British Columbia" },
+                    { id: 3, text: "Alberta" },
+                    { id: 4, text: "Saskatchewan" },
+                    { id: 5, text: "Nova Scotia" }
+                ]
+            },
+            {
+                id: 9,
+                heading: "Jobs in Canada for Indian Immigrants",
+                para: [
+                    {
+                        id: 1,
+                        text: "Canada has a huge demand for skilled professionals in sectors like"
+                    }
+                ],
+                list: [
+                    { id: 1, text: "IT & Software" },
+                    { id: 2, text: "Healthcare & Nursing" },
+                    { id: 3, text: "Engineering" },
+                    { id: 4, text: "Accounting & Finance" },
+                    { id: 5, text: "Education" },
+                    { id: 6, text: "Construction & Skilled Trades" },
+                    { id: 7, text: "Truck Driving & Logistics" }
+                ]
+            },
+            {
+                id: 10,
+                heading: "",
+                para: [
+                    {
+                        id: 1,
+                        text: "With a Canada PR visa, you don’t need an employer-sponsored permit. You can freely apply, switch jobs, and even start your own business."
+                    }
+                ]
+            },
+            {
+                id: 11,
+                heading: "Benefits of Canada PR Visa",
+                para: [
+                    { id: 1, text: "Canada's Permanent Residency (PR) offers a wide range of benefits that make it one of the most sought-after immigration options worldwide. With PR status, you can enjoy a high standard of living, world-class healthcare, and access to top-quality education." }
+                ],
+                list: [
+                    { id: 1, text: "Live, Work & Study Anywhere in Canada." },
+                    { id: 2, text: "Access to Free Public Healthcare." },
+                    { id: 3, text: "Children’s Education at No Cost (Public Schools)." },
+                    { id: 4, text: "Eligible to Apply for Canadian Citizenship." },
+                    { id: 5, text: "Family Sponsorship Rights." },
+                    { id: 6, text: "Social Security & Retirement Benefits." }
+                ]
+            },
+            {
+                id: 12,
+                heading: "Why Choose Globesway Immigration?",
+                para: [
+                    {
+                        id: 1,
+                        text: "Globesway Immigration is a trusted name among clients across India for offering transparent and personalized support for Canada PR Visa applications. From evaluating your eligibility to preparing your Express Entry profile, documentation, and final submission, our experienced team ensures every part of your journey is handled professionally. We provide end-to-end services tailored to your profile, making the immigration process smoother and more efficient."
+                    },
+                    {
+                        id: 2,
+                        text: "Recognized as one of the best immigration consultants, Globesway has built its reputation through honest advice, strong results, and dedicated client care. We help you stay informed, avoid common mistakes, and improve your chances of success. With a growing network of satisfied clients and global credibility, Globesway is your trusted partner in building a future in Canada."
+                    }
+                ],
+                list: [
+                    { id: 1, text: "Strong track record of successful Canada PR approvals" },
+                    { id: 2, text: "Expert assistance with CRS score improvement strategies" },
+                    { id: 3, text: "Comprehensive document verification and submission support" },
+                    { id: 4, text: "Ongoing updates on IRCC rules and visa program changes" },
+                    { id: 5, text: "Friendly and responsive team to guide you at every stage" }
                 ]
             }
         ],
         questions: [
-  {
-    id: 1,
-    que: "Who can apply for a Canada PR Visa?",
-    ans: "You can apply for a Canada PR Visa if you have good education, work experience, and language skills. You must also meet the requirements of immigration programs like Express Entry or PNP. The system uses a points-based ranking to select applicants. If you score well, you can get an invitation to apply.",
-  },
-  {
-    id: 2,
-    que: "How long is a Canada PR Visa valid?",
-    ans: "The Canada PR Visa is usually valid for 5 years. You can renew it if you meet the residency obligation of living in Canada for at least 730 days in those 5 years. It also gives you a pathway to apply for citizenship. It's perfect for long-term plans in Canada.",
-  },
-  {
-    id: 3,
-    que: "Can I bring my family with a Canada PR?",
-    ans: "Yes, you can include your spouse and dependent children in your PR application. If you are already a PR, you can sponsor your close family members later. This helps in reuniting families and living together. Canada values family unity and provides rights to sponsored members.",
-  },
-  {
-    id: 4,
-    que: "Can a PR holder work and study in Canada?",
-    ans: "Yes, PR holders can live, work, and study anywhere in Canada. You get access to public education for children and affordable university rates. You can also work in any job without needing a work permit. PR gives you almost the same rights as a citizen.",
-  },
-],
-
+            {
+                id: 1,
+                que: "Who can apply for a Canada PR Visa?",
+                ans: "You can apply for a Canada PR Visa if you have good education, work experience, and language skills. You must also meet the requirements of immigration programs like Express Entry or PNP. The system uses a points-based ranking to select applicants. If you score well, you can get an invitation to apply.",
+            },
+            {
+                id: 2,
+                que: "How long is a Canada PR Visa valid?",
+                ans: "The Canada PR Visa is usually valid for 5 years. You can renew it if you meet the residency obligation of living in Canada for at least 730 days in those 5 years. It also gives you a pathway to apply for citizenship. It's perfect for long-term plans in Canada.",
+            },
+            {
+                id: 3,
+                que: "Can I bring my family with a Canada PR?",
+                ans: "Yes, you can include your spouse and dependent children in your PR application. If you are already a PR, you can sponsor your close family members later. This helps in reuniting families and living together. Canada values family unity and provides rights to sponsored members.",
+            },
+            {
+                id: 4,
+                que: "Can a PR holder work and study in Canada?",
+                ans: "Yes, PR holders can live, work, and study anywhere in Canada. You get access to public education for children and affordable university rates. You can also work in any job without needing a work permit. PR gives you almost the same rights as a citizen.",
+            }
+        ]
     },
-
     {
-    id: 2,
-    img: about2, // Replace with your actual image reference
+        id: 2,
+        img: about2, // Replace with your actual image reference
     title: "Australia PR Visa",
     desc: [
         {
+            id: 1, 
             heading: "Australia PR Visa",
             para: [
                 {
@@ -78,7 +251,114 @@ export const visas =[
                 }
             ]
         },
+
+    {
+        id:2 , 
+        heading: "What is an Australia PR Visa?",
+        para: [
+            {
+                id: 1,
+                text: "An Australia PR Visa allows individuals and families to live, work, and study anywhere in Australia permanently. It offers almost all the benefits that Australian citizens enjoy—except the right to vote or hold certain government positions. The Australia PR Visa is usually valid for 5 years and gives you the chance to apply for full Australian citizenship after meeting residency requirements."
+            },
+             { id: 2, text: "You can apply for the Australia PR Visa through several popular immigration pathways, such as" },
+        ],
+        list: [
+           
+            { id: 2, text: "Skilled Independent Visa (Subclass 189)" },
+            { id: 3, text: "Skilled Nominated Visa (Subclass 190)" },
+            { id: 4, text: "Skilled Work Regional (Provisional) Visa (Subclass 491)" },
+            { id: 5, text: "Employer-Sponsored Visa" },
+            { id: 6, text: "Business Innovation and Investment Visa" },
+            { id: 7, text: "Family-Sponsored Visa" },
+            { id: 8, text: "Global Talent Visa" }
+        ]
+    },
+    {
+        id: 3, 
+        heading: "Australia PR Visa Eligibility Criteria",
+        para: [
+            {
+                id: 1,
+                text: "To be eligible for an Australia PR Visa, you must meet certain requirements. These include age, language proficiency, educational qualifications, and relevant work experience. Here’s a quick overview—"
+            }
+        ],
+        list: [
+            { id: 1, text: "You should be under 45 years of age (for most skilled visas)" },
+            { id: 2, text: "You must qualify equivalent to Australian standards" },
+            { id: 3, text: "Skilled work experience relevant to the occupation list (minimum 1-3 years)" },
+            { id: 4, text: "Good English proficiency, proven through IELTS or PTE (minimum score depends on visa type)" },
+            { id: 5, text: "Your occupation should be listed on the Skilled Occupation List (SOL or MLTSSL)" },
+            { id: 6, text: "You must score at least 65 points on the Australian PR points test" },
+            { id: 7, text: "Have sufficient funds to support yourself (in some visa types)" }
+        ]
+    },
+    {
+        id: 4, 
+        heading: "Complete Process to Get an Australia PR Visa",
+        para: [
+            {
+                id: 1,
+                text: "Getting an Australia PR visa involves several steps, and Globesway Immigration ensures every step is handled professionally for a smooth and successful application."
+            }
+        ],
+        list: [
+            { id: 1, text: "Step 1 — Profile Evaluation: Our experts assess your profile based on age, qualifications, work experience, and language scores to determine eligibility." },
+            { id: 2, text: "Step 2 — Skill Assessment: You must get your skills evaluated by a relevant Australian authority such as ACS, Engineers Australia, or TRA." },
+            { id: 3, text: "Step 3 — Language Proficiency Test: Appear for IELTS or PTE Academic and meet the required score to gain more points for the PR process." },
+            { id: 4, text: "Step 4 — Expression of Interest (EOI): Submit your profile in the SkillSelect system. Your EOI must show your qualifications, experience, and language ability." },
+            { id: 5, text: "Step 5 — Receive an Invitation to Apply (ITA): Once selected, you will receive an ITA based on your points and ranking in the EOI pool." },
+            { id: 6, text: "Step 6 — Submit PR Visa Application: Submit all documents along with your application to the Department of Home Affairs." },
+            { id: 7, text: "Step 7 — Medical and Police Checks: Complete medical tests and submit police clearance certificates from all countries where you’ve lived for over 12 months." },
+            { id: 8, text: "Step 8 — Receive an Australia PR Visa: Once everything is approved, you’ll be granted the Australia PR Visa, allowing you to settle in Australia with full rights and benefits." }
+        ]
+    },
+    {
+        id:5 , 
+        heading: "Documents You Need to Apply for an Australia PR Visa",
+        para: [
+            {
+                id: 1,
+                text: "To apply for an Australia PR Visa, you’ll need to submit several important documents. At Globesway Immigration, we help you gather, verify, and organize every required document before you apply, reducing delays or chances of rejection."
+            }, {
+                id: 2,
+                text: "Documents for Australia PR Visa:—"
+            }
+
+        ],
+        list: [
+            { id: 1, text: "Valid passport" },
+            { id: 2, text: "Educational certificates and transcripts" },
+            { id: 3, text: "Results of language proficiency test (IELTS/PTE)" },
+            { id: 4, text: "Skill assessment report from the relevant authority" },
+            { id: 5, text: "Work experience documents (reference letters, payslips, etc.)" },
+            { id: 6, text: "Marriage certificate (if applicable)" },
+            { id: 7, text: "Medical reports from approved panel physicians" },
+            { id: 8, text: "Police clearance certificates from each country of residence" },
+            { id: 9, text: "Proof of funds (if required by visa subclass)" }
+        ]
+    },
+    {
+        id:6 , 
+        heading: "Jobs in Australia for Indian Immigrants",
+        para: [
+            {
+                id: 1,
+                text: "Australia has a strong demand for skilled professionals, and Indian immigrants are well-placed to fill critical roles across many industries. With an Australia PR Visa, you can apply for jobs without needing employer sponsorship and enjoy complete freedom in the job market."
+            }
+        ],
+        list: [
+            { id: 1, text: "Information Technology — Software Developers, Network Engineers, Cybersecurity" },
+            { id: 2, text: "Healthcare — Nurses, Doctors, Physiotherapists" },
+            { id: 3, text: "Engineering — Civil, Electrical, Mechanical Engineers" },
+            { id: 4, text: "Finance & Accounting — Accountants, Auditors, Financial Analysts" },
+            { id: 5, text: "Education — Early Childhood Educators, Secondary School Teachers" },
+            { id: 6, text: "Trades — Electricians, Plumbers, Carpenters" },
+            { id: 7, text: "Construction & Mining — Site Managers, Quantity Surveyors" }
+        ]
+    }
+,  
         {
+            id:7 , 
             heading: "Benefits of Australia PR Visa",
             para: [
                 {
@@ -94,7 +374,32 @@ export const visas =[
                 { id: 5, text: "Ability to Sponsor Family Members." },
                 { id: 6, text: "Travel In and Out of Australia Freely." }
             ]
-        }
+        },
+
+        [
+    {
+        id:8 , 
+        heading: "Why Choose Globesway Immigration?",
+        para: [
+            {
+                id: 1,
+                text: "Globesway Immigration is trusted by thousands of clients across India for providing transparent, personalized, and successful solutions for the Australia PR Visa. From skill assessment and language tests to EOI submission and visa filing, our experienced team ensures your entire journey is smooth and stress-free. We offer complete support—from profile evaluation to post-landing assistance—customized to match your goals and increase your chances of success."
+            },
+            {
+                id: 2,
+                text: "As the best immigration consultants in Delhi, Globesway stands out for its expertise in handling Australia PR applications, high approval rate, and honest client support. We make complex visa procedures easy to understand and keep you informed at every stage. With a strong client base and partnerships worldwide, Globesway is your reliable guide to starting a successful new chapter in Australia."
+            }
+        ],
+        list: [
+            { id: 1, text: "High visa success rate across PR, study, and work categories" },
+            { id: 2, text: "Certified consultants with strong knowledge of immigration laws" },
+            { id: 3, text: "Step-by-step personal guidance throughout the entire process" },
+            { id: 4, text: "Full support for documentation, IELTS, and profile building" },
+            { id: 5, text: "Transparent process with no hidden charges or false promises" }
+        ]
+    }
+]
+
     ],
     questions: [
   {
@@ -128,6 +433,7 @@ export const visas =[
     title: "Canada Work Permit Visa",
     desc: [
         {
+            id:1 , 
             heading: "Canada Work Permit Visa",
             para: [
                 {
@@ -141,6 +447,7 @@ export const visas =[
             ]
         },
         {
+            id:2 , 
             heading: "Benefits of Canada Work Permit Visa",
             para: [
                 {
@@ -189,6 +496,7 @@ export const visas =[
     title: "Australia Work Permit Visa",
     desc: [
         {
+            id: 1, 
             heading: "Australia Work Permit Visa",
             para: [
                 {
@@ -202,6 +510,7 @@ export const visas =[
             ]
         },
         {
+            id: 2, 
             heading: "Benefits of Australia Work Permit Visa",
             para: [
                 {
@@ -250,6 +559,7 @@ export const visas =[
     title: "Croatia Work Visa",
     desc: [
         {
+            id:1 , 
             heading: "Croatia Work Visa",
             para: [
                 {
@@ -263,6 +573,7 @@ export const visas =[
             ]
         },
         {
+            id: 2, 
             heading: "Benefits of Croatia Work Visa",
             para: [
                 {
@@ -312,6 +623,7 @@ export const visas =[
     title: "Serbia Work Visa",
     desc: [
         {
+            id:1 , 
             heading: "Serbia Work Visa",
             para: [
                 {
@@ -325,6 +637,7 @@ export const visas =[
             ]
         },
         {
+            id:2 , 
             heading: "Benefits of the Serbia Work Visa",
             para: [
                 {
@@ -373,6 +686,7 @@ export const visas =[
     title: "Romania Work Visa",
     desc: [
         {
+            id:1 , 
             heading: "Romania Work Visa",
             para: [
                 {
@@ -386,6 +700,7 @@ export const visas =[
             ]
         },
         {
+            id: 2, 
             heading: "Benefits of Romania Work Visa",
             para: [
                 {
@@ -427,12 +742,14 @@ export const visas =[
 ],
 
 },
+
 {
     id: 8,
     img: about2, // Replace with your actual image reference
     title: "Poland Work Visa",
     desc: [
         {
+            id:1 , 
             heading: "Poland Work Visa",
             para: [
                 {
@@ -446,6 +763,7 @@ export const visas =[
             ]
         },
         {
+            id:2 , 
             heading: "Benefits of Poland Work Visa",
             para: [
                 {
@@ -487,12 +805,14 @@ export const visas =[
 ],
 
 },
+
 {
     id: 9,
     img: about2, // Replace with your actual image reference
     title: "Norway Work Visa",
     desc: [
         {
+            id:1 , 
             heading: "Norway Work Visa",
             para: [
                 {
@@ -506,6 +826,7 @@ export const visas =[
             ]
         },
         {
+            id:2 , 
             heading: "Benefits of a Norway Work Visa",
             para: [
                 {
@@ -554,6 +875,7 @@ export const visas =[
     title: "Greece Work Visa",
     desc: [
         {
+            id:1 , 
             heading: "Greece Work Visa",
             para: [
                 {
@@ -567,6 +889,7 @@ export const visas =[
             ]
         },
         {
+            id: 2, 
             heading: "Benefits of a Greece Work Visa",
             para: [
                 {
@@ -615,6 +938,7 @@ export const visas =[
     title: "Netherlands Work Visa",
     desc: [
         {
+            id:1, 
             heading: "Netherlands Work Visa",
             para: [
                 {
@@ -628,6 +952,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of the Netherlands Work Visa",
             para: [
                 {
@@ -669,12 +994,14 @@ export const visas =[
 ],
 
 },
+
 {
     id: 12,
     img: about2, // Replace with your actual image reference
     title: "Germany Work Visa",
     desc: [
         {
+            id:1, 
             heading: "Germany Work Visa",
             para: [
                 {
@@ -688,6 +1015,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of Germany Work Visa",
             para: [
                 {
@@ -729,12 +1057,14 @@ export const visas =[
 ],
 
 },
+
 {
     id: 13,
     img: about2, // Replace with your actual image reference
     title: "Luxembourg Work Visa",
     desc: [
         {
+            id:1, 
             heading: "Luxembourg Work Visa",
             para: [
                 {
@@ -748,6 +1078,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of a Luxembourg Work Visa",
             para: [
                 {
@@ -795,6 +1126,7 @@ export const visas =[
     title: "Ireland Work Visa",
     desc: [
         {
+            id:1, 
             heading: "Ireland Work Visa",
             para: [
                 {
@@ -808,6 +1140,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of an Ireland Work Visa",
             para: [
                 {
@@ -858,6 +1191,7 @@ export const visas =[
     title: "Canada Tourist Visa",
     desc: [
         {
+            id:1, 
             heading: "Canada Tourist Visa",
             para: [
                 {
@@ -871,6 +1205,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of Canada Tourist Visa",
             para: [
                 {
@@ -919,6 +1254,7 @@ export const visas =[
     title: "Australia Tourist Visa",
     desc: [
         {
+            id:1, 
             heading: "Australia Tourist Visa",
             para: [
                 {
@@ -932,6 +1268,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of an Australia Tourist Visa",
             para: [
                 {
@@ -979,6 +1316,7 @@ export const visas =[
     title: "Dubai Tourist Visa",
     desc: [
         {
+            id:1, 
             heading: "Dubai Tourist Visa",
             para: [
                 {
@@ -992,6 +1330,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of a Dubai Tourist Visa",
             para: [
                 {
@@ -1039,6 +1378,7 @@ export const visas =[
     title: "Europe Tourist Visa",
     desc: [
         {
+            id:1, 
             heading: "Europe Tourist Visa",
             para: [
                 {
@@ -1052,6 +1392,7 @@ export const visas =[
             ]
         },
         {
+            id:2, 
             heading: "Benefits of Europe Tourist Visa",
             para: [
                 {

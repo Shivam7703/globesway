@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { FaChevronDown } from 'react-icons/fa6';
 
-function Queans({ faqData }:any) {
+function Queans({ faqData, title1, title2 }:any) {
       const [expandedCity, setExpandedCity] = useState<number | null>(null);
 
   function toggleCity(cityId: number) {
@@ -12,10 +12,10 @@ function Queans({ faqData }:any) {
     <>
        <div
         className=' w-full space-y-4'>
-     {faqData?.title1 && <h4 className='text-color1 font-medium text-lg w-max'>{faqData?.title1}</h4>}
-         {faqData?.title2 && <h2 className='text-zinc-800 font-bold text-3xl md:text-5xl !leading-[1.1]'>{faqData?.title2} </h2>}
+     {title1 && <h4 className='text-color1 font-medium text-lg w-max'>{title1}</h4>}
+         {title2 && <h2 className='text-zinc-800 font-bold text-3xl md:text-5xl !leading-[1.1]'>{title2} </h2>}
        {/* Cities as FAQ */}
-       {faqData?.questions.map((city :any) => (
+       {faqData?.map((city :any) => (
                 <div key={city.id} className=" bg-zinc-100 p-5 rounded-lg">
                   {/* FAQ Question */}
                   <div

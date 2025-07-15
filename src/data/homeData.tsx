@@ -215,8 +215,8 @@ export const navigationMenu = {
       label: "PR Visa",
       href: "#",
       subNav: [
-        { id: 1, label: "Canada PR Visa", href: "/pr/canada" },
-        { id: 2, label: "Australia PR Visa", href: "/pr/australia" },
+        { id: 1, label: "Canada PR Visa", href: "/visa/Canada PR Visa" },
+        { id: 2, label: "Australia PR Visa", href: "/visa/Australia PR Visa" },
       ],
     },
 
@@ -225,19 +225,19 @@ export const navigationMenu = {
       label: "Work Permit",
       href: "#",
       subNav: [
-        { id: 1, label: "Canada Work Permit Visa", href: "/work/canada" },
-        { id: 2, label: "Australia Work Permit Visa", href: "/work/australia" },
-        { id: 3, label: "Croatia Work Visa", href: "/work/croatia" },
-        { id: 4, label: "Serbia Work Visa", href: "/work/serbia" },
-        { id: 5, label: "Romania Work Visa", href: "/work/romania" },
-        { id: 6, label: "Poland Work Visa", href: "/work/poland" },
-        { id: 7, label: "Norway Work Visa", href: "/work/norway" },
-        { id: 8, label: "Greece Work Visa", href: "/work/greece" },
-        { id: 9, label: "Netherlands Work Visa", href: "/work/netherlands" },
-        { id: 10, label: "Germany Work Visa", href: "/work/germany" },
-        { id: 11, label: "Luxembourg Work Visa", href: "/work/luxembourg" },
-        { id: 12, label: "Ireland Work Visa", href: "/work/ireland" },
-        { id: 13, label: "UK Work Visa", href: "/work/uk" },
+        { id: 1, label: "Canada Work Permit Visa", href: "/visa/Canada Work Permit Visa" },
+        { id: 2, label: "Australia Work Permit Visa", href: "/visa/Australia Work Permit Visa" },
+        { id: 3, label: "Croatia Work Visa", href: "/visa/Croatia Work Visa" },
+        { id: 4, label: "Serbia Work Visa", href: "/visa/Serbia Work Visa" },
+        { id: 5, label: "Romania Work Visa", href: "/visa/Romania Work Visa" },
+        { id: 6, label: "Poland Work Visa", href: "/visa/Poland Work Visa" },
+        { id: 7, label: "Norway Work Visa", href: "/visa/Norway Work Visa" },
+        { id: 8, label: "Greece Work Visa", href: "/visa/Greece Work Visa" },
+        { id: 9, label: "Netherlands Work Visa", href: "/visa/Netherlands Work Visa" },
+        { id: 10, label: "Germany Work Visa", href: "/visa/Germany Work Visa" },
+        { id: 11, label: "Luxembourg Work Visa", href: "/visa/Luxembourg Work Visa" },
+        { id: 12, label: "Ireland Work Visa", href: "/visa/Ireland Work Visa" },
+        { id: 13, label: "UK Work Visa", href: "/visa/uk" },
       ],
     },
 
@@ -246,10 +246,10 @@ export const navigationMenu = {
       label: "Tourist Visa",
       href: "#",
       subNav: [
-        { id: 1, label: "Canada Tourist Visa", href: "/tourist/canada" },
-        { id: 2, label: "Australia Tourist Visa", href: "/tourist/australia" },
-        { id: 3, label: "Dubai Tourist Visa", href: "/tourist/dubai" },
-        { id: 4, label: "Europe Tourist Visa", href: "/tourist/europe" },
+        { id: 1, label: "Canada Tourist Visa", href: "/visa/Canada Tourist Visa" },
+        { id: 2, label: "Australia Tourist Visa", href: "/visa/Australia Tourist Visa" },
+        { id: 3, label: "Dubai Tourist Visa", href: "/visa/Dubai Tourist Visa" },
+        { id: 4, label: "Europe Tourist Visa", href: "/visa/Europe Tourist Visa" },
       ],
     },
 
@@ -609,34 +609,28 @@ export var faqData = {
   img3: canada,
   title1: "Frequently Asked Questions",
   title2: "We answer all your immigration questions.",
-  questions: [
-    {
-      id: 1,
-      que:
-        "How can I apply for permanent residency (PR) through an immigration consultant in Delhi?",
-      ans:
-        "The best immigration consultants in Delhi will guide you step-by-step—from profile assessment to document submission—helping you apply for PR in countries like Canada, Australia, or Germany with ease.",
-    },
-    {
-      id: 2,
-      que: "Do I need a job offer to apply for a work permit?",
-      ans:
-        "In most cases, yes. A job offer from an approved employer is required for a work permit, but your consultant can help you explore countries and programs where it's not always mandatory.",
-    },
-    {
-      id: 3,
-      que:
-        "How do I know if an immigration consultant in Delhi is trustworthy?",
-      ans:
-        "Look for licensed consultants with good reviews, success stories, and transparent services. The best immigration consultants in Delhi offer honest advice, clear fees, and end-to-end support.",
-    },
-    {
-      id: 4,
-      que: "Can the same consultant help with both PR and work visas?",
-      ans:
-        "Yes! A professional immigration consultant can help with both PR and work visa applications, depending on your profile and goals, making your process easier and more reliable.",
-    },
-  ],
+       questions: [
+  {
+    id: 1,
+    que: "How can I apply for permanent residency (PR) through an immigration consultant in Delhi?",
+    ans: "The best immigration consultants in Delhi will guide you step-by-step—from profile assessment to document submission—helping you apply for PR in countries like Canada, Australia, or Germany with ease.",
+  },
+  {
+    id: 2,
+    que: "Do I need a job offer to apply for a work permit?",
+    ans: "In most cases, yes. A job offer from an approved employer is required for a work permit, but your consultant can help you explore countries and programs where it's not always mandatory.",
+  },
+  {
+    id: 3,
+    que: "How do I know if an immigration consultants in Delhi is trustworthy?",
+    ans: "Look for licensed consultants with good reviews, success stories, and transparent services. The best immigration consultants in Delhi offer honest advice, clear fees, and end-to-end support.",
+  },
+  {
+    id: 4,
+    que: "Can the same consultant help with both PR and work visas?",
+    ans: "Yes! A professional immigration consultant can help with both PR and work visa applications, depending on your profile and goals, making your process easier and more reliable.",
+  },
+]
 };
 
 export const whychoose = {
