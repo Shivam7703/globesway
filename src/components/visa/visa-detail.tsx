@@ -2,6 +2,7 @@ import VisaAside from "./side";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa6";
 import Queans from "../home/queans";
+import { FaRegCheckCircle } from "react-icons/fa";
 
 export default function Visadetails({data}: any) {
   return (
@@ -29,13 +30,13 @@ export default function Visadetails({data}: any) {
     ))}
 
     {detail.list && (
-      <ul className=" space-y-3 mb-3 text-lg w-full">
+      <ul className="space-y-3 mb-3  w-full">
         {detail.list.map((lists: any) => (
           <li
             key={lists?.id}
-            className="text-black font-medium flex gap-2"
+            className="text-zinc-600 font-medium flex gap-2"
           >
-            <FaCheck className="text-color1 mt-1" />
+            <FaRegCheckCircle className="text-color1 mt-1 min-w-4" />
             {lists?.text}
           </li>
         ))}

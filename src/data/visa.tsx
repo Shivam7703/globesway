@@ -239,7 +239,7 @@ export const visas =[
     desc: [
         {
             id: 1, 
-            heading: "Australia PR Visa",
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -433,8 +433,8 @@ export const visas =[
     title: "Canada Work Permit Visa",
     desc: [
         {
-            id:1 , 
-            heading: "Canada Work Permit Visa",
+            id:7, 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -446,8 +446,85 @@ export const visas =[
                 }
             ]
         },
+        
+    {
+        id: 1,
+        heading: "What is a Canada Work Permit Visa?",
+        para: [
+            {
+                id: 1,
+                text: "A Canada Work Permit Visa allows foreign nationals to work legally in Canada for a specific job and employer. It is usually temporary but can lead to permanent residency through programs like Express Entry or the Provincial Nominee Program (PNP)."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Why Apply for a Canada Work Permit?",
+        para: [
+            {
+                id: 1,
+                text: "Canada has a strong demand for skilled workers across many industries like IT, healthcare, construction, logistics, and agriculture. A work permit allows you to:-"
+            }
+        ],
+        list: [
+            { id: 1, text: "Gain Canadian work experience" },
+            { id: 2, text: "Earn a good salary in a stable economy" },
+            { id: 3, text: "Bring your family with you" },
+            { id: 4, text: "Possibly apply for Canada PR in the future" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Types of Canada Work Permits",
+        list: [
+            { id: 1, text: "Employer-Specific Work Permit—Tied to one employer and job; requires LMIA." },
+            { id: 2, text: "Open Work Permit—Not job-specific, allows working for any employer (available for spouses of skilled workers or students)." },
+            { id: 3, text: "Post-Graduation Work Permit (PGWP)—For international students who graduate from Canadian institutions." },
+            { id: 4, text: "Bridging Open Work Permit—For PR applicants waiting for their decision." }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Eligibility for Canada Work Permit Visa",
+        list: [
+            { id: 1, text: "A valid job offer from a Canadian employer" },
+            { id: 2, text: "LMIA (Labour Market Impact Assessment) approval (for most cases)" },
+            { id: 3, text: "Proof of qualifications and work experience" },
+            { id: 4, text: "Intent to leave Canada after the permit expires" },
+            { id: 5, text: "Clean criminal background" },
+            { id: 6, text: "Good health (may require a medical exam)" },
+            { id: 7, text: "Proof of financial support" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Valid passport" },
+            { id: 2, text: "Job offer letter," },
+            { id: 3, text: "LMIA letter (if applicable)" },
+            { id: 4, text: "Educational certificates" },
+            { id: 5, text: "Work experience documents" },
+            { id: 6, text: "Police clearance certificate" },
+            { id: 7, text: "Medical report" },
+            { id: 8, text: "Proof of funds" },
+            { id: 9, text: "Passport-size photographs" },
+            { id: 10, text: "Completed application form" }
+        ]
+    },
+    {
+        id: 6,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "Get a job offer from a Canadian employer." },
+            { id: 2, text: "LMIA Application—Employer applies for LMIA (if needed)." },
+            { id: 3, text: "Apply Online—Submit your application with documents." },
+            { id: 4, text: "Medical & Biometrics—Attend medical tests and biometric appointments." },
+            { id: 5, text: "Visa Approval & Travel—Receive your work permit and travel to Canada." }
+        ]
+    },
         {
-            id:2 , 
+            id:8 , 
             heading: "Benefits of Canada Work Permit Visa",
             para: [
                 {
@@ -496,8 +573,8 @@ export const visas =[
     title: "Australia Work Permit Visa",
     desc: [
         {
-            id: 1, 
-            heading: "Australia Work Permit Visa",
+            id: 7, 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -509,8 +586,86 @@ export const visas =[
                 }
             ]
         },
+        
+    {
+        id: 1,
+        heading: "What is an Australia Work Permit Visa?",
+        para: [
+            {
+                id: 1,
+                text: "An Australia Work Permit Visa allows skilled foreign workers to live and work in Australia temporarily. The most common type is the Temporary Skill Shortage (TSS) Visa Subclass 482, where an Australian employer sponsors you to fill a skilled job position."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Why Apply for an Australia Work Permit?",
+        para: [
+            {
+                id: 1,
+                text: "Australia offers a high quality of life, competitive salaries, and opportunities to move towards permanent residency. Applying for a work permit lets you"
+            }
+        ],
+        list: [
+            { id: 1, text: "Work legally in Australia" },
+            { id: 2, text: "Earn in AUD (Australian Dollars)" },
+            { id: 3, text: "Bring your spouse and children" },
+            { id: 4, text: "Build a pathway to Australian PR" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Types of Australia Work Permits",
+        list: [
+            { id: 1, text: "Temporary Skill Shortage (TSS) Visa—Subclass 482" },
+            { id: 2, text: "Short-term (up to 2 years)" },
+            { id: 3, text: "Medium-term (up to 4 years)" },
+            { id: 4, text: "Skilled Employer Sponsored Regional (Provisional) Visa—Subclass 494" },
+            { id: 5, text: "For regional jobs with a pathway to PR" },
+            { id: 6, text: "Employer Nomination Scheme (ENS)—Subclass 186" },
+            { id: 7, text: "Permanent residency option" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Eligibility for Australia Work Permit Visa",
+        list: [
+            { id: 1, text: "Job offer from an approved Australian employer" },
+            { id: 2, text: "Your job must be on the Skilled Occupation List" },
+            { id: 3, text: "Minimum 2 years of relevant work experience" },
+            { id: 4, text: "English language test (IELTS, PTE)" },
+            { id: 5, text: "Health and character requirements" },
+            { id: 6, text: "The employer must be registered as a sponsor" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Valid passport" },
+            { id: 2, text: "Employer nomination and job offer letter" },
+            { id: 3, text: "Proof of qualifications and experience" },
+            { id: 4, text: "IELTS or PTE score" },
+            { id: 5, text: "Resume/CV" },
+            { id: 6, text: "Police clearance certificates" },
+            { id: 7, text: "Medical reports" },
+            { id: 8, text: "Marriage and birth certificates (if applying with family)" }
+        ]
+    },
+    {
+        id: 6,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "Secure a Job Offer in a listed occupation" },
+            { id: 2, text: "Employer Sponsorship—Your employer applies to become a sponsor" },
+            { id: 3, text: "Lodge a visa application online with supporting documents" },
+            { id: 4, text: "Medical & Police Checks" },
+            { id: 5, text: "Visa Decision—Once approved, receive your work visa and move to Australia" }
+        ]
+    }
+,
         {
-            id: 2, 
+            id: 8, 
             heading: "Benefits of Australia Work Permit Visa",
             para: [
                 {
@@ -559,8 +714,8 @@ export const visas =[
     title: "Croatia Work Visa",
     desc: [
         {
-            id:1 , 
-            heading: "Croatia Work Visa",
+            id:7 , 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -573,7 +728,60 @@ export const visas =[
             ]
         },
         {
-            id: 2, 
+        id: 1,
+        heading: "Why Apply for a Croatia Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Croatia offers a range of growing job opportunities in tourism, construction, hospitality, and agriculture. With a Croatia Work Visa, you can legally live and work in a scenic European country and gain valuable international experience."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Croatia Work Visas",
+        list: [
+            { id: 1, text: "Type C Visa: Short-term business visa (not for employment)" },
+            { id: 2, text: "Type D Visa: Long-term visa allowing work and stay for 12 months" },
+            { id: 3, text: "EU Blue Card: For highly skilled workers with long-term stay options" },
+            { id: 4, text: "Digital Nomad Visa: For remote workers" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Valid passport" },
+            { id: 2, text: "Job offer from a Croatian employer" },
+            { id: 3, text: "Relevant qualifications and experience" },
+            { id: 4, text: "Health insurance and sufficient funds" },
+            { id: 5, text: "Clean criminal record" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Passport and visa application form" },
+            { id: 2, text: "Passport-size photos" },
+            { id: 3, text: "A work permit issued by the employer" },
+            { id: 4, text: "Job contract and proof of accommodation" },
+            { id: 5, text: "Health insurance and proof of financial means" },
+            { id: 6, text: "Police clearance and medical certificate" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer applies for a work permit" },
+            { id: 2, text: "Submit a Type D visa application at the Croatian Embassy" },
+            { id: 3, text: "Attend a biometrics appointment and submit documents" },
+            { id: 4, text: "Wait for visa approval and travel to Croatia" }
+        ]
+    },
+        {
+            id: 8, 
             heading: "Benefits of Croatia Work Visa",
             para: [
                 {
@@ -623,8 +831,8 @@ export const visas =[
     title: "Serbia Work Visa",
     desc: [
         {
-            id:1 , 
-            heading: "Serbia Work Visa",
+            id:7 , 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -636,8 +844,59 @@ export const visas =[
                 }
             ]
         },
+
+    {
+        id: 1,
+        heading: "Why Apply for a Serbia Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Serbia has a growing job market in sectors like IT, manufacturing, and services. A Serbia Work Visa offers legal employment and a chance to explore life in Southeast Europe."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Serbia Work Visas",
+        list: [
+            { id: 1, text: "Work Permit (Temporary): Linked to a specific job and employer" },
+            { id: 2, text: "Type D Visa: Long-term visa granted after work permit approval" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Job offer from a registered Serbian employer" },
+            { id: 2, text: "Labor market test completed by the employer" },
+            { id: 3, text: "Proof of qualifications and experience" },
+            { id: 4, text: "Clean criminal background and health clearance" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Valid passport and application form" },
+            { id: 2, text: "Work permit and employment contract" },
+            { id: 3, text: "Employer’s business documents" },
+            { id: 4, text: "Proof of accommodation and financial means" },
+            { id: 5, text: "Police clearance and medical certificate" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer applies for a labor market test and a work permit" },
+            { id: 2, text: "Apply for a Type D visa through the Serbian embassy" },
+            { id: 3, text: "Submit documents and attend the appointment" },
+            { id: 4, text: "Receive a visa and apply for temporary residence in Serbia" }
+        ]
+    },
+
         {
-            id:2 , 
+            id:8 , 
             heading: "Benefits of the Serbia Work Visa",
             para: [
                 {
@@ -687,7 +946,7 @@ export const visas =[
     desc: [
         {
             id:1 , 
-            heading: "Romania Work Visa",
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -699,8 +958,56 @@ export const visas =[
                 }
             ]
         },
+         {
+        id: 1,
+        heading: "Why Apply for a Romania Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Romania has an increasing demand for skilled workers in IT, manufacturing, and healthcare. A Romania work visa gives you a chance to build your career in the European Union."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Romania Work Visas",
+        list: [
+            { id: 1, text: "Type D Visa: For long-term employment" },
+            { id: 2, text: "Seasonal Work Visa: For temporary or short-term jobs" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Job offer from a Romanian employer" },
+            { id: 2, text: "The employer must secure a work permit" },
+            { id: 3, text: "Relevant education and work experience" },
+            { id: 4, text: "Clean background and sufficient financial support" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Valid passport and visa application" },
+            { id: 2, text: "Work permit issued by the Romanian Immigration Office" },
+            { id: 3, text: "Job contract and educational document" },
+            { id: 4, text: "Proof of funds, health insurance, and police clearance" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer obtains a work permit" },
+            { id: 2, text: "Apply for a Type D visa at the Romanian Embassy" },
+            { id: 3, text: "Attend a biometric and document submission appointment" },
+            { id: 4, text: "Wait for visa approval (usually within 30–60 days)" }
+        ]
+    },
         {
-            id: 2, 
+            id: 8, 
             heading: "Benefits of Romania Work Visa",
             para: [
                 {
@@ -749,8 +1056,8 @@ export const visas =[
     title: "Poland Work Visa",
     desc: [
         {
-            id:1 , 
-            heading: "Poland Work Visa",
+            id:7 , 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -763,7 +1070,57 @@ export const visas =[
             ]
         },
         {
-            id:2 , 
+        id: 1,
+        heading: "Why Apply for a Poland Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Poland has a strong demand for workers in logistics, construction, IT, and hospitality. It offers a stable income and a stepping stone to long-term residency in Europe."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Poland Work Visas",
+        list: [
+            { id: 1, text: "Work Permit (Type A): For standard employment contracts" },
+            { id: 2, text: "National D Visa: For work lasting over 90 days" },
+            { id: 3, text: "Entrepreneur or Freelance Visa: For self-employed professionals" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Job offer and signed employment contract" },
+            { id: 2, text: "Valid passport with at least 6 months' validity" },
+            { id: 3, text: "Health insurance and sufficient funds" },
+            { id: 4, text: "Clear background and relevant work experience" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Visa application form and passport photos" },
+            { id: 2, text: "Employer-issued work permit and contract" },
+            { id: 3, text: "Proof of accommodation and travel insurance" },
+            { id: 4, text: "Medical certificate and police clearance" },
+            { id: 5, text: "Proof of financial support and flight bookings" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer applies for a work permit" },
+            { id: 2, text: "You apply for a Type D visa at the Polish embassy" },
+            { id: 3, text: "Submit all required documents and fees" },
+            { id: 4, text: "Once approved, travel to Poland and register your residence" }
+        ]
+    },
+        {
+            id:8 , 
             heading: "Benefits of Poland Work Visa",
             para: [
                 {
@@ -812,8 +1169,8 @@ export const visas =[
     title: "Norway Work Visa",
     desc: [
         {
-            id:1 , 
-            heading: "Norway Work Visa",
+            id:7, 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -825,8 +1182,59 @@ export const visas =[
                 }
             ]
         },
+         {
+        id: 1,
+        heading: "Why Apply for a Norway Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Norway offers a high standard of living, great work-life balance, and strong labor protections. It is an attractive option for skilled professionals, especially in industries like oil and gas, engineering, IT, and healthcare."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Norway Work Visas",
+        list: [
+            { id: 1, text: "Skilled Worker Visa: For qualified professionals with job offers in Norway" },
+            { id: 2, text: "Seasonal Work Visa: For temporary or seasonal employment like agriculture and tourism" },
+            { id: 3, text: "Job Seeker Visa: Allows skilled individuals to enter Norway to search for a job" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Valid job offer from a Norwegian employer" },
+            { id: 2, text: "Educational qualifications matching the job requirement" },
+            { id: 3, text: "Clean criminal record" },
+            { id: 4, text: "Sufficient income and accommodation in Norway" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Valid passport and completed visa application" },
+            { id: 2, text: "Signed a job contract and employer sponsorship" },
+            { id: 3, text: "Proof of qualifications and work experience" },
+            { id: 4, text: "Police clearance and health certificate" },
+            { id: 5, text: "Passport-size photos and visa fee" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer offers a job and provides the required documentation" },
+            { id: 2, text: "Apply online or through VFS Global" },
+            { id: 3, text: "Attend a biometrics and document verification appointment" },
+            { id: 4, text: "Wait for visa approval (processing time is usually 1–3 months)" },
+            { id: 5, text: "Upon approval, travel and register your residence in Norway" }
+        ]
+    },
         {
-            id:2 , 
+            id:8, 
             heading: "Benefits of a Norway Work Visa",
             para: [
                 {
@@ -866,7 +1274,6 @@ export const visas =[
     ans: "Yes, if you live and work in Norway for at least 3 years with steady income and integration, you may apply for permanent residency. You also need to complete a language course and meet residency conditions. It’s a great step toward long-term stability.",
   },
 ],
-
 }
 ,
 {
@@ -875,7 +1282,7 @@ export const visas =[
     title: "Greece Work Visa",
     desc: [
         {
-            id:1 , 
+            id:7, 
             heading: "Greece Work Visa",
             para: [
                 {
@@ -888,8 +1295,58 @@ export const visas =[
                 }
             ]
         },
+         {
+        id: 1,
+        heading: "Why Apply for a Greece Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Greece is a growing hub for foreign professionals due to opportunities in tourism, agriculture, construction, and education. The country offers a relaxed lifestyle, a Mediterranean climate, and a low cost of living."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Greece Work Visas",
+        list: [
+            { id: 1, text: "National D Visa: For work stays longer than 90 days" },
+            { id: 2, text: "Seasonal Work Visa: For agriculture or hospitality jobs" },
+            { id: 3, text: "Intra-company Transfer Visa: For internal company transfers" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Job offer from a Greek employer" },
+            { id: 2, text: "Proof of skills and educational qualifications" },
+            { id: 3, text: "Valid travel document and sufficient funds" },
+            { id: 4, text: "Clean background check" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Passport, visa application form, and photographs" },
+            { id: 2, text: "Work contract and employer sponsorship documents" },
+            { id: 3, text: "Proof of accommodation and travel insurance" },
+            { id: 4, text: "Criminal background check and health report" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "Secure a job, and the employer applies for a permit" },
+            { id: 2, text: "Submit a visa application to the Greek embassy or consulate" },
+            { id: 3, text: "Provide the required documents and attend the interview" },
+            { id: 4, text: "Wait for approval (can take up to 90 days)" },
+            { id: 5, text: "Register your address with the Greek authorities upon arrival" }
+        ]
+    },
         {
-            id: 2, 
+            id: 8, 
             heading: "Benefits of a Greece Work Visa",
             para: [
                 {
@@ -929,7 +1386,6 @@ export const visas =[
     ans: "Yes, after five years of continuous legal stay, you may apply for permanent residency. You must show stable income and social integration. This gives you long-term rights in Greece. It also opens pathways to EU mobility.",
   },
 ],
-
 }
 ,
 {
@@ -938,8 +1394,8 @@ export const visas =[
     title: "Netherlands Work Visa",
     desc: [
         {
-            id:1, 
-            heading: "Netherlands Work Visa",
+            id:7, 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -951,8 +1407,58 @@ export const visas =[
                 }
             ]
         },
+{
+        id: 1,
+        heading: "Why Apply for a Netherlands Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "The Netherlands is known for its innovation, excellent infrastructure, and high salaries. It offers numerous job opportunities in sectors like IT, finance, logistics, and engineering."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Netherlands Work Visas",
+        list: [
+            { id: 1, text: "Highly Skilled Migrant Visa: For professionals earning above the set salary threshold" },
+            { id: 2, text: "Regular Work Visa: Based on job offer and employer sponsorship" },
+            { id: 3, text: "Orientation Year Visa: For recent graduates from Dutch institutions" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Valid employment offer from a Dutch employer" },
+            { id: 2, text: "Adequate qualifications and work experience" },
+            { id: 3, text: "Minimum income level based on visa type" },
+            { id: 4, text: "Valid passport and clean criminal record" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Completed MVV application form" },
+            { id: 2, text: "Copy of employment contract" },
+            { id: 3, text: "Employer sponsorship letter" },
+            { id: 4, text: "Health insurance and proof of income" },
+            { id: 5, text: "Passport, photos, and visa fees" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer applies for a permit via IND (Immigration and Naturalisation Service)" },
+            { id: 2, text: "Apply for an MVV (long-stay visa) through the Dutch embassy" },
+            { id: 3, text: "Provide biometric data and submit documents" },
+            { id: 4, text: "Await approval and receive a residence permit upon arrival" }
+        ]
+    },
         {
-            id:2, 
+            id:8, 
             heading: "Benefits of the Netherlands Work Visa",
             para: [
                 {
@@ -992,7 +1498,6 @@ export const visas =[
     ans: "Yes, after five years of continuous stay with a valid residence permit, you can apply for permanent residence. You must also show integration through language and community ties. It’s a great option for settling in the EU.",
   },
 ],
-
 },
 
 {
@@ -1001,12 +1506,12 @@ export const visas =[
     title: "Germany Work Visa",
     desc: [
         {
-            id:1, 
-            heading: "Germany Work Visa",
+            id:7, 
+            heading: "Introduction",
             para: [
-                {
+             {
                     id: 1,
-                    text: "Germany offers a work visa for skilled professionals in fields such as engineering, healthcare, IT, and manufacturing. As one of Europe’s strongest economies, Germany provides excellent job stability, fair wages, and strong labor protections. It’s ideal for those looking to work and live in a well-organized, efficient, and safe country."
+                    text: "Germany offers a work visa for skilled professionals in fields such as engineering, healthcare, IT, and  manufacturing. As one of Europe’s strongest economies, Germany provides excellent job stability, fair wages, and strong labor protections. It’s ideal for those looking to work and live in a well-organized, efficient, and safe country."
                 },
                 {
                     id: 2,
@@ -1014,8 +1519,59 @@ export const visas =[
                 }
             ]
         },
+         {
+        id: 1,
+        heading: "Why Apply for a Germany Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Germany has one of the most robust job markets in Europe, with high demand for skilled labor. It offers secure employment, strong employee rights, and access to permanent residency."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Germany Work Visas",
+        list: [
+            { id: 1, text: "EU Blue Card: For highly skilled professionals" },
+            { id: 2, text: "General Employment Visa: For regular skilled workers" },
+            { id: 3, text: "Job Seeker Visa: To enter Germany and search for work" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Job offer in line with your qualifications" },
+            { id: 2, text: "Recognized university degree or vocational training" },
+            { id: 3, text: "Sufficient income and accommodation" },
+            { id: 4, text: "Proficiency in German (for many jobs)" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Completed visa application" },
+            { id: 2, text: "Job contract or job offer letter" },
+            { id: 3, text: "Proof of academic or vocational qualifications" },
+            { id: 4, text: "Travel insurance and accommodation proof" },
+            { id: 5, text: "Police clearance and biometric photos" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer provides a contract and helps with visa requirements" },
+            { id: 2, text: "Submit a visa application to the German Embassy" },
+            { id: 3, text: "Attend the appointment and provide biometric data" },
+            { id: 4, text: "Wait for visa processing (can take 6–12 weeks)" },
+            { id: 5, text: "Enter Germany and register at the local immigration office" }
+        ]
+    },
         {
-            id:2, 
+            id:8, 
             heading: "Benefits of Germany Work Visa",
             para: [
                 {
@@ -1064,8 +1620,8 @@ export const visas =[
     title: "Luxembourg Work Visa",
     desc: [
         {
-            id:1, 
-            heading: "Luxembourg Work Visa",
+            id:7, 
+            heading: "introduction",
             para: [
                 {
                     id: 1,
@@ -1078,7 +1634,56 @@ export const visas =[
             ]
         },
         {
-            id:2, 
+        id: 1,
+        heading: "Why Apply for a Luxembourg Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Luxembourg has a booming finance, IT, and logistics sector. It offers multilingual work environments and competitive wages in a small but powerful EU economy."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Luxembourg Work Visas",
+        list: [
+            { id: 1, text: "Salaried Worker Visa: For general employees" },
+            { id: 2, text: "Highly Qualified Worker Visa: For professionals meeting salary thresholds" },
+            { id: 3, text: "Intra-Company Transfer Visa: For existing staff moving internally" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Employment contract with a registered company in Luxembourg" },
+            { id: 2, text: "Professional qualifications suitable for the job" },
+            { id: 3, text: "Valid passport and health insurance" },
+            { id: 4, text: "No criminal history" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Completed application form and passport" },
+            { id: 2, text: "Work contract and labor authorization" },
+            { id: 3, text: "Proof of qualifications and experience" },
+            { id: 4, text: "Police clearance and proof of housing" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer applies with the Immigration Directorate" },
+            { id: 2, text: "Upon approval, apply for a Type D visa at the embassy" },
+            { id: 3, text: "Submit biometric data and documents" },
+            { id: 4, text: "Travel to Luxembourg and apply for a residence card" }
+        ]
+    },
+        {
+            id:8, 
             heading: "Benefits of a Luxembourg Work Visa",
             para: [
                 {
@@ -1126,8 +1731,8 @@ export const visas =[
     title: "Ireland Work Visa",
     desc: [
         {
-            id:1, 
-            heading: "Ireland Work Visa",
+            id:7, 
+            heading: "Introduction",
             para: [
                 {
                     id: 1,
@@ -1139,8 +1744,59 @@ export const visas =[
                 }
             ]
         },
+        
+    {
+        id: 1,
+        heading: "Why Apply for an Ireland Work Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Ireland offers a strong tech and pharmaceutical job market, attractive salaries, and a high quality of life. An English-speaking environment makes it easier for global professionals."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Types of Ireland Work Visas",
+        list: [
+            { id: 1, text: "Critical Skills Employment Permit: For highly skilled roles" },
+            { id: 2, text: "General Employment Permit: For in-demand occupations" },
+            { id: 3, text: "Intra-Company Transfer Permit: For company-sponsored transfers" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Eligibility Criteria",
+        list: [
+            { id: 1, text: "Offer from an Irish-based company" },
+            { id: 2, text: "The role must meet minimum salary requirements" },
+            { id: 3, text: "Proof of skills and academic background" },
+            { id: 4, text: "Clean criminal record and valid passport" }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Required Documents",
+        list: [
+            { id: 1, text: "Visa application and job contract" },
+            { id: 2, text: "Passport, photo, and visa fee" },
+            { id: 3, text: "Proof of qualifications and financial means" },
+            { id: 4, text: "Medical insurance and police clearance" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Application Process",
+        list: [
+            { id: 1, text: "The employer applies for a work permit through DETE (Department of Enterprise)" },
+            { id: 2, text: "Once approved, apply for a long-stay visa (Type D)" },
+            { id: 3, text: "Submit documents and attend a visa interview" },
+            { id: 4, text: "Upon approval, enter Ireland and register with the immigration authorities" }
+        ]
+    }
+,
         {
-            id:2, 
+            id:8, 
             heading: "Benefits of an Ireland Work Visa",
             para: [
                 {
@@ -1191,7 +1847,7 @@ export const visas =[
     title: "Canada Tourist Visa",
     desc: [
         {
-            id:1, 
+            id:10, 
             heading: "Canada Tourist Visa",
             para: [
                 {
@@ -1205,7 +1861,126 @@ export const visas =[
             ]
         },
         {
-            id:2, 
+        id: 1,
+        heading: "Why You Should Apply for a Canada Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "A Canada tourist visa allows you to explore one of the most beautiful and diverse countries in the world. From stunning landscapes to vibrant cities, there are plenty of reasons to visit. Cities like Vancouver offer a mix of nature and urban life, with restaurants, museums, and galleries. You can enjoy skiing, surfing, hiking, and many other activities depending on the season. Canada’s rich multicultural culture, historical spots like Quebec City, and natural wonders like Niagara Falls make it a top destination. With friendly locals and safe cities, traveling around Canada becomes an unforgettable experience."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Main Attractions with a Canada Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "When you visit Canada, you get to experience different types of beauty all year round."
+            }
+        ],
+        list: [
+            { id: 1, text: "Visit Banff and Jasper National Parks to enjoy scenic lakes, mountains, and forests." },
+            { id: 2, text: "Spend time at Lake Ontario's beaches during summer, perfect for boating and watching sunsets." },
+            { id: 3, text: "Explore the Rideau Canal in Ottawa—great for boat rides in summer and ice skating in winter." },
+            { id: 4, text: "Discover Quebec City’s beautiful Gothic architecture and strong French cultural influence." },
+            { id: 5, text: "Experience the world-famous Niagara Falls and enjoy ferry tours around the waterfalls." },
+            { id: 6, text: "Relax at nearby attractions like the Niagara Botanical Gardens." },
+            { id: 7, text: "Whether you’re into nature or city life, a Canada tourist visa lets you enjoy both in every season." }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Who Can Apply for a Canada Tourist Visa?",
+        para: [
+            {
+                id: 1,
+                text: "To apply for a Canada tourist visa, you need to meet certain basic requirements. You must be healthy, have a valid passport, and have enough funds to cover your stay. It’s also important to show that you plan to return to your home country after your visit. Having no criminal record and not intending to work in Canada are also part of the criteria. Ties to your home country, such as a job, property, or family, help show that you will return. Always check the official Canada immigration website for the most updated information."
+            }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Canada Tourist Visa Eligibility Requirements",
+        list: [
+            { id: 1, text: "A valid passport" },
+            { id: 2, text: "Proof of funds for your stay" },
+            { id: 3, text: "Good health and a medical certificate if required" },
+            { id: 4, text: "Clear plan to return home after your trip" },
+            { id: 5, text: "No criminal history or security risk" },
+            { id: 6, text: "Strong ties to your home country (family, job, etc.)" },
+            { id: 7, text: "No intention to work or study in Canada" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Documents Needed for a Canada Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "Having all your documents in place helps your application get approved faster. If any information is missing, it can delay or even cancel your visa. At Globesway Immigration, we help you gather and review all necessary documents to avoid mistakes. Here is a list of what you’ll need:"
+            }
+        ],
+        list: [
+            { id: 1, text: "A copy of your valid passport" },
+            { id: 2, text: "Recent passport-sized photos" },
+            { id: 3, text: "Travel itinerary and purpose of visit" },
+            { id: 4, text: "Proof of funds (bank statements, income proof, etc.)" },
+            { id: 5, text: "Previous travel history and visas (if applicable)" },
+            { id: 6, text: "Police clearance certificate" },
+            { id: 7, text: "Medical report (if asked)" },
+            { id: 8, text: "Return flight bookings (if available)" },
+            { id: 9, text: "Accommodation details" },
+            { id: 10, text: "Proof of ties to your home country" },
+            { id: 11, text: "Travel and health insurance" }
+        ]
+    },
+    {
+        id: 6,
+        heading: "How to Apply for a Canada Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "You can apply for a Canada tourist visa online or offline. Both ways require you to fill out the correct forms and submit the right documents. If you choose to apply online, scan and upload your documents, pay the fee, and wait for processing. For offline applications, visit your nearest visa center with documents and attend an interview if needed. Once approved, you’ll receive your visa and can plan your travel."
+            }
+        ],
+        list: [
+            { id: 1, text: "Check if you meet all the eligibility criteria" },
+            { id: 2, text: "Gather and prepare all required documents" },
+            { id: 3, text: "Choose to apply online or offline" },
+            { id: 4, text: "Fill out the visa application form" },
+            { id: 5, text: "Pay the visa fee" },
+            { id: 6, text: "Submit your application and attend biometrics (if required)" },
+            { id: 7, text: "Wait for your visa decision" }
+        ]
+    },
+    {
+        id: 7,
+        heading: "Types of Canada Tourist Visas",
+        para: [
+            {
+                id: 1,
+                text: "There are mainly two types of Canada tourist visas:"
+            }
+        ],
+        list: [
+            { id: 1, text: "Single-entry visa: You can visit Canada once and stay for up to six months. Once you leave the country, you’ll need a new visa to return." },
+            { id: 2, text: "Multiple-entry visa: This visa allows you to enter Canada multiple times during its validity, which can go up to 10 years. You can stay for up to 6 months each visit. It is useful for travelers who wish to visit Canada more than once." }
+        ]
+    },
+    {
+        id: 8,
+        heading: "Processing Time for a Canada Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "The time it takes to process a Canada tourist visa usually ranges from 2 to 4 weeks. The exact time may vary based on the visa office, the number of applications, and how complete your documents are. Online applications are generally processed faster than paper-based ones. Always check the official website or connect with Globesway Immigration to stay updated about your application status."
+            }
+        ]
+    },
+   
+        {
+            id:9, 
             heading: "Benefits of Canada Tourist Visa",
             para: [
                 {
@@ -1222,6 +1997,7 @@ export const visas =[
                 { id: 6, text: "Travel Comfortably with Legal Permission." }
             ]
         }
+
     ],
     questions: [
   {
@@ -1254,7 +2030,7 @@ export const visas =[
     title: "Australia Tourist Visa",
     desc: [
         {
-            id:1, 
+            id:9, 
             heading: "Australia Tourist Visa",
             para: [
                 {
@@ -1267,8 +2043,128 @@ export const visas =[
                 }
             ]
         },
+         {
+        id: 1,
+        heading: "Why You Should Apply for an Australia Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "An Australia tourist visa allows you to explore a land of stunning beaches, unique wildlife, and vibrant cities. From the iconic Sydney Opera House to the Great Barrier Reef, Australia is filled with unforgettable sights. The country offers rich cultural diversity, natural wonders, and adventure activities like snorkeling, surfing, hiking, and desert tours. Whether you’re visiting friends and family or just exploring, this visa is your ticket to a relaxed and safe travel experience in Australia."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Main Attractions with an Australia Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "When you travel on an Australia tourist visa, you can enjoy a variety of experiences across the country:"
+            }
+        ],
+        list: [
+            { id: 1, text: "Discover Sydney’s Opera House, Harbour Bridge, and Bondi Beach" },
+            { id: 2, text: "Explore the Great Barrier Reef for world-class snorkeling and diving" },
+            { id: 3, text: "Visit Melbourne’s art galleries, cafes, and shopping streets" },
+            { id: 4, text: "Experience the red desert beauty of Uluru and the Outback" },
+            { id: 5, text: "Relax in the natural settings of the Blue Mountains and Daintree Rainforest" },
+            { id: 6, text: "Enjoy wildlife encounters at places like Kangaroo Island and Philip Island" },
+            { id: 7, text: "Tour wine regions like the Barossa Valley and the Yarra Valley" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Who Can Apply for an Australia Tourist Visa?",
+        para: [
+            {
+                id: 1,
+                text: "To apply for an Australia tourist visa, you need to meet basic requirements such as being in good health and having a valid passport. You must also prove that you can financially support your stay and plan to return home after your visit. It’s important not to have any criminal background or plan to work while in Australia. Ties to your home country, like a job, family, or property, will support your application."
+            }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Australia Tourist Visa Eligibility Requirements",
+        list: [
+            { id: 1, text: "Valid passport" },
+            { id: 2, text: "Proof of sufficient funds" },
+            { id: 3, text: "Good health and medical clearance (if asked)" },
+            { id: 4, text: "Clear intention to return to your home country" },
+            { id: 5, text: "No criminal history or immigration violations" },
+            { id: 6, text: "Proof of ties to your country (job, family, property)" },
+            { id: 7, text: "No intention to work or study in Australia" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Documents Needed for an Australia Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "Globesway Immigration helps you prepare and check all required documents for your visa application. Submitting complete paperwork helps speed up your visa approval. Below is a list of important documents you may need:"
+            }
+        ],
+        list: [
+            { id: 1, text: "Valid passport with at least 6 months validity" },
+            { id: 2, text: "Recent passport-sized photographs" },
+            { id: 3, text: "Filled visa application form (subclass 600)" },
+            { id: 4, text: "Travel itinerary and purpose of visit" },
+            { id: 5, text: "Bank statements or proof of income" },
+            { id: 6, text: "Proof of ties to your home country (job letter, property documents)" },
+            { id: 7, text: "Previous travel history (if available)" },
+            { id: 8, text: "Travel and health insurance" },
+            { id: 9, text: "Return flight bookings (if applicable)" },
+            { id: 10, text: "Police clearance certificate (if required)" },
+            { id: 11, text: "Medical checkup documents (if asked)" }
+        ]
+    },
+    {
+        id: 6,
+        heading: "How to Apply for an Australia Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "You can apply for an Australia tourist visa online via the official immigration website. The process involves creating an ImmiAccount, uploading documents, and paying the visa fee. In some cases, you may be asked to attend a visa interview or provide biometrics."
+            }
+        ],
+        list: [
+            { id: 1, text: "Check visa eligibility and prepare your documents" },
+            { id: 2, text: "Create an ImmiAccount on Australia’s official immigration website" },
+            { id: 3, text: "Fill out the visa application form (subclass 600)" },
+            { id: 4, text: "Upload scanned documents" },
+            { id: 5, text: "Pay the visa application fee" },
+            { id: 6, text: "Submit the application and wait for processing" },
+            { id: 7, text: "Provide biometrics and attend an interview (if required)" }
+        ]
+    },
+    {
+        id: 7,
+        heading: "Types of Australia Tourist Visas",
+        para: [
+            {
+                id: 1,
+                text: "There are different types of tourist visas based on your purpose of visit:"
+            }
+        ],
+        list: [
+            { id: 1, text: "Tourist stream (outside Australia): For travelers visiting Australia for leisure, sightseeing, or to visit family/friends" },
+            { id: 2, text: "Tourist stream (inside Australia): For people already in Australia wishing to extend their stay" },
+            { id: 3, text: "Sponsored Family stream: For those visiting family members who are Australian citizens or permanent residents" },
+            { id: 4, text: "Business Visitor stream: For business meetings or conferences (non-work-related)" }
+        ]
+    },
+    {
+        id: 8,
+        heading: "Processing Time for an Australia Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "Processing times for an Australia tourist visa depend on your country, application volume, and completeness of your documents. On average, it may take between 2 to 4 weeks. Online applications tend to be quicker. Make sure to apply well in advance of your travel dates. For faster and accurate filing, reach out to the experts at Globesway Immigration."
+            }
+        ]
+    },
         {
-            id:2, 
+            id:10, 
             heading: "Benefits of an Australia Tourist Visa",
             para: [
                 {
@@ -1316,7 +2212,7 @@ export const visas =[
     title: "Dubai Tourist Visa",
     desc: [
         {
-            id:1, 
+            id:9, 
             heading: "Dubai Tourist Visa",
             para: [
                 {
@@ -1329,6 +2225,121 @@ export const visas =[
                 }
             ]
         },
+         {
+        id: 1,
+        heading: "Why You Should Apply for a Dubai Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "A Dubai tourist visa lets you explore the vibrant and luxurious lifestyle of one of the world’s most popular travel destinations. Whether you want to see the towering Burj Khalifa, shop in massive malls, or enjoy desert safaris, Dubai has something for everyone. The city combines modern architecture, rich culture, and warm hospitality. A Dubai tourist visa is your gateway to experience this mix of tradition and innovation. It’s ideal for family vacations, business visits, or just exploring one of the safest and most exciting cities."
+            }
+        ]
+    },
+    {
+        id: 2,
+        heading: "Main Attractions with a Dubai Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "Dubai is full of world-famous landmarks and unique experiences:"
+            }
+        ],
+        list: [
+            { id: 1, text: "Visit the iconic Burj Khalifa, the world’s tallest building" },
+            { id: 2, text: "Explore Dubai Mall with shopping, restaurants, and an indoor aquarium" },
+            { id: 3, text: "Take a desert safari with dune bashing and traditional shows" },
+            { id: 4, text: "Enjoy the beaches along Jumeirah and Marina areas" },
+            { id: 5, text: "Discover historic sites in Al Fahidi and the Dubai Museum" },
+            { id: 6, text: "Take a boat ride at Dubai Creek or visit the Global Village" },
+            { id: 7, text: "Shop at traditional souks for gold, spices, and perfumes" }
+        ]
+    },
+    {
+        id: 3,
+        heading: "Who Can Apply for a Dubai Tourist Visa?",
+        para: [
+            {
+                id: 1,
+                text: "Anyone with a valid passport and clear travel history can apply for a Dubai tourist visa. The visa is available for tourists, those visiting friends or family, and short-term business travelers. You must have enough funds for your trip and plan to return to your country after your stay."
+            }
+        ]
+    },
+    {
+        id: 4,
+        heading: "Dubai Tourist Visa Eligibility Requirements",
+        list: [
+            { id: 1, text: "Valid passport with at least 6 months validity" },
+            { id: 2, text: "Confirmed return flight tickets" },
+            { id: 3, text: "Proof of accommodation (hotel bookings or invitation letter)" },
+            { id: 4, text: "Enough financial resources to cover your stay" },
+            { id: 5, text: "No criminal background" },
+            { id: 6, text: "Strong ties to home country (job, family, etc.)" },
+            { id: 7, text: "Travel and health insurance (recommended)" }
+        ]
+    },
+    {
+        id: 5,
+        heading: "Documents Needed for a Dubai Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "Globesway Immigration ensures that your documents are correctly submitted to avoid delays. Here’s a list of what you may need:"
+            }
+        ],
+        list: [
+            { id: 1, text: "Scanned copy of valid passport (first and last page)" },
+            { id: 2, text: "Passport-sized color photo with white background" },
+            { id: 3, text: "Confirmed return flight booking" },
+            { id: 4, text: "Hotel reservation or invitation letter (if staying with family)" },
+            { id: 5, text: "Bank statement or proof of income" },
+            { id: 6, text: "Completed visa application form" },
+            { id: 7, text: "Travel and health insurance (optional but recommended)" }
+        ]
+    },
+    {
+        id: 6,
+        heading: "How to Apply for a Dubai Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "You can apply for a Dubai tourist visa online through authorized travel agencies or through Globesway Immigration. The process is quick, and most visas are processed within a few working days. No embassy visit is required in most cases."
+            }
+        ],
+        list: [
+            { id: 1, text: "Choose your visa type (14, 30, or 60-day visa)" },
+            { id: 2, text: "Gather all required documents" },
+            { id: 3, text: "Submit documents and application through Globesway Immigration" },
+            { id: 4, text: "Pay the visa processing fee" },
+            { id: 5, text: "Wait for visa approval (usually within 3 to 5 working days)" },
+            { id: 6, text: "Receive visa by email" }
+        ]
+    },
+    {
+        id: 7,
+        heading: "Types of Dubai Tourist Visas",
+        para: [
+            {
+                id: 1,
+                text: "Dubai offers different tourist visas based on your length of stay:"
+            }
+        ],
+        list: [
+            { id: 1, text: "14-Day Tourist Visa: Short trips for vacation or quick visits" },
+            { id: 2, text: "30-Day Tourist Visa: Popular for most tourists; can be extended once" },
+            { id: 3, text: "60-Day Tourist Visa: For extended stay, visiting family, or multiple sightseeing activities" },
+            { id: 4, text: "Multiple Entry Visa: Suitable for business travelers or people visiting nearby Gulf countries" }
+        ]
+    },
+    {
+        id: 8,
+        heading: "Processing Time for a Dubai Tourist Visa",
+        para: [
+            {
+                id: 1,
+                text: "Dubai tourist visa applications are usually processed quickly, within 3 to 5 working days. Express services are available for urgent cases and may take just 24 to 48 hours. However, delays may occur if documents are incomplete. Globesway Immigration helps ensure everything is ready for smooth and fast approval."
+            }
+        ]
+    },
         {
             id:2, 
             heading: "Benefits of a Dubai Tourist Visa",
