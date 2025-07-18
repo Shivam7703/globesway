@@ -20,7 +20,7 @@ export default function Visadetails({data}: any) {
         {data?.desc?.map((detail: any) => (
   <div key={detail.id} className="space-y-4">
     {detail.heading && (
-      <h2 className="text-black md:text-4xl font-normal text-3xl">
+      <h2 className="text-black md:text-3xl font-normal text-2xl">
         {detail.heading}
       </h2>
     )}
