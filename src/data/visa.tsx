@@ -2443,7 +2443,576 @@ export const visas =[
     ans: "Extensions are rare and allowed only in special cases like medical emergencies. You must apply at the immigration office in the Schengen country you're staying in. Overstaying can result in penalties or a ban on entry.",
   },
     ],
+},
+
+{
+    id: 19,
+    img: about2, // Replace with your actual image reference
+    title: "Canada Express Entry",
+    desc: [
+        {
+            id:1, 
+            heading: "Introduction",
+            para: [
+                {
+                    id: 1,
+                    text: "The Canada Express Entry is a fast-track immigration system used by the Canadian government to manage applications for permanent residence from skilled workers. It includes three major economic immigration programs: the Federal Skilled Worker Program, the Federal Skilled Trades Program, and the Canadian Experience Class. This system ranks candidates based on the Comprehensive Ranking System (CRS) score, which considers age, education, work experience, and language proficiency. Those with the highest scores receive an Invitation to Apply (ITA) for PR. Express Entry is one of the most efficient and transparent pathways for skilled professionals aiming to move to Canada. It ensures quicker processing times, generally between 6 to 12 months, and allows you to live and work anywhere in the country."
+                },
+            ]
+        },
+       {
+    id: 2,
+    heading: "Why Choose Canada Express Entry?",
+    list: [
+        { id: 1, text: "One of the fastest ways to immigrate to Canada." },
+        { id: 2, text: "Transparent process that favors skilled and qualified applicants." },
+        { id: 3, text: "CRS allows applicants to improve scores while in the pool." },
+        { id: 4, text: "Simple and accessible online application system." },
+        { id: 5, text: "Recognizes skills that benefit the Canadian economy." },
+        { id: 6, text: "Offers multiple program categories based on background and work experience." },
+        { id: 7, text: "Successful candidates can settle anywhere in Canada." },
+        { id: 8, text: "Access to Canadian healthcare, education, and job opportunities." }
+    ]
+},
+{
+    id: 3,
+    heading: "Who is Eligible for Canada Express Entry?",
+    para: [
+        {
+            id: 1,
+            text: "Each program under Express Entry has different requirements. Eligibility is based on:"
+        }
+    ],
+    list: [
+        { id: 1, text: "At least one year of work experience in the past 10 years." },
+        { id: 2, text: "Language proficiency through tests like IELTS." },
+        { id: 3, text: "Educational Credential Assessment (ECA) for foreign education." },
+        { id: 4, text: "Age—usually, younger candidates score higher." },
+        { id: 5, text: "A confirmed job offer increases your score." },
+        { id: 6, text: "Additional points for higher education." },
+        { id: 7, text: "Certification for trades is required if applying under a skilled trades category." }
+    ]
+},
+{
+    id: 4,
+    heading: "How to Apply for Canada Express Entry",
+    para: [
+        {
+            id: 1,
+            text: "The process is entirely online. Here’s how it works:"
+        }
+    ],
+    list: [
+        { id: 1, text: "Create a profile with your age, education, work experience, language scores, etc." },
+        { id: 2, text: "You’ll be placed in a pool of candidates if you meet eligibility." },
+        { id: 3, text: "CRS assigns a score out of 1200 based on your profile." },
+        { id: 4, text: "IRCC conducts draws and sends an Invitation to Apply (ITA) to the highest-scoring candidates." },
+        { id: 5, text: "Once invited, submit your complete PR application." },
+        { id: 6, text: "IRCC processes your application—usually within 6 months." },
+        { id: 7, text: "Submit biometrics and medical tests as part of the process." }
+    ]
+},
+{
+    id: 5,
+    heading: "Application Process: Step-by-Step",
+    list: [
+        { id: 1, text: "Confirm eligibility under one of the three programs: Federal Skilled Worker, Federal Skilled Trades, or Canadian Experience Class." },
+        { id: 2, text: "Collect all supporting documents like language test results, work letters, and academic records." },
+        { id: 3, text: "Register on the IRCC portal and complete your Express Entry profile." },
+        { id: 4, text: "Wait for CRS to calculate your score." },
+        { id: 5, text: "Enter the Express Entry pool." },
+        { id: 6, text: "Monitor the draws from IRCC." },
+        { id: 7, text: "If selected, receive your ITA and complete the PR application with accurate documentation." },
+        { id: 8, text: "Complete biometrics and medicals." }
+    ]
+},
+{
+    id: 6,
+    heading: "Understanding the Comprehensive Ranking System (CRS)",
+    para: [
+        {
+            id: 1,
+            text: "CRS is the core system used to rank Express Entry candidates. Scores are based on:"
+        }
+    ],
+    list: [
+        { id: 1, text: "Education" },
+        { id: 2, text: "Language proficiency (IELTS, CELPIP, etc.)" },
+        { id: 3, text: "Age" },
+        { id: 4, text: "Work experience" },
+        { id: 5, text: "Canadian degrees (if applicable)" },
+        { id: 6, text: "Confirmed job offer" },
+        { id: 7, text: "Provincial nomination" },
+        { id: 8, text: "Family in Canada" },
+        { id: 9, text: "For example: A job offer in a high-ranking managerial role gives 200 points." },
+        { id: 10, text: "Other job offers give 50 points." },
+        { id: 11, text: "A provincial nomination gives 600 points." }
+    ]
+},
+{
+    id: 7,
+    heading: "How to Improve Your CRS Score",
+    list: [
+        { id: 1, text: "Retake your IELTS or other language tests to get a higher score." },
+        { id: 2, text: "Gain more work experience." },
+        { id: 3, text: "Pursue higher education qualifications." },
+        { id: 4, text: "Secure a valid Canadian job offer." },
+        { id: 5, text: "Apply for a Provincial Nominee Program (PNP)." },
+        { id: 6, text: "Ensure your profile is complete and up-to-date." },
+        { id: 7, text: "Add additional credentials like trade certifications." },
+        { id: 8, text: "If you have Canadian work/study experience, update your profile accordingly." }
+    ]
+},
+{
+    id: 8,
+    heading: "What is the CRS Calculator?",
+    para: [
+        {
+            id: 1,
+            text: "The CRS calculator helps applicants estimate their score before applying. You input your details, and it shows you an estimated CRS score based on the factors mentioned."
+        }
+    ],
+    list: [
+        { id: 1, text: "Provides a clear understanding of your current rank." },
+        { id: 2, text: "Helps you identify areas to improve." },
+        { id: 3, text: "Compare scores with previous IRCC draw cutoffs." },
+        { id: 4, text: "Easily accessible online on government and immigration websites." }
+    ]
+},
+{
+    id: 9,
+    heading: "Required Documents for Express Entry",
+    para: [
+        {
+            id: 1,
+            text: "While you don’t need to upload all documents when you create your profile, you will need them once you get invited. Key documents include:"
+        }
+    ],
+    list: [
+        { id: 1, text: "Proof of work experience (letters from employers)." },
+        { id: 2, text: "Language test results (IELTS, CELPIP, PTE Core)." },
+        { id: 3, text: "Travel documents (valid passport)." },
+        { id: 4, text: "Educational documents and ECA report." },
+        { id: 5, text: "Proof of Canadian education (if applicable)." },
+        { id: 6, text: "Provincial nomination (if received)." },
+        { id: 7, text: "Job offer letter from a Canadian employer (if any)." },
+        { id: 8, text: "Police clearance and medical test reports." },
+        { id: 9, text: "Proof of funds (bank statements)." }
+    ]
+},
+{
+    id: 10,
+    heading: "Why Choose GlobesWay Immigration for Canada Express Entry?",
+    para: [
+        {
+            id: 1,
+            text: "GlobesWay Immigration offers expert support for navigating the Canada Express Entry system, making your dream of settling in Canada easier and more achievable."
+        },
+        {
+            id: 2,
+            text: "We carefully evaluate your profile to ensure you meet the eligibility criteria."
+        },
+        {
+            id: 3,
+            text: "Our skilled professionals handle documentation and application steps with precision and care."
+        },
+        {
+            id: 4,
+            text: "We offer personalized guidance based on your career goals and immigration category."
+        },
+        {
+            id: 5,
+            text: "Our team stays updated with the latest Express Entry rules to avoid delays and errors."
+        },
+        {
+            id: 6,
+            text: "With us, you move forward confidently, towards a brighter future in Canada."
+        }
+    ]
+},
+{
+    id: 11,
+    heading: "Benefits of Canada Express Entry",
+    list: [
+        { id: 1, text: "Faster Processing Time (Usually 6-12 months)." },
+        { id: 2, text: "Open to Skilled Workers Across the World." },
+        { id: 3, text: "No Job Offer Needed to Apply." },
+        { id: 4, text: "Pathway to Canadian Citizenship." },
+        { id: 5, text: "CRS Score Improves With Job Offer or Provincial Nomination." }
+    ]
 }
 
+    ],
+   questions: [
+  {
+    id: 1,
+    que: "Who is eligible to apply under Express Entry?",
+    ans: "You must meet the criteria for one of the three programs under Express Entry. You need good language scores (IELTS), relevant skilled work experience, and educational qualifications. Your profile will be ranked using the CRS system. High-ranking profiles receive invitations to apply.",
+  },
+  {
+    id: 2,
+    que: "Do I need a job offer for Express Entry?",
+    ans: "No, a job offer is not mandatory, but it can significantly increase your CRS score. Additional points can be gained if you have a valid job offer from a Canadian employer. It enhances your chances of receiving an ITA quickly.",
+  },
+  {
+    id: 3,
+    que: "How does the CRS score work?",
+    ans: "The CRS (Comprehensive Ranking System) awards points based on age, education, work experience, and language ability. A score out of 1200 is given. Candidates with top scores are invited in regular Express Entry draws.",
+  },
+  {
+    id: 4,
+    que: "Can I include my family in the Express Entry application?",
+    ans: "Yes, you can include your spouse or common-law partner and dependent children. They will get the same rights as you if your PR is approved. Your spouse's qualifications can also help improve your CRS score.",
+  },
+],
+
+},
+
+{
+    id: 20,
+    img: about2, // Replace with your actual image reference
+    title: "Canada Family Sponsorship ",
+    desc: [
+        {
+            id:1, 
+            heading: "Introduction",
+            para: [
+                {
+                    id: 1,
+                    text: "Canada’s Family Sponsorship Program allows Canadian citizens or permanent residents to sponsor their close family members for permanent residence. This includes spouses, common-law partners, dependent children, parents, and grandparents. The goal is to reunite families and provide them the opportunity to live together in Canada permanently. Family sponsorship is a heartfelt program and an essential part of Canada’s immigration policy. It strengthens family bonds while offering newcomers a safe and welcoming environment."
+                },
+            ]
+        },
+ {
+    id: 2,
+    heading: "How to Apply for the Canada Family Sponsorship Program",
+    para: [
+        {
+            id: 1,
+            text: "The application process for Canada’s Family Sponsorship Program is done online and can be completed by the applicant without needing a lawyer. However, it’s important to first research thoroughly and get all required documents ready."
+        }
+    ],
+    list: [
+        { id: 1, text: "Check if you and your family member meet all eligibility requirements." },
+        { id: 2, text: "Ensure your family member is qualified to be sponsored." },
+        { id: 3, text: "Collect necessary documents like identity proof, relationship proof, medical certificates, and police clearance." },
+        { id: 4, text: "You may also need a marriage certificate or adoption papers, depending on who you’re sponsoring." },
+        { id: 5, text: "Provide financial documents like proof of income and tax returns." },
+        { id: 6, text: "Once documents are ready, fill out the online application form carefully." },
+        { id: 7, text: "After applying, be ready to submit biometrics and photos if required." }
+    ]
+},
+{
+    id: 3,
+    heading: "Why Choose the Canada Family Sponsorship Program?",
+    para: [
+        {
+            id: 1,
+            text: "This program allows you to reunite with your loved ones in Canada and offers many long-term benefits."
+        }
+    ],
+    list: [
+        { id: 1, text: "Sponsored family members get permanent residency." },
+        { id: 2, text: "They can live, work, and study in Canada without restrictions." },
+        { id: 3, text: "They receive free public healthcare and education (up to age 18)." },
+        { id: 4, text: "No need for a points-based system like Express Entry." },
+        { id: 5, text: "Sponsored parents can apply for Canadian citizenship after two years." }
+    ]
+},
+{
+    id: 4,
+    heading: "Eligibility Criteria for Sponsorship",
+    para: [
+        {
+            id: 1,
+            text: "Eligibility depends on the type of family member you want to sponsor. Here are the general rules:"
+        }
+    ],
+    list: [
+        { id: 1, text: "You must be at least 18 years old." },
+        { id: 2, text: "You must be a Canadian citizen or a permanent resident." },
+        { id: 3, text: "You must be financially able to support your family member." },
+        { id: 4, text: "If sponsoring a spouse, the relationship must be legal and at least one year old." },
+        { id: 5, text: "For sponsoring children: They must be under 22 and unmarried. You must support them financially until age 22 or for 10 years. The child must be biologically related or legally adopted." }
+    ]
+},
+{
+    id: 5,
+    heading: "Required Documents for Family Sponsorship",
+    para: [
+        {
+            id: 1,
+            text: "You’ll need to submit accurate and up-to-date documents. These may vary depending on who you’re sponsoring:"
+        }
+    ],
+    list: [
+        { id: 1, text: "Proof of your permanent residency or citizenship in Canada." },
+        { id: 2, text: "Proof of identity (passport, national ID)." },
+        { id: 3, text: "Documents proving your relationship (marriage certificate, birth certificate, adoption papers)." },
+        { id: 4, text: "Medical test reports and police certificates." },
+        { id: 5, text: "Proof of income or employment." },
+        { id: 6, text: "Passport-size photos of both the sponsor and the dependent." },
+        { id: 7, text: "Proof of funds to show you can support the family member." }
+    ]
+},
+{
+    id: 6,
+    heading: "What is a sponsorship agreement?",
+    para: [
+        {
+            id: 1,
+            text: "A sponsorship agreement is a legal contract between you (the sponsor) and the Canadian government. It proves that you’ll take care of your family member so they don’t need government financial help."
+        }
+    ],
+    list: [
+        { id: 1, text: "You’ll be responsible for the basic needs of your family member (food, housing, healthcare, etc.)." },
+        { id: 2, text: "You must support your family member until they become a permanent resident." },
+        { id: 3, text: "Duration of support: Spouse/partner: 3 years, Parents/grandparents: 20 years, Children: Until age 22 or 10 years." },
+        { id: 4, text: "These terms are legally monitored by the government." }
+    ]
+},
+{
+    id: 7,
+    heading: "Who Can Be Sponsored?",
+    list: [
+        { id: 1, text: "Spouse or common-law partner" },
+        { id: 2, text: "Parents and grandparents" },
+        { id: 3, text: "Dependent children (biological or adopted, under 22 and unmarried)" },
+        { id: 4, text: "Orphaned siblings, nieces, nephews, or grandchildren (with age and marital restrictions)" }
+    ]
+},
+{
+    id: 8,
+    heading: "Benefits of Family Sponsorship",
+    list: [
+        { id: 1, text: "Reunite With Close Family Members" },
+        { id: 2, text: "Allows sponsored members to live, work, & study." },
+        { id: 3, text: "Access to Public Healthcare & Education" },
+        { id: 4, text: "Pathway to Canadian Citizenship" }
+    ]
+},
+{
+    id: 9,
+    heading: "Why Choose GlobesWay Immigration for Family Sponsorship?",
+    para: [
+        {
+            id: 1,
+            text: "GlobesWay Immigration is committed to helping families reunite through smooth and successful Canada Family Sponsorship applications."
+        },
+        {
+            id: 2,
+            text: "We assess your eligibility accurately and explain every step clearly."
+        },
+        {
+            id: 3,
+            text: "Our experienced team handles all paperwork with care and precision."
+        },
+        {
+            id: 4,
+            text: "We provide one-on-one guidance tailored to your specific family needs."
+        },
+        {
+            id: 5,
+            text: "We manage the legal process efficiently, reducing stress and delays."
+        },
+        {
+            id: 6,
+            text: "Our goal is to bring your loved ones closer, faster, and with full support."
+        }
+    ]
+}
+    ],
+  questions: [
+  {
+    id: 1,
+    que: "Who can I sponsor under this program?",
+    ans: "You can sponsor your spouse, common-law partner, dependent children, parents, and grandparents. In some cases, you may also be eligible to sponsor other relatives. You must prove your relationship and meet income requirements.",
+  },
+  {
+    id: 2,
+    que: "Do I need to be financially stable to sponsor someone?",
+    ans: "Yes, you need to show that you can support your sponsored family member financially. There is a minimum income threshold for certain types of sponsorships, like parents and grandparents.",
+  },
+  {
+    id: 3,
+    que: "Can sponsored persons work in Canada?",
+    ans: "Yes, once they receive permanent residency, they can work, live, and study in Canada. Spouses may also be eligible for open work permits while their PR is in process.",
+  },
+  {
+    id: 4,
+    que: "How long does the sponsorship process take?",
+    ans: "Processing times vary by category. For spouses and children, it usually takes 12 months. For parents and grandparents, it may take longer due to high demand and quotas.",
+  },
+],
+},
+
+{
+    id: 21,
+    img: about2, // Replace with your actual image reference
+    title: "Atlantic Immigration Pilot",
+    desc: [
+        {
+            id:1, 
+            heading: "Introduction",
+            para: [
+                {
+                    id: 1,
+                    text: "The Atlantic Immigration Pilot (AIP) is a pathway for skilled workers and international graduates to settle in one of Canada’s four Atlantic provinces—Nova Scotia, New Brunswick, Prince Edward Island, and Newfoundland and Labrador. AIP is employer-driven, meaning you need a valid job offer from a designated employer in the Atlantic region. This program was designed to address labor shortages in the Atlantic provinces and is known for its faster processing and minimal paperwork. It's ideal for those who wish to live and grow in smaller, coastal Canadian communities."
+                },
+            ]
+        },
+{
+    id: 2,
+    heading: "What Are the Programs Under Atlantic Immigration Pilot (AIP)?",
+    para: [
+        {
+            id: 1,
+            text: "The AIP has three different programs designed to help employers in Atlantic Canada hire foreign workers and international graduates. Each program is made to suit different job types and skill levels."
+        }
+    ]
+},
+{
+    id: 3,
+    heading: "Atlantic High-Skilled Program",
+    list: [
+        { id: 1, text: "This program is for people who have experience in skilled or technical jobs." },
+        { id: 2, text: "You need at least 1 year of work experience." },
+        { id: 3, text: "A full-time job offer (30+ hours/week) from an employer in Atlantic Canada is required." },
+        { id: 4, text: "The job contract must last at least 1 year." },
+        { id: 5, text: "You need good scores on English or French language tests." },
+        { id: 6, text: "You should have a diploma or degree (Canadian or equivalent)." },
+        { id: 7, text: "You must show proof of funds." }
+    ]
+},
+{
+    id: 4,
+    heading: "Atlantic Intermediate-Skilled Program",
+    list: [
+        { id: 1, text: "This is for people who work in jobs that require some training but not a university degree." },
+        { id: 2, text: "You need a full-time, permanent job offer from Atlantic Canada." },
+        { id: 3, text: "A high school diploma and job training or a certificate is needed." },
+        { id: 4, text: "One year of work experience is required." },
+        { id: 5, text: "You must score at least CLB 4 in language tests." },
+        { id: 6, text: "Proof of funds is necessary." }
+    ]
+},
+{
+    id: 5,
+    heading: "Atlantic International Graduate Program",
+    list: [
+        { id: 1, text: "This program is for international students who studied in the Atlantic provinces." },
+        { id: 2, text: "You must have a full-time job offer from an Atlantic employer." },
+        { id: 3, text: "You must have studied in the province for at least 2 years." },
+        { id: 4, text: "You must have a diploma from a public school in the Atlantic region." },
+        { id: 5, text: "A valid study or work permit is required." },
+        { id: 6, text: "You don’t need any work experience." },
+        { id: 7, text: "You must pass a language test (English or French)." }
+    ]
+},
+{
+    id: 6,
+    heading: "What Are the Eligibility Criteria for AIP?",
+    para: [
+        {
+            id: 1,
+            text: "Eligibility depends on the program you choose. In general, you must:"
+        }
+    ],
+    list: [
+        { id: 1, text: "Have at least 1 year of full-time paid work experience in the last 5 years." },
+        { id: 2, text: "For high-level jobs (TEER 0 & 1), have a post-secondary education." },
+        { id: 3, text: "For TEER 2 & 3 jobs, a high school diploma is enough." },
+        { id: 4, text: "Language test scores: CLB 5 or above for TEER 0–3 jobs; CLB 4 for TEER 4 jobs." },
+        { id: 5, text: "You must take a language test like IELTS General or CELPIP-General." },
+        { id: 6, text: "You must have enough money to support yourself and your family." }
+    ]
+},
+{
+    id: 7,
+    heading: "How to Apply for the Atlantic Immigration Pilot?",
+    para: [
+        {
+            id: 1,
+            text: "The AIP application process is online and takes about 6 months. Here's how it works:"
+        }
+    ],
+    list: [
+        { id: 1, text: "First, you must get a valid job offer from an approved employer in Atlantic Canada." },
+        { id: 2, text: "The employer connects you to a settlement agency to help with your move." },
+        { id: 3, text: "You apply for a provincial endorsement with help from the employer and agency." },
+        { id: 4, text: "Once you get the endorsement certificate, apply for permanent residency (PR) through IRCC." },
+        { id: 5, text: "Submit your documents and pay the application fee." },
+        { id: 6, text: "If approved, you and your family can move to Atlantic Canada." }
+    ]
+},
+{
+    id: 8,
+    heading: "What Documents Are Needed for AIP?",
+    list: [
+        { id: 1, text: "Valid passport or ID." },
+        { id: 2, text: "Language test results (IELTS or CELPIP)." },
+        { id: 3, text: "Education certificates or diplomas." },
+        { id: 4, text: "Proof of work experience." },
+        { id: 5, text: "Job offer letter from an approved employer." },
+        { id: 6, text: "Endorsement certificate from the province." },
+        { id: 7, text: "Medical exam results and police clearance." },
+        { id: 8, text: "Proof of settlement funds." },
+        { id: 9, text: "If applying with family, provide documents showing your relationship (like marriage or birth certificates)." }
+    ]
+},
+{
+    id: 9,
+    heading: "Why Trust GlobesWay Immigration for Atlantic Immigration Pilot (AIP)?",
+    para: [
+        {
+            id: 1,
+            text: "The Atlantic Immigration Pilot (AIP) offers a great opportunity for skilled workers and international graduates to become permanent residents of Atlantic Canada. At GlobesWay Immigration, we make your AIP journey easier and more successful."
+        },
+        {
+            id: 2,
+            text: "Our experienced team knows the exact requirements of the AIP and provides one-on-one guidance to match your profile with the needs of employers in Atlantic provinces. From checking your eligibility and arranging a valid job offer to helping with settlement plans, we take care of everything."
+        },
+        {
+            id: 3,
+            text: "With a strong focus on accuracy, legal compliance, and timely submission, GlobesWay Immigration ensures your application process is smooth and stress-free, so you can start your new life in Atlantic Canada with confidence."
+        }
+    ]
+},
+{
+    id: 10,
+    heading: "Benefits of the Atlantic Immigration Pilot",
+    list: [
+        { id: 1, text: "Fast Processing Times (6 months approx.)." },
+        { id: 2, text: "No Labour Market Impact Assessment (LMIA) Required." },
+        { id: 3, text: "Pathway to PR for International Graduates." },
+        { id: 4, text: "Employer Support for Settlement." },
+        { id: 5, text: "Family Can Join You in Canada." }
+    ]
+}
+
+    ],
+ questions: [
+  {
+    id: 1,
+    que: "Who is eligible for the AIP?",
+    ans: "You must have a job offer from a designated employer in the Atlantic region. You should also meet language, education, and work experience requirements. International graduates from Atlantic institutions may qualify without work experience.",
+  },
+  {
+    id: 2,
+    que: "Is AIP better than Express Entry?",
+    ans: "It depends on your profile. AIP is good for those with job offers and lower CRS scores. It offers employer support and quicker settlement in smaller communities.",
+  },
+  {
+    id: 3,
+    que: "Do I need a Labour Market Impact Assessment (LMIA)?",
+    ans: "No, one of the biggest benefits of AIP is that an LMIA is not required. Employers must be designated under the program.",
+  },
+  {
+    id: 4,
+    que: "Can my family come with me under AIP?",
+    ans: "Yes, you can include your spouse and children in your AIP application. They can also work or study once they are in Canada.",
+  },
+],
+},
 
 ]
