@@ -83,48 +83,48 @@ export const navigationMenu = {
         {
           id: 1,
           label: "Canada",
-          href: "/migrate/canada",
+          href: "#",
           subNav: [
             {
               id: 1,
               label: "Canada Permanent Residency Visa",
-              href: "/canada/permanent-residency",
+              href: "/visa/Canada PR Visa",
             },
             {
               id: 2,
               label: "Canada Express Entry",
-              href: "/canada/express-entry",
+              href: "/visa/Canada Express Entry",
             },
             {
               id: 3,
               label: "Canada Family Sponsorship",
-              href: "/canada/family-sponsorship",
+              href: "/visa/Canada Family Sponsorship",
             },
             {
               id: 4,
               label: "Atlantic Immigration Pilot",
-              href: "/canada/atlantic-pilot",
+              href: "/visa/Atlantic Immigration Pilot",
             },
-            { id: 5, label: "Caregivers", href: "/canada/caregivers" },
+            { id: 5, label: "Caregivers", href: "/visa/Caregivers" },
             {
               id: 6,
               label: "Canada Agri-Food Pilot",
-              href: "/canada/agri-food-pilot",
+              href: "/visa/Canada Agri-Food Pilot",
             },
             {
               id: 7,
               label: "Canada Refugees & Asylum",
-              href: "/canada/refugees-asylum",
+              href: "/visa/refugees-asylum",
             },
             {
               id: 8,
               label: "Canada Work Permit Visa",
-              href: "/canada/work-permit",
+              href: "/visa/work-permit",
             },
             {
               id: 9,
               label: "Canada Tourist Visa",
-              href: "/canada/tourist-visa",
+              href: "/visa/tourist-visa",
             },
           ],
         },
