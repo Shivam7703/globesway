@@ -22,7 +22,7 @@ function Queans({ faqData, title1, title2 }:any) {
                     onClick={() => toggleCity(city.id)}
                     className="flex justify-between items-center cursor-pointer text-base md:text-lg text-zinc-800  font-bold"
                   >
-                  <p> <span className='text-color1'>0{city.id} {" "}</span> {" "}{city.que}</p>
+                  <p> <span className='text-color1'>0{city.id}. {" "}</span> {" "}{city.que}</p>
 
                     <FaChevronDown className={`min-w-9 duration-300 ${expandedCity === city.id ?  "rotate-180 text-color1" :"text-zinc-700"}`} />
                    
