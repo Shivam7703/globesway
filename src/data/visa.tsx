@@ -5212,4 +5212,3530 @@ export const visas = [
       },
     ],
   },
+
+  {
+    id: 22,
+    img: about2, // Replace with your actual image reference
+    title: "Canada Refugees & Asylum",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "Canada offers protection to people who are fleeing persecution, war, or violence. The Refugee and Asylum program allows individuals to apply from within Canada or through resettlement from outside. Refugees must meet the definition as outlined by Canadian immigration law or the UNHCR. This program reflects Canada’s commitment to humanitarian values, ensuring a haven for those in urgent need of protection.",
+          },
+        ],
+      },
+      
+  {
+    id: 2,
+    heading: "Who Can Apply for Refugee or Asylum in Canada?",
+    para: [
+      {
+        id: 1,
+        text:
+          "To apply for asylum in Canada, you must show that you have a real reason to fear going back to your home country. This fear could be because of threats to your life, safety, or freedom. Canada’s Immigration and Refugee Board (IRB) will review your case to decide if you qualify.",
+      },
+      {
+        id: 2,
+        text:
+          "You cannot apply if—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Another country has already accepted you as a refugee." },
+      { id: 2, text: "You entered Canada through the U.S. border (in most cases)." },
+      { id: 3, text: "You withdrew your previous refugee claim." },
+      { id: 4, text: "Your earlier claim was refused." },
+      { id: 5, text: "You already applied for asylum in another country." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "The IRB decides whether you qualify as a convention refugee or someone who needs protection. A Convention Refugee must show fear of going back due to issues like race, religion, nationality, political views, or being part of a targeted group.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Steps to Apply for Refugee or Asylum in Canada",
+    para: [
+      {
+        id: 1,
+        text:
+          "There are two ways to apply for asylum in Canada—",
+      },
+    ],
+    list: [
+      {
+        id: 1,
+        text:
+          "At the border—You can tell the immigration officer at a Canadian border that you want to apply for asylum. If allowed, you’ll go through a short interview and medical checks.",
+      },
+      {
+        id: 2,
+        text:
+          "From inside Canada—You can apply online or in person if you’re already in the country.",
+      },
+    ],
+  },
+  {
+    id: 5,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "Once your application is accepted—",
+      },
+    ],
+    list: [
+      { id: 1, text: "You will receive a letter acknowledging your claim." },
+      { id: 2, text: "You’ll get an interview date." },
+      {
+        id: 3,
+        text:
+          "You must attend the interview, where your documents, fingerprints, and photo will be taken.",
+      },
+      {
+        id: 4,
+        text:
+          "If your claim is accepted, you can live and work in Canada and later apply for permanent residency.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Important Papers Needed for Refugee or Asylum Application",
+    para: [
+      {
+        id: 1,
+        text:
+          "The documents you need may change depending on your country and situation. It’s best to speak with an immigration lawyer to make sure everything is correct. Here are some common documents—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Proof of identity, like a passport or birth certificate." },
+      { id: 2, text: "Medical records." },
+      { id: 3, text: "Travel history, including tickets and visas." },
+      {
+        id: 4,
+        text:
+          "Statements from friends or family supporting your reason for leaving.",
+      },
+      { id: 5, text: "Any proof of threats or harm from your home country" },
+      { id: 6, text: "Proof you can support yourself financially in Canada." },
+    ],
+  },
+  {
+    id: 7,
+    heading: "What Makes GlobesWay Immigration the Right Choice?",
+    para: [
+      {
+        id: 1,
+        text:
+          "At GlobesWay Immigration, we believe that every immigration journey deserves personalized attention and expert handling. With deep knowledge of global visa processes and years of hands-on experience, our team guides you through every step—from selecting the right program to preparing flawless documentation. Whether you're applying for a work visa, study permit, PR, or family sponsorship, we focus on accuracy, compliance, and timely filing to maximize your chances of approval.",
+      },
+      {
+        id: 2,
+        text:
+          "Our approach is client-first, meaning your goals and comfort are always our top priority. We offer transparent communication, dedicated case managers, and tailored guidance that fits your unique background. With thousands of successful applications behind us, GlobesWay Immigration is trusted by individuals and families across the globe to turn their dreams of settling abroad into a reality—smoothly and stress-free.",
+      },
+    ],
+  },
+  {
+    id: 8,
+    heading: "Benefits of the Canada Refugee & Asylum Program",
+    list: [
+      { id: 1, text: "Safe Shelter for Persecuted Individuals" },
+      { id: 2, text: "Access to Housing, Education & Healthcare" },
+      { id: 3, text: "Pathway to Permanent Residency & Citizenship" },
+      { id: 4, text: "Family Reunification Options" },
+      { id: 5, text: "Legal Support and Social Services" },
+    ],
+  },
+  
+    ],
+    questions: [ {
+    id: 1,
+    que: "Who can apply for asylum in Canada?",
+    ans: "Anyone who fears persecution in their home country due to race, religion, political opinion, or social group can apply for asylum. Applications can be made at the border or from inside Canada.",
+  },
+  {
+    id: 2,
+    que: "What happens after I apply for asylum?",
+    ans: "You will undergo a hearing with the Immigration and Refugee Board (IRB). If your claim is accepted, you receive protected person status and can apply for PR later.",
+  },
+  {
+    id: 3,
+    que: "Can I work or study while waiting for a decision?",
+    ans: "Yes, you can apply for a work or study permit while your refugee claim is being processed. This helps you support yourself while in Canada.",
+  },
+  {
+    id: 4,
+    que: "Can my family join me in Canada?",
+    ans: "Yes, if your claim is accepted, you can sponsor your spouse and children to come live with you under the family reunification policy.",
+  },],
+  },
+
+   {
+    id: 23,
+    img: about2, // Replace with your actual image reference
+    title: "Manitoba PNP",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "The Manitoba Provincial Nominee Program (MPNP) was the first of its kind in Canada, launched back in 1998. Manitoba, located in the heart of Canada, is home to over 100,000 lakes and shares borders with U.S. states like Minnesota and North Dakota, as well as Canadian provinces like Saskatchewan and Ontario. This program was created to help address the province's labor market needs while boosting the local economy.",
+          },
+          
+        ],
+      },
+  {
+    id: 2,
+    heading: "",
+    para: [
+        {
+            id: 1,
+            text: "One of the most attractive features of the Manitoba PNP is its speed and accessibility—especially for applicants with close family ties in the province. Having a relative in Manitoba can significantly increase your chances of getting selected for permanent residency. Over the years, this program has played a big role in driving the province’s economic growth."
+        }
+    ],
+    list: [
+        { id: 1, text: "Faster path to Canadian permanent residency" },
+        { id: 2, text: "Great option for those with relatives in Manitoba" },
+        { id: 3, text: "Often comes with job offers and settlement support" },
+        { id: 4, text: "Boosts both Manitoba’s economy and your future" },
+        { id: 5, text: "Offers community benefits like free schooling and healthcare" }
+    ]
+},
+{
+    id: 3,
+    heading: "What Immigration Streams Are Available in the Manitoba PNP?",
+    para: [
+        {
+            id: 1,
+            text: "Manitoba PNP has multiple pathways designed to meet various skill sets and goals. Each stream targets specific types of applicants, so it’s important to choose the right one based on your background."
+        }
+    ],
+    list: [
+        { id: 1, text: "Skilled Worker Stream Focused on meeting labor shortages in the province. Skilled Worker in Manitoba (SWM)—For individuals already working in the province. Skilled Worker Overseas (SWO)—For skilled workers living outside Canada who have connections to Manitoba." },
+        { id: 2, text: "International Education Stream Created for recent graduates from Manitoba institutions. Career Employment Pathway—For graduates with a full-time job offer in Manitoba. Graduate Internship Pathway—For those who completed internships in Manitoba after graduation. International Student Entrepreneur Pilot (ISEP)—For graduates who want to launch a business in the province." },
+        { id: 3, text: "Business Investor Stream Targeted at entrepreneurs and business-minded individuals. Entrepreneur Pathway (EP)—For those looking to start a business in Manitoba. Farm Investor Pathway (FIP)—For individuals planning to invest in or run a farm in the province." }
+    ]
+},
+{
+    id: 4,
+    heading: "How Do You Apply for the Manitoba PNP?",
+    para: [
+        {
+            id: 1,
+            text: "Each stream under the Manitoba PNP has a slightly different application process. Here's a simplified overview—"
+        }
+    ],
+    list: [
+        { id: 1, text: "For Skilled Worker and International Education Streams— Create and submit an Expression of Interest (EOI) profile. Receive a Letter of Advice to Apply (LAA). Submit your complete application to MPNP. If selected, you’ll get a provincial nomination. Apply for permanent residence to IRCC using that nomination." },
+        { id: 2, text: "For the International Student Entrepreneur Pilot (ISEP)— Ensure you meet the eligibility criteria. Research business opportunities in Manitoba. Submit your business concept and receive LAA. Apply to MPNP and wait for the review. If approved, you’ll receive a nomination." },
+        { id: 3, text: "For the Farm Investor Pathway (FIP)— Check your eligibility. Submit the Farm Business Concept form and related documents. If invited, follow the instructions in the LAA and submit your application within 120 days. If approved, receive a nomination and then apply to IRCC for permanent residency." },
+        { id: 4, text: "For the Entrepreneur Pathway (EP)— Meet all criteria and submit an EOI. Get an LAA, complete forms, and submit them to MPNP. If approved, sign a Business Performance Agreement (BPA). Move to Manitoba and start your business. Submit a progress report—once approved, you’ll get a nomination." }
+    ]
+},
+{
+    id: 5,
+    heading: "What Are the Eligibility Requirements?",
+    para: [
+        {
+            id: 1,
+            text: "Eligibility depends on the stream, but some general criteria apply across most of the program—"
+        }
+    ],
+    list: [
+        { id: 1, text: "Relevant work experience in your field" },
+        { id: 2, text: "Educational background matching the chosen stream" },
+        { id: 3, text: "For education stream—a degree from a Manitoba institution" },
+        { id: 4, text: "Enough funds to support yourself and any dependents" },
+        { id: 5, text: "Clear business or settlement plans for the region (if applicable)" },
+        { id: 6, text: "Language proficiency in English or French" },
+        { id: 7, text: "Good adaptability and intent to settle in Manitoba" },
+        { id: 8, text: "Having family in Manitoba increases your selection chances" }
+    ]
+},
+{
+    id: 6,
+    heading: "What Documents Do You Need for the Manitoba PNP?",
+    para: [
+        {
+            id: 1,
+            text: "Documents are crucial to the success of your application. You’ll need to collect and organize all necessary information before applying. Some of the commonly required documents include"
+        }
+    ],
+     list: [
+        { id: 1, text: "Valid passport and ID proof" },
+        { id: 2, text: "Educational transcripts and certificates" },
+        { id: 3, text: "Language test scores (IELTS/CELPIP)" },
+        { id: 4, text: "Proof of work experience (with offer letters or references)" },
+        { id: 5, text: "Police clearance certificate" },
+        { id: 6, text: "Medical examination results" },
+        { id: 7, text: "Proof of funds" },
+        { id: 8, text: "Business plans or farm proposals (if applicable)" },
+        { id: 9, text: "Marriage certificate (if applying with a spouse)" },
+        { id: 10, text: "Proof of relationship with family in Manitoba (if any)" }
+    ]
+},
+{
+    id: 7,
+    heading: "Why Globesway Immigration is Your Ideal Partner for Manitoba PNP",
+    para: [
+        {
+            id: 1,
+            text: "Choosing Globesway Immigration for your Manitoba PNP journey means partnering with experts who truly understand the province’s unique immigration pathways. With a proven track record of successful applications and personalized guidance, Globesway simplifies the entire process—from eligibility assessment to document preparation and submission. Their team stays updated on the latest program changes and offers tailored support, ensuring your application meets all criteria. Whether you're applying through the skilled worker stream, business investor stream, or international education stream, Globesway is committed to helping you take confident steps toward settling in Manitoba."
+        }
+    ]
+}
+
+    ],
+    questions: [
+  {
+    id: 1,
+    que: "Who is eligible to apply for the Manitoba PNP?",
+    ans: "Anyone with skills in demand in Manitoba, a connection to the province (like a job offer, family member, or past study/work experience), and the intent to live there permanently can apply. You must also meet basic language and work experience requirements.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to process a Manitoba PNP application?",
+    ans: "Processing time can vary, but typically it takes around 6 to 8 months after submitting a complete application. Additional time may be needed for federal processing after nomination.",
+  },
+  {
+    id: 3,
+    que: "Do I need a job offer to apply for the Manitoba PNP?",
+    ans: "A job offer is not always required. If you have other connections to Manitoba, such as family or past education/work experience in the province, you may still be eligible.",
+  },
+  {
+    id: 4,
+    que: "Can I apply for a Canada work permit visa through Manitoba PNP?",
+    ans: "Yes, once you receive a provincial nomination from Manitoba, you can apply for a Canada work permit visa or permanent residency through the federal process.",
+  },
+],
+  },
+
+
+   {
+    id: 24,
+    img: about2, // Replace with your actual image reference
+    title: "Yukon Nominee Program",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "The Yukon Nominee Program (YNP) is a specialized immigration pathway designed to attract skilled professionals and aspiring entrepreneurs to the Yukon territory. With a population of around 30,000 and a significant labor shortage, Yukon offers a unique opportunity for immigrants to settle in a peaceful and close-knit community. This program not only supports the province's workforce demands but also contributes to its economic growth and cultural diversity. Often overlooked in favor of larger provinces, the YNP offers less competition and a faster, more streamlined application process. Successful applicants and their families enjoy access to the benefits of Canadian permanent residency, including high-quality education, healthcare, and lifestyle.",
+          },
+        ],
+      },
+  {
+    id: 2,
+    heading: "Highlights of the Yukon Nominee Program",
+    list: [
+        { id: 1, text: "Rapid processing timelines for applications." },
+        { id: 2, text: "Priority handling for qualified candidates." },
+        { id: 3, text: "Clean, calm, and welcoming environment." },
+        { id: 4, text: "Low population ensures a peaceful way of life." },
+        { id: 5, text: "Access to excellent public services such as health and education." },
+        { id: 6, text: "Employment opportunities in sectors like tourism and government." },
+        { id: 7, text: "Full access to explore the scenic beauty and diverse landscapes of Canada." }
+    ]
+},
+{
+    id: 3,
+    heading: "Available Immigration Pathways Under YNP",
+    para: [
+        {
+            id: 1,
+            text: "YNP offers several immigration categories that cater to different profiles and professional backgrounds. These streams are structured to address the unique labor market needs of Yukon—"
+        }
+    ],
+    list: [
+        { id: 1, text: "Skilled Worker Stream—For individuals with full-time job offers from Yukon-based employers. Candidates must demonstrate relevant work experience and education." },
+        { id: 2, text: "Critical Impact Worker Stream—Tailored for semi-skilled workers who hold job offers in in-demand occupations within the territory." },
+        { id: 3, text: "Business Nominee Stream—Designed for entrepreneurs looking to invest in or start a business in Yukon. Selected applicants receive a two-year work permit, after which they may apply for permanent residency through IRCC." },
+        { id: 4, text: "Express Entry Aligned Stream—For candidates already in the federal Express Entry pool who secure a valid job offer in Yukon. A nomination from Yukon significantly boosts their Express Entry score." },
+        { id: 5, text: "Yukon Community Pilot (YCP)—A unique initiative targeting applicants who can fill specific labor shortages across multiple employers in smaller Yukon communities." }
+    ]
+},
+{
+    id: 4,
+    heading: "Basic Eligibility Requirements",
+    para: [
+        {
+            id: 1,
+            text: "Each YNP stream has distinct criteria. However, some common conditions across most streams include"
+        }
+    ],
+    list: [
+        { id: 1, text: "A valid job offer in Yukon (job type and hours vary by stream)." },
+        { id: 2, text: "Educational qualifications relevant to the position." },
+        { id: 3, text: "Proof of language proficiency (usually through IELTS or CELPIP)." },
+        { id: 4, text: "Clear intent to live and work in the Yukon territory." },
+        { id: 5, text: "Sufficient financial means to support themselves and their dependents." },
+        { id: 6, text: "A good understanding of the stream-specific requirements is essential." }
+    ]
+},
+{
+    id: 5,
+    heading: "Step-by-Step Application Process",
+    para: [
+        {
+            id: 1,
+            text: "Depending on the selected stream, the application steps differ slightly—"
+        }
+    ],
+    list: [
+        { id: 1, text: "Express Entry Category—Candidates must have an active Express Entry profile and a job offer from a Yukon employer. Once nominated, they can apply for PR through IRCC." },
+        { id: 2, text: "Skilled Worker and Critical Impact Streams—Applicants submit their profiles and, if selected, receive a nomination, which they use to apply for permanent residence." },
+        { id: 3, text: "Yukon Community Pilot—Applicants first secure job offers from multiple employers within the same community. After receiving the nomination, they can apply for a work permit." },
+        { id: 4, text: "Business Nominee Pathway—Entrepreneurs must present a viable business plan and operate a business in Yukon for two years under a work permit. Post this period, they may apply for PR upon meeting all requirements." }
+    ]
+},
+{
+    id: 6,
+    heading: "Required Documentation",
+    list: [
+        { id: 1, text: "Official job offer letter from a Yukon-based employer." },
+        { id: 2, text: "Provincial nomination certificate." },
+        { id: 3, text: "Valid passport and proof of identity." },
+        { id: 4, text: "Educational certificates and professional credentials." },
+        { id: 5, text: "Language proficiency test results." },
+        { id: 6, text: "Proof of financial capacity to settle in Yukon." },
+        { id: 7, text: "Medical examination reports and police clearance certificates." },
+        { id: 8, text: "Evidence of past employment or relevant work experience." }
+    ]
+},
+{
+    id: 7,
+    heading: "Application Processing Timelines",
+    para: [
+        {
+            id: 1,
+            text: "On average, applications under the Yukon Nominee Program are processed within 8 to 10 weeks. Timelines may vary depending on the number of applications received, the accuracy and completeness of the documentation, and the specific stream applied under. Applicants who meet all eligibility requirements and submit thorough documentation may experience quicker processing times. Despite being a smaller province, Yukon provides a smooth and efficient pathway to Canadian permanent residency."
+        }
+    ]
+},
+{
+    id: 8,
+    heading: "Benefits of Choosing Globesway Immigration",
+    para: [
+        {
+            id: 1,
+            text: "Choosing Globesway Immigration means you’re backed by a team that truly understands your dreams and works tirelessly to make them a reality. With years of experience and a deep understanding of Canada work permit visa processes, Globesway provides step-by-step support tailored to your profile. From assessing your eligibility to guiding you through documentation and interviews, their expert team ensures nothing is missed. Clients appreciate the honest advice, transparent process, and commitment to timely results—making Globesway a trusted partner for those seeking to build a new life and career in Canada."
+        }
+    ]
+}
+
+    ],
+questions: [
+  {
+    id: 1,
+    que: "How does the Yukon Nominee Program help foreign workers and entrepreneurs?",
+    ans: "The YNP allows the Yukon government to nominate eligible foreign workers and entrepreneurs for Canadian permanent residency. It’s designed to meet Yukon’s specific labor market and economic needs.",
+  },
+  {
+    id: 2,
+    que: "Do I need a job offer to apply under the Yukon Nominee Program?",
+    ans: "Yes, in most streams, you need a valid, full-time job offer from an eligible Yukon employer. The job must be in demand and meet the requirements set by the province.",
+  },
+  {
+    id: 3,
+    que: "Can I apply for a Canada work permit visa through the Yukon Nominee Program?",
+    ans: "Absolutely. Once nominated by Yukon, you can apply for a Canada work permit visa or permanent residency, depending on your eligibility and the stream under which you applied.",
+  },
+  {
+    id: 4,
+    que: "How long does the Yukon Nominee Program take to process?",
+    ans: "Processing times vary, but the provincial stage usually takes around 12 to 14 weeks. After nomination, the federal process for permanent residency may take several more months.",
+  },
+],
+  },
+
+
+   {
+    id: 25,
+    img: about2, // Replace with your actual image reference
+    title: "Ontario Provincial Nominee Program",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "Ontario is one of Canada's most sought-after provinces for immigrants. With nearly 40% of Canada's population residing in Ontario, it stands as a hub of economic activity, cultural diversity, and natural beauty. The Ontario PNP is specifically designed to address labor market shortages by inviting skilled, educated, and experienced individuals to settle and work in the province. Its popularity among newcomers is fueled by high employment opportunities, thriving cities like Toronto and Ottawa, and a fast-track process to obtain Canadian permanent residency.",
+          },
+          {
+            id: 2,
+            text:
+              "Ontario's Provincial Nominee Program (PNP) offers a structured pathway for skilled workers, international graduates, and entrepreneurs to gain permanent residence in Canada. It is aligned with both federal Express Entry and province-specific streams, helping employers connect with suitable candidates and contributing to the economic growth of the region.",
+          },
+        ],
+      },
+  {
+    id: 2,
+    heading: "Highlights of the Ontario PNP",
+    list: [
+        { id: 1, text: "Home to some of Canada’s largest employers and leading industries." },
+        { id: 2, text: "Hosts world-class universities and institutions, attracting international students." },
+        { id: 3, text: "Provides diverse employment and entrepreneurial opportunities." },
+        { id: 4, text: "Offers a streamlined process for permanent residency applications." },
+        { id: 5, text: "Applicants can benefit from Canadian social services like healthcare and free education." },
+        { id: 6, text: "Designed to meet labor shortages and economic needs in Ontario." },
+        { id: 7, text: "Competitive advantage due to lower application volumes compared to more saturated provinces." }
+    ]
+},
+{
+    id: 3,
+    heading: "Main Streams of the Ontario PNP",
+    para: [
+        {
+            id: 1,
+            text: "To make immigration more targeted and effective, the Ontario PNP is divided into multiple categories. Each stream addresses specific needs of the labor market and economic conditions. The four primary categories are"
+        }
+    ],
+    list: [
+        { id: 1, text: "Human Capital Stream – Intended for skilled professionals who can contribute to Ontario’s labor force. It is further divided into International Graduate Stream (Master’s or PhD from an Ontario institution) and Ontario’s Express Entry-linked Streams (Human Capital Priorities, French-Speaking Skilled Worker, Skilled Trades)." },
+        { id: 2, text: "Employer Job Offer Stream – Designed for foreign workers with valid job offers in Ontario, allowing both the employer and employee to secure permanent residency." },
+        { id: 3, text: "Business Immigration Stream – Suited for entrepreneurs looking to start or buy a business in Ontario. Applicants must show prior business experience, a business plan, and sufficient investment capital." },
+        { id: 4, text: "Ontario Express Entry Stream – For candidates with an Express Entry profile invited by Ontario under specific sub-streams, based on skills, work experience, and labor market demands." }
+    ]
+},
+{
+    id: 4,
+    heading: "Eligibility Criteria for Ontario PNP",
+    para: [
+        {
+            id: 1,
+            text: "Each stream of the Ontario PNP has its own set of eligibility requirements. Candidates must carefully review the criteria before applying—"
+        }
+    ],
+    list: [
+        { id: 1, text: "Educational qualifications must align with the stream (e.g., Bachelor’s degree for Human Capital stream, Master’s/PhD for International Graduates)." },
+        { id: 2, text: "A minimum of one year of relevant work experience is usually required." },
+        { id: 3, text: "Proof of language proficiency (IELTS, CELPIP) is necessary." },
+        { id: 4, text: "A valid job offer from an Ontario employer may be required, depending on the stream." },
+        { id: 5, text: "An active Express Entry profile is mandatory for Express Entry-aligned streams." },
+        { id: 6, text: "Adequate settlement funds must be demonstrated." },
+        { id: 7, text: "The applicant must intend to reside and work in Ontario." }
+    ]
+},
+{
+    id: 5,
+    heading: "Ontario PNP Application Process",
+    para: [
+        {
+            id: 1,
+            text: "The application procedure involves multiple steps. Here’s a simplified version of the process—"
+        }
+    ],
+    list: [
+        { id: 1, text: "Determine Eligibility—Identify the most suitable stream based on your background and goals." },
+        { id: 2, text: "Create Express Entry Profile (if required)—For Express Entry-linked streams, candidates must have a valid Express Entry profile and Job Seeker Code." },
+        { id: 3, text: "Submit Expression of Interest (EOI)—For streams like Employer Job Offer and International Graduate, submit an EOI to be considered." },
+        { id: 4, text: "Receive Invitation to Apply (ITA)—Candidates with competitive scores in the EOI pool may receive an ITA." },
+        { id: 5, text: "Complete Application—Submit a complete application through the OINP e-Filing portal with all supporting documents." },
+        { id: 6, text: "Nomination from Ontario—Successful applicants receive a provincial nomination." },
+        { id: 7, text: "Apply for PR to IRCC—Use your nomination to apply for permanent residency through IRCC." },
+        { id: 8, text: "Approval & Move to Ontario—After IRCC approval, candidates receive PR status and can settle in Ontario." }
+    ]
+},
+{
+    id: 6,
+    heading: "Key Documents Required for Ontario PNP",
+    list: [
+        { id: 1, text: "Completed application forms." },
+        { id: 2, text: "Valid passport and identification documents." },
+        { id: 3, text: "Educational transcripts and degree certificates." },
+        { id: 4, text: "Language proficiency test results (IELTS, CELPIP)." },
+        { id: 5, text: "Job offer letter from an Ontario-based employer (if applicable)." },
+        { id: 6, text: "Work experience letters and reference letters." },
+        { id: 7, text: "Proof of settlement funds." },
+        { id: 8, text: "Police clearance certificate and recent medical examination." },
+        { id: 9, text: "Proof of business ownership or financial documents (for entrepreneurs)." }
+    ]
+},
+{
+    id: 7,
+    heading: "Benefits of choosing Globesway Immigration",
+    para: [
+        {
+            id: 1,
+            text: "Choosing Globesway Immigration means choosing peace of mind throughout your immigration journey. With a deep understanding of Canada’s immigration programs, including the Canada work permit visa, our team offers expert advice tailored to your profile. We focus on transparency, timely updates, and personal attention to every case, making sure you never feel lost or confused. From handling documentation to preparing for interviews, Globesway simplifies every step and ensures you are always a step ahead."
+        }
+    ]
+}
+
+    ],
+questions: [
+  {
+    id: 1,
+    que: "Can I apply to Ontario PNP without a job offer?",
+    ans: "Yes, Ontario offers several streams under the OINP that do not require a job offer, such as the Human Capital Priorities Stream. These are mainly based on your education, work experience, and language skills. Having a strong CRS score can boost your chances. It’s ideal for skilled workers already in the Express Entry pool.",
+  },
+  {
+    id: 2,
+    que: "How does Ontario select candidates through the Express Entry system?",
+    ans: "Ontario reviews profiles in the Express Entry pool and sends notifications of interest to those who meet provincial criteria. Candidates are selected based on factors like work experience, language ability, and adaptability. If you’re invited, you can apply for a provincial nomination. Getting nominated gives you 600 extra CRS points.",
+  },
+  {
+    id: 3,
+    que: "Will studying in Ontario improve my chances of nomination?",
+    ans: "Yes, completing studies in Ontario can make you eligible under streams like the International Student or Master's Graduate Stream. It shows strong ties to the province and may make your application more competitive. Some streams are tailored for graduates from Ontario institutions. You may not need a job offer for these.",
+  },
+  {
+    id: 4,
+    que: "How long does it take to process an Ontario PNP application?",
+    ans: "Processing times for Ontario PNP applications typically range from 60 to 90 days. However, times can vary depending on the stream and application volume. Once you receive a nomination, applying for permanent residency through IRCC may take several additional months. Staying updated on your application status is important.",
+  },
+],
+  },
+
+
+   {
+    id: 26,
+    img: about2, // Replace with your actual image reference
+    title: "Nova Scotia PNP",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              'Nova Scotia, known as "New Scotland" in Latin, is a vibrant Canadian province located on the east coast. It offers exceptional job opportunities, world-class education for international students, and an easy route to Canadian Permanent Residency (PR) through the Nova Scotia Provincial Nominee Program (NSPNP). With a rich cultural heritage, scenic beauty, and a thriving economy, Nova Scotia is becoming a favorite destination for skilled immigrants and students.',
+          },
+        ],
+      },
+  {
+    id: 2,
+    heading: "Why Choose Nova Scotia for Immigration?",
+    list: [
+        { id: 1, text: "Growing Job Market—Nova Scotia regularly needs skilled professionals, especially in healthcare, IT, construction, education, and hospitality." },
+        { id: 2, text: "Simplified PR Process—The PNP has various streams, many of which are linked with Express Entry, making the PR process quicker." },
+        { id: 3, text: "Family-Friendly Lifestyle—Low cost of living, great schools, and safe communities make it perfect for families." },
+        { id: 4, text: "Support for Newcomers—Nova Scotia offers government-backed settlement support, language classes, and career assistance." }
+    ]
+},
+{
+    id: 3,
+    heading: "Key Features of Nova Scotia PNP",
+    list: [
+        { id: 1, text: "Focuses on skilled workers aligned with local labor market needs." },
+        { id: 2, text: "Requires a valid job offer from a Nova Scotia employer (in most streams)." },
+        { id: 3, text: "Offers nomination that boosts your CRS score, improving PR chances." },
+        { id: 4, text: "Multiple streams are available based on your profile." },
+        { id: 5, text: "Faster and more straightforward process compared to other PNPs." },
+        { id: 6, text: "Family sponsorship is available for nominated candidates." },
+        { id: 7, text: "Settlement support and community assistance provided." }
+    ]
+},
+{
+    id: 4,
+    heading: "Eligibility Criteria for Nova Scotia PNP",
+    list: [
+        { id: 1, text: "Valid full-time job offer (in most streams)." },
+        { id: 2, text: "CLB 5 or higher in a recognized language proficiency test." },
+        { id: 3, text: "Intention to live and work in Nova Scotia." },
+        { id: 4, text: "Educational qualification (Bachelor’s, Master’s, or diploma depending on stream)." },
+        { id: 5, text: "At least 1 year of relevant work experience." },
+        { id: 6, text: "Age between 18 and 50 preferred." },
+        { id: 7, text: "High CRS score improves chances." },
+        { id: 8, text: "Strong adaptability to settle in the province." }
+    ]
+},
+{
+    id: 5,
+    heading: "Application Process for Nova Scotia PNP",
+    list: [
+        { id: 1, text: "Create an IRCC Express Entry profile." },
+        { id: 2, text: "Apply under the relevant Nova Scotia stream or wait for selection." },
+        { id: 3, text: "Receive an Invitation to Apply (ITA)." },
+        { id: 4, text: "Submit your complete application with all required documents." },
+        { id: 5, text: "If approved, get nominated and boost your CRS score." },
+        { id: 6, text: "Apply for Canada PR through IRCC with your nomination." },
+        { id: 7, text: "Receive your PR after final approval." }
+    ]
+},
+{
+    id: 6,
+    heading: "Required Documents for Nova Scotia PNP",
+    list: [
+        { id: 1, text: "Valid job offer letter." },
+        { id: 2, text: "Educational credentials." },
+        { id: 3, text: "Work experience documents." },
+        { id: 4, text: "Language test results (IELTS/CELPIP)." },
+        { id: 5, text: "Medical examination records." },
+        { id: 6, text: "Police clearance certificate." },
+        { id: 7, text: "Proof of funds." },
+        { id: 8, text: "Identity documents." },
+        { id: 9, text: "Nomination certificate (for PR application)." }
+    ]
+},
+{
+    id: 7,
+    heading: "Streams Under Nova Scotia PNP",
+    list: [
+        { id: 1, text: "Nova Scotia Labour Market Priorities—Targets gaps in the labor market. Applicants are selected based on demand." },
+        { id: 2, text: "Nova Scotia Demand—Express Entry requires a valid job offer and at least one year of experience." },
+        { id: 3, text: "Nova Scotia Experience—Express Entry—For candidates with one year of work experience in Nova Scotia and a valid job offer." },
+        { id: 4, text: "Physician Stream—For doctors recruited by healthcare authorities in Nova Scotia." },
+        { id: 5, text: "Skilled Worker Stream—For high-skilled workers with job offers in in-demand occupations." },
+        { id: 6, text: "Entrepreneur Stream—For experienced business people who want to establish or purchase a business in the province." },
+        { id: 7, text: "International Graduate Entrepreneur Stream—For graduates of Nova Scotia institutions running a business in the province." }
+    ]
+},
+{
+    id: 8,
+    heading: "Why Choose Globesway?",
+    para: [
+        { id: 1, text: "Globesway is your trusted partner for Canadian immigration and visa services. With expert consultants, personalized guidance, and years of success helping clients settle abroad, we make your journey stress-free and successful." }
+    ]
+},
+{
+    id: 9,
+    heading: "Benefits of Choosing Globesway",
+    list: [
+        { id: 1, text: "End-to-end application support" },
+        { id: 2, text: "Updated guidance based on latest immigration rules" },
+        { id: 3, text: "Job search and settlement assistance" },
+        { id: 4, text: "Transparent process and high success rate" }
+    ]
+}
+
+    ],
+questions: [
+  {
+    id: 1,
+    que: "Do I need a job offer to apply for Nova Scotia PNP?",
+    ans: "Yes, most streams require a valid full-time job offer from an employer in Nova Scotia. However, some streams, like Labour Market Priorities, select candidates directly from the Express Entry pool based on specific labor market needs.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to get PR through the Nova Scotia PNP?",
+    ans: "The PNP nomination can be received in a few months if your application is complete. After nomination, applying for PR via IRCC may take another 6-8 months, depending on the case and stream.",
+  },
+  {
+    id: 3,
+    que: "What is the minimum language requirement for Nova Scotia PNP?",
+    ans: "Most streams require a minimum of CLB 5 in English or French. However, higher scores improve your CRS and boost your chances of selection and faster processing.",
+  },
+  {
+    id: 4,
+    que: "Can I bring my family with me under this program?",
+    ans: "Yes, once you receive your PR, you can sponsor your spouse and dependent children to move with you to Nova Scotia. Family support and settlement programs are available in the province.",
+  },
+],
+  },
+
+   {
+    id: 27,
+    img: about2, // Replace with your actual image reference
+    title: "Alberta PNP (AAIP)",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "Alberta is one of Canada's most economically influential provinces, best known for its rich oil reserves, thriving agriculture sector, and breathtaking natural beauty, including the majestic Rocky Mountains, scenic trails, and pristine lakes. It plays a vital role in Canada’s economic, cultural, and environmental identity. To attract global talent and support its diverse economy, Alberta offers an immigration route through the Alberta Advantage Immigration Program (AAIP), formerly known as the Alberta Immigrant Nominee Program (AINP).",
+          },
+           {
+            id: 2,
+            text:
+              "This program allows foreign nationals with the right skills, work experience, and education to apply for permanent residency (PR) in Canada by receiving a provincial nomination. Whether you are a skilled worker, an international graduate, or an entrepreneur, Alberta PNP offers multiple streams tailored to a wide range of profiles.",
+          },
+        ],
+      },
+  {
+    id: 2,
+    heading: "Why Choose Alberta for Immigration?",
+    list: [
+      { id: 1, text: "High Employment Potential—Alberta has a strong demand for workers in energy, agriculture, construction, tourism, healthcare, and more." },
+      { id: 2, text: "Natural Resources & Tourism— Rich in oil and gas, Alberta also boasts a booming tourism sector that adds to job opportunities." },
+      { id: 3, text: "Affordable Living & Quality Lifestyle—With a lower cost of living than other Canadian provinces like Ontario and B.C., Alberta offers a high standard of living." },
+      { id: 4, text: "Diverse Immigration Pathways—Alberta PNP offers multiple streams for workers, graduates, and entrepreneurs, reducing overall competition." },
+      { id: 5, text: "Family-Friendly Benefits— Free public education, healthcare, and the ability to bring your spouse/common-law partner and dependents make Alberta a popular choice." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Key Features of Alberta PNP (AAIP)",
+    list: [
+      { id: 1, text: "Multiple immigration streams for workers and entrepreneurs." },
+      { id: 2, text: "Stream-specific eligibility to reduce application pool competition." },
+      { id: 3, text: "Nomination boosts Express Entry CRS score by 600 points." },
+      { id: 4, text: "Fast-track PR processing for eligible candidates." },
+      { id: 5, text: "Settlement assistance services for new immigrants." },
+      { id: 6, text: "Requirements include language proficiency, a job offer (where applicable), and educational qualifications." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Alberta PNP Eligibility Criteria",
+    para: [
+      {
+        id: 1,
+        text:
+          "Each AAIP stream has its eligibility conditions based on labor market needs. Before applying, it's crucial to select the stream that best matches your qualifications and goals. General eligibility requirements include",
+      },
+    ],
+    list: [
+      { id: 1, text: "A minimum education level (usually a bachelor's degree or diploma) as required by the stream." },
+      { id: 2, text: "2 to 3 years of work experience in a relevant occupation." },
+      { id: 3, text: "Required skills in a high-demand field such as agriculture, healthcare, hospitality, or energy." },
+      { id: 4, text: "Language proficiency (usually CLB 4 or higher in English or French)." },
+      { id: 5, text: "Clear criminal background verified by a police clearance certificate." },
+      { id: 6, text: "Proof of adaptability and intent to live in Alberta." },
+      { id: 7, text: "A valid, full-time job offer from an Alberta employer (depending on the stream)." },
+      { id: 8, text: "For entrepreneurs—proof of business ownership or management experience." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Application Process for Alberta PNP",
+    para: [
+      {
+        id: 1,
+        text:
+          "The AAIP application process varies by stream but generally includes the following steps—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Research Stream Options—Determine which AAIP stream aligns with your qualifications, work experience, and goals." },
+      { id: 2, text: "Create Your Profile—Register on Alberta’s official immigration portal and/or IRCC Express Entry (if applicable)." },
+      { id: 3, text: "Complete Application Forms— Fill in accurate and complete personal, educational, and work-related information." },
+      { id: 4, text: "Gather Required Documents—Prepare all necessary documentation, such as job offers, educational transcripts, ID proofs, and financials." },
+      { id: 5, text: "Submit Application—Upload and submit your application and documents on the designated platform." },
+      { id: 6, text: "Biometrics & Interview—Some applicants may need to provide biometrics or attend an interview." },
+      { id: 7, text: "Receive Provincial Nomination—If selected, you will receive a nomination certificate from Alberta." },
+      { id: 8, text: "Apply for PR—With the nomination, submit your application for Permanent Residency via IRCC." },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Required Documents for Alberta PNP",
+    para: [
+      {
+        id: 1,
+        text:
+          "Document requirements vary depending on the stream and the applicant’s profile. Common documents include",
+      },
+    ],
+    list: [
+      { id: 1, text: "Valid passport or proof of identity (e.g., birth certificate)." },
+      { id: 2, text: "Proof of funds to support yourself and dependents." },
+      { id: 3, text: "Language test results (IELTS, CELPIP, or TEF)." },
+      { id: 4, text: "Full-time job offer (where applicable)." },
+      { id: 5, text: "Fully completed AAIP application form." },
+      { id: 6, text: "Marriage certificate (if applying with a spouse)." },
+      { id: 7, text: "Work experience proof (e.g., job offer letters, employment contracts)." },
+      { id: 8, text: "Recent bank statements to verify financial stability." },
+      { id: 9, text: "Educational transcripts and diplomas." },
+      { id: 10, text: "Medical reports from an approved physician." },
+      { id: 11, text: "Police clearance certificate." },
+      { id: 12, text: "Business ownership documents (if applying under entrepreneur streams)." },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Alberta PNP Streams",
+    para: [
+      {
+        id: 1,
+        text:
+          "Alberta offers immigration options under two broad categories—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Streams for Workers:-" },
+      { id: 2, text: "a. Alberta Opportunity Stream: For temporary foreign workers already employed in Alberta with a valid work permit." },
+      { id: 3, text: "b. Alberta Express Entry Stream: For candidates in the federal Express Entry pool who have skills that align with Alberta’s labor market needs. Selection is based on CRS score and alignment with Alberta’s priority occupations." },
+      { id: 4, text: "c. Tourism and Hospitality Stream: For workers in Alberta's growing tourism and hospitality industry. Requires a valid job offer from an Alberta employer." },
+      { id: 5, text: "d. Rural Renewal Stream: Targets candidates who have secured employment in rural Alberta communities. Requires community endorsement and a job offer." },
+      { id: 6, text: "Streams for Entrepreneurs" },
+      { id: 7, text: "a. Rural Entrepreneur Stream: Designed for entrepreneurs planning to start or purchase a business in a rural Alberta community. Must show relevant business experience." },
+      { id: 8, text: "b. Graduate Entrepreneur Stream: For international graduates from Alberta post-secondary institutions who wish to start or operate a business." },
+      { id: 9, text: "c. Foreign Graduate Entrepreneur Stream: For foreign-educated entrepreneurs who want to launch a startup in Alberta. Requires a business plan and endorsement from a designated agency." },
+      { id: 10, text: "d. Farm Stream: Targets experienced farmers with plans to purchase or establish a farm in Alberta. Must show farm management experience and financial capability." },
+    ],
+  },
+  {
+    id: 8,
+    heading: "Why Choose GlobesWay for Your Alberta PNP Journey?",
+    para: [
+      {
+        id: 1,
+        text:
+          "At GlobesWay, we offer professional immigration services tailored to your profile, aspirations, and preferred destination.",
+      },
+    ],
+    list: [
+      { id: 1, text: "Expert Guidance—Our certified consultants understand every stream of AAIP in detail." },
+      { id: 2, text: "Custom Eligibility Evaluation—We analyze your profile to match you with the most suitable stream." },
+      { id: 3, text: "Complete Application Support—From document preparation to interview coaching, we assist you through every stage." },
+      { id: 4, text: "IELTS & Skill Training—We offer resources to improve your language and job-readiness scores." },
+      { id: 5, text: "Post-landing Services—Help with accommodation, local networking, and community support." },
+    ],
+  },
+    ],
+questions: [
+  {
+    id: 1,
+    que: "Can I apply for Alberta PNP without a job offer?",
+    ans: "Yes, through the Express Entry Stream, Alberta can select candidates directly from the federal pool based on provincial labor market needs, even if they don’t have a job offer.",
+  },
+  {
+    id: 2,
+    que: "What is the processing time for Alberta PNP?",
+    ans: "The average processing time is 4 to 6 months, depending on the stream and the volume of applications. Express Entry-linked streams are generally faster.",
+  },
+  {
+    id: 3,
+    que: "Can I bring my family under Alberta PNP?",
+    ans: "Absolutely. Once you receive a provincial nomination and apply for PR, you can include your spouse and dependent children in the application.",
+  },
+  {
+    id: 4,
+    que: "What is the minimum IELTS score required for Alberta PNP?",
+    ans: "Most streams require a minimum of CLB 4 (IELTS 4.0 in each band), but higher scores will improve your chances, especially for Express Entry streams.",
+  },
+],
+  },
+
+   {
+    id: 28,
+    img: about2, // Replace with your actual image reference
+    title: "British Columbia PNP",
+    desc: [
+      {
+        id: 1,
+        heading: "British Columbia Provincial Nominee Program",
+        para: [
+          {
+            id: 1,
+            text:
+              "British Columbia, located on the picturesque west coast of Canada, is one of the most sought-after provinces for immigrants. Known for its thriving economy, natural beauty, and multicultural environment, British Columbia offers countless opportunities for skilled workers, entrepreneurs, and international graduates looking to settle and build a future in Canada. The British Columbia Provincial Nominee Program (BC PNP) allows the province to nominate individuals who can help support and grow its economy.",
+          },
+          {
+            id: 2,
+            text:
+              "This program is part of Canada’s Provincial Nominee Program, designed to attract immigrants with the skills, education, and experience needed to meet labor market demands in various provinces. Through the BC PNP, selected applicants can fast-track their pathway to Canadian Permanent Residency.",
+          },
+        ],
+      },
+  {
+    id: 2,
+    heading: "Key Highlights of the BC PNP",
+    list: [
+      { id: 1, text: "Multiple streams are available for various types of applicants, including skilled workers, entrepreneurs, and graduates." },
+      { id: 2, text: "Faster processing times compared to many other immigration programs." },
+      { id: 3, text: "Offers additional CRS (Comprehensive Ranking System) points through provincial nomination." },
+      { id: 4, text: "Applicants typically require a valid job offer from a B.C. employer." },
+      { id: 5, text: "Access to British Columbia’s vibrant job market and high-quality lifestyle." },
+      { id: 6, text: "The province supports newcomers through settlement services, making the transition smooth and efficient." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria for the BC PNP",
+    para: [
+      {
+        id: 1,
+        text:
+          "Each stream under the BC PNP has specific requirements. However, the general eligibility criteria are as follows—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Work Experience—A minimum of one year of relevant work experience in the selected field." },
+      { id: 2, text: "Education—A post-secondary diploma, bachelor’s, or higher degree, depending on the stream." },
+      { id: 3, text: "Language Proficiency—Proof of English or French proficiency through approved language tests like IELTS or CELPIP." },
+      { id: 4, text: "Job Offer—A valid, full-time, and indeterminate job offer from a B.C. employer (varies by stream)." },
+      { id: 5, text: "Intention to Reside—Demonstrated intent to live and work in British Columbia permanently." },
+      { id: 6, text: "Proof of Funds—Sufficient financial means to support yourself and your family in B.C." },
+      { id: 7, text: "Adaptability—Ability to integrate into the social and cultural environment of the province." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Application Process for the BC PNP",
+    para: [
+      {
+        id: 1,
+        text:
+          "The BC PNP application process involves several key steps—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Determine Your Stream—Review and select the stream best suited to your background and career goals." },
+      { id: 2, text: "Create an Online Profile—Register through the BC PNP Online Portal and complete your profile with accurate details." },
+      { id: 3, text: "Submit Expression of Interest (EOI)—Based on your score, you may be invited to apply." },
+      { id: 4, text: "Receive Invitation to Apply (ITA)—If selected, you’ll receive an ITA from BC PNP." },
+      { id: 5, text: "Submit Complete Application—Upload all required documents and pay the applicable fees." },
+      { id: 6, text: "Nomination—If approved, you receive a provincial nomination, which adds 600 points to your Express Entry profile." },
+      { id: 7, text: "Apply for PR—Submit your permanent residency application to IRCC via Express Entry." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Required Documents for the BC PNP",
+    para: [
+      {
+        id: 1,
+        text:
+          "The documentation requirements may vary depending on the stream, but commonly required documents include",
+      },
+    ],
+    list: [
+      { id: 1, text: "Valid passport and personal identification." },
+      { id: 2, text: "Birth certificate and marital status proof (if applicable)." },
+      { id: 3, text: "Educational qualifications (transcripts, diplomas, degrees)." },
+      { id: 4, text: "Employment letters, reference letters, and pay slips." },
+      { id: 5, text: "Valid job offer letter from a B.C. employer." },
+      { id: 6, text: "Proof of language test results." },
+      { id: 7, text: "Proof of funds (bank statements or financial records)." },
+      { id: 8, text: "Medical examination reports." },
+      { id: 9, text: "Police clearance certificate." },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Processing Time for BC PNP",
+    list: [
+      { id: 1, text: "BC PNP Nomination Processing Time—Typically 2 to 3 months from the date of application." },
+      { id: 2, text: "Entrepreneur Stream—Usually takes 6 to 8 weeks for initial review." },
+      { id: 3, text: "PR Application through IRCC—After nomination, PR processing may take around 15 to 19 months, depending on the profile and volume of applications." },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Streams under the British Columbia PNP",
+    list: [
+      { id: 1, text: "Skilled Worker Stream—This stream targets individuals with high-demand skills in areas like IT, healthcare, and engineering. Candidates must have— At least two years of work experience in their occupation. A permanent, full-time job offer from a B.C. employer." },
+      { id: 2, text: "Express Entry BC Stream—Aligned with the federal Express Entry system, this stream allows quicker immigration processing for Skilled workers and graduates with an Express Entry profile. Applicants who have a valid job offer and meet the federal criteria." },
+      { id: 3, text: "International Graduate Stream—Designed for recent graduates from eligible Canadian post-secondary institutions, this stream requires A valid job offer in a skilled occupation. Proof of education and intent to stay in British Columbia." },
+      { id: 4, text: "Entrepreneur Immigration Stream—This stream attracts experienced business owners and managers who wish to invest in and manage a business in British Columbia. Candidates must— Have a minimum net worth and investment amount. Create jobs for Canadian citizens or permanent residents." },
+    ],
+  },
+  {
+    id: 8,
+    heading: "Why Choose Globesway for Your BC PNP Journey?",
+    para: [
+      {
+        id: 1,
+        text:
+          "Globesway is a trusted name in international education and immigration consultancy, with years of experience helping candidates achieve their dreams of settling abroad.",
+      },
+      {
+        id: 2,
+        text:
+          "What Makes Us Different?",
+      },
+    ],
+    list: [
+      { id: 1, text: "Expert Guidance—Personalized consulting from licensed professionals." },
+      { id: 2, text: "Documentation Support—Full assistance with compiling, reviewing, and submitting your documents." },
+      { id: 3, text: "Up-to-Date Information—Real-time updates on immigration policies and stream-specific criteria." },
+      { id: 4, text: "Post-Arrival Support—Guidance on settlement, accommodation, and community integration." },
+    ],
+  },
+  {
+    id: 9,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "Globesway Benefits at a Glance—",
+      },
+    ],
+    list: [
+      { id: 1, text: "High application success rate" },
+      { id: 2, text: "Experienced and qualified immigration advisors" },
+      { id: 3, text: "Transparent process and no hidden costs" },
+      { id: 4, text: "End-to-end assistance for both study and PR pathways" },
+    ],
+  },
+    ],
+questions: [
+  {
+    id: 1,
+    que: "Can I apply for the BC PNP without a job offer?",
+    ans: "Some streams, like the Entrepreneur stream or Express Entry BC for international postgrads, may not require a job offer. However, most streams typically require a valid offer from a B.C. employer.",
+  },
+  {
+    id: 2,
+    que: "How many points do I need to receive an invitation from BC PNP?",
+    ans: "The required points vary with each draw and stream. On average, a competitive score is between 80-120 points, depending on labor demand and candidate profile.",
+  },
+  {
+    id: 3,
+    que: "Is British Columbia a good province for newcomers?",
+    ans: "Yes, British Columbia is highly welcoming with world-class infrastructure, healthcare, and education. It also offers high employment rates and diverse cultural communities.",
+  },
+  {
+    id: 4,
+    que: "How long does it take to get permanent residency through BC PNP?",
+    ans: "The nomination itself takes around 2-3 months. After receiving the nomination, IRCC may take another 15-19 months to finalize the PR process, depending on application completeness and stream type.",
+  },
+],
+  },
+
+   {
+    id: 29,
+    img: about2, // Replace with your actual image reference
+    title: "Quebec Skilled Worker Program",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "Quebec is one of the most famous and beautiful provinces in Canada. It is also the largest province in the country. The culture of Quebec is different from other parts of Canada because it is mostly French-speaking and follows French traditions. The province is rich in European heritage, including its cuisine, music, literature, and art. People from all over the world come to visit Quebec for its vibrant lifestyle, beautiful landscapes, and historical sites. Quebec also plays an important role in the Canadian economy with industries like aerospace, pharmaceuticals, manufacturing, and more.",
+          },
+        ],
+      },
+  {
+  id: 2,
+  para: [
+    {
+      id: 1,
+      text:
+        "The Quebec Skilled Worker Program is an immigration program specially managed by the government of Quebec. It works separately from Canada’s federal immigration system, which means it is not connected to the Express Entry system. Quebec has its own rules and selection process for choosing skilled workers who want to live and work in the province."
+    },
+    {
+      id: 2,
+      text:
+        "Through this program, skilled professionals from around the world can apply to settle permanently in Quebec. If selected, they are given a special certificate known as the Quebec Selection Certificate (CSQ). After getting the CSQ, the candidate can apply to the Government of Canada for permanent residence."
+    },
+    {
+      id: 3,
+      text:
+        "Let’s look at the main features of this program— "
+    }
+  ],
+  list: [
+    { id: 1, text: "Candidates are selected based on their age, education, work experience, skills, and language ability (French or English)." },
+    { id: 2, text: "A points-based system is used. The more points you have, the better your chances of selection." },
+    { id: 3, text: "If selected, candidates need to submit biometrics and undergo a medical exam." },
+    { id: 4, text: "Once approved by Quebec, the candidate gets a CSQ (Quebec Selection Certificate)." },
+    { id: 5, text: "The CSQ helps the applicant apply for Permanent Residency (PR) in Canada." },
+    { id: 6, text: "This program has lower eligibility requirements compared to other immigration programs." },
+    { id: 7, text: "Successful applicants can enjoy free healthcare, education, and all other benefits like any Canadian citizen." },
+    { id: 8, text: "The process is often faster than many other immigration programs in Canada." }
+  ]
+},
+{
+  id: 3,
+  heading: "Who Can Apply? – Eligibility Criteria for QSWP",
+  para: [
+    {
+      id: 1,
+      text:
+        "The Quebec Skilled Worker Program has specific eligibility requirements that all candidates must meet. Each candidate is scored based on various factors. The higher your score, the better your chance of getting selected. These scores are calculated using a special tool provided by Quebec Immigration."
+    },
+    {
+      id: 2,
+      text: "Here are the general eligibility requirements—"
+    }
+  ],
+  list: [
+    { id: 1, text: "Your age should be between 18 and 40 years." },
+    { id: 2, text: "You must have at least two years of work experience in a skilled occupation." },
+    { id: 3, text: "A bachelor’s degree or equivalent diploma is required." },
+    { id: 4, text: "You should have a clear intention to settle in Quebec after moving to Canada." },
+    { id: 5, text: "You must score at least 50 points or more in the Quebec points grid." },
+    { id: 6, text: "Language proficiency in English or French is very important (knowing both is a plus)." },
+    { id: 7, text: "You must be ready to provide medical reports for yourself and family members." },
+    { id: 8, text: "A police clearance certificate is also required to prove you have no criminal record." }
+  ]
+},
+{
+  id: 4,
+  heading: "Step-by-Step Application Process for QSWP",
+  para: [
+    {
+      id: 1,
+      text:
+        "Applying for the Quebec Skilled Worker Program is a step-by-step process that must be followed carefully. Although the process is done online, it’s very important to provide all the correct information and documents. Here’s a simple breakdown of the application process—"
+    }
+  ],
+  list: [
+    { id: 1, text: "Check Your Eligibility: First, make sure you meet all the required criteria (age, education, work experience, etc.). You can use the Quebec Points Calculator available on their official website." },
+    { id: 2, text: "Gather Your Documents: Before applying, collect all your documents like educational certificates, work experience letters, language test results, identity proofs, etc." },
+    { id: 3, text: "Create an Account on the Quebec Immigration Portal: Go to the official Quebec immigration website and create an account on their online platform." },
+    { id: 4, text: "Fill Out the Application Form: Complete the application form carefully with your personal and professional details. Double-check everything before submitting." },
+    { id: 5, text: "Submit Your Application: Upload your documents and pay the required application fees." },
+    { id: 6, text: "Wait for the Invitation: If your profile meets the requirements, Quebec will invite you to submit additional documents or attend an interview." },
+    { id: 7, text: "Receive Your CSQ: Once your profile is verified and approved, you will get the Quebec Selection Certificate (CSQ)." },
+    { id: 8, text: "Apply for Canadian Permanent Residency: After receiving the CSQ, you need to apply to Immigration, Refugees and Citizenship Canada (IRCC) for permanent residence." }
+  ]
+},
+{
+  id: 5,
+  heading: "List of Required Documents for QSWP",
+  para: [
+    {
+      id: 1,
+      text:
+        "Having the right documents is very important. The Quebec government will check your background, qualifications, and personal history. If you miss out on any important document, it can delay your application or even lead to rejection. Here are the key documents required—"
+    },
+      {
+      id: 2,
+      text:
+        "Here are the key documents required—"
+    }
+  ],
+  list: [
+    { id: 1, text: "Work experience proof (job offer letter, reference letter, salary slips)" },
+    { id: 2, text: "Educational qualifications (degree certificates, transcripts)" },
+    { id: 3, text: "Proof of funds (bank statements or financial documents)" },
+    { id: 4, text: "Language test results (IELTS, TEF, etc.)" },
+    { id: 5, text: "Identity proof (passport or government-issued ID)" },
+    { id: 6, text: "Medical records for all family members included in the application" },
+    { id: 7, text: "Police clearance certificate" },
+    { id: 8, text: "Marriage certificate (if married)" },
+    { id: 9, text: "Job offer from a Quebec employer (optional but adds value)" }
+  ]
+},
+{
+  id: 6,
+  heading: "How Long Does the Quebec Skilled Worker Program Take?",
+  para: [
+    {
+      id: 1,
+      text:
+        "The processing time for QSWP can vary. On average, the full process can take anywhere from 15 to 17 months. However, in some cases, the process might be completed within 6 to 9 months, especially if your documents are complete and accurate."
+    },
+    {
+      id: 2,
+      text: "Factors that affect processing time—"
+    }
+  ],
+  list: [
+    { id: 1, text: "The number of applications received during that time." },
+    { id: 2, text: "How fast the documents reviewed by Quebec authorities" },
+    { id: 3, text: "There are additional document requests" },
+    { id: 4, text: "Your response time for any communication or document request." },
+    { id: 5, text: "The time taken by the federal government (IRCC) for PR processing after you receive your CSQ." }
+  ]
+},
+{
+  id: 7,
+  heading: "Why Choose GlobesWay Immigration?",
+  para: [
+    {
+      id: 1,
+      text:
+        "GlobesWay Immigration is a trusted name in visa and immigration solutions. Whether you're planning to move to Canada through the Quebec Skilled Worker Program, applying for a student visa, or exploring overseas job opportunities, GlobesWay ensures a smooth, transparent, and success-driven experience. Here's why thousands trust us with their global journey—"
+    }
+  ],
+  list: [
+    { id: 1, text: "Get expert help at every step of your visa or immigration process, from paperwork to interviews." },
+    { id: 2, text: "We suggest the best country and program based on your profile, goals, and background." },
+    { id: 3, text: "100% transparent process with clear timelines, service charges, and updates." },
+    { id: 4, text: "Fast responses and support whenever you need help or an update on your case." },
+    { id: 5, text: "Strong success record in visas and immigration programs like Express Entry, PNP, and study visas." },
+    { id: 6, text: "We follow all the latest legal guidelines for a safe and smooth application." },
+    { id: 7, text: "Free career and country counseling to help you make the right decision." },
+    { id: 8, text: "Complete support from start to settlement, including job help and accommodation in some cases." }
+  ]
+}
+
+    ],
+questions: [
+  {
+    id: 1,
+    que: "Is the French language mandatory for the Quebec Skilled Worker Program?",
+    ans: "Yes, French is the primary language in Quebec. While it's not mandatory to be fluent, knowing basic French significantly increases your chances of selection and success in the province.",
+  },
+  {
+    id: 2,
+    que: "How long does the Quebec immigration process take?",
+    ans: "Typically, the full process takes around 15 to 17 months, but in some cases, it can be completed in as little as 6 months, depending on your documents, profile, and the number of applications received.",
+  },
+  {
+    id: 3,
+    que: "What are the chances of getting PR through the Quebec Skilled Worker Program?",
+    ans: "If your profile meets all eligibility factors and you score well on the points system, your chances are quite high. GlobesWay helps you improve your profile and guides you through every step for a successful outcome.",
+  },
+  {
+    id: 4,
+    que: "Do I need a job offer to apply for Quebec immigration?",
+    ans: "A job offer is not mandatory but can be a strong supporting factor. Many candidates qualify based on their education, age, language skills, and work experience alone.",
+  },
+],
+  },
+
+   {
+    id: 30,
+    img: about2, // Replace with your actual image reference
+    title: "Saskatchewan Provincial Nominee Program",
+    desc: [
+      {
+        id: 1,
+        heading: "Introduction",
+        para: [
+          {
+            id: 1,
+            text:
+              "Saskatchewan is one of Canada's most important provinces. Known as the “Breadbasket of Canada,” it plays a major role in both the Canadian and global economies. The province produces large amounts of wheat, barley, and other crops that are exported around the world. Besides agriculture, Saskatchewan is strong in industries like manufacturing, mining, and equipment production.",
+          },
+           {
+            id: 2,
+            text:
+              "Saskatchewan is also rich in natural beauty, with many national parks like Grasslands National Park, a UNESCO World Heritage Site. It has diverse wildlife and a peaceful environment that attracts thousands of tourists each year.",
+          },
+           {
+            id: 3,
+            text:
+              "The province offers a high quality of life, strong job opportunities, and affordable living. It’s no surprise that many immigrants choose Saskatchewan to build a stable and successful life in Canada. The Saskatchewan Immigrant Nominee Program (SINP) is designed to make that easier.",
+          },
+        ],
+      },
+  [
+  {
+    id: 2,
+    heading: "Benefits of the Saskatchewan PNP",
+    list: [
+      { id: 1, text: "The process is fast. In many cases, applications are processed in under 3 months." },
+      { id: 2, text: "Some categories don’t require a job offer to apply." },
+      { id: 3, text: "You can include your spouse and children in your application." },
+      { id: 4, text: "The province helps new immigrants settle comfortably." },
+      { id: 5, text: "You’ll get access to healthcare, free public education, and other provincial benefits." },
+      { id: 6, text: "Several streams make it easier to find a program that suits your background." },
+      { id: 7, text: "You can invest in businesses or farms under specific categories" },
+      { id: 8, text: "Saskatchewan has a strong job market in many sectors." },
+      { id: 9, text: "The cost of living is lower compared to other Canadian provinces." },
+      { id: 10, text: "Education is free till higher secondary in public schools." }
+    ]
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria for Saskatchewan PNP",
+    para: [
+      {
+        id: 1,
+        text: "While each stream has different requirements, there are some basic criteria all applicants must meet—"
+      }
+    ],
+    list: [
+      { id: 1, text: "You must have work experience related to your job field." },
+      { id: 2, text: "A relevant diploma, bachelor’s, or master’s degree is required from a recognized institution." },
+      { id: 3, text: "You must show proof of language skills (English or French)." },
+      { id: 4, text: "Some programs may ask for a Canadian Language Benchmark (CLB) score of 4 to 5." },
+      { id: 5, text: "A valid job offer is required for some streams." },
+      { id: 6, text: "You must have enough settlement funds." },
+      { id: 7, text: "Medical records and police clearance certificates are needed." },
+      { id: 8, text: "You must show the intention to settle in Saskatchewan long-term." }
+    ]
+  },
+  {
+    id: 4,
+    heading: "How to Apply for Saskatchewan PNP",
+    para: [
+      {
+        id: 1,
+        text: "The application process is mostly online and depends on the stream you apply for. Here's a general step-by-step process—"
+      }
+    ],
+    list: [
+      { id: 1, text: "Check all the eligibility requirements for your desired stream." },
+      { id: 2, text: "Gather all the required documents, including test scores and work proof." },
+      { id: 3, text: "Take your language proficiency test (like IELTS)." },
+      { id: 4, text: "Submit an Expression of Interest (EOI) through the SINP system." },
+      { id: 5, text: "If selected, you’ll receive an Invitation to Apply (ITA)." },
+      { id: 6, text: "Submit your complete application and documents in PDF format." },
+      { id: 7, text: "If approved, you’ll receive a Provincial Nomination Certification" },
+      { id: 8, text: "Apply for Canadian Permanent Residence through IRCC with your nomination." }
+    ]
+  },
+  {
+    id: 5,
+    heading: "Required Documents for Saskatchewan PNP",
+    para: [
+      {
+        id: 1,
+        text: "The documents may vary by stream, but here are the most common ones—"
+      }
+    ],
+    list: [
+      { id: 1, text: "Passport and government-issued ID" },
+      { id: 2, text: "Birth certificate" },
+      { id: 3, text: "Language test results (IELTS or TEF)" },
+      { id: 4, text: "Educational credentials (degrees, diplomas, transcripts)" },
+      { id: 5, text: "Proof of work experience" },
+      { id: 6, text: "Police clearance certificate" },
+      { id: 7, text: "Medical examination results" },
+      { id: 8, text: "Employment offer (if required)" },
+      { id: 9, text: "Proof of settlement funds" },
+      { id: 10, text: "Marriage certificate (if applicable)" }
+    ]
+  },
+  {
+    id: 6,
+    heading: "Processing Time for Saskatchewan PNP",
+    para: [
+     
+      {
+        id: 2,
+        text: "Some streams, like Occupation-In-Demand, can be faster. A well-prepared application with complete and valid documents helps speed up the process. Always stay updated through the official SINP website or consult with an immigration expert like GlobesWay."
+      },
+       {
+        id: 1,
+        text: "Processing time usually ranges between 6 to 12 months, depending on—"
+      },
+    ],
+    list: [
+      { id: 1, text: "The stream you apply under" },
+      { id: 2, text: "The volume of applications" },
+      { id: 3, text: "Accuracy and completeness of your documents" }
+    ]
+  },
+  {
+    id: 7,
+    heading: "Streams Under Saskatchewan PNP",
+    para: [
+      {
+        id: 1,
+        text: "Saskatchewan offers multiple immigration streams to match different candidate profiles—"
+      }
+    ],
+    list: [
+      { id: 1, text: "International Skilled Worker Category" },
+      { id: 2, text: "Employment Offer—For candidates with a valid job offer from a Saskatchewan employer." },
+      { id: 3, text: "Occupation-In-Demand—For skilled workers without a job offer but in an in-demand occupation." },
+      { id: 4, text: "Express Entry—For candidates already in the Express Entry pool who want to live in Saskatchewan." },
+      { id: 5, text: "Saskatchewan Experience Category" },
+      { id: 6, text: "Skilled Workers with Work Permits—For individuals working in Saskatchewan for at least 6 months." },
+      { id: 7, text: "Agriculture Workers—For semi-skilled workers in farming, working for at least 6 months." },
+      { id: 8, text: "Health Professionals—For doctors, nurses, and other healthcare workers." },
+      { id: 9, text: "Hospitality Workers—For those in food service or hotel industries, working for at least 3 months." },
+      { id: 10, text: "Long-Haul Truck Drivers—With 6 months of experience in Saskatchewan." },
+      { id: 11, text: "Students—Graduates from Saskatchewan institutions looking to settle in the province." },
+      { id: 12, text: "Entrepreneur and Farm Category" },
+      { id: 13, text: "Entrepreneurs—For people who want to start or invest in a business in Saskatchewan." },
+      { id: 14, text: "Farm Operators—For experienced farmers looking to start or buy a farm in the province." },
+      { id: 15, text: "International Graduate Entrepreneur Category" },
+      { id: 16, text: "For international students who graduated from a Saskatchewan college or university and want to start a business." }
+    ]
+  },
+  {
+    id: 8,
+    heading: "Why Choose GlobesWay Immigration?",
+    list: [
+      { id: 1, text: "We guide you at every step, from selecting the right stream to submitting a perfect application." },
+      { id: 2, text: "We don’t follow a “one-size-fits-all” model—our solutions are based on your profile and goals." },
+      { id: 3, text: "We offer transparent pricing, no hidden charges, and regular updates on your case." },
+      { id: 4, text: "Our team stays updated on all immigration rules and ensures your application meets legal standards." },
+      { id: 5, text: "We offer free consultation sessions to help you decide the best immigration option." },
+      { id: 6, text: "Our success rate is high, and we’re trusted by thousands of clients for genuine and reliable service." },
+      { id: 7, text: "Need help post-PR? We support job hunting and settling in selected cases." },
+      { id: 8, text: "With years of experience, we make your immigration journey easier, faster, and safer." }
+    ]
+  }
+]
+    ],
+questions: [
+  {
+    id: 1,
+    que: "Do I need a job offer to apply for Saskatchewan PNP?",
+    ans: "Not always. Some streams like Occupation-In-Demand and Express Entry don’t require a job offer. However, other streams do. We help you choose the best stream based on your profile.",
+  },
+  {
+    id: 2,
+    que: "What if I don’t speak French? Can I still apply?",
+    ans: "Yes. French is not mandatory for Saskatchewan PNP. You need to prove your English proficiency through tests like IELTS. Some streams require only CLB 4, which is a basic level.",
+  },
+  {
+    id: 3,
+    que: "Can I include my family in the application?",
+    ans: "Yes. You can include your spouse and dependent children in the same application. Once approved, they get the same benefits, including healthcare and education.",
+  },
+  {
+    id: 4,
+    que: "How long will it take to get PR through Saskatchewan PNP?",
+    ans: "It typically takes 6–12 months, depending on the stream and your application’s accuracy. We help ensure your documents are correct and submitted on time for faster results.",
+  },
+],
+  },
+
+   {
+    id: 31,
+    img: about2, // Replace with your actual image reference
+    title: "New Brunswick PNP",
+    desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "New Brunswick is a beautiful province located on the east coast of Canada. It is known for its natural beauty, forests, and scenic coastline. Besides being a popular tourist destination, New Brunswick also plays a strong role in Canada's economy. Major industries here include manufacturing, food processing, shipbuilding, forestry, mining, and fishing. Because of its location, New Brunswick also has a strong transportation and trade industry.",
+      },
+      {
+        id: 2,
+        text: "The province is rich in history and culture, especially the Acadian culture, which gives the place a unique character and tradition. With many job opportunities and a peaceful, affordable lifestyle, it’s a great place for newcomers to settle.",
+      },
+      {
+        id: 3,
+        text: "To help meet the growing demand for skilled workers, the province has its own immigration program called the New Brunswick Provincial Nominee Program (NBPNP). This program allows skilled workers, entrepreneurs, and graduates to apply for permanent residency in Canada by settling in New Brunswick. If selected, the applicant gets a provincial nomination that makes it easier and faster to get Canadian PR.",
+      }
+    ],
+    list: []
+  },
+  {
+    id: 2,
+    heading: "Key Features of the New Brunswick PNP",
+    para: [],
+    list: [
+      { id: 1, text: "The program has multiple pathways (called streams), so applicants can choose the one that suits them best." },
+      { id: 2, text: "The processing time is fast, and PR can be achieved in as little as 6 months." },
+      { id: 3, text: "New Brunswick has a low cost of living and is less crowded, offering a peaceful and simple lifestyle." },
+      { id: 4, text: "Some streams do not require a job offer." },
+      { id: 5, text: "Successful applicants get 600 extra CRS points, which almost guarantees PR through Express Entry." },
+      { id: 6, text: "The program helps match skilled workers with job opportunities in the province." },
+      { id: 7, text: "There are also streams for entrepreneurs and recent graduates who want to start a business in the province." }
+    ]
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria for NBPNP",
+    para: [
+      {
+        id: 1,
+        text: "Eligibility depends on which stream you apply under. But here are some general criteria that apply to most:"
+      }
+    ],
+    list: [
+      { id: 1, text: "Age should usually be between 18 to 55 years." },
+      { id: 2, text: "Must have a full-time job offer from an employer in New Brunswick (for certain streams)." },
+      { id: 3, text: "At least two years of relevant work experience." },
+      { id: 4, text: "Must take a language test (English or French)." },
+      { id: 5, text: "A bachelor’s degree or other relevant educational qualification." },
+      { id: 6, text: "Intention to live and work permanently in New Brunswick." },
+      { id: 7, text: "Must show proof of funds to support yourself and your family." },
+      { id: 8, text: "For business streams, candidates must have business experience and visit the province beforehand." }
+    ]
+  },
+  {
+    id: 4,
+    heading: "Application Process for NBPNP",
+    para: [],
+    list: [
+      { id: 1, text: "Check which stream you’re eligible for based on your background." },
+      { id: 2, text: "Create an Express Entry profile if your stream requires it." },
+      { id: 3, text: "Submit an Expression of Interest (EOI) to the NBPNP portal." },
+      { id: 4, text: "If selected, you will receive a Nomination Letter from New Brunswick." },
+      { id: 5, text: "With the nomination, you will receive an Invitation to Apply (ITA) for Canadian PR." },
+      { id: 6, text: "Apply for permanent residency through IRCC with all your documents." },
+      { id: 7, text: "If your PR application is approved, you can move to New Brunswick as a permanent resident." }
+    ]
+  },
+  {
+    id: 5,
+    heading: "Required Documents for NBPNP",
+    para: [
+      {
+        id: 1,
+        text: "Make sure all documents are valid, accurate, and complete. These may include:"
+      }
+    ],
+    list: [
+      { id: 1, text: "Passport and government-issued ID" },
+      { id: 2, text: "Birth certificate" },
+      { id: 3, text: "Job offer letter (if required)" },
+      { id: 4, text: "Proof of past work experience" },
+      { id: 5, text: "Language test results (IELTS/TEF)" },
+      { id: 6, text: "Proof of education (degree, transcripts)" },
+      { id: 7, text: "Medical exam reports" },
+      { id: 8, text: "Police clearance certificate" },
+      { id: 9, text: "Proof of funds" },
+      { id: 10, text: "Marriage certificate (if applicable)" },
+      { id: 11, text: "Detailed settlement plan" },
+      { id: 12, text: "Application forms and photographs" }
+    ]
+  },
+  {
+    id: 6,
+    heading: "Different Streams Under NBPNP",
+    para: [
+      {
+        id: 1,
+        text: "Here are the main streams available under the New Brunswick PNP:"
+      }
+    ],
+    list: [
+      { id: 1, text: "New Brunswick Express Entry Stream: For highly skilled workers who are in the federal Express Entry pool and want to live in New Brunswick. You must submit an EOI and meet the eligibility criteria." },
+      { id: 2, text: "Skilled Workers with Employer Support Stream: For people who already have a full-time job offer from a New Brunswick employer. This is a great stream for those without an Express Entry profile." },
+      { id: 3, text: "New Brunswick Entrepreneurial Stream: This is for experienced business owners who want to start or buy a business in New Brunswick. You must have visited the province and show a genuine interest in running a business." },
+      { id: 4, text: "Post-Graduate Entrepreneurial Stream: For international students who have graduated from a college or university in New Brunswick and have successfully run a business in the province for at least 1 year." }
+    ]
+  },
+  {
+    id: 7,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text: "We guide you step-by-step throughout the whole immigration process."
+      },
+      {
+        id: 2,
+        text: "Our team provides customized solutions based on your profile, education, and career goals."
+      },
+      {
+        id: 3,
+        text: "We offer a transparent process—no hidden charges, no confusion."
+      },
+      {
+        id: 4,
+        text: "We stay updated with the latest immigration laws, so your case is always handled the right way."
+      },
+      {
+        id: 5,
+        text: "Our success rate is high, and we’ve helped many applicants settle in Canada."
+      },
+      {
+        id: 6,
+        text: "You’ll get quick responses and dedicated support from our team."
+      },
+      {
+        id: 7,
+        text: "We provide free counseling to help you choose the best country and program."
+      },
+      {
+        id: 8,
+        text: "We also assist with job support, accommodation guidance, and more after your PR is approved."
+      }
+    ],
+    list: []
+  }
+]
+,
+questions: [
+  {
+    id: 1,
+    que: "Do I need a job offer to apply under NBPNP?",
+    ans: "Not always. Some streams, like the Skilled Worker with Employer Support, require a valid job offer, but others—like the Express Entry stream—focus more on your skills and experience. It depends on which stream you apply for.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to get PR through the New Brunswick PNP?",
+    ans: "On average, it takes 6 to 12 months, depending on the stream, the completeness of your application, and how fast your documents are verified. Express Entry-linked streams may be faster than others.",
+  },
+  {
+    id: 3,
+    que: "Can my family members come with me?",
+    ans: "Yes. You can include your spouse and dependent children in your application. Once you receive your PR, your family can also enjoy the benefits of healthcare, education, and a peaceful life in New Brunswick.",
+  },
+  {
+    id: 4,
+    que: "Can I apply for NBPNP without an Express Entry profile?",
+    ans: "Yes. Some streams under NBPNP do not require an Express Entry profile. For example, the Skilled Worker with Employer Support stream allows direct application. However, if you are in the Express Entry pool, you have more options.",
+  },
+],
+  },
+
+   {
+    id: 32,
+    img: about2, // Replace with your actual image reference
+    title: "Atlantic Immigration Program",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "If you're planning to move to Canada for a peaceful lifestyle, better job opportunities, and a direct path to permanent residency, the Atlantic Immigration Program (AIP) could be the perfect option for you. This federal immigration program is designed specifically for skilled workers and international graduates who wish to settle in one of Canada’s four beautiful eastern provinces—Nova Scotia, New Brunswick, Prince Edward Island, and Newfoundland & Labrador.",
+      },
+      {
+        id: 2,
+        text: "What makes AIP different is that it’s employer-driven, meaning applicants must first receive a valid job offer from a designated employer in one of the Atlantic provinces. Once you have the job offer, the rest of the process becomes streamlined, allowing you to apply for PR faster than many other pathways. This program was launched to support population growth, meet labor market needs, and support economic development in the region.",
+      }
+    ],
+    list: []
+  },
+  {
+    id: 2,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "AIP is ideal for—"
+      }
+    ],
+    list: [
+      { id: 1, text: "Skilled workers looking for job security and permanent residency" },
+      { id: 2, text: "International graduates from eligible institutions in Atlantic Canada" },
+      { id: 3, text: "Those wanting a quieter, family-friendly lifestyle with lower living costs" }
+    ]
+  },
+  {
+    id: 3,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "The process includes a settlement plan that ensures your smooth transition into the community. From job offers to settlement support, AIP is designed to help newcomers integrate successfully and build a better life in Canada."
+      }
+    ],
+    list: []
+  },
+  {
+    id: 4,
+    heading: "Who Is Eligible for AIP?",
+    para: [
+      {
+        id: 1,
+        text: "You can apply under the Atlantic Immigration Program if—"
+      }
+    ],
+    list: [
+      { id: 1, text: "You have a valid full-time job offer from a designated employer in one of the Atlantic provinces." },
+      { id: 2, text: "You’ve completed at least one year of full-time work experience in the last five years (unless you’re applying as a recent graduate)." },
+      { id: 3, text: "You meet the minimum education requirement, which is usually a Canadian high school diploma or an equivalent foreign credential assessed by ECA." },
+      { id: 4, text: "You achieve at least CLB 4 in English or French (basic level)." },
+      { id: 5, text: "You have enough settlement funds, unless you are already living and working in Canada." }
+    ]
+  },
+  {
+    id: 5,
+    heading: "Popular Jobs in Demand Under AIP",
+    para: [
+      {
+        id: 1,
+        text: "The Atlantic provinces consistently hire for roles across various sectors. Some of the most commonly recruited jobs include"
+      }
+    ],
+    list: [
+      { id: 1, text: "Nurses and healthcare workers" },
+      { id: 2, text: "Truck drivers and delivery staff" },
+      { id: 3, text: "Food service supervisors and restaurant managers" },
+      { id: 4, text: "Cleaners and housekeeping staff" },
+      { id: 5, text: "IT professionals and tech support roles" },
+      { id: 6, text: "Admin assistants and clerical staff" },
+      { id: 7, text: "Retail store managers and associates" }
+    ]
+  },
+  {
+    id: 6,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "While job demand may change, the key is to secure an offer from a designated Atlantic employer. That’s where GlobesWay can help."
+      }
+    ],
+    list: []
+  },
+  {
+    id: 7,
+    heading: "Why Choose Atlantic Canada?",
+    para: [
+      {
+        id: 1,
+        text: "Moving to the Atlantic provinces comes with its lifestyle benefits—"
+      }
+    ],
+    list: [
+      { id: 1, text: "A relaxed pace of life and better work-life balance" },
+      { id: 2, text: "Lower cost of living and more affordable housing" },
+      { id: 3, text: "Safer, community-driven environments" },
+      { id: 4, text: "High demand for skilled workers" },
+      { id: 5, text: "Faster immigration process through a streamlined PR system" }
+    ]
+  },
+  {
+    id: 8,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "This program is ideal for families, skilled workers, and students who wish to transition into permanent residency and long-term settlement in Canada."
+      }
+    ],
+    list: []
+  },
+  {
+    id: 9,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text: "When it comes to navigating the Atlantic Immigration Program, GlobesWay Immigration stands out as your trusted partner. Here’s why thousands of applicants choose us—"
+      }
+    ],
+    list: [
+      { id: 1, text: "We specialize in Atlantic and Provincial Nominee Programs, with expert knowledge of every stage" },
+      { id: 2, text: "We have strong connections with designated employers, helping you get job offers faster" },
+      { id: 3, text: "Our team guides you through the complete process—from ECA and IELTS to medicals and PR filing" },
+      { id: 4, text: "We offer transparent and affordable packages, so you never face surprise costs" },
+      { id: 5, text: "1000s of clients have successfully received PR with our support" },
+      { id: 6, text: "We provide end-to-end assistance even after you land in Canada" }
+    ]
+  }
+]
+,
+questions: [
+  {
+    id: 1,
+    que: "Do I need a job offer to apply under AIP?",
+    ans: "Yes, a full-time, non-seasonal job offer from a designated Atlantic employer is mandatory to qualify for the program.",
+  },
+  {
+    id: 2,
+    que: "Can I bring my spouse and children through this program?",
+    ans: "Absolutely. AIP allows you to include your spouse and dependent children in your PR application, giving your whole family a new life in Canada.",
+  },
+  {
+    id: 3,
+    que: "I’m an international student studying in Atlantic Canada. Am I eligible?",
+    ans: "Yes. If you’ve recently graduated from an approved post-secondary institution in one of the Atlantic provinces, you may qualify under the graduate stream, even without work experience.",
+  },
+  {
+    id: 4,
+    que: "How long does it take to process the AIP application?",
+    ans: "Typically, applications are processed in 6 to 9 months, depending on how complete your file is and whether your documentation meets IRCC standards.",
+  },
+],
+  },
+
+   {
+    id: 33,
+    img: about2, // Replace with your actual image reference
+    title: "Prince Edward Island PNP",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "Prince Edward Island (PEI), often called Canada’s “Island Paradise,” is a beautiful province known for its natural beauty, welcoming culture, and peaceful lifestyle. It’s one of the smallest provinces in Canada, but full of opportunities, especially for skilled workers and entrepreneurs. PEI is famous for its seafood, agriculture, shipbuilding, and tourism. Its friendly communities and steady job market make it an ideal place to settle with your family."
+      },
+      {
+        id: 2,
+        text: "To bring in skilled talent, the province runs the PEI Provincial Nominee Program (PEI PNP). This program helps skilled workers, entrepreneurs, and international graduates apply for Canadian permanent residency by receiving a provincial nomination. That nomination gives a major boost to your immigration profile, helping you get PR faster and with fewer barriers."
+      }
+    ],
+    list: []
+  },
+  {
+    id: 2,
+    heading: "Key Features of PEI PNP",
+    para: [],
+    list: [
+      { id: 1, text: "Thousands of job vacancies are available across industries" },
+      { id: 2, text: "Easy and direct PR pathway with monthly nomination draws" },
+      { id: 3, text: "High demand for healthcare professionals, IT experts, and tradespeople" },
+      { id: 4, text: "Affordable living, safe communities, and strong healthcare and education systems" },
+      { id: 5, text: "A great place for entrepreneurs to start or invest in local businesses" },
+      { id: 6, text: "A nomination from PEI adds 600 points to your Express Entry CRS score" },
+      { id: 7, text: "Lower competition compared to big cities like Toronto or Vancouver" }
+    ]
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria for PEI PNP",
+    para: [
+      {
+        id: 1,
+        text: "Eligibility varies depending on which stream you apply under, but here are the general requirements most applicants need to meet:"
+      }
+    ],
+    list: [
+      { id: 1, text: "A valid job offer from an employer in PEI (for most streams)" },
+      { id: 2, text: "Minimum high school education or more, depending on the job" },
+      { id: 3, text: "Proof of language proficiency (IELTS or other approved tests)" },
+      { id: 4, text: "Sufficient settlement funds and a plan to live in the province" },
+      { id: 5, text: "Relevant work experience in your field" },
+      { id: 6, text: "The job offer must be full-time and paid" },
+      { id: 7, text: "If applying under the entrepreneur stream, business experience is required" }
+    ]
+  },
+  {
+    id: 4,
+    heading: "Application Process for PEI PNP",
+    para: [
+      {
+        id: 1,
+        text: "The application process is simple but must be followed step-by-step for the best results:"
+      }
+    ],
+    list: [
+      { id: 1, text: "Create an online profile on the official PEI PNP portal" },
+      { id: 2, text: "Check your eligibility and select the most suitable stream" },
+      { id: 3, text: "Fill out your details and submit an Expression of Interest (EOI)" },
+      { id: 4, text: "If selected, you’ll receive an Invitation to Apply (ITA)" },
+      { id: 5, text: "Submit a complete application along with all required documents" },
+      { id: 6, text: "If approved, undergo a medical exam and background check" },
+      { id: 7, text: "Once nominated, apply for PR through the IRCC portal" }
+    ]
+  },
+  {
+    id: 5,
+    heading: "Documents Required for PEI PNP",
+    para: [
+      {
+        id: 1,
+        text: "Applicants must prepare the following documents:"
+      }
+    ],
+    list: [
+      { id: 1, text: "Passport copy and birth certificate" },
+      { id: 2, text: "Educational documents (degree, diploma, or transcripts)" },
+      { id: 3, text: "Proof of work experience (letters, contracts, etc.)" },
+      { id: 4, text: "Valid job offer from a PEI employer (if required)" },
+      { id: 5, text: "Proof of funds and a settlement plan" },
+      { id: 6, text: "Language test results (IELTS/CELPIP/TEF)" },
+      { id: 7, text: "Police clearance certificate and medical exam results" },
+      { id: 8, text: "Marriage and children’s birth certificates (if applicable)" }
+    ]
+  },
+  {
+    id: 6,
+    heading: "Processing Time",
+    para: [
+      {
+        id: 1,
+        text: "The processing time usually ranges between 6 to 8 months, but it may vary depending on your application quality and the volume of applicants. A well-prepared application, backed by the right documents, can help speed things up. Regular monthly draws also ensure candidates don’t have to wait too long to receive an ITA. Always keep an eye on the official PEI PNP website for the latest updates."
+      }
+    ],
+    list: []
+  },
+  {
+    id: 7,
+    heading: "Different Streams Under PEI PNP",
+    para: [
+      {
+        id: 1,
+        text: "There are three main pathways you can apply through under the PEI PNP:"
+      }
+    ],
+    list: [
+      {
+        id: 1,
+        text: "Business Impact Category: For experienced entrepreneurs who want to invest in or run a business in PEI. It includes sub-streams based on whether you want full ownership, partnership, or just a work permit. You’ll need strong business experience and a clear plan for settling in PEI."
+      },
+      {
+        id: 2,
+        text: "Labour Impact Category: For skilled workers or people already working in PEI.\nSkilled Worker Stream: For qualified professionals with job offers\nCritical Worker Stream: For low-skilled or semi-skilled workers currently working in the province with employer support"
+      },
+      {
+        id: 3,
+        text: "Express Entry Stream: For candidates who already have a profile in Canada’s federal Express Entry system. If your job skills match the needs in PEI, you can be nominated, which boosts your CRS score and helps you get PR faster."
+      }
+    ]
+  },
+  {
+    id: 8,
+    heading: "Why Choose GlobesWay Immigration for PEI PNP?",
+    para: [
+      {
+        id: 1,
+        text: "At GlobesWay Immigration, we don’t just process applications—we shape your future."
+      }
+    ],
+    list: [
+      { id: 1, text: "Expert Profile Assessment: We evaluate your case carefully and match you with the right PEI stream" },
+      { id: 2, text: "Strong Employer Network: We work with trusted employers in PEI to help connect you with job opportunities" },
+      { id: 3, text: "100% Application Support: From EOI to PR filing, we guide you at every step" },
+      { id: 4, text: "Affordable, Transparent Services: No hidden charges, no false promises" },
+      { id: 5, text: "Settlement Assistance: We help you plan your move, find accommodation, and integrate into the community" },
+      { id: 6, text: "Post-Arrival Support: From airport pickup to job assistance, we stay by your side" }
+    ]
+  }
+],
+questions: [
+  {
+    id: 1,
+    que: "Can I apply to PEI PNP without a job offer?",
+    ans: "Most PEI streams require a valid job offer from an employer in the province. However, under the Express Entry stream, candidates with strong skills and work experience may still be considered, especially if their profile matches in-demand occupations.",
+  },
+  {
+    id: 2,
+    que: "Do I need to live in PEI after getting nominated?",
+    ans: "Yes, the PEI PNP is designed for people who genuinely want to live and work in Prince Edward Island. You are expected to settle in the province and contribute to its economy and community. A settlement plan is also required as part of your application.",
+  },
+  {
+    id: 3,
+    que: "What is the minimum language requirement?",
+    ans: "Language requirements vary by stream, but usually, a CLB 4 to CLB 7 is needed, depending on your job role. You’ll need to submit results from IELTS, CELPIP (English), or TEF (French) to prove your ability to communicate effectively.",
+  },
+  {
+    id: 4,
+    que: "Can I include my family in the application?",
+    ans: "Yes, you can include your spouse and dependent children in your application. They may also be eligible for open work permits or study permits once they receive your nomination and PR approval, allowing their whole family to benefit.",
+  },
+],
+  },
+
+   {
+    id: 34,
+    img: about2, // Replace with your actual image reference
+    title: "Newfoundland & Labrador PNP",
+  desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "Newfoundland and Labrador is Canada’s easternmost province, rich in natural beauty, history, and opportunity. Known for its rugged coastlines, warm communities, and booming resource industries like fisheries and mining, it is becoming a top choice for newcomers looking to settle in Canada.",
+      },
+      {
+        id: 2,
+        text:
+          "This province is a blend of modern industry and centuries-old tradition. While fishing remains one of the leading industries, jobs in healthcare, technology, and skilled trades are growing rapidly. With a peaceful lifestyle, affordable housing, and growing economic demand, Newfoundland and Labrador offers immigrants not just jobs but a high quality of life.",
+      },
+      {
+        id: 3,
+        text:
+          "To support its labor market needs, the government introduced the Newfoundland and Labrador Provincial Nominee Program (NLPNP), which allows the province to nominate individuals for permanent residency based on their skills, job offers, or business plans.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Why Choose NLPNP?",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text: "Offers multiple streams for skilled workers, graduates, and entrepreneurs",
+      },
+      {
+        id: 2,
+        text: "Prioritizes high-demand fields like healthcare, IT, engineering, and fisheries",
+      },
+      {
+        id: 3,
+        text: "Quicker processing for those applying through Express Entry",
+      },
+      {
+        id: 4,
+        text: "Monthly invitations and steady nominations draw",
+      },
+      {
+        id: 5,
+        text: "Low cost of living and welcoming communities",
+      },
+      {
+        id: 6,
+        text: "Family-friendly environment with high safety standards",
+      },
+      {
+        id: 7,
+        text: "Easier PR pathway through provincial nomination",
+      },
+    ],
+  },
+  {
+    id: 3,
+    heading: "How to Apply for the NL PNP?",
+    para: [
+      {
+        id: 1,
+        text:
+          "You can apply in two ways:",
+      },
+    ],
+    list: [
+      {
+        id: 1,
+        text:
+          "Direct NLPNP Application: Apply directly under one of NLPNP's specific streams. If you are selected, you’ll receive a provincial nomination, which lets you apply for permanent residency through IRCC.",
+      },
+      {
+        id: 2,
+        text:
+          "Via Express Entry: Create an Express Entry profile and indicate your interest in living in Newfoundland and Labrador. If chosen, you’ll be nominated and receive 600 additional CRS points, almost guaranteeing your PR.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Eligibility Criteria (May Vary by Stream)",
+    para: [],
+    list: [
+      { id: 1, text: "Age between 18 and 55 years" },
+      { id: 2, text: "A valid full-time job offer from an eligible NL employer" },
+      { id: 3, text: "Minimum two years of relevant work experience" },
+      { id: 4, text: "Meet language requirements (IELTS or CELPIP)" },
+      { id: 5, text: "Post-secondary education or training" },
+      { id: 6, text: "Proof of sufficient funds to settle in the province" },
+      { id: 7, text: "Valid work permit (if applying from within Canada)" },
+      { id: 8, text: "Plan to live and work in Newfoundland and Labrador" },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "Valid passport and identity documents" },
+      { id: 2, text: "Birth certificate" },
+      { id: 3, text: "Educational credentials (ECA if required)" },
+      { id: 4, text: "Language test scores (IELTS/CELPIP)" },
+      { id: 5, text: "Job offer letter from an approved employer" },
+      { id: 6, text: "Proof of work experience" },
+      { id: 7, text: "Medical exam results" },
+      { id: 8, text: "Police clearance certificate" },
+      { id: 9, text: "Settlement funds proof" },
+      { id: 10, text: "Marriage certificate and children’s documents (if applicable)" },
+      { id: 11, text: "Proof of family ties in Canada (if any)" },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Streams Under NL PNP",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text:
+          "Skilled Worker Category: For people with a full-time job offer from an NL employer and a valid work permit. You must be experienced, qualified, and meet language and education standards.",
+      },
+      {
+        id: 2,
+        text:
+          "Express Entry Skilled Worker: For those already in the federal Express Entry pool with a job offer in NL. Fast-track route to PR with a 600 CRS boost upon nomination.",
+      },
+      {
+        id: 3,
+        text:
+          "International Graduate: For international students who graduated from a Canadian post-secondary institution and have a valid job offer in the province.",
+      },
+      {
+        id: 4,
+        text:
+          "International Entrepreneur: For businesspeople with experience and funds looking to start or buy a business in NL. You must live in the province and operate the business actively.",
+      },
+      {
+        id: 5,
+        text:
+          "International Graduate Entrepreneur: For graduates of post-secondary programs in NL who have started or are managing a business. You need at least 1 year of business ownership in the province.",
+      },
+      {
+        id: 6,
+        text:
+          "Priority Skills NL: For highly educated individuals with strong language skills and work experience in in-demand sectors like IT, healthcare, and aquaculture.",
+      },
+      {
+        id: 7,
+        text:
+          "Atlantic Immigration Program (AIP): Employer-driven program for skilled workers and graduates. NL employers hire foreign talent to meet labor shortages. A job offer is required.",
+      },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text:
+          "Choosing the right immigration consultant is key to a successful journey, and GlobesWay Immigration is trusted by thousands of applicants for a reason:",
+      },
+    ],
+    list: [
+      { id: 1, text: "End-to-End Support — From profile creation to final PR approval, we manage everything" },
+      { id: 2, text: "Genuine Employer Referrals — We work with designated employers across NL and Atlantic Canada" },
+      { id: 3, text: "Accurate Documentation Help — We prepare your file to meet IRCC & NLPNP standards" },
+      { id: 4, text: "One-on-One Expert Guidance — You’ll have access to certified immigration professionals anytime" },
+      { id: 5, text: "Customized Job Matching —  Based on your profile and experience, we help you connect with the right employers" },
+      { id: 6, text: "High Success Rate – Our clients enjoy faster results and a higher approval rate" },
+    ],
+  },
+]
+,
+   questions: [
+  {
+    id: 1,
+    que: "Can I apply for NLPNP without a job offer?",
+    ans: "Most streams under the NLPNP require a valid job offer, especially for skilled workers. However, under the Priority Skills stream, highly skilled individuals in in-demand sectors may be eligible even without a job offer if they show strong qualifications and experience.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to get PR through NLPNP?",
+    ans: "Once you receive a provincial nomination, applying for permanent residency through IRCC can take around 6 to 8 months. Express Entry-linked applications may be faster. The key is submitting a complete and accurate application with all required documents.",
+  },
+  {
+    id: 3,
+    que: "Can international students apply for NLPNP?",
+    ans: "Yes! If you've completed a post-secondary program in Newfoundland and Labrador and have a valid job offer, you may qualify under the International Graduate or Graduate Entrepreneur streams. It’s a great option to transition from a study permit to permanent residency.",
+  },
+  {
+    id: 4,
+    que: "What kind of jobs are in high demand in the NLPNP?",
+    ans: "Newfoundland and Labrador currently need professionals in healthcare, information technology, aquaculture, construction, and fisheries. Skilled trades like electricians, welders, and heavy-duty mechanics are also in demand, along with food service and truck driving jobs.",
+  },
+],
+
+  },
+
+   {
+    id: 35,
+    img: about2, // Replace with your actual image reference
+    title: "Employer Nomination Scheme Visa (Subclass 186)",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "The ENS Visa (Subclass 186) is a permanent residency visa designed for skilled workers who are nominated by an approved Australian employer. Whether you are already in Australia or living abroad, this visa enables you to live, work, and settle in the country permanently with your family.",
+      },
+      {
+        id: 2,
+        text:
+          "It's an excellent option if you have job experience and qualifications relevant to occupations listed in Australia’s skilled list and have secured a full-time job offer from an eligible Australian employer.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Streams Under Subclass 186 Visa",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text:
+          "Direct Entry Stream: For applicants who are outside Australia or have limited Australian work experience. You’ll need at least three years of full-time work experience in the relevant field and skills assessment approval.",
+      },
+      {
+        id: 2,
+        text:
+          "Temporary Residence Transition (TRT) Stream: For individuals who already hold a Temporary Skill Shortage (TSS) visa and have worked for their employer in the same role for at least three years.",
+      },
+      {
+        id: 3,
+        text:
+          "Labour Agreement Stream: For applicants nominated under a Labour Agreement between an employer and the Australian Government. It’s often used in niche industries facing labor shortages.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Eligibility for Subclass 186 Visa",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text: "Be nominated by an approved Australian employer.",
+      },
+      {
+        id: 2,
+        text: "Be under 45 years of age at the time of application (exceptions exist).",
+      },
+      {
+        id: 3,
+        text: "Meet English language proficiency requirements (IELTS or equivalent).",
+      },
+      {
+        id: 4,
+        text: "Have the necessary skills, qualifications, and work experience related to the nominated occupation.",
+      },
+      {
+        id: 5,
+        text: "Undergo a skills assessment from an authorized assessing body (only for the Direct Entry Stream).",
+      },
+      {
+        id: 6,
+        text: "Meet health and character requirements.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "A valid passport." },
+      { id: 2, text: "Nomination approval from your employer." },
+      { id: 3, text: "Proof of identity and education documents." },
+      { id: 4, text: "Skills assessment report (if applicable)." },
+      { id: 5, text: "Work experience letters and pay slips." },
+      { id: 6, text: "English language test results." },
+      { id: 7, text: "Health examination reports." },
+      { id: 8, text: "Police clearance certificates." },
+      { id: 9, text: "Marriage and birth certificates (for dependents, if any)." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Key Highlights of Subclass 186 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Permanent residency from day one." },
+      { id: 2, text: "Pathway to Australian citizenship." },
+      { id: 3, text: "Access to Medicare (Australia’s public health system)." },
+      { id: 4, text: "Opportunity to live, work, and study anywhere in Australia." },
+      { id: 5, text: "Option to sponsor eligible relatives for permanent residence." },
+      { id: 6, text: "Full working rights for the primary applicant and dependents." },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text:
+          "Choosing the right visa consultant is crucial for a stress-free process, and that’s where GlobesWay Immigration stands out. With years of experience and a high success rate in PR and skilled migration visas, we offer personalized assistance at every step.",
+      },
+    ],
+    list: [
+      {
+        id: 1,
+        text:
+          "Expert Guidance: Our certified consultants understand visa rules thoroughly and keep you updated.",
+      },
+      {
+        id: 2,
+        text:
+          "End-to-End Support: From skill assessments to employer nomination and final submission, we handle it all.",
+      },
+      {
+        id: 3,
+        text:
+          "Transparent Process: No hidden charges, only honest advice and reliable service.",
+      },
+      {
+        id: 4,
+        text:
+          "Customized Solutions: We assess your profile and guide you on the stream and occupation that best suit you.",
+      },
+    ],
+  },
+]
+,
+  questions: [
+  {
+    id: 1,
+    que: "Can I include my family in the ENS 186 visa application?",
+    ans: "Yes, you can include your spouse or de facto partner, dependent children, and stepchildren in your application. They will also receive permanent residency, full working rights, and access to Medicare once the visa is granted.",
+  },
+  {
+    id: 2,
+    que: "What happens if I change employers after getting the 186 visa?",
+    ans: "Once your ENS 186 visa is granted, you are a permanent resident and not legally tied to your employer. However, it is advisable to work with the nominating employer for a reasonable period (usually 2 years) to avoid issues like visa cancellation inquiries.",
+  },
+  {
+    id: 3,
+    que: "Is a skills assessment mandatory for all streams?",
+    ans: "A skills assessment is mandatory only for the Direct Entry stream. Applicants applying under the TRT or Labour Agreement stream are generally exempt from this requirement, provided they meet the work experience and nomination conditions.",
+  },
+  {
+    id: 4,
+    que: "How long does it take to process the ENS 186 visa?",
+    ans: "Processing times can vary depending on the stream and the completeness of your application. On average, it takes between 6 to 12 months. With proper documentation and professional guidance from GlobesWay, delays can be minimized.",
+  },
+],
+  },
+
+   {
+    id: 36,
+    img: about2, // Replace with your actual image reference
+    title: "Skilled Independent Visa (Subclass 189)",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "The Skilled Independent Visa Subclass 189 is a permanent residence visa designed for skilled professionals who are not sponsored by an employer, state, or family member. It is part of Australia’s General Skilled Migration (GSM) program and is based purely on the applicant’s skills, qualifications, and points scored on the immigration points test.",
+      },
+      {
+        id: 2,
+        text:
+          "It is ideal for those with occupations listed on the Medium and Long-term Strategic Skills List (MLTSSL). This visa is best suited for applicants who want the flexibility to live and work anywhere in Australia without being tied to a specific job or location. Once granted, you and your eligible family members become permanent residents, with access to benefits like Medicare, education, and citizenship pathways.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Eligibility for Subclass 189 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Must have an occupation on the MLTSSL." },
+      { id: 2, text: "Submit an Expression of Interest (EOI) and receive an invitation to apply." },
+      { id: 3, text: "Be under 45 years of age at the time of invitation." },
+      { id: 4, text: "Score at least 65 points on the skilled migration points test." },
+      { id: 5, text: "Have a positive skills assessment in your nominated occupation." },
+      { id: 6, text: "Meet English language proficiency requirements." },
+      { id: 7, text: "Fulfill health and character requirements." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "Valid passport and identity documents." },
+      { id: 2, text: "Skills assessment outcome." },
+      { id: 3, text: "English language test results (IELTS, TOEFL, PTE)." },
+      { id: 4, text: "Education transcripts and degree certificates." },
+      { id: 5, text: "Work experience documents and reference letters." },
+      { id: 6, text: "Police clearance certificates." },
+      { id: 7, text: "Health assessment report." },
+      { id: 8, text: "EOI and invitation letter." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Key Highlights of Subclass 189 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "No need for state nomination or employer sponsorship." },
+      { id: 2, text: "Permanent residency from the date of visa grant." },
+      { id: 3, text: "Full work and study rights anywhere in Australia." },
+      { id: 4, text: "Access to Australia’s public healthcare system." },
+      { id: 5, text: "A direct route to citizenship eligibility." },
+      { id: 6, text: "Freedom to change employers or occupations." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text:
+          "At GlobesWay Immigration, we offer personalized assistance with every step of your Subclass 189 journey, from EOI submission to final documentation. We ensure your skills match high-demand occupations and help boost your score on the points test for a faster invitation.",
+      },
+    ],
+    list: [],
+  },
+]
+,
+   questions: [
+  {
+    id: 1,
+    que: "Can I include my family in the Subclass 189 visa?",
+    ans: "Yes, you can include eligible family members like your spouse or dependent children in your visa application. They will also be granted permanent residency and enjoy the same benefits. Their documents must be submitted along with your main application.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to get a Subclass 189 visa?",
+    ans: "The average processing time ranges from 6 to 10 months, depending on the completeness of your application and the current queue. Ensuring accurate documentation can help reduce delays.",
+  },
+  {
+    id: 3,
+    que: "What is the minimum IELTS score for this visa?",
+    ans: "You generally need to show ‘competent’ English, which means at least 6 bands in each module of IELTS or the equivalent in PTE/TOEFL. Higher scores can help increase your PR points.",
+  },
+  {
+    id: 4,
+    que: "Do I need a job offer to apply?",
+    ans: "No, this visa is independent and does not require a job offer or sponsorship. If you have skills in demand and meet the points criteria, you can apply directly after receiving an invitation.",
+  },
+],
+
+  },
+
+   {
+    id: 37,
+    img: about2, // Replace with your actual image reference
+    title: "Skilled Nominated Visa Subclass 190",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "The Skilled Nominated Visa Subclass 190 is a points-tested permanent residency visa for skilled workers nominated by an Australian state or territory government. It is ideal for those who may not meet the criteria for the 189 visa due to lower points but are willing to live and work in a particular region.",
+      },
+      {
+        id: 2,
+        text:
+          "Once you receive a nomination, it adds 5 bonus points to your Expression of Interest (EOI), increasing your chance of receiving an invitation. After the visa grant, you can enjoy full PR benefits while contributing to the nominated state’s labor market.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Eligibility for Subclass 190 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Be nominated by an Australian state or territory government." },
+      { id: 2, text: "Submit an EOI and receive an invitation to apply." },
+      { id: 3, text: "Have an occupation on the relevant state occupation list." },
+      { id: 4, text: "Score a minimum of 65 points, including state nomination points." },
+      { id: 5, text: "Be under 45 years of age at the time of invitation." },
+      { id: 6, text: "Meet English language, health, and character requirements." },
+      { id: 7, text: "Have a suitable skills assessment for the nominated occupation." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "Valid passport and identity proofs." },
+      { id: 2, text: "Nomination approval from a state or territory." },
+      { id: 3, text: "Skills assessment results." },
+      { id: 4, text: "Education qualifications and employment references." },
+      { id: 5, text: "English proficiency test results." },
+      { id: 6, text: "Police clearance certificates." },
+      { id: 7, text: "Health check records." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Key Highlights of Subclass 190 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Guaranteed 5 extra points with state nomination." },
+      { id: 2, text: "Full PR status from the visa grant day." },
+      { id: 3, text: "Eligibility to live, work, and study in your nominated state." },
+      { id: 4, text: "Access to government benefits like Medicare." },
+      { id: 5, text: "Option to apply for citizenship later." },
+      { id: 6, text: "Family members also receive PR." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Why Choose Globesway Immigration?",
+    para: [],
+    list: [
+      { id: 1, text: "Dedicated team for state-wise application tracking" },
+      { id: 2, text: "Strong portfolio in handling state nominations successfully" },
+      { id: 3, text: "Pre-assessment and state compatibility analysis" },
+      { id: 4, text: "Affordable pricing and timely follow-up on each step" },
+    ],
+  },
+]
+,
+   questions: [
+  {
+    id: 1,
+    que: "Do I have to stay nominated permanently?",
+    ans: "While you are expected to live and work in the nominating state for at least 2 years, the visa allows freedom of movement across Australia after that.",
+  },
+  {
+    id: 2,
+    que: "Is the 190 visa better than the 189?",
+    ans: "The 190 visa gives you extra points and better chances of invitation, especially if your occupation is in high demand in specific states.",
+  },
+  {
+    id: 3,
+    que: "Can I change jobs after receiving the visa?",
+    ans: "Yes, you can switch jobs as long as you live in your nominated state and continue working in your skilled occupation.",
+  },
+  {
+    id: 4,
+    que: "Is it mandatory to have a job in the nominated state before applying?",
+    ans: "Not necessarily. Some states require job offers, while others assess based on skills, experience, and connection to the region.",
+  },
+],
+
+  },
+
+   {
+    id: 38,
+    img: about2, // Replace with your actual image reference
+    title: "Skilled Work Regional Visa (Subclass 491)",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "The Skilled Work Regional (Provisional) Visa Subclass 491 is a points-tested visa that allows skilled workers to live and work in designated regional areas of Australia for up to 5 years. It is a pathway to permanent residency through the Subclass 191 visa after meeting residency and income requirements.",
+      },
+      {
+        id: 2,
+        text:
+          "This visa requires nomination by a state/territory government or sponsorship by an eligible relative living in a designated regional area. It’s a great opportunity for those who want to settle in less populated but opportunity-rich regions of Australia.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Eligibility for Subclass 491 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Be nominated by a regional state/territory or sponsored by an eligible relative." },
+      { id: 2, text: "Submit an EOI and receive an invitation." },
+      { id: 3, text: "Be under 45 years of age at invitation time." },
+      { id: 4, text: "Score at least 65 points on the points test." },
+      { id: 5, text: "Have a positive skills assessment in your nominated occupation." },
+      { id: 6, text: "Meet English language, health, and character criteria." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "Identity documents and a passport." },
+      { id: 2, text: "Nomination or sponsorship proof." },
+      { id: 3, text: "Skills assessment certificate." },
+      { id: 4, text: "English language proficiency scores." },
+      { id: 5, text: "Proof of educational qualifications." },
+      { id: 6, text: "Employment references and payslips." },
+      { id: 7, text: "Police checks and medical certificates." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Key Highlights of Subclass 491 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "5-year temporary visa with PR pathway." },
+      { id: 2, text: "15 extra points for regional nomination or sponsorship." },
+      { id: 3, text: "Access to Medicare and public schooling." },
+      { id: 4, text: "Freedom to live and work in designated regional areas." },
+      { id: 5, text: "Eligible for PR through Subclass 191 after 3 years." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Why Choose Globesway Immigration?",
+    para: [],
+    list: [
+      { id: 1, text: "Experience in both family-sponsored and state-nominated applications" },
+      { id: 2, text: "Region-wise occupation list support" },
+      { id: 3, text: "Visa tracking, updates, and post-landing services" },
+      { id: 4, text: "Proven success in converting 491 to PR" },
+    ],
+  },
+]
+,
+    questions: [
+  {
+    id: 1,
+    que: "Can I move to a metro city on a 491 visa?",
+    ans: "No, the 491 visa requires you to live and work in designated regional areas. Moving to a metro city may violate visa conditions and impact future PR applications.",
+  },
+  {
+    id: 2,
+    que: "Is this a permanent visa?",
+    ans: "No, it’s a provisional visa. You can apply for permanent residency through the Subclass 191 after meeting the 3-year stay and income requirements.",
+  },
+  {
+    id: 3,
+    que: "How is 491 different from 190?",
+    ans: "The 491 visa requires regional residence and offers a path to PR, while the 190 visa offers direct PR but requires a state nomination with fewer location restrictions.",
+  },
+  {
+    id: 4,
+    que: "Can I include family members?",
+    ans: "Yes, you can include your partner and dependent children. They must meet health and character requirements and be listed in your application.",
+  },
+],
+
+  },
+
+   {
+    id: 39,
+    img: about2, // Replace with your actual image reference
+    title: "Temporary Skill Shortage (TSS) Visa – Subclass 482",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "The Subclass 482 Visa is a temporary visa that allows Australian employers to fill critical skill shortages by hiring overseas workers. Known as the TSS visa, this category is transitioning to the new Skills in Demand Visa aimed at better workforce alignment with long-term industry needs.",
+      },
+      {
+        id: 2,
+        text: "It includes short-term, medium-term, and labor agreement streams, depending on your occupation and employer needs. The new Skills in Demand Visa will offer clearer PR pathways for those contributing to Australia’s economy.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Eligibility for Subclass 482 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Be sponsored by an approved Australian employer." },
+      { id: 2, text: "Have a nomination for an eligible occupation." },
+      { id: 3, text: "Possess the necessary qualifications and at least 2 years of relevant work experience." },
+      { id: 4, text: "Meet English language standards (varies by stream)." },
+      { id: 5, text: "Meet health and character requirements." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "Job offer letter and nomination approval." },
+      { id: 2, text: "Passport and identity documentation." },
+      { id: 3, text: "Qualifications and work experience proofs." },
+      { id: 4, text: "English test results (IELTS, TOEFL, etc.)." },
+      { id: 5, text: "Police clearance and health examination results." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Key Highlights of Subclass 482 Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Temporary visa for 2 to 4 years, depending on stream." },
+      { id: 2, text: "Eligible for PR via ENS 186 or other pathways after working for the sponsor." },
+      { id: 3, text: "Quick processing compared to other visa types." },
+      { id: 4, text: "Ability to bring dependents with full work/study rights." },
+      { id: 5, text: "Sponsored work allows professional growth and experience in Australia." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Why Choose Globesway Immigration?",
+    para: [],
+    list: [
+      { id: 1, text: "We work closely with employers and handle end-to-end applications." },
+      { id: 2, text: "Accurate employer nomination assistance" },
+      { id: 3, text: "Guidance for transitioning from TSS to permanent residency" },
+      { id: 4, text: "Assistance for dependents and family visa options" },
+    ],
+  },
+]
+,
+questions: [
+  {
+    id: 1,
+    que: "Can I change employers on a TSS visa?",
+    ans: "Yes, but your new employer must be an approved sponsor, and a new nomination must be submitted. You must not work for another employer without this approval.",
+  },
+  {
+    id: 2,
+    que: "Is this a permanent visa?",
+    ans: "No, the TSS visa is temporary but can lead to PR through Subclass 186 if eligibility criteria are met, including work experience with the same employer.",
+  },
+  {
+    id: 3,
+    que: "Can my family accompany me?",
+    ans: "Yes, your spouse and children can apply as dependents. They will have work and study rights in Australia while you hold the TSS visa.",
+  },
+  {
+    id: 4,
+    que: "What if I lose my job?",
+    ans: "You will have 60 days to find a new employer willing to sponsor you. If not, you must leave Australia unless you apply for another visa type.",
+  },
+],
+  },
+
+    {
+    id: 40,
+    img: about2, // Replace with your actual image reference
+    title: "Visitor Visa Subclass 600",
+   desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "The Visitor Visa Subclass 600 is ideal for individuals who wish to travel to Australia temporarily for tourism, visiting family or friends, or conducting short-term business activities. Whether you're planning a holiday, meeting your loved ones, or attending a business conference, this visa provides flexible options for short stays in Australia.",
+      },
+      {
+        id: 2,
+        text: "The visa allows you to stay for up to 3, 6, or 12 months, depending on the purpose of your visit and the decision of the Department of Home Affairs. While this visa doesn’t permit work, you can enjoy Australia’s vibrant culture, natural beauty, and urban attractions, or spend quality time with relatives who are already Australian residents or citizens.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Types of Streams Under Visitor Visa Subclass 600",
+    para: [],
+    list: [
+      { id: 1, text: "Tourist Stream (Inside/Outside Australia)—For people traveling for holidays or visiting friends/family." },
+      { id: 2, text: "Sponsored Family Stream—For applicants sponsored by a family member residing in Australia." },
+      { id: 3, text: "Business Visitor Stream—For short business visits like attending meetings, conferences, or exploring business opportunities." },
+      { id: 4, text: "Approved Destination Status Stream—For citizens of certain countries traveling in organized tours." },
+      { id: 5, text: "Frequent Traveller Stream—For business travelers from China who visit frequently." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria",
+    para: [],
+    list: [
+      { id: 1, text: "Hold a valid passport from an eligible country." },
+      { id: 2, text: "Demonstrate a genuine intention to stay temporarily in Australia." },
+      { id: 3, text: "Provide proof of funds to support yourself during your stay." },
+      { id: 4, text: "Meet health and character requirements." },
+      { id: 5, text: "Show ties to your home country (e.g., job, property, family) to ensure return." },
+      { id: 6, text: "Must not have outstanding debts to the Australian Government." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Required Documents",
+    para: [],
+    list: [
+      { id: 1, text: "A valid passport with blank visa pages." },
+      { id: 2, text: "Completed visa application form (Form 1419)." },
+      { id: 3, text: "Recent passport-size photographs." },
+      { id: 4, text: "Proof of sufficient funds (bank statements, income slips)." },
+      { id: 5, text: "Travel itinerary, return flight bookings (if any)." },
+      { id: 6, text: "Invitation letter (for visiting family/friends)." },
+      { id: 7, text: "Health insurance (recommended)." },
+      { id: 8, text: "Evidence of ties to home country (job letter, property ownership, etc.)." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Key Highlights",
+    para: [],
+    list: [
+      { id: 1, text: "Flexible duration—3, 6, or 12 months." },
+      { id: 2, text: "Apply from inside or outside Australia." },
+      { id: 3, text: "Ideal for family visits, tourism, or short business trips." },
+      { id: 4, text: "Option to extend visa (conditions apply)." },
+      { id: 5, text: "Multiple entry options are available in some cases." },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text: "Choosing a trusted visa consultant ensures a smooth and successful visa journey. At GlobesWay Immigration, we understand the challenges and paperwork involved with Australian visas and simplify the entire process for you.",
+      },
+    ],
+    list: [
+      { id: 1, text: "Personalized Guidance—We tailor visa strategies based on your purpose and travel history." },
+      { id: 2, text: "Strong Documentation Support—We help prepare a compelling case to improve your visa chances." },
+      { id: 3, text: "Fast & Transparent—Zero hidden fees, real-time updates, and high accuracy in submissions." },
+      { id: 4, text: "Post-Visa Support—From extensions to travel tips, we remain your support partner even after visa approval." },
+    ],
+  },
+]
+,
+questions: [
+  {
+    id: 1,
+    que: "Can I work on a Visitor Visa 600?",
+    ans: "No, you are not allowed to work under this visa. However, you can engage in volunteer work and attend business conferences or seminars. For employment, you must apply for a work visa or a skilled migration visa.",
+  },
+  {
+    id: 2,
+    que: "Can I extend my visitor visa while in Australia?",
+    ans: "In some cases, yes. If you apply for another Visitor Visa before your current visa expires and meet the eligibility criteria, you may be granted an extension. GlobesWay can assist with visa extension filings.",
+  },
+  {
+    id: 3,
+    que: "Do I need to show my bank balance for this visa?",
+    ans: "Yes, showing proof of funds is a key requirement. You need to demonstrate that you can cover your expenses in Australia, including accommodation, travel, and food.",
+  },
+  {
+    id: 4,
+    que: "What happens if my visa is refused?",
+    ans: "If your visa is refused, you’ll receive a refusal letter explaining the reasons. Depending on your situation, you may be eligible for a review. Our experts at GlobesWay can guide you on the next steps and the reapplication process.",
+  },
+],
+
+  },
+
+    {
+    id: 41,
+    img: about2, // Replace with your actual image reference
+    title: "Partner Visa Subclass 820",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "The Partner Visa Subclass 820 is a temporary visa that allows the spouse or de facto partner of an Australian citizen, permanent resident, or eligible New Zealand citizen to live in Australia. It is the first step toward obtaining a permanent Partner Visa (Subclass 801)."
+      },
+      {
+        id: 2,
+        text: "This visa is designed to help couples stay together in Australia while their permanent visa is processed. If your relationship is genuine and ongoing, this visa offers a path to residency, stability, and a future with your partner in Australia."
+      }
+    ],
+    list: []
+  },
+  {
+    id: 2,
+    heading: "Key Features of Partner Visa Subclass 820",
+    para: [],
+    list: [
+      { id: 1, text: "Live and work in Australia temporarily while awaiting a permanent visa." },
+      { id: 2, text: "Study in Australia (without government funding)." },
+      { id: 3, text: "Enroll in Medicare, Australia’s public healthcare system." },
+      { id: 4, text: "Travel freely in and out of Australia during the visa validity period." },
+      { id: 5, text: "Apply from within Australia while holding a valid visa." }
+    ]
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria",
+    para: [],
+    list: [
+      { id: 1, text: "Must be in a genuine, committed relationship with an eligible sponsor." },
+      { id: 2, text: "Must be inside Australia when applying." },
+      { id: 3, text: "Should have evidence of shared financial and social life." },
+      { id: 4, text: "Both partners must be 18 years or older." },
+      { id: 5, text: "Sponsor must be an Australian citizen, permanent resident, or eligible New Zealand citizen." },
+      { id: 6, text: "Must meet health and character requirements." },
+      { id: 7, text: "Not have had a visa canceled or refused in the past (with some exceptions)." }
+    ]
+  },
+  {
+    id: 4,
+    heading: "Required Documents",
+    para: [],
+    list: [
+      { id: 1, text: "Identity documents (passport, birth certificate, etc.)" },
+      { id: 2, text: "Relationship evidence (photos, joint bank accounts, shared lease, social media proof)." },
+      { id: 3, text: "Form 888 declarations from friends/family about your relationship." },
+      { id: 4, text: "Police clearance certificates for both applicants." },
+      { id: 5, text: "Health examination reports." },
+      { id: 6, text: "Marriage certificate or proof of de facto relationship." },
+      { id: 7, text: "Sponsor documents, including citizenship or residency proof." }
+    ]
+  },
+  {
+    id: 5,
+    heading: "Key Highlights",
+    para: [],
+    list: [
+      { id: 1, text: "Temporary visa valid until a permanent decision is made (often 2 years)." },
+      { id: 2, text: "You can stay, work, and study in Australia." },
+      { id: 3, text: "Offers full access to Medicare." },
+      { id: 4, text: "Leads to a permanent Partner Visa (Subclass 801)." },
+      { id: 5, text: "Supports LGBTQ+ couples and both married and de facto partners." }
+    ]
+  },
+  {
+    id: 6,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text: "Applying for a Partner Visa can be emotional and paperwork-heavy. That’s why GlobesWay Immigration brings a professional yet sensitive approach to help couples stay together with zero stress."
+      }
+    ],
+    list: [
+      { id: 1, text: "Emotional & Legal Support—We guide you with empathy and accuracy." },
+      { id: 2, text: "Relationship Documentation Experts—We help you prepare strong, believable relationship evidence." },
+      { id: 3, text: "Constant Updates—Stay informed at every milestone of your visa journey." },
+      { id: 4, text: "End-to-End Filing—From eligibility checks to interview preparation—we handle it all." }
+    ]
+  }
+]
+
+,
+questions: [
+  {
+    id: 1,
+    que: "How long does it take to get the 820 visa?",
+    ans: "The processing time varies based on case complexity, but generally, it takes 12 to 24 months. Ensuring complete documents and relationship evidence speeds up the process significantly.",
+  },
+  {
+    id: 2,
+    que: "Can I work while on the 820 visa?",
+    ans: "Yes, you are allowed to work full-time in Australia once your Subclass 820 visa is granted. This includes part-time, freelance, and casual work across various industries.",
+  },
+  {
+    id: 3,
+    que: "Do I need to be married to apply for this visa?",
+    ans: "No, you can apply as a live-in partner if you’ve been in a relationship and living together for at least 12 months. Marriage is not mandatory if de facto proof is strong.",
+  },
+  {
+    id: 4,
+    que: "Can I travel outside Australia on this visa?",
+    ans: "Yes, once your Subclass 820 visa is approved, you can travel in and out of Australia freely. However, you must apply for the visa while physically present in Australia.",
+  },
+],
+
+  },
+
+    {
+    id: 42,
+    img: about2, // Replace with your actual image reference
+    title: "CRS Calculator for Canada Immigration",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "Understanding the Comprehensive Ranking System (CRS) is crucial for anyone looking to immigrate to Canada under the Express Entry program. The CRS Calculator helps candidates estimate their scores based on a points-based system. These scores determine your rank in the Express Entry pool and your chances of receiving an Invitation to Apply (ITA) for permanent residency. The CRS is dynamic, meaning the score required to get selected changes with each draw based on the competition and number of candidates. Knowing your CRS score gives you an edge to improve your profile, target better opportunities, or understand what’s missing in your application. Whether you are applying alone or with a spouse, your profile is assessed based on several factors, including age, education, language skills, work experience, and adaptability. It’s your first step to evaluate how close you are to Canadian PR eligibility.",
+      },
+      {
+        id: 2,
+        text: "The CRS Calculator breaks down your score based on the core human capital factors, skill transferability, and additional points. You can also simulate different scenarios by adjusting inputs like IELTS scores or educational qualifications. The more accurate your entries are, the more reliable your score estimate will be. Many applicants use this tool not just for scoring but also to plan improvements in their profiles. For example, increasing your IELTS score by just one band in one module can boost your overall CRS significantly. With this knowledge, applicants can take targeted action like gaining more work experience or pursuing further education. A well-planned CRS strategy can be the difference between getting selected and waiting indefinitely. Let’s explore all the key sections that go into the CRS calculation and how to interpret your results effectively.",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Key CRS Factors to Understand",
+    para: [],
+    list: [
+      { id: 1, text: "Age—Younger applicants score higher (maximum points for 20-29 years)." },
+      { id: 2, text: "Education—More points for higher qualifications; credential assessments are mandatory." },
+      { id: 3, text: "Language Proficiency—High scores in IELTS or TEF contribute massively to CRS." },
+      { id: 4, text: "Work Experience—Canadian and foreign work experience both matter." },
+      { id: 5, text: "Adaptability—Spouse's profile and other factors like previous study/work in Canada add points." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "How to Improve Your CRS Score",
+    para: [],
+    list: [
+      { id: 1, text: "Retake IELTS for better scores." },
+      { id: 2, text: "Complete higher education." },
+      { id: 3, text: "Gain more work experience." },
+      { id: 4, text: "Secure a provincial nomination." },
+      { id: 5, text: "Get a valid job offer from a Canadian employer." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "CRS Score Cut-Off Trends",
+    para: [
+      {
+        id: 1,
+        text: "The CRS cut-off score is not fixed—it keeps changing with every Express Entry draw. These fluctuations depend on several factors, such as the number of applicants in the pool, immigration targets, and the specific type of draw (general, program-specific, or category-based).",
+      },
+      {
+        id: 2,
+        text: "In recent months, there’s been a noticeable upward trend in CRS cut-offs, especially for general draws. This means that only the most competitive profiles—with higher language scores, strong educational backgrounds, Canadian experience, or provincial nominations—are being selected.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 5,
+    heading: "",
+    para: [
+      { id: 1, text: "Earlier draws in 2023-2024 had cut-offs around 470–490." },
+      { id: 2, text: "In 2025, general draws have occasionally crossed 500+, especially when the number of invitations issued is lower." }
+    ],
+    list: [],
+  },
+  {
+    id: 6,
+    heading: "",
+    para: [
+      { id: 1, text: "Tracking CRS trends helps you:" }
+    ],
+    list: [
+      { id: 1, text: "Know where you stand in the current pool." },
+      { id: 2, text: "Decide if you need to improve your score." },
+      { id: 3, text: "Choose the right time or strategy to apply." }
+    ],
+  },
+  {
+    id: 7,
+    heading: "Why CRS Matters",
+    para: [
+      {
+        id: 1,
+        text: "Think of the CRS (Comprehensive Ranking System) as your entry ticket to Canada’s permanent residency. While meeting the minimum eligibility criteria (like the 67 points under the Federal Skilled Worker Program) lets you enter the Express Entry pool, your CRS score is what determines if you’ll actually receive an Invitation to Apply (ITA).",
+      },
+      {
+        id: 2,
+        text: "Here’s why CRS is critical:"
+      }
+    ],
+    list: [
+      { id: 1, text: "It’s a ranking tool. You’re not just being judged on eligibility—you’re competing with thousands of other applicants." },
+      { id: 2, text: "Draws are based on CRS scores. The government regularly conducts Express Entry draws, and only those above the current cut-off score are invited." },
+      { id: 3, text: "Low CRS = No invitation. Even if you’re eligible, a low CRS score means you might wait endlessly without being selected." }
+    ],
+  },
+  {
+    id: 8,
+    heading: "",
+    para: [
+      { id: 1, text: "To maximize your chances, it’s essential to work on improving your CRS through:" }
+    ],
+    list: [
+      { id: 1, text: "Better language test scores (IELTS, CELPIP)" },
+      { id: 2, text: "Higher education" },
+      { id: 3, text: "More work experience" },
+      { id: 4, text: "Getting a provincial nomination (adds 600 points!)" },
+      { id: 5, text: "Canadian job offers or study credentials" }
+    ],
+  },
+  {
+    id: 9,
+    heading: "Canada 67 Points Calculator (FSW Eligibility Calculator)",
+    para: [
+      {
+        id: 1,
+        text: "The 67 Points Calculator is used to determine eligibility for the Federal Skilled Worker (FSW) program under Express Entry. While the CRS score ranks you in the pool, the 67-point system is the initial step to see if you qualify at all for Express Entry as an FSW. Candidates must score at least 67 out of 100 points based on six key selection factors. These include education, language ability, work experience, age, arranged employment in Canada, and adaptability. Unlike CRS, this system is not comparative —it’s a pass/fail type check. If you don’t score 67, you are not eligible for the FSW program. Understanding how you score here helps you build a stronger application later on in the Express Entry pool.",
+      },
+      {
+        id: 2,
+        text: "This calculator is straightforward but still very important. For example, someone with strong work experience but poor language ability might fall short of the required 67 points. On the other hand, a balanced profile with modest scores in all areas could pass easily. That’s why it’s critical to evaluate yourself correctly before moving forward. Use the 67 points calculator as your first filter —if you clear it, then prepare for the CRS stage. If not, then focus on upgrading qualifications or language skills. Many applicants fail to get ITAs simply because they misunderstood these eligibility steps.",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 10,
+    heading: "Selection Factors",
+    para: [],
+    list: [
+      { id: 1, text: "Education—Max 25 points" },
+      { id: 2, text: "Language Proficiency (English or French)—Max 28 points" },
+      { id: 3, text: "Work Experience—Max 15 points" },
+      { id: 4, text: "Age—Max 12 points" },
+      { id: 5, text: "Arranged Employment in Canada—Max 10 points" },
+      { id: 6, text: "Adaptability—Max 10 points" }
+    ],
+  },
+  {
+    id: 11,
+    heading: "Tips to Improve Your Score",
+    para: [],
+    list: [
+      { id: 1, text: "Get your education assessed (ECA)" },
+      { id: 2, text: "Improve IELTS or TEF language test scores" },
+      { id: 3, text: "Obtain a job offer from a Canadian employer" },
+      { id: 4, text: "Include spouse’s credentials for adaptability" }
+    ],
+  },
+  {
+    id: 12,
+    heading: "FSW vs CRS",
+    para: [
+      {
+        id: 1,
+        text: "When applying for permanent residency through Canada's Express Entry system, it's important to understand that meeting the Federal Skilled Worker (FSW) 67-point eligibility is just the first step. It means you're eligible to enter the Express Entry pool—but it doesn’t guarantee an invitation to apply (ITA) for permanent residence.",
+      },
+      {
+        id: 2,
+        text: "The FSW points system evaluates your basic eligibility based on six selection factors:"
+      }
+    ],
+    list: [
+      { id: 1, text: "Age" },
+      { id: 2, text: "Education" },
+      { id: 3, text: "Work Experience" },
+      { id: 4, text: "Language Skills" },
+      { id: 5, text: "Adaptability" },
+      { id: 6, text: "Arranged Employment" }
+    ],
+  },
+  {
+    id: 13,
+    heading: "CRS Score – The Real Competition",
+    para: [
+      {
+        id: 1,
+        text: "Once you're in the Express Entry pool, your CRS (Comprehensive Ranking System) score becomes the main factor that determines if you'll receive an invitation to apply for PR.",
+      },
+      {
+        id: 2,
+        text: "The CRS ranks all candidates in the pool using a more dynamic and detailed scoring system, out of 1200 points. These include:"
+      }
+    ],
+    list: [
+      { id: 1, text: "Core human capital (age, education, language, experience)" },
+      { id: 2, text: "Spouse factors" },
+      { id: 3, text: "Skill transferability" },
+      { id: 4, text: "Provincial nomination, job offers, Canadian education, etc." }
+    ],
+  },
+  {
+    id: 14,
+    heading: "Why CRS Matters More",
+    para: [
+      { id: 1, text: "The FSW 67-point system is like qualifying to run in a race." },
+      { id: 2, text: "The CRS score is what decides if you win a spot in that race." },
+      { id: 3, text: "So while the 67 points make you eligible to apply, a higher CRS score gives you a competitive edge to actually receive the invitation." }
+    ],
+    list: [],
+  },
+  {
+    id: 15,
+    heading: "How to Improve Your Chances",
+    para: [],
+    list: [
+      { id: 1, text: "Retaking IELTS or CELPIP to improve your language score" },
+      { id: 2, text: "Gaining more work experience" },
+      { id: 3, text: "Pursuing a higher degree or certificate" },
+      { id: 4, text: "Getting a provincial nomination" },
+      { id: 5, text: "Securing a job offer from a Canadian employer" },
+      { id: 6, text: "Studying in Canada" }
+    ],
+  },
+  {
+    id: 16,
+    heading: "Common Mistakes to Avoid",
+    para: [],
+    list: [
+      { id: 1, text: "Ignoring the need for language testing" },
+      { id: 2, text: "Not submitting ECA reports" },
+      { id: 3, text: "Assuming work experience alone is enough" }
+    ],
+  }
+]
+,
+questions: [
+],
+    },
+
+     {
+    id: 43,
+    img: about2, // Replace with your actual image reference
+    title: "Saskatchewan Immigrant Nominee Program Points Calculator",
+  desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "The SINP Points Calculator is part of Saskatchewan’s Provincial Nominee Program (PNP). It is used to determine eligibility for the Occupation In-Demand and Express Entry sub-categories under the SINP. Candidates need a minimum of 60 points out of 110 on this points assessment grid. The system is designed to select candidates who meet the province's economic and labor market needs. It evaluates applicants based on factors like education, work experience, language skills, age, and connections to Saskatchewan. The SINP is popular for its flexibility, especially for candidates who may not have high CRS scores but meet the needs of the province.",
+      },
+      {
+        id: 2,
+        text: "Scoring well on the SINP calculator opens doors to a provincial nomination, which adds 600 points to your Express Entry profile. This virtually guarantees you an Invitation to Apply (ITA) for permanent residency. SINP also holds frequent draws for in-demand occupations, making it a preferred choice for skilled workers globally. Unlike the federal programs, SINP focuses more on your ability to contribute to Saskatchewan’s economy than just competing globally.",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Main Factors in SINP Calculator",
+    para: [],
+    list: [
+      { id: 1, text: "Education and Training—Max 23 points" },
+      { id: 2, text: "Skilled Work Experience—Max 15 points" },
+      { id: 3, text: "Language Ability—Max 20 points" },
+      { id: 4, text: "Age—Max 12 points" },
+      { id: 5, text: "Connection to Saskatchewan—Max 30 points (job offer, previous study, or family)" },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Why Choose SINP",
+    para: [],
+    list: [
+      { id: 1, text: "Lower eligibility threshold compared to CRS" },
+      { id: 2, text: "Focus on specific in-demand occupations" },
+      { id: 3, text: "Opportunity for international graduates" },
+      { id: 4, text: "Streamlined process for skilled workers" },
+    ],
+  },
+  {
+    id: 4,
+    heading: "How to Increase SINP Points",
+    para: [
+      {
+        id: 1,
+        text: "If you're applying through the Saskatchewan Immigrant Nominee Program (SINP), your points determine how competitive your profile is. Here’s how you can increase your SINP score and improve your chances of being selected:",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 5,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "1. Get Higher IELTS Bands",
+      },
+      {
+        id: 2,
+        text: "Language ability plays a big role in your SINP points. By scoring higher in your IELTS or CELPIP test, especially in speaking, listening, reading, and writing, you can significantly boost your score. Aim for CLB 8 or higher to get maximum language points.",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 6,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "2. Show Connection to Saskatchewan-",
+      },
+      {
+        id: 2,
+        text: "Having a strong connection to the province adds credibility to your application. You can prove this by:",
+      }
+    ],
+    list: [
+      { id: 1, text: "Having close family members living in Saskatchewan" },
+      { id: 2, text: "Receiving a valid job offer from an employer in the province" },
+      { id: 3, text: "Studying or previously working in Saskatchewan" },
+    ],
+  },
+  {
+    id: 7,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "These connections help the province believe you’re likely to settle there long-term.",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 8,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "3. Include Work Experience Related to the In-Demand NOC List",
+      },
+      {
+        id: 2,
+        text: "Make sure your work experience matches Saskatchewan’s in-demand occupations. The closer your NOC code is to what's needed, the more favorably your profile will be considered. Relevant and recent work experience that aligns with these NOC codes earns you higher points and makes your application more competitive.",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 9,
+    heading: "Benefits of SINP Nomination",
+    para: [
+      {
+        id: 1,
+        text: "Getting a provincial nomination from Saskatchewan through SINP is a game-changer for your Canada immigration journey. Here’s why:",
+      }
+    ],
+    list: [],
+  },
+  {
+    id: 10,
+    heading: "",
+    para: [
+      { id: 1, text: "1. Adds 600 CRS Points" },
+      { id: 2, text: "If you receive a nomination through SINP and apply via the Express Entry stream, you’ll get an instant 600 points added to your CRS score. This nearly guarantees you an Invitation to Apply (ITA) in the next federal draw." }
+    ],
+    list: [],
+  },
+  {
+    id: 11,
+    heading: "",
+    para: [
+      { id: 1, text: "2. Faster Processing in Express Entry" },
+      { id: 2, text: "Provincial nominees often receive priority processing. That means, once nominated and invited, your PR application can be processed faster than regular Express Entry applications." }
+    ],
+    list: [],
+  },
+  {
+    id: 12,
+    heading: "",
+    para: [
+      { id: 1, text: "3. Higher Success Rate" },
+      { id: 2, text: "Candidates who are nominated through SINP have a much higher chance of getting PR because:" }
+    ],
+    list: [
+      { id: 1, text: "The province is already expressing interest in you" },
+      { id: 2, text: "Your profile meets both provincial and federal criteria" },
+      { id: 3, text: "There’s more targeted support and guidance" }
+    ],
+  }
+]
+
+,
+questions: [],
+    },
+
+     {
+    id: 44,
+    img: about2, // Replace with your actual image reference
+    title: "British Columbia (BC) PNP Points Calculator",
+ desc: [
+  {
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "The BC Points Calculator is used for the British Columbia Provincial Nominee Program (BCPNP), specifically under the Skills Immigration and Express Entry BC categories. Applicants are scored out of 200 points, and their score determines their rank in the pool. Points are awarded based on factors like the skill level of the job offer, location of employment, wage offered, work experience, and language proficiency. BCPNP is one of the most active PNPs in Canada and regularly invites candidates through tech and skilled worker draws."
+      },
+      {
+        id: 2,
+        text: "Getting a high score in the BC PNP calculator increases your chances of receiving a nomination from British Columbia. A provincial nomination adds 600 CRS points, helping you secure PR. British Columbia is attractive to skilled professionals because of its strong economy, especially in the tech, healthcare, and finance sectors. The BCPNP is structured to align closely with employer needs in the province."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Key Factors in BC PNP Points System—",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text: "Economic Factors—Job offer skill level, location, wage"
+      },
+      {
+        id: 2,
+        text: "Human Capital Factors—Education, experience, language"
+      },
+      {
+        id: 3,
+        text: "Additional Points—Regional experience or language fluency"
+      }
+    ]
+  },
+  {
+    heading: "How to Score Higher in BC PNP",
+    para: [
+      {
+        id: 1,
+        text: "Scoring higher in the BC Provincial Nominee Program can make a huge difference in receiving a nomination. Here are practical ways to boost your points and enhance your chances of getting selected:"
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Get a Valid Job Offer in a High-Demand Occupation",
+    para: [
+      {
+        id: 1,
+        text: "A job offer from a BC employer in a high-demand occupation significantly increases your chances. Jobs in tech, healthcare, skilled trades, and early childhood education are especially valued in the province."
+      },
+      {
+        id: 2,
+        text: "A full-time, permanent job offer not only gives you points but also strengthens your overall profile and shows your commitment to settling in BC."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Relocate to Less Populated BC Regions",
+    para: [
+      {
+        id: 1,
+        text: "British Columbia rewards candidates who are willing to live and work outside major cities like Vancouver. If you choose to settle in less populated areas like Prince George, Cranbrook, or Terrace, you may get additional points. This also aligns with BC’s goal to develop its regional economy and address labor shortages outside urban centers."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Gain Experience in Canada",
+    para: [
+      {
+        id: 1,
+        text: "Having Canadian work experience, even if it's through a post-graduation work permit or other temporary visa, adds significant value to your application. It shows you can adapt to the local work culture, follow Canadian regulations, and integrate into society more easily."
+      },
+      {
+        id: 2,
+        text: "If you've already worked in BC or completed a program from a BC institution, your profile becomes even more attractive."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Benefits of BC PNP",
+    para: [
+      {
+        id: 1,
+        text: "Applying through the BC Provincial Nominee Program gives you several advantages over other immigration streams. Here’s why BC PNP is one of the most popular options:"
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Regular Draws in Tech Occupations",
+    para: [
+      {
+        id: 1,
+        text: "British Columbia holds frequent tech-focused draws under its Tech stream, targeting candidates in in-demand IT and digital roles. If you’re in fields like software development, IT support, or web design, you have a great chance of being invited quickly. The Tech stream offers faster processing and less competition compared to general Express Entry draws."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "High CRS Boost from Nomination",
+    para: [
+      {
+        id: 1,
+        text: "Receiving a BC PNP nomination gives you 600 additional CRS points if you’re applying through Express Entry. This boost makes you a top candidate in the next federal draw, often leading to an immediate Invitation to Apply (ITA) for permanent residence."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Work and Live in One of Canada’s Top Provinces",
+    para: [
+      {
+        id: 1,
+        text: "British Columbia offers a high quality of life, access to nature, diverse job opportunities, and excellent healthcare and education systems. Whether you're living in a city like Victoria or a smaller town, the province supports a balanced lifestyle, and its economy is thriving across sectors like technology, construction, and healthcare."
+      }
+    ],
+    list: []
+  },
+  {
+    heading: "Common Errors—",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text: "Not aligning the job offer with the NOC codes"
+      },
+      {
+        id: 2,
+        text: "Missing documentation for education/work experience"
+      },
+      {
+        id: 3,
+        text: "Low language test scores"
+      }
+    ]
+  }
+]
+,
+questions: [
+  
+],
+    },
+
 ];

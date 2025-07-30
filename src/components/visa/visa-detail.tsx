@@ -13,7 +13,6 @@ export default function Visadetails({data}: any) {
           alt=""
           className="w-full h-auto object-contain max-h-[560px] mx-auto"
         />
-
         <h1 className="text-black md:text-5xl font-bold text-3xl">
           {data?.title}
         </h1>
@@ -47,11 +46,13 @@ export default function Visadetails({data}: any) {
 
 
         <br />
-        <Queans
-          title1={"FAQ's"}
-          title2={"Briefly Asked Question"}
-          faqData={data?.questions}
-        />
+       {data?.questions && data?.questions.length > 0 && (
+         <Queans
+           title1={"FAQ's"}
+           title2={"Briefly Asked Question"}
+           faqData={data?.questions}
+         />
+       )}
       </div>
 
       <div className="md:w-[30%] w-full md:sticky top-10 space-y-5 sm:space-y-12 h-full">
