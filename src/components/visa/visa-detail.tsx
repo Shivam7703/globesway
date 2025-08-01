@@ -25,7 +25,7 @@ export default function Visadetails({data}: any) {
     )}
 
     {detail.para && detail.para.map((datatext: any) => (
-      <p key={datatext?.id}>{datatext.text}</p>
+      <p className="text-black" key={datatext?.id}>{datatext.text}</p>
     ))}
 
     {detail.list && (

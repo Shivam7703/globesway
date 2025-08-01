@@ -202,8 +202,18 @@ export const navigationMenu = {
           label: "Gulf Nations",
           href: "/visa/gulf-nations",
           subNav: [
-            { id: 1, label: "Dubai", href: "/gulf/dubai" },
-            { id: 2, label: "Qatar", href: "/gulf/qatar" },
+            { id: 1, label: "Dubai", href: "#",
+               subNav: [
+                 { id: 1, label: "Dubai Work Visa", href: "/visa/Dubai Work Visa" },
+                 { id: 2, label: "Dubai Tourist Visa", href: "/visa/Dubai Tourist Visa" },
+               ]
+             },
+            { id: 2, label: "Qatar", href: "#",
+               subNav: [
+                 { id: 1, label: "Qatar Work Visa", href: "/visa/Qatar Work Visa" },
+                 { id: 2, label: "Qatar Tourist Visa", href: "/visa/Qatar Tourist Visa" },
+               ]
+            },
           ],
         },
       ],
@@ -296,16 +306,16 @@ export const navigationMenu = {
         {
           id: 5,
           label: "Manitoba Points Calculator",
-          href: "/points/manitoba",
+          href: "/visa/Manitoba Points Calculator",
         },
         {
           id: 6,
           label: "Nova Scotia Points Calculator",
-          href: "/points/nova-scotia",
+          href: "/visa/Nova Scotia Points Calculator",
         },
-        { id: 7, label: "Alberta Points Calculator", href: "/points/alberta" },
-        { id: 8, label: "Ontario Points Calculator", href: "/points/ontario" },
-        { id: 9, label: "Quebec Points Calculator", href: "/points/quebec" },
+        { id: 7, label: "Alberta Points Calculator", href: "/visa/Alberta Points Calculator (Alberta Advantage Immigration Program)" },
+        { id: 8, label: "Ontario Points Calculator", href: "/visa/Ontario Points Calculator" },
+        { id: 9, label: "Quebec Points Calculator", href: "/visa/Quebec Points Calculator" },
       ],
     },
 

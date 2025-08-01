@@ -9549,7 +9549,6 @@ questions: [
     ans: "Yes, a residence visa is part of the work visa process. Once your employment is confirmed, you’re issued a UAE residence permit. It allows you to stay legally and access services. The employer sponsors this entire process.",
   },
 ],
-
     },
 
      {
