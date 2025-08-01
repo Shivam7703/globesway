@@ -52,35 +52,37 @@ let path = lastSegment || "home";
 
                   {/* Second-level dropdown */}
                   {nav.subNav && (
-                    <div className="absolute left-full top-0 z-30 hidden text-zinc-700 w-auto flex-col gap-1 rounded bg-white py-3 shadow-lg transition-all group-hover/subnav:flex max-h-[500px] overflow-y-auto">
+                    <div className="group/secondlevel absolute left-full top-0 z-30 hidden text-zinc-700 w-auto flex-col gap-1 rounded  py-3 shadow-lg transition-all group-hover/subnav:flex max-h-[500px] bg-white">
                       {nav.subNav.map((subNav: any) => (
-                      <>
-                        <Link
-                          key={subNav.id}
-                          href={subNav.href || "#"}
-                          className={`hover:bg-color1 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-color1 text-white" : "bg-transparent"}`}
-                        >
-                          <span className="whitespace-nowrap pl-3">{subNav.label}</span>
-                            {subNav?.subNav && subNav.subNav.length !== 0 && (
-                      <MdKeyboardArrowRight className="text-xl" />
-                    )}
-                        </Link>
-                        {/* third-level dropdown */}
-                        <div className="absolute left-full top-0 z-30 hidden text-zinc-700 w-auto flex-col gap-1 rounded bg-white py-3 shadow-lg transition-all group-hover/subnav:flex max-h-[500px] overflow-y-auto">
-                          {subNav.subNav.map((subSubNav: any) => (
-                            <Link
-                              key={subSubNav.id}
-                              href={subSubNav.href || "#"}
-                              className={`hover:bg-color1 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subSubNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-color1 text-white" : "bg-transparent"}`}
-                            >
-                              <span className="whitespace-nowrap pl-3">{subSubNav.label}</span>
-                              {subSubNav?.subNav && subSubNav.subNav.length !== 0 && (
-                                <MdKeyboardArrowRight className="text-xl" />
-                              )}
-                            </Link>
-                          ))}
+                        <div key={subNav.id} className="group/subsubnav relative">
+                          <Link
+                            href={subNav.href || "#"}
+                            className={`hover:bg-color1 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-color1 text-white" : "bg-transparent"}`}
+                          >
+                            <span className="whitespace-nowrap pl-3">{subNav.label}</span>
+                            {subNav?.subNavv && subNav.subNavv.length !== 0 && (
+                              <MdKeyboardArrowRight className="text-xl" />
+                            )}
+                          </Link>
+                       
+                      
+                      {/* Third-level dropdown - positioned relative to entire second-level container */}
+                      {subNav.subNavv && subNav.subNavv.length > 0 && (
+                        <div className="absolute left-full top-0 z-40 hidden text-zinc-700 w-auto flex-col gap-1 rounded bg-white py-3 shadow-lg transition-all group-hover/subsubnav:flex max-h-[500px] overflow-y-auto min-w-[200px]">
+                          {
+                            subNav.subNavv.map((subSubNav: any) => (
+                              <Link
+                                key={subSubNav.id}
+                                href={subSubNav.href || "#"}
+                                className={`hover:bg-color1 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subSubNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-color1 text-white" : "bg-transparent"}`}
+                              >
+                                <span className="whitespace-nowrap pl-3">{subSubNav.label}</span>
+                              
+                              </Link>
+                            ))
+                          }
                         </div>
-                      </>
+                      )} </div>
                       ))}
                     </div>
                   )}

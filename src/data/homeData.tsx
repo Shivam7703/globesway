@@ -203,13 +203,13 @@ export const navigationMenu = {
           href: "/visa/gulf-nations",
           subNav: [
             { id: 1, label: "Dubai", href: "#",
-               subNav: [
+               subNavv: [
                  { id: 1, label: "Dubai Work Visa", href: "/visa/Dubai Work Visa" },
                  { id: 2, label: "Dubai Tourist Visa", href: "/visa/Dubai Tourist Visa" },
                ]
              },
             { id: 2, label: "Qatar", href: "#",
-               subNav: [
+               subNavv: [
                  { id: 1, label: "Qatar Work Visa", href: "/visa/Qatar Work Visa" },
                  { id: 2, label: "Qatar Tourist Visa", href: "/visa/Qatar Tourist Visa" },
                ]
