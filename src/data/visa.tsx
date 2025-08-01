@@ -8587,13 +8587,12 @@ questions: [
 ,
 questions: [],
     },
-
-     {
+  {
     id: 44,
     img: about2, // Replace with your actual image reference
     title: "British Columbia (BC) PNP Points Calculator",
  desc: [
-  {
+  {id:1,
     heading: "Introduction",
     para: [
       {
@@ -8607,7 +8606,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:2,
     heading: "Key Factors in BC PNP Points System—",
     para: [],
     list: [
@@ -8625,7 +8624,7 @@ questions: [],
       }
     ]
   },
-  {
+  {id:3,
     heading: "How to Score Higher in BC PNP",
     para: [
       {
@@ -8635,7 +8634,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:4,
     heading: "Get a Valid Job Offer in a High-Demand Occupation",
     para: [
       {
@@ -8649,7 +8648,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:5,
     heading: "Relocate to Less Populated BC Regions",
     para: [
       {
@@ -8659,7 +8658,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:6,
     heading: "Gain Experience in Canada",
     para: [
       {
@@ -8673,7 +8672,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:7,
     heading: "Benefits of BC PNP",
     para: [
       {
@@ -8683,7 +8682,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:8,
     heading: "Regular Draws in Tech Occupations",
     para: [
       {
@@ -8693,7 +8692,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:9,
     heading: "High CRS Boost from Nomination",
     para: [
       {
@@ -8703,7 +8702,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id:10,
     heading: "Work and Live in One of Canada’s Top Provinces",
     para: [
       {
@@ -8713,7 +8712,7 @@ questions: [],
     ],
     list: []
   },
-  {
+  {id: 11,
     heading: "Common Errors—",
     para: [],
     list: [
@@ -8737,5 +8736,1329 @@ questions: [
   
 ],
     },
+   
+ {
+    id: 45,
+    img: about2, // Replace with your actual image reference
+    title: "Manitoba Points Calculator",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction to Manitoba Points Calculator",
+    para: [
+      {
+        id: 1,
+        text:
+          "The Manitoba Points Calculator is used under the Manitoba Provincial Nominee Program (MPNP) to evaluate candidates applying for immigration to Manitoba. This points system helps assess your potential to successfully settle and work in the province. If you’re planning to apply through the Skilled Workers Stream or International Education Stream, your total score will determine whether you get selected in the Expression of Interest (EOI) draws.",
+      },
+      {
+        id: 2,
+        text:
+          "Manitoba uses a scoring system out of 1,000 points, and candidates need to score as high as possible to stay competitive. The calculator evaluates factors like age, education, language proficiency, work experience, adaptability, and ties to Manitoba. This system ensures that only individuals most likely to contribute to Manitoba’s economy and culture are invited to apply.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Who Can Use the Manitoba Points Calculator?",
+    para: [
+      {
+        id: 1,
+        text:
+          "This calculator is mainly for those applying under the following MPNP streams—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Skilled Workers in Manitoba" },
+      { id: 2, text: "Skilled Workers Overseas" },
+      { id: 3, text: "International Education Stream (for Manitoba graduates)" },
+    ],
+  },
+  {
+    id: 3,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "Applicants should be eligible under the basic MPNP criteria, such as language proficiency (usually CLB 4 or higher), relevant education or training, and proof of settlement funds. More importantly, having a strong connection to Manitoba—such as a job offer, prior work/study experience, or family—is a key advantage.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 4,
+    heading: "How the Manitoba Points System Works",
+    para: [
+      {
+        id: 1,
+        text: "Here’s a simplified breakdown of the factors in the points grid—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Language Proficiency (Max 125 points): Higher CLB levels earn more points." },
+      { id: 2, text: "Age (Max 75 points): Ages 21-45 receive the highest scores." },
+      { id: 3, text: "Work Experience (Max 175 points): More experience = more points." },
+      { id: 4, text: "Education (Max 125 points): Higher qualifications increase your score." },
+      { id: 5, text: "Adaptability (Max 500 points): Connections to Manitoba, like job offers or relatives, are heavily rewarded." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "The Adaptability section holds the most weight in the scoring system, which means having strong Manitoba ties (job, study, family) can significantly boost your profile.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 6,
+    heading: "Expression of Interest (EOI) and Draws",
+    para: [
+      {
+        id: 1,
+        text:
+          "Once you calculate your points, you can create an EOI profile. Manitoba regularly holds draws, inviting candidates with the highest scores. If your score is close to or above the cutoff, you’ll receive a Letter of Advice to Apply (LAA).",
+      },
+      {
+        id: 2,
+        text:
+          "It’s important to update your profile if there are any improvements—like a new job offer or higher language test score. This will increase your total points and chances of getting selected in future draws.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 7,
+    heading: "Tips to Improve Your Score in the MPNP Points Calculator",
+    para: [],
+    list: [
+      { id: 1, text: "Achieve higher language scores (especially CLB 8+)." },
+      { id: 2, text: "Gain Canadian work experience, particularly in Manitoba." },
+      { id: 3, text: "Secure a full-time, long-term job offer in the province." },
+      { id: 4, text: "Complete a post-secondary program in Manitoba." },
+      { id: 5, text: "Show genuine family ties or close friendships in the province." },
+    ],
+  },
+  {
+    id: 8,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "Improving your adaptability and language are two of the fastest ways to increase your MPNP score.",
+      },
+    ],
+    list: [],
+  },
+]
+,
+questions: [
+  
+],
+    },
 
+     {
+    id: 46,
+    img: about2, // Replace with your actual image reference
+    title: "Nova Scotia Points Calculator",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction to Nova Scotia Points Calculator",
+    para: [
+      {
+        id: 1,
+        text:
+          "Nova Scotia uses a points-based system to assess eligibility under its Nova Scotia Nominee Program (NSNP), especially for the Nova Scotia Demand—Express Entry and Skilled Worker Stream. The calculator measures how well an applicant meets the province’s labor and immigration needs.",
+      },
+      {
+        id: 2,
+        text:
+          "The Nova Scotia Points Calculator evaluates applicants based on a total of 100 points, and you must score at least 67 points to qualify. These points are awarded based on age, education, language proficiency, work experience, adaptability, and arranged employment in the province.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Who Should Use the NSNP Points Calculator?",
+    para: [
+      {
+        id: 1,
+        text: "This calculator is best suited for—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Candidates applying under NSNP Express Entry-linked streams" },
+      { id: 2, text: "Foreign skilled workers with job offers in Nova Scotia" },
+      { id: 3, text: "Individuals with strong adaptability (e.g., family in Nova Scotia)" },
+    ],
+  },
+  {
+    id: 3,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "If you are applying via the Nova Scotia Demand—Express Entry – Category B (without a job offer), you will need to demonstrate your ability to economically establish yourself in Nova Scotia using this points-based method.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 4,
+    heading: "Factors in the Nova Scotia Points Calculator",
+    para: [
+      {
+        id: 1,
+        text: "Here’s how the 100-point grid works—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Education (Max 25 points): Higher academic qualifications earn more." },
+      { id: 2, text: "Work Experience (Max 15 points): At least 1 year in the last 10 years." },
+      { id: 3, text: "Language Ability (Max 28 points): CLB 7 and higher gives more points." },
+      { id: 4, text: "Age (Max 12 points): Candidates between 18 and 35 get the highest." },
+      { id: 5, text: "Arranged Employment (Max 10 points): Valid full-time job offers." },
+      { id: 6, text: "Adaptability (Max 10 points): Spouse’s language score, family in Nova Scotia, or prior study/work in Canada." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "How to Use the Nova Scotia Points Calculator",
+    para: [
+      {
+        id: 1,
+        text:
+          "To begin, gather your documents—language test results, educational certificates (ECA), job offer letter (if any), proof of work experience, etc. Input these into the calculator to estimate your score.",
+      },
+      {
+        id: 2,
+        text:
+          "This helps you decide if you qualify and whether you're ready to submit an Expression of Interest through the NSNP. If your score is below 67, try improving areas like your language skills or exploring job opportunities in Nova Scotia to increase your score.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 6,
+    heading: "Ways to Improve Your Score for NSNP",
+    para: [],
+    list: [
+      { id: 1, text: "Retake your IELTS/CELPIP to get higher language scores." },
+      { id: 2, text: "Earn additional Canadian work experience or education." },
+      { id: 3, text: "Secure a valid job offer from a Nova Scotia employer." },
+      { id: 4, text: "Include your spouse’s qualifications or language skills." },
+      { id: 5, text: "Show ties to Nova Scotia like family or past residency." },
+    ],
+  },
+  {
+    id: 7,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "A combination of strong language ability and adaptability can make a big difference in improving your score and boosting your selection chances.",
+      },
+    ],
+    list: [],
+  },
+]
+
+,
+questions: [
+  
+],
+    },
+
+     {
+    id: 47,
+    img: about2, // Replace with your actual image reference
+    title: "Alberta Points Calculator (Alberta Advantage Immigration Program)",
+desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "Alberta’s points-based selection helps determine who qualifies under its Alberta Advantage Immigration Program (AAIP). It evaluates candidates on age, education, language, work experience, job offers, and connections to Alberta. Scoring well increases your chance to receive a Notification of Interest (NOI) even if your federal CRS score is modest.",
+      },
+      {
+        id: 2,
+        text:
+          "Because Alberta aligns its Express Entry stream with provincial needs, applicants receive strategic invitations by scoring well on this grid. Alberta often requires a minimum score of 67/100, but draws may prioritize applicants with higher scores or specific in-demand occupations such as healthcare, tech, and law enforcement —some with criteria as low as 49.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Key Selection Factors",
+    para: [],
+    list: [
+      { id: 1, text: "Age (max 5 points): Best scores for ages 21–34; fewer points as you age." },
+      { id: 2, text: "Education (max 25 points): More points for bachelor’s, master’s, or PhD." },
+      { id: 3, text: "Language Proficiency (max ~10-13): Points depend on your lowest CLB/NCLC score in IELTS or TEF." },
+      { id: 4, text: "Total Work Experience (max 11): Preferably ≥12 months of experience." },
+      { id: 5, text: "Canadian/Alberta Experience (max 10): Extra for working in Alberta or other Canadian provinces." },
+      { id: 6, text: "Job Offer (max 16): 10 points for general permanent offers, 6 additional for rural, hospitality or law enforcement roles." },
+      { id: 7, text: "Family Connection in Alberta (max 8): Close relatives in Alberta boost your score." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "How It Works",
+    para: [
+      {
+        id: 1,
+        text:
+          "Candidates submit an Expression of Interest (EOI) to AAIP. Based on their score, Alberta issues a NOI. If accepted, candidates are invited to formally apply, often accompanied by invitation-specific documents. Alberta may draw multiple times monthly.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 4,
+    heading: "Strategies to Increase Your Score",
+    para: [],
+    list: [
+      { id: 1, text: "Improve your IELTS / TEF scores to increase language points." },
+      { id: 2, text: "Take additional education or credential assessments." },
+      { id: 3, text: "Gain work experience in Alberta or Canada." },
+      { id: 4, text: "Secure a job in rural Alberta or priority sectors to earn bonus points." },
+      { id: 5, text: "Highlight any family members in Alberta to boost adaptability." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Why It’s Valuable",
+    para: [
+      {
+        id: 1,
+        text:
+          "Even if your federal CRS is below standard draw cutoffs, a strong Alberta score can lead to direct nomination. Those nominated receive 600 extra CRS points in Express Entry, effectively guaranteeing an ITA.",
+      },
+    ],
+    list: [],
+  },
+]
+,
+questions: [
+],
+    },
+
+     {
+    id: 48,
+    img: about2, // Replace with your actual image reference
+    title: "Ontario Points Calculator",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "Ontario, one of Canada’s most popular provinces for immigrants, runs its own Provincial Nominee Program known as the Ontario Immigrant Nominee Program (OINP). The province selects skilled workers, graduates, and business owners who have the qualifications and experience to fill labor market needs. If you’re aiming to settle in Ontario permanently, the OINP offers different pathways, including the Human Capital Priorities Stream, Employer Job Offer Streams, and Masters/PhD Graduate Streams.",
+      },
+      {
+        id: 2,
+        text:
+          "The Ontario Points Calculator is used to assess eligibility mainly for the Express Entry Human Capital Priorities Stream. The score depends on factors such as age, education, work experience, language ability, and connections to Ontario. Although the points calculator aligns closely with the federal Express Entry system, Ontario may also set its own specific requirements or target in-demand occupations. Knowing your score helps you understand your chances of receiving a Notification of Interest (NOI) from Ontario.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "How Ontario Points are Calculated",
+    para: [
+      {
+        id: 1,
+        text: "The OINP points calculator works within the Express Entry Comprehensive Ranking System (CRS). Points are awarded for—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Core human capital (age, education, work experience, language)" },
+      { id: 2, text: "Spouse factors (if applicable)" },
+      { id: 3, text: "Skills transferability" },
+      { id: 4, text: "Additional factors such as a valid job offer or Canadian education" },
+    ],
+  },
+  {
+    id: 3,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "Ontario may also give priority to candidates with specific work experience even if their CRS is lower, depending on labor needs.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 4,
+    heading: "Minimum CRS Requirements",
+    para: [
+      {
+        id: 1,
+        text:
+          "Ontario often invites candidates with a CRS score above 400, but this number can change. For example—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Tech draws may target individuals with scores around 460–480" },
+      { id: 2, text: "French-speaking or healthcare streams may have lower cut-offs." },
+    ],
+  },
+  {
+    id: 5,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "These variations mean it's important to stay updated and aim for a strong profile.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 6,
+    heading: "Key In-Demand Occupations in Ontario",
+    para: [
+      {
+        id: 1,
+        text: "OINP targets specific NOC codes during their draws, which include—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Information technology professionals" },
+      { id: 2, text: "Healthcare workers (nurses, PSWs)" },
+      { id: 3, text: "Financial analysts" },
+      { id: 4, text: "Engineers and skilled trades" },
+    ],
+  },
+  {
+    id: 7,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "If your experience matches these in-demand fields, your chances of being invited increase.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 8,
+    heading: "Boosting Your Ontario Points Score",
+    para: [
+      {
+        id: 1,
+        text: "To improve your score—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Retake IELTS or CELPIP to increase language points" },
+      { id: 2, text: "Complete a higher education credential" },
+      { id: 3, text: "Gain additional work experience" },
+      { id: 4, text: "Secure a valid job offer from an Ontario employer" },
+    ],
+  },
+  {
+    id: 9,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "Being proactive helps you become more competitive for OINP selections.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 10,
+    heading: "How to Apply Through OINP",
+    para: [
+      {
+        id: 1,
+        text:
+          "After receiving a Notification of Interest (NOI) from Ontario—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Submit an application to the OINP through the e-Filing Portal" },
+      { id: 2, text: "Provide accurate documentation for all claims" },
+      { id: 3, text: "If nominated, you receive 600 CRS points added to your Express Entry profile" },
+    ],
+  },
+  {
+    id: 11,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text:
+          "A provincial nomination practically guarantees an invitation for Canadian PR.",
+      },
+    ],
+    list: [],
+  },
+]
+
+,
+questions: [
+  
+],
+    },
+
+     {
+    id: 49,
+    img: about2, // Replace with your actual image reference
+    title: "Quebec Points Calculator",
+desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "Quebec operates independently from the federal Express Entry system and has its own immigration programs. The Quebec Skilled Worker Program (QSWP) is one of the most popular pathways for those looking to settle in Quebec. To assess your eligibility, Quebec uses a points-based system that considers multiple criteria, including age, education, language, work experience, and adaptability.",
+      },
+      {
+        id: 2,
+        text: "The Quebec Points Calculator evaluates candidates on a unique selection grid. Unlike Express Entry, French language ability is heavily emphasized. Applicants are awarded points for factors such as having children, spouse’s qualifications, and validated job offers in Quebec. Understanding the scoring system is crucial before submitting your Expression of Interest (EOI) in the Arrima portal.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "How Quebec Points Are Calculated",
+    para: [
+      {
+        id: 1,
+        text: "The points system includes two stages—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Selection factors (out of 100 for single applicants and 120 for couples)" },
+      { id: 2, text: "Passing scores vary—single candidates need 50, couples need 59" },
+    ],
+  },
+  {
+    id: 3,
+    heading: "",
+    para: [
+      {
+        id: 1,
+        text: "Points are awarded for—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Education and area of training" },
+      { id: 2, text: "Work experience" },
+      { id: 3, text: "Age and language (French and English)" },
+      { id: 4, text: "Quebec connections" },
+      { id: 5, text: "Accompanying spouse factors" },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Language Requirements",
+    para: [
+      {
+        id: 1,
+        text: "Quebec places strong emphasis on French—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Maximum points are awarded for advanced oral and written French skills" },
+      { id: 2, text: "English is considered but carries far fewer points" },
+      { id: 3, text: "Applicants without French proficiency may still qualify if they score highly in other categories, but their chances are lower" },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Areas of Training List",
+    para: [
+      {
+        id: 1,
+        text: "Quebec has a unique \"Areas of Training\" list, which gives extra points to certain degrees or diplomas—",
+      },
+    ],
+    list: [
+      { id: 1, text: "STEM, healthcare, and technical fields receive high points" },
+      { id: 2, text: "Credentials must be evaluated and recognized by Quebec authorities" },
+      { id: 3, text: "This factor alone can add up to 12 points" },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Validated Job Offer in Quebec",
+    para: [
+      {
+        id: 1,
+        text: "If you have a job offer validated by Quebec’s Ministry of Immigration—",
+      },
+    ],
+    list: [
+      { id: 1, text: "You can receive up to 14 points" },
+      { id: 2, text: "Offers must be full-time and long-term" },
+      { id: 3, text: "Must be in an eligible occupation and show local labor market impact" },
+      { id: 4, text: "This significantly improves your ranking and chances of selection." },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Arrima Portal and Application Process",
+    para: [
+      {
+        id: 1,
+        text: "After submitting your EOI through Arrima—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Profiles are ranked based on selection grid scores" },
+      { id: 2, text: "Invitations are issued periodically" },
+      { id: 3, text: "If invited, you submit documents for assessment and, if approved, receive a CSQ (Quebec Selection Certificate)" },
+      { id: 4, text: "With a CSQ, you can apply for PR through IRCC" },
+    ],
+  },
+  {
+    id: 8,
+    heading: "Why Quebec’s Immigration is Important",
+    para: [
+      {
+        id: 1,
+        text: "Quebec runs its own immigration system, which is separate from the federal Express Entry system. This makes it a great option for candidates who may not score high enough under CRS but still meet Quebec’s requirements.",
+      },
+    ],
+    list: [
+      { id: 1, text: "French language skills can give you an edge in the selection process." },
+      { id: 2, text: "Quebec offers a wide range of regional programs to support skilled workers, graduates, and entrepreneurs." },
+      { id: 3, text: "The province has a strong economy, affordable living, and a rich cultural environment—making it ideal for long-term settlement." },
+      { id: 4, text: "Whether you're a French speaker or someone looking for an alternative to Express Entry, Quebec's immigration route through Arrima offers a strong pathway to PR with proper planning and preparation." },
+    ],
+  },
+]
+,
+questions: [
+  
+],
+    },
+
+     {
+    id: 50,
+    img: about2, // Replace with your actual image reference
+    title: "Dubai Work Visa",
+    metaTitle:"Dubai Tourist & Work Visa Services – GlobesWay",
+    metaDesc:"Apply for Dubai tourist & work visas with expert help from GlobesWay. Fast processing, full support, and no hidden charges.",
+    metaKey:"Dubai tourist visa, Dubai work visa, best immigration consultant in Delhi",
+desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "Dubai, the commercial heart of the United Arab Emirates (UAE), offers excellent career opportunities, world-class infrastructure, and a tax-free income. Every year, thousands of skilled and semi-skilled professionals from around the globe apply for a Dubai work visa to explore better job prospects. Whether you're looking for a job in construction, hospitality, IT, finance, or healthcare, Dubai has options for nearly everyone.",
+      },
+      {
+        id: 2,
+        text:
+          "A Dubai work visa allows foreign nationals to live and work legally in Dubai under a sponsoring employer. It's not just a permit to work—it's your gateway to a better standard of living, financial growth, and international exposure. Before applying, it's essential to understand the step-by-step process, required documents, eligibility, and the benefits that come with working in Dubai.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Types of Work Visas in Dubai",
+    para: [
+      {
+        id: 1,
+        text:
+          "Dubai offers different types of employment visas based on the job role, industry, and duration—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Temporary Work Permit: For short-term or project-based jobs." },
+      { id: 2, text: "Standard Employment Visa: Issued under a company sponsorship for long-term work." },
+      { id: 3, text: "Green Visa: For skilled workers and freelancers, allowing more flexibility and self-sponsorship." },
+      { id: 4, text: "Mission Visa: For professionals hired for a specific government or corporate task." },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Eligibility Criteria for Dubai Work Visa",
+    para: [
+      {
+        id: 1,
+        text: "To qualify for a Dubai work visa, the following conditions must be met:—",
+      },
+    ],
+    list: [
+      { id: 1, text: "A confirmed job offer from a registered employer in Dubai." },
+      { id: 2, text: "The employer must sponsor your visa." },
+      { id: 3, text: "You must be medically fit (mandatory medical test)." },
+      { id: 4, text: "A valid passport with at least 6 months of validity." },
+      { id: 5, text: "Educational and professional documents verified and attested." },
+      { id: 6, text: "Background check clearance (in some cases)." },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Documents Required for Dubai Work Visa",
+    para: [
+      {
+        id: 1,
+        text: "You will need to prepare and submit the following documents—",
+      },
+    ],
+    list: [
+      { id: 1, text: "Copy of valid passport (minimum 6-month validity)" },
+      { id: 2, text: "Passport-sized photographs (as per UAE specifications)" },
+      { id: 3, text: "Educational and professional qualification certificates" },
+      { id: 4, text: "Offer letter or employment contract from the employer" },
+      { id: 5, text: "Entry permit (processed by the employer)" },
+      { id: 6, text: "Medical test results from UAE-approved centers" },
+      { id: 7, text: "Emirates ID application form (processed after arrival)" },
+      { id: 8, text: "Attested marriage/birth certificates (if dependents are involved)" },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Dubai Work Visa Application Process",
+    para: [],
+    list: [
+      { id: 1, text: "Job Offer & Contract: Secure a job offer from a UAE-based employer." },
+      { id: 2, text: "Entry Permit Issuance: Your employer applies for your entry permit." },
+      { id: 3, text: "Arrival in Dubai: You enter Dubai using the issued entry permit." },
+      { id: 4, text: "Medical Test & Biometrics: Conducted within a few days of arrival." },
+      { id: 5, text: "Visa Stamping & Emirates ID: The residence visa is stamped in your passport, and the Emirates ID is issued." },
+      { id: 6, text: "Start Working Legally: Once the process is complete, you can legally begin your job." },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Benefits of Having a Dubai Work Visa",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text: "Tax-Free Salary: One of the biggest financial advantages of working in Dubai is the absence of personal income tax. This means your entire salary is yours to keep, allowing you to save significantly more compared to working in countries where income tax can take a large portion of your earnings.",
+      },
+      {
+        id: 2,
+        text: "Family Sponsorship: Once you receive your residence visa through employment, you become eligible to sponsor your immediate family members, including your spouse and children.",
+      },
+      {
+        id: 3,
+        text: "World-Class Infrastructure: Dubai offers unmatched modern infrastructure, from its extensive metro system to world-leading healthcare and education institutions. You’ll live in a highly developed environment, with advanced digital services, reliable public amenities, and a high standard of living.",
+      },
+      {
+        id: 4,
+        text: "Multinational Work Culture: Dubai is home to a global workforce, offering a great opportunity to build international connections and experience a dynamic office culture. This diversity not only enriches your professional life but also your personal growth.",
+      },
+      {
+        id: 5,
+        text: "Pathway to Long-Term Residency: Dubai is now offering more stability for expats than ever. Skilled professionals who meet certain criteria can apply for the UAE Golden Visa, which grants long-term residency of 5 to 10 years. Having a work visa and a clean professional record may position you to qualify for this in the future, giving you more permanent roots in the UAE.",
+      },
+      {
+        id: 6,
+        text: "Safe and Secure Living:  Dubai consistently ranks as one of the safest cities in the world. With low crime rates and high levels of security, it offers peace of mind for workers and their families. This is especially important for those relocating with children or planning long-term stays.",
+      },
+      {
+        id: 7,
+        text: "Professional Growth & High Standards:Dubai offers a competitive and fast-paced work environment. Employees gain valuable international exposure, and many multinational corporations have their Middle East headquarters here. The experience gained in Dubai often leads to greater career mobility and global opportunities.",
+      },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Why Choose GlobesWay Immigration for Your Dubai Work Visa?",
+    para: [
+      {
+        id: 1,
+        text:
+          "At GlobesWay Immigration, the best immigration consultant in Delhi, we don’t just process your visa—we build your career abroad with trust and transparency.",
+      },
+      {
+        id: 2,
+        text:
+          "Years of Expertise: Our team has guided thousands of successful Dubai work visa applicants.",
+      },
+    ],
+    list: [
+      {
+        id: 1,
+        text: "End-to-End Assistance: From document verification to employer matching and visa stamping.",
+      },
+      {
+        id: 2,
+        text: "Trusted Network: We work with reputed employers and licensed agents across the UAE.",
+      },
+      {
+        id: 3,
+        text: "Simple & Fast Process: We make your dream job in Dubai easier to achieve with our step-by-step guidance.",
+      },
+      {
+        id: 4,
+        text: "Post-Landing Support: Help with accommodation, local registrations, and more.",
+      },
+    ],
+  },
+]
+,
+questions: [
+  {
+    id: 1,
+    que: "What is the eligibility for a Dubai work visa?",
+    ans: "You must have a valid job offer from a UAE-based company. The employer applies on your behalf and handles most formalities. Educational certificates and medical clearance are also required. Each profession may have different eligibility.",
+  },
+  {
+    id: 2,
+    que: "How long does it take to get a Dubai work visa?",
+    ans: "Processing can take anywhere from 2 to 4 weeks. It includes employment approval, entry permit, and medical tests. Delays can happen due to incomplete paperwork. Working with a good employer ensures a smooth process.",
+  },
+  {
+    id: 3,
+    que: "Can I change jobs in Dubai on the same work visa?",
+    ans: "No, you must cancel the current visa and get a new one from your new employer. The visa is tied to the sponsoring company. Make sure your contract terms are clear. Changing jobs without a proper visa can lead to fines.",
+  },
+  {
+    id: 4,
+    que: "Will I get a residence visa along with my work visa?",
+    ans: "Yes, a residence visa is part of the work visa process. Once your employment is confirmed, you’re issued a UAE residence permit. It allows you to stay legally and access services. The employer sponsors this entire process.",
+  },
+],
+
+    },
+
+     {
+    id: 51,
+    img: about2, // Replace with your actual image reference
+    title: "Qatar Work Visa",
+     metaTitle:"",
+    metaDesc:"",
+    metaKey:"",
+ desc: [
+  {
+    id: 1,
+    heading: "Overview of a Qatar Work Visa",
+    para: [
+      {
+        id: 1,
+        text:
+          "Qatar is rapidly emerging as one of the most promising employment hubs in the Middle East, attracting a global workforce with its flourishing economy, modern infrastructure, and high quality of life. With major investments pouring into sectors like construction, oil and gas, education, healthcare, hospitality, transportation, and IT, the country offers a wide range of job opportunities for both skilled and semi-skilled professionals. What makes the Qatar work visa even more appealing is its tax-free income policy, which allows individuals to save more while enjoying world-class amenities, safety, and a multicultural work environment. The country’s strategic location, rapid urban development, and global events like the FIFA World Cup have further increased its demand for international talent.",
+      },
+      {
+        id: 2,
+        text:
+          "A Qatar work visa is a mandatory legal document that enables foreign nationals to live and work in the country. Typically sponsored by a Qatari employer, the visa is issued only after a formal job offer is extended. Once approved, the worker can enter Qatar, undergo medical exams, and complete other legal formalities before being granted a residence permit. This ensures full compliance with the nation’s immigration laws while securing both employer and employee rights. Whether you're aiming for career growth, international exposure, or long-term financial stability, Qatar offers a stable and rewarding platform to achieve your goals.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "Types of Work Visas in Qatar",
+    para: [{
+        id: 1,
+        text:
+          "Work Visa (Standard Employment Visa).",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "Issued to skilled professionals, technicians, and laborers who have secured employment in Qatar.",
+      },
+      {
+        id: 2,
+        text:
+          "Valid for 1 to 5 years, renewable.",
+      },
+      {
+        id: 3,
+        text:
+          "Requires employer sponsorship and approval from the Ministry of Labour.",
+      },
+    ],
+  },
+   {
+    id: 13,
+    heading: "",
+    para: [{
+        id: 1,
+        text:
+          "Business Visa",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "For short-term assignments or business meetings.",
+      },
+      {
+        id: 2,
+        text:
+          "Valid up to 90 days, non-renewable.",
+      },
+      {
+        id: 3,
+        text:
+          "Not suitable for full-time employment.",
+      },
+    ],
+  },
+   {
+    id: 12,
+    heading: "",
+    para: [{
+        id: 1,
+        text:
+          "Temporary Work Visa",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "Issued for short-term projects or temporary assignments.",
+      },
+      {
+        id: 2,
+        text:
+          "Duration—3 to 6 months.",
+      },
+      {
+        id: 3,
+        text:
+          "Usually applies to technical workers or specialists.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Qatar Work Visa Process",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text:
+          "Step 1: Receive a Job Offer\n You must have a valid employment offer from a company registered in Qatar. The employer becomes your visa sponsor.",
+      },
+      {
+        id: 2,
+        text:
+          "Step 2: Employer Applies for a Work Visa\n Your employer will apply for your work visa on your behalf by submitting all required documents to the Ministry of Labour and Social Affairs and the Qatar Immigration Department.",
+      },
+      {
+        id: 3,
+        text:
+          "Step 3: Receive the Visa Approval\n Once approved, the visa is issued and sent to you electronically, allowing you to travel to Qatar.",
+      },
+      {
+        id: 4,
+        text:
+          "Step 4: Enter Qatar and Undergo Medical Tests\n Once you arrive, you will need to undergo a medical examination and biometric testing.",
+      },
+      {
+        id: 5,
+        text:
+          "Step 5: Obtain the Residence Permit\n After passing the medical tests, your employer applies for a Qatar Residence Permit, which allows you to live and work legally in Qatar. Your residence card acts as your official ID.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    heading: "Documents Required for Qatar Work Visa",
+    para: [],
+    list: [
+      { id: 1, text: "Valid passport (minimum 6 months validity)" },
+      { id: 2, text: "Passport-size photos (as per Qatar specifications)" },
+      { id: 3, text: "Original educational and professional certificates (attested)" },
+      { id: 4, text: "Medical certificate from an approved clinic" },
+      { id: 5, text: "Police clearance certificate (PCC)" },
+      { id: 6, text: "Job offer letter or employment contract" },
+      { id: 7, text: "The company’s commercial registration and immigration card (handled by the employer)" },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Benefits of Having a Qatar Work Visa",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text:
+          "1. Tax-Free Income\n One of the biggest financial perks of working in Qatar is that there is no personal income tax. You take home your full salary, allowing for better savings and investment options.",
+      },
+      {
+        id: 2,
+        text:
+          "2. Free or Subsidized Accommodation and Travel\n Many Qatari employers offer free housing, annual air tickets to your home country, and travel allowances, making your cost of living significantly lower.",
+      },
+      {
+        id: 3,
+        text:
+          "3. Family Sponsorship Option\n Once you’ve obtained your residence permit, you may be eligible to sponsor your spouse and children under a Family Visa.",
+      },
+      {
+        id: 4,
+        text:
+          "4. High Standard of Living\n Qatar boasts excellent infrastructure, modern housing, top-tier healthcare, and a vibrant expat community. Safety levels are high, and the country is known for cleanliness and security.",
+      },
+      {
+        id: 5,
+        text:
+          "5. Career Growth in Global Projects\n Qatar is home to massive global projects like the FIFA World Cup infrastructure and LNG developments, offering exciting career growth in world-class environments.",
+      },
+      {
+        id: 6,
+        text:
+          "6. Multicultural Work Environment\n You will work alongside professionals from all over the world, creating an enriching work culture and a great platform to develop international work experience.",
+      },
+      {
+        id: 7,
+        text:
+          "7. Pathway to Permanent Residency (Limited)\n Though Qatar doesn’t offer a permanent residency program for all expats, long-term workers with exceptional skills or business investments may be granted long-term residence in exceptional cases.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Important Notes for Applicants",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text:
+          "Your work visa is always tied to your employer; if you wish to change jobs, a No Objection Certificate (NOC) is usually required.",
+      },
+      {
+        id: 2,
+        text:
+          "The Qatar Labour Law protects employee rights, but make sure to read your contract carefully before signing.",
+      },
+      {
+        id: 3,
+        text:
+          "It’s advisable to get your documents attested before applying, including educational certificates and police clearance.",
+      },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Why Choose GlobesWay Immigration for Your Qatar Work Visa?",
+    para: [
+      {
+        id: 1,
+        text:
+          "At GlobesWay Immigration, the best immigration consultant in Delhi, we truly understand that starting your career abroad is a major step in your life. That’s why we’re committed to making your Qatar work visa process smooth, transparent, and stress-free. Our team of experienced professionals handles everything from start to finish, ensuring you meet all the requirements quickly and accurately.",
+      },
+      {
+        id: 2,
+        text:
+          "We provide expert support for documentation by helping you gather, verify, and file every document needed without errors or delays. With a strong network of reliable employers in Qatar, we connect you to genuine job opportunities that match your skills and experience.",
+      },
+      {
+        id: 3,
+        text:
+          "From receiving your job offer to completing your medical tests and final visa stamping, we offer complete, end-to-end assistance. What makes us stand out is our fair and transparent pricing—no hidden costs and no false promises.",
+      },
+      {
+        id: 4,
+        text:
+          "We also guide you with personalized career counseling, helping you understand the job market in Qatar, salary expectations, and visa categories based on your profile. With years of experience and a proven track record, GlobesWay Immigration is proud to be your trusted partner for a successful work journey in Qatar and across the GCC region.",
+      },
+    ],
+    list: [],
+  },
+]
+,
+questions: [
+  
+],
+    },
+
+     {
+    id: 52,
+    img: about2, // Replace with your actual image reference
+    title: "Qatar Tourist Visa",
+     metaTitle:"Qatar Tourist & Work Visa Services – GlobesWay",
+    metaDesc:"Apply for Qatar tourist & work visas with expert help from GlobesWay. Fast processing, full support, and no hidden charges.",
+    metaKey:"Qatar tourist visa, Qatar work visa, best immigration consultant in Delhi",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text:
+          "Qatar, a blend of rich Arabian heritage and futuristic innovation, has become one of the most attractive tourist destinations in the Middle East. Whether you're fascinated by desert adventures, luxury shopping, stunning skyline views, or cultural landmarks like the Museum of Islamic Art and Souq Waqif, Qatar has something for every traveler. If you’re planning a trip to this vibrant Gulf country, securing a Qatar Tourist Visa is your first step toward experiencing its world-class hospitality, iconic architecture, and endless entertainment options.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 2,
+    heading: "What is a Qatar Tourist Visa?",
+    para: [
+      {
+        id: 1,
+        text:
+          "A Qatar Tourist Visa is a short-term visa that allows foreign nationals to enter and stay in Qatar for leisure, tourism, family visits, or short-term personal reasons. These visas are typically valid for 30 days, with some categories allowing extensions.",
+      },
+      {
+        id: 2,
+        text:
+          "Qatar’s visa policies are among the most visitor-friendly in the region. Citizens of over 90 countries, including India, the US, the UK, Canada, and EU nations, are eligible for visa-free entry or visa-on-arrival, depending on their nationality and travel documentation.",
+      },
+    ],
+    list: [],
+  },
+  {
+    id: 3,
+    heading: "Types of Qatar Tourist Visas",
+    para: [ {
+        id: 1,
+        text:
+          "Visa-Free Entry:-",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "Available to nationals of over 90 countries.",
+      },
+      {
+        id: 2,
+        text:
+          "Typically valid for 30 or 90 days, depending on your nationality.",
+      },
+      {
+        id: 3,
+        text:
+          "Requires a valid passport (minimum 6-month validity), confirmed return ticket, and hotel booking or address.",
+      },
+    ],
+  },
+   {
+    id: 13,
+    heading: "",
+    para: [ {
+        id: 1,
+        text:
+          "Visa-on-Arrival:-",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "Issued at Hamad International Airport or land border crossings.",
+      },
+      {
+        id: 2,
+        text:
+          "Must show proof of accommodation, return ticket, and sufficient funds.",
+      },
+      {
+        id: 3,
+        text:
+          "No prior application needed.",
+      },
+    ],
+  },
+   {
+    id: 14,
+    heading: "",
+    para: [ {
+        id: 1,
+        text:
+          "Tourist Visa through Qatar Airways or Hotel Sponsorship:-",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "If you’re flying with Qatar Airways or booking through selected hotels, they can sponsor your visa.",
+      },
+      {
+        id: 2,
+        text:
+          "Valid for 30 days; extendable once.",
+      },
+      {
+        id: 3,
+        text:
+          "Ideal for tourists not eligible for visa-free entry.",
+      },
+    ],
+  },
+   {
+    id: 15,
+    heading: "",
+    para: [ {
+        id: 1,
+        text:
+          "Online Tourist Visa (Electronic Travel Authorization - ETA):-",
+      },],
+    list: [
+      {
+        id: 1,
+        text:
+          "For those who don’t qualify for a visa on arrival but hold a valid residence permit or visit visa to Schengen countries, the UK, the USA, Canada, Australia, or New Zealand.",
+      },
+      {
+        id: 2,
+        text:
+          "Must apply online through Qatar’s official visa portal.",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    heading: "Eligibility Criteria",
+    para: [],
+    list: [
+      { id: 1, text: "A valid passport with at least 6 months' validity" },
+      { id: 2, text: "A confirmed return or onward ticket" },
+      { id: 3, text: "Proof of accommodation booking (hotel or residential)" },
+      { id: 4, text: "Sufficient financial means or a bank statement if requested" },
+      { id: 5, text: "No legal or immigration ban in Qatar or the GCC" },
+    ],
+  },
+  {
+    id: 5,
+    heading: "Documents Required",
+    para: [],
+    list: [
+      { id: 1, text: "Passport bio-page copy" },
+      { id: 2, text: "Passport-size photograph (recent)" },
+      { id: 3, text: "Confirmed hotel or accommodation details" },
+      { id: 4, text: "Return flight booking" },
+      { id: 5, text: "Travel insurance (recommended)" },
+      { id: 6, text: "Visa or residency proof (for ETA applicants)" },
+      { id: 7, text: "Sponsorship letter (if applicable)" },
+    ],
+  },
+  {
+    id: 6,
+    heading: "Visa Processing Time",
+    para: [],
+    list: [
+      { id: 1, text: "Visa-on-arrival: Issued instantly at the airport" },
+      { id: 2, text: "Online visa: 3–5 working days (can vary)" },
+      { id: 3, text: "Sponsored visa: 7–10 days, depending on the sponsor’s processing time" },
+    ],
+  },
+  {
+    id: 7,
+    heading: "Qatar Tourist Visa Fees",
+    para: [],
+    list: [
+      { id: 1, text: "Visa-on-arrival: Free for most eligible countries" },
+      { id: 2, text: "Online application: Approx. QAR 100 (around ₹2,300 INR)" },
+      { id: 3, text: "Hotel/airline-sponsored visa: Varies based on provider" },
+    ],
+  },
+  {
+    id: 8,
+    heading: "Top Places to Visit in Qatar",
+    para: [],
+    list: [
+      { id: 1, text: "Doha Corniche: An Iconic waterfront promenade with city views" },
+      { id: 2, text: "Katara Cultural Village: Hub of art, music, and Qatari traditions" },
+      { id: 3, text: "Souq Waqif: A lively market offering spices, handicrafts, and more" },
+      { id: 4, text: "The Pearl-Qatar: Luxury artificial island with fine dining & yachts" },
+      { id: 5, text: "Desert Safari: Thrilling dune bashing & Bedouin-style camps" },
+      { id: 6, text: "National Museum of Qatar: Stunning design and immersive exhibits" },
+    ],
+  },
+  {
+    id: 9,
+    heading: "Why Choose GlobesWay Immigration for Your Qatar Tourist Visa?",
+    para: [
+      {
+        id: 1,
+        text:
+          "At GlobesWay Immigration, the best immigration consultant in Delhi, we simplify the process of getting your Qatar Tourist Visa by offering personalized, reliable, and fast-tracked services. Here's how we make your journey smoother—",
+      },
+      {
+        id: 2,
+        text:
+          "We help you choose the right type of Qatar tourist visa to ensure you're eligible and avoid any mistakes during the process.",
+      },
+      {
+        id: 3,
+        text:
+          "Our team supports you through every step of the visa journey—from collecting documents to submitting the application and tracking its progress.",
+      },
+      {
+        id: 4,
+        text:
+          "We prioritize a quick turnaround time, working to get your visa processed as fast as possible to suit your travel plans.",
+      },
+      {
+        id: 5,
+        text:
+          "Our pricing is affordable and fully transparent, so you don’t have to worry about any hidden charges.",
+      },
+      {
+        id: 6,
+        text:
+          "If needed, we also assist with hotel bookings, travel insurance, and planning your travel itinerary to make your trip stress-free.",
+      },
+    ],
+    list: [],
+  },
+]
+
+,
+questions: [
+  {
+    id: 1,
+    que: "Who can apply for a Qatar tourist visa?",
+    ans: "Citizens from most countries can apply online or through an agency. Some nationalities are eligible for a visa on arrival. You must have a valid passport and a return ticket. Always check the latest visa rules before booking flights.",
+  },
+  {
+    id: 2,
+    que: "How long is the Qatar tourist visa valid for?",
+    ans: "Tourist visas are usually valid for 30 days, with options for extensions. Visa-on-arrival is also valid for a similar duration. Extensions must be applied before expiry. Always verify duration at the time of entry.",
+  },
+  {
+    id: 3,
+    que: "What are the common reasons for visa rejection?",
+    ans: "Incomplete documents, passport issues, or prior overstay records can cause rejection. Always provide accurate travel details. Applying through a reliable agency reduces the risk of errors. Rejection is rare if all rules are followed.",
+  },
+  {
+    id: 4,
+    que: "Can I visit nearby Gulf countries on a Qatar tourist visa?",
+    ans: "No, a Qatar tourist visa is only valid for entry into Qatar. You cannot travel to the UAE, Oman, or Saudi Arabia with it. For multi-country travel, apply separately. Always check visa agreements for each destination.",
+  },
+],
+
+    },
+
+   
 ];
