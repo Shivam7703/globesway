@@ -41,6 +41,31 @@ export default function Visadetails({data}: any) {
         ))}
       </ul>
     )}
+    {detail.table &&(
+            <div className="overflow-x-auto">
+    <table className="min-w-full table-auto border border-gray-300 bg-gray-50">
+        <thead>
+            <tr>
+              {detail.table?.heading.map((head: any) => (
+                <th key={head.id} className="font-bold text-lg text-left text-white bg-color1 p-4 border-b border-r">
+                  {head.text}
+                </th>))}
+            </tr>
+        </thead>
+        <tbody>
+          {detail.table?.heading.map((rows: any) => (
+            <tr key={rows.id}>
+              {rows?.data.map((row: any) => (
+                <td key={row.id} className="p-4 border-b border-r">
+                  {row.text}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+    </table>
+</div>
+    )}
   </div>
 ))}
 
