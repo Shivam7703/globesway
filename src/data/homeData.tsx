@@ -212,7 +212,7 @@ export const navigationMenu = {
             { id: 8, label: "Germany", href: "/visa/Germany Work Visa" },
             { id: 9, label: "Luxembourg", href: "/visa/Luxembourg Work Visa" },
             { id: 10, label: "Ireland", href: "/visa/Ireland Work Visa" },
-            { id: 11, label: "UK", href: "/visa/UK" },
+            { id: 11, label: "UK", href: "/visa/UK Work Visa" },
           ],
         },
         {
@@ -264,7 +264,7 @@ export const navigationMenu = {
         { id: 10, label: "Germany Work Visa", href: "/visa/Germany Work Visa" },
         { id: 11, label: "Luxembourg Work Visa", href: "/visa/Luxembourg Work Visa" },
         { id: 12, label: "Ireland Work Visa", href: "/visa/Ireland Work Visa" },
-        { id: 13, label: "UK Work Visa", href: "/visa/uk" },
+        { id: 13, label: "UK Work Visa", href: "/visa/UK Work Visa" },
       ],
     },
 

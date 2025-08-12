@@ -1,10 +1,10 @@
-import { about2 } from "@/assets";
+import { about2, canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2 } from "@/assets";
 
 export const visas = [
   // PR Visas
   {
     id: 1,
-    img: about2,
+    img: canapr1,
     title: "Canada PR Visa",
     desc: [
       {
@@ -191,6 +191,7 @@ export const visas = [
           { id: 2, text: "Federal Skilled Trades Program" },
           { id: 3, text: "Canadian Experience Class" },
         ],
+        img:canapr2,
       },
       {
         id: 7,
@@ -659,7 +660,7 @@ export const visas = [
   // Work permit visa
   {
     id: 3,
-    img: about2,
+    img: canawork1,
     title: "Canada Work Permit Visa",
     desc: [
       {
@@ -749,6 +750,7 @@ export const visas = [
           { id: 6, text: "Good health (may require a medical exam)" },
           { id: 7, text: "Proof of financial support" },
         ],
+        img:canawork2
       },
       {
         id: 5,
@@ -2391,7 +2393,7 @@ export const visas = [
   // tourist visa
   {
     id: 15,
-    img: about2, // Replace with your actual image reference
+    img: canatour1, // Replace with your actual image reference
     title: "Canada Tourist Visa",
     desc: [
       {
@@ -3203,7 +3205,7 @@ export const visas = [
 
   {
     id: 19,
-    img: about2, // Replace with your actual image reference
+    img: canaexpress1, // Replace with your actual image reference
     title: "Canada Express Entry",
     desc: [
       {
@@ -3536,7 +3538,7 @@ export const visas = [
 
   {
     id: 20,
-    img: about2, // Replace with your actual image reference
+    img: canafam1, // Replace with your actual image reference
     title: "Canada Family Sponsorship",
     desc: [
       {
@@ -3822,7 +3824,7 @@ export const visas = [
 
   {
     id: 21,
-    img: about2, // Replace with your actual image reference
+    img: canaimmi1, // Replace with your actual image reference
     title: "Atlantic Immigration Pilot",
     desc: [
       {
@@ -4027,6 +4029,7 @@ export const visas = [
               "If applying with family, provide documents showing your relationship (like marriage or birth certificates).",
           },
         ],
+        img:canaimmi2
       },
       {
         id: 9,
@@ -4095,7 +4098,7 @@ export const visas = [
 
   {
     id: 21,
-    img: about2, // Replace with your actual image reference
+    img: canacare1, // Replace with your actual image reference
     title: "Caregivers",
     desc: [
       {
@@ -4201,6 +4204,7 @@ export const visas = [
               "Apply for Permanent Residency: After working for 12–24 months, apply for PR by submitting proof of experience and documents online.",
           },
         ],
+        img:canacare2
       },
       {
         id: 4,
@@ -5012,7 +5016,7 @@ export const visas = [
 
   {
     id: 21,
-    img: about2, // Replace with your actual image reference
+    img: canaagri1, // Replace with your actual image reference
     title: "Canada Agri-Food Pilot",
     desc: [
       {
@@ -5135,6 +5139,7 @@ export const visas = [
           { id: 8, text: "Completed and signed application forms" },
           { id: 9, text: "Identity documents and recent photographs" },
         ],
+        img:canaagri2
       },
       {
         id: 8,
@@ -5215,7 +5220,7 @@ export const visas = [
 
   {
     id: 22,
-    img: about2, // Replace with your actual image reference
+    img: canaref1, // Replace with your actual image reference
     title: "Canada Refugees & Asylum",
     desc: [
       {
@@ -5263,6 +5268,7 @@ export const visas = [
           "The IRB decides whether you qualify as a convention refugee or someone who needs protection. A Convention Refugee must show fear of going back due to issues like race, religion, nationality, political views, or being part of a targeted group.",
       },
     ],
+    img:canaref2
   },
   {
     id: 4,
@@ -10056,8 +10062,208 @@ questions: [
     ans: "No, a Qatar tourist visa is only valid for entry into Qatar. You cannot travel to the UAE, Oman, or Saudi Arabia with it. For multi-country travel, apply separately. Always check visa agreements for each destination.",
   },
 ],
-
     },
 
+     {
+    id: 52,
+    img: about2, // Replace with your actual image reference
+    title: "UK Work Visa",
+     metaTitle:"",
+    metaDesc:"",
+    metaKey:"",
+ desc: [
+  {
+    id: 1,
+    heading: "Introduction",
+    para: [
+      {
+        id: 1,
+        text: "The UK Work Visa is a legal document that allows foreign nationals to work in the United Kingdom for a specific employer or industry. It’s a great option for individuals looking to advance their careers in a global, English-speaking environment. The UK has one of the world's strongest economies, offering high-paying jobs, professional growth, and international exposure.",
+      },
+      {
+        id: 2,
+        text: "The most popular category is the Skilled Worker Visa, which allows skilled professionals to work in healthcare, IT, engineering, hospitality, and more. Other types include visas for global talent, intra-company transfers, and youth mobility schemes. Some work visas also lead to settlement or permanent residency in the UK.",
+      },
+    ],
+    list: [],
+    table: {},
+  },
+  {
+    id: 2,
+    heading: "What is a UK Work Visa?",
+    para: [
+      {
+        id: 1,
+        text: "A UK Work Visa allows non-UK nationals to live and work legally in the United Kingdom. It is issued based on a confirmed job offer from a UK employer who is licensed to sponsor foreign workers. Some work visas are temporary, while others can lead to long-term stay or Indefinite Leave to Remain (ILR).",
+      },
+    ],
+    list: [],
+    table: {},
+  },
+  {
+    id: 3,
+    heading: "Why Apply for a UK Work Visa?",
+    para: [
+      {
+        id: 1,
+        text: "The UK is a global hub for business, technology, healthcare, and education. With a UK work visa, you can:",
+      },
+    ],
+    list: [
+      { id: 1, text: "Gain international work experience" },
+      { id: 2, text: "Earn in British Pounds" },
+      { id: 3, text: "Enjoy strong worker rights and protections" },
+      { id: 4, text: "Explore long-term settlement options" },
+      { id: 5, text: "Bring your dependents with you" },
+      { id: 6, text: "Access quality healthcare through the NHS" },
+    ],
+    table: {},
+  },
+  {
+    id: 4,
+    heading: "Types of UK Work Visas",
+    para: [],
+    list: [
+      {
+        id: 1,
+        text: "Skilled Worker Visa - For professionals with job offers in eligible occupations like healthcare, IT, education, or trades. Requires sponsorship and a minimum salary threshold.",
+      },
+      {
+        id: 2,
+        text: "Health and Care Worker Visa - A fast-tracked option for qualified professionals working in healthcare and social care roles. Lower visa fees and no Immigration Health Surcharge.",
+      },
+      {
+        id: 3,
+        text: "Global Talent Visa - For leaders or potential leaders in academia, research, arts, and digital technology. No job offer needed; endorsed by recognized UK bodies.",
+      },
+      {
+        id: 4,
+        text: "Graduate Visa - For international students who’ve completed a UK degree. Allows you to stay and work for 2 years (3 years for PhDs).",
+      },
+      {
+        id: 5,
+        text: "Intra-Company Transfer Visa - For employees of multinational companies who are transferred to a UK branch.",
+      },
+      {
+        id: 6,
+        text: "Youth Mobility Scheme Visa - For young adults (aged 18–30) from specific countries to live and work in the UK for up to 2 years.",
+      },
+    ],
+    table: {},
+  },
+  {
+    id: 5,
+    heading: "Eligibility for UK Work Visa",
+    para: [
+      {
+        id: 1,
+        text: "To qualify for a UK Work Visa, you generally need:",
+      },
+    ],
+    list: [
+      { id: 1, text: "A valid job offer from a licensed UK employer" },
+      { id: 2, text: "A Certificate of Sponsorship (CoS)" },
+      { id: 3, text: "Required skill level and English proficiency" },
+      { id: 4, text: "Proof of minimum salary threshold" },
+      { id: 5, text: "Financial proof to support yourself in the UK" },
+      { id: 6, text: "Clean criminal record" },
+      { id: 7, text: "TB test (for residents of certain countries)" },
+    ],
+    table: {},
+  },
+  {
+    id: 6,
+    heading: "Required Documents",
+    para: [],
+    list: [
+      { id: 1, text: "Valid passport" },
+      { id: 2, text: "Certificate of Sponsorship (CoS)" },
+      { id: 3, text: "Proof of English language ability" },
+      { id: 4, text: "Salary and job role details" },
+      { id: 5, text: "Educational and work experience certificates" },
+      { id: 6, text: "Police clearance certificate" },
+      { id: 7, text: "Tuberculosis test results (if required)" },
+      { id: 8, text: "Proof of financial support" },
+      { id: 9, text: "Completed visa application form" },
+      { id: 10, text: "Passport-size photographs" },
+    ],
+    table: {},
+  },
+  {
+    id: 7,
+    heading: "Application Process",
+    para: [],
+    list: [
+      { id: 1, text: "Job Offer—Get hired by a licensed UK employer." },
+      { id: 2, text: "Sponsorship Certificate—Employer issues a CoS." },
+      { id: 3, text: "Online Application—Fill out your visa application and pay fees." },
+      { id: 4, text: "Biometrics & Documents—Submit biometrics and upload documents." },
+      { id: 5, text: "Visa Decision—Wait for a decision; processing time is usually 3–8 weeks." },
+      { id: 6, text: "Travel to the UK—Once approved, you’ll receive your visa vignette and can travel." },
+    ],
+    table: {},
+  },
+  {
+    id: 8,
+    heading: "Benefits of a UK Work Visa",
+    para: [
+      {
+        id: 1,
+        text: "A UK Work Visa offers many advantages to international professionals:",
+      },
+    ],
+    list: [
+      { id: 1, text: "Legal right to work in the UK" },
+      { id: 2, text: "High wages and strong employment rights" },
+      { id: 3, text: "Pathway to settlement (ILR) and British citizenship" },
+      { id: 4, text: "Dependents can join and work/study" },
+      { id: 5, text: "Global networking and career growth" },
+      { id: 6, text: "Access to NHS (National Health Service)" },
+      { id: 7, text: "Chance to explore UK and Europe" },
+    ],
+    table: {},
+  },
+  {
+    id: 9,
+    heading: "Why Choose GlobesWay Immigration?",
+    para: [
+      {
+        id: 1,
+        text: "At GlobesWay Immigration, we believe that every journey begins with trust and the right guidance. With years of experience and a team of certified immigration experts, we make your visa process easy, transparent, and stress-free. Whether you're applying for a work visa, study visa, or permanent residency, we offer personalized solutions tailored to your needs, ensuring that every step is handled professionally.",
+      },
+      {
+        id: 2,
+        text: "We’re not just another consultancy—we’re your reliable partner for building a new future abroad. From profile evaluation and job assistance to visa documentation and post-landing support, our team stands by you at every stage. We stay updated with the latest immigration rules so you don’t have to worry about missing anything important. With thousands of successful clients, GlobesWay is a name you can trust for turning your global dreams into reality.",
+      },
+    ],
+    list: [],
+    table: {},
+  },
+]
+,
+questions: [
+  {
+    id: 1,
+    que: "Can I change employers in the UK?",
+    ans: "Yes, but you must apply to update your visa if switching to a different employer or job role. The new employer must also be licensed to sponsor you.",
+  },
+  {
+    id: 2,
+    que: "Can I bring my family with me?",
+    ans: "Yes, your spouse and children can accompany you as dependents. Your spouse can work, and your children can attend school. You must show financial ability to support them.",
+  },
+  {
+    id: 3,
+    que: "Does the UK work visa lead to PR?",
+    ans: "Yes, after 5 years on a Skilled Worker Visa, you can apply for Indefinite Leave to Remain (ILR), provided you meet salary and residency criteria. ILR can lead to British citizenship.",
+  },
+  {
+    id: 4,
+    que: "Is there an age limit for the Skilled Worker Visa?",
+    ans: "No, there is no age limit. However, for specific schemes like the Youth Mobility Scheme, the age range is restricted to 18–30 years.",
+  },
+],
+
+    },
    
 ];

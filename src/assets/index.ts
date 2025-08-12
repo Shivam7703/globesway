@@ -16,24 +16,16 @@ import canadaVisa from "@/assets/home/work-visa.jpg";
 import ielts from "@/assets/home/ielts.jpg";
 import ielts1 from "@/assets/home/ielts1.jpg";
 import ielts2 from "@/assets/home/ielts2.jpg";
-
 import postLanding1 from "@/assets/home/post-landing1.jpg";
 import postLanding2 from "@/assets/home/post-landing2.jpg";
-
 import immigration1 from "@/assets/home/immigration1.jpg";
 import immigration2 from "@/assets/home/immigration2.jpg";
-
 import career1 from "@/assets/home/career1.jpg";
 import career2 from "@/assets/home/career2.jpg";
-
 import profile1 from "@/assets/home/profile1.jpg";
 import profile2 from "@/assets/home/profile2.jpg";
-
 import documentation1 from "@/assets/home/documentation1.jpg";
 import documentation2 from "@/assets/home/documentation2.jpg";
-
-
-
 import pte from "@/assets/home/pte.jpg";
 import pte1 from "@/assets/home/pte1.jpg";
 import pte2 from "@/assets/home/pte2.jpg";
@@ -56,7 +48,6 @@ import review from "@/assets/review.png"
 // team
 import team1 from "@/assets/home/team1.jpg";
 import team2 from "@/assets/home/team2.jpg";
-
 
 // country 
 import ausflag from "@/assets/country/australia.webp";
@@ -84,9 +75,27 @@ import sweden from "@/assets/country/sweden-img.webp";
 import ukflag from "@/assets/country/uk.webp";
 import uk from "@/assets/country/uk-img.webp";
 
-
 // contact
 import contact from "@/assets/home/call.webp";
+
+// canada
+import canaagri1 from "@/assets/canada/agri-food.jpg";
+import canaagri2 from "@/assets/canada/agri-food2.jpg";
+import canacare1 from "@/assets/canada/care1.jpg";
+import canacare2 from "@/assets/canada/care2.jpg";
+import canaexpress1 from "@/assets/canada/expressentry.jpg";
+import canafam1 from "@/assets/canada/family1.jpg";
+import canaimmi1 from "@/assets/canada/immi1.jpg";
+import canaimmi2 from "@/assets/canada/immi2.jpg";
+import canapr1 from "@/assets/canada/pr1.jpg";
+import canapr2 from "@/assets/canada/pr2.jpg";
+import canaref1 from "@/assets/canada/refugee1.jpg";
+import canaref2 from "@/assets/canada/refugee2.jpg";
+import canatour1 from "@/assets/canada/tourist1.jpg";
+import canatour2 from "@/assets/canada/tourist2.jpg";
+import canawork1 from "@/assets/canada/work.jpg";
+import canawork2 from "@/assets/canada/work2.jpg";
+
 
 
 
@@ -109,5 +118,8 @@ export {
   singapoflag, singapore,
   spainflag, spain,
   swedenflag, sweden,
-  ukflag, uk
+  ukflag, uk,
+
+  // canada
+  canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canatour2, canawork1, canawork2
 };
