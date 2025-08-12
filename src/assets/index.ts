@@ -92,7 +92,6 @@ import canapr2 from "@/assets/canada/pr2.jpg";
 import canaref1 from "@/assets/canada/refugee1.jpg";
 import canaref2 from "@/assets/canada/refugee2.jpg";
 import canatour1 from "@/assets/canada/tourist1.jpg";
-import canatour2 from "@/assets/canada/tourist2.jpg";
 import canawork1 from "@/assets/canada/work.jpg";
 import canawork2 from "@/assets/canada/work2.jpg";
 
@@ -121,5 +120,5 @@ export {
   ukflag, uk,
 
   // canada
-  canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canatour2, canawork1, canawork2
+  canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2
 };
