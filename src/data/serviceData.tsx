@@ -1,10 +1,9 @@
-import { about2 } from "@/assets";
-import { i } from "motion/react-client";
+import { about2, career1, career2, celpip1, documentation1, documentation2, ielts1, ielts2, immigration1, immigration2, postLanding1, postLanding2, profile1, profile2, pte1, pte2 } from "@/assets";
 
 export const services=[
  {
     id: 1,
-    img: about2,
+    img: postLanding1,
     title: "Post-Landing Services",
  desc: [
   {
@@ -165,7 +164,8 @@ export const services=[
         text: "Help in connecting with local agents"
       }
     ],
-    table: {}
+    table: {},
+    img: postLanding2,
   },
   {
     id: 8,
@@ -283,7 +283,7 @@ export const services=[
 
 {
     id: 2,
-    img: about2,
+    img: ielts1,
     title: "IELTS Training Services",
     desc: [
   {
@@ -444,7 +444,8 @@ export const services=[
         text: "Time management strategies"
       }
     ],
-    table: {}
+    table: {},
+    img:ielts2
   },
   {
     id: 8,
@@ -562,7 +563,7 @@ questions: [
 
   {
     id: 3,
-    img: about2,
+    img: pte1,
     title: "PTE (Pearson Test of English)",
     desc: [
   {
@@ -722,7 +723,8 @@ questions: [
           ]
         }
       ]
-    }
+    },
+    img: pte2,
   },
   {
     id: 6,
@@ -823,7 +825,8 @@ questions: [
       ]
     }
   }
-],questions: [
+],
+questions: [
   {
     id: 1,
     que: "How often can I take the PTE test?",
@@ -845,12 +848,10 @@ questions: [
     ans: "Practice regularly, use official mock tests, work on weak areas, and consider professional coaching. Improving fluency, grammar, and vocabulary will boost overall performance.",
   },
 ],
-
-
   },
   {
     id: 4,
-    img: about2,
+    img: celpip1,
     title: "CELPIP (Canadian English Language Proficiency Index Program)",
     desc: [
     {
@@ -1110,7 +1111,7 @@ questions: [
   },
   {
     id: 5,
-    img: about2,
+    img: immigration1,
     title: "Immigration Services",
     desc: [
   {
@@ -1195,6 +1196,7 @@ questions: [
         },
       ],
     },
+    img: immigration2,
   },
 ]
 ,
@@ -1224,7 +1226,7 @@ questions: [
   },
   {
     id: 6,
-    img: about2,
+    img: career1,
     title: "Career Counselling",
     desc: [
   {
@@ -1305,6 +1307,7 @@ questions: [
         },
       ],
     },
+    img:career2
   },
 ],
 questions: [
@@ -1332,7 +1335,7 @@ questions: [
   },
   {
     id: 7,
-    img: about2,
+    img: profile1,
     title: "Profile Marketing & Job Assistance",
     desc: [
   {
@@ -1426,6 +1429,7 @@ questions: [
     ],
     list: [],
     table: {},
+    img: profile2,
   },
 ],questions: [
   {
@@ -1452,7 +1456,7 @@ questions: [
   },
   {
     id: 8,
-    img: about2,
+    img: documentation1,
     title: "Visa Documentation",
     desc: [
   {
@@ -1546,6 +1550,7 @@ questions: [
     ],
     list: [],
     table: {},
+    img: documentation2,
   },
 ]
 ,

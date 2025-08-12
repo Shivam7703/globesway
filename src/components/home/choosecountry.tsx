@@ -76,7 +76,7 @@ export default function ChooseCountry() {
             className="mb-16 text-center w-full group p-3"
           >
             {/* Card Content */}
-            <div className="md:w-full md:h-56 mx-auto h-36 overflow-hidden relative">
+            <div className="md:w-full md:h-56 mx-auto h-48 overflow-hidden relative">
              <Image
                             src={cards.img}
                             alt="tour"

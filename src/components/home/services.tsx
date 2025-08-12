@@ -65,7 +65,7 @@ export default function Services() {
             className="mb-16 w-full group  "
           >
             {/* Card Content */}
-            <div className="w-full md:h-64 h-44 mb-2   overflow-hidden relative">
+            <div className="w-full md:h-64 h-56 mb-2   overflow-hidden relative">
 
               <Image
                 src={cards.img}

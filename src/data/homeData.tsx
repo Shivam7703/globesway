@@ -31,10 +31,28 @@ import {
   team1,
   team2,
   test1,
+  workVisa,
+  prVisa,
+  spouseVisa,
+  touristVisa,
+  businesVisa,
+  ielts,
+  pte,
+  celpip,
+  tef,
+  faq2,
+  faq1,
 } from "@/assets";
+import { BiMaleFemale } from "react-icons/bi";
+import { BsBarChartFill, BsGraphUpArrow, BsPeopleFill, BsPersonFillCheck } from "react-icons/bs";
+import { FaCheckCircle } from "react-icons/fa";
 
-import { FaMapLocationDot } from "react-icons/fa6";
-import { MdAttachEmail, MdWifiCalling3 } from "react-icons/md";
+import { FaAward, FaLightbulb, FaMapLocationDot } from "react-icons/fa6";
+import { GiWorld } from "react-icons/gi";
+import { GrUserWorker, GrVisa } from "react-icons/gr";
+import { IoSettingsSharp } from "react-icons/io5";
+import { MdAttachEmail, MdBusinessCenter, MdMapsHomeWork, MdSupportAgent, MdTour, MdWifiCalling3 } from "react-icons/md";
+import { PiStepsFill } from "react-icons/pi";
 import { TfiJoomla } from "react-icons/tfi";
 
 export const navigationMenu = {
@@ -334,8 +352,8 @@ export const navigationMenu = {
 
 // home page data
 export const aboutdata = {
-  img1: about1,
-  img2: about2,
+  img1: about2,
+  img2: about1,
   img3: about3,
   title1: "About Us",
   title2: "Best immigration consultants in Delhi",
@@ -354,8 +372,8 @@ export const servicesdata = {
   list: [
     {
       id: 1,
-      icon: <TfiJoomla />,
-      img: about2,
+      icon: <MdMapsHomeWork />,
+      img: prVisa,
       href: "/services/application-submission",
       title: "PR Visa",
       para:
@@ -364,8 +382,8 @@ export const servicesdata = {
 
     {
       id: 2,
-      icon: <TfiJoomla />,
-      img: about2,
+      icon: <GrUserWorker />,
+      img: workVisa,
       href: "/services/application-submission",
       title: "Work Visa",
       para:
@@ -374,8 +392,9 @@ export const servicesdata = {
 
     {
       id: 3,
-      icon: <TfiJoomla />,
-      img: about2,
+      icon: <BiMaleFemale />
+,
+      img: spouseVisa,
       href: "/services/application-submission",
       title: "Spouse Visa",
       para:
@@ -384,8 +403,8 @@ export const servicesdata = {
 
     {
       id: 4,
-      icon: <TfiJoomla />,
-      img: about1,
+      icon: <MdTour />,
+      img: touristVisa,
       href: "/services/post-landing",
       title: "Tourist Visa",
       para:
@@ -394,8 +413,8 @@ export const servicesdata = {
 
     {
       id: 5,
-      icon: <TfiJoomla />,
-      img: about2,
+      icon: <BiMaleFemale />,
+      img: spouseVisa,
       href: "/services/application-submission",
       title: "Spouse Visa",
       para:
@@ -404,8 +423,9 @@ export const servicesdata = {
 
     {
       id: 6,
-      icon: <TfiJoomla />,
-      img: about2,
+      icon: <MdBusinessCenter />
+,
+      img: businesVisa,
       href: "/services/application-submission",
       title: "Business & Investor Visa",
       para:
@@ -415,24 +435,27 @@ export const servicesdata = {
 };
 
 export const countDownData = [
-  { id: 1, icon: <TfiJoomla />, title: "Years of Exp", Value: 10, value2: "+" },
+  { id: 1, icon: <FaAward />
+, title: "Years of Exp", Value: 10, value2: "+" },
   {
     id: 2,
-    icon: <TfiJoomla />,
+    icon: <BsPeopleFill />
+,
     title: "Happy Clients",
     Value: 50,
     value2: "k+",
   },
   {
     id: 3,
-    icon: <TfiJoomla />,
+    icon: <GiWorld />,
     title: "Countries Served",
     Value: 20,
     value2: "+",
   },
   {
     id: 4,
-    icon: <TfiJoomla />,
+    icon:<GrVisa />
+,
     title: "Visa Success Rate",
     Value: 99,
     value2: "%",
@@ -584,28 +607,28 @@ export const coachingofferdata = {
     {
       id: 1,
       name: "IELTS General",
-      img: canada,
+      img: ielts,
       href: "#",
       para: "A popular English test for work and immigration purposes.",
     },
     {
       id: 2,
       name: "PTE Core",
-      img: canada,
+      img: pte,
       href: "#",
       para: "A computer-based English test is accepted for Canadian PR.",
     },
     {
       id: 3,
       name: "CELPIP",
-      img: canada,
+      img: celpip,
       href: "#",
       para: "An English test used mainly for Canadian immigration.",
     },
     {
       id: 4,
       name: "TEF",
-      img: canada,
+      img: tef,
       href: "#",
       para: "A French language test is required for Canadian immigration.",
     },
@@ -613,9 +636,8 @@ export const coachingofferdata = {
 };
 
 export var faqData = {
-  img: about1,
-  img2: about1,
-  img3: canada,
+  img: faq1,
+  img2: faq2,
   title1: "Frequently Asked Questions",
   title2: "We answer all your immigration questions.",
        questions: [
@@ -652,34 +674,35 @@ export const whychoose = {
   vision: [
     {
       id: 1,
-      icon: <TfiJoomla />,
+      icon: <BsPersonFillCheck />,
       heading: "Experts Help",
       text:
         "Get advice from experienced visa experts who know the process well.",
     },
     {
       id: 2,
-      icon: <TfiJoomla />,
+      icon: <IoSettingsSharp />
+,
       heading: "Personalized Solutions",
       text:
         "We plan your visa journey based on your personal goals and profile.",
     },
     {
       id: 3,
-      icon: <TfiJoomla />,
+      icon: <BsGraphUpArrow />,
       heading: "High Success Rate",
       text: "Most of our clients get approved, thanks to our expert handling.",
     },
     {
       id: 4,
-      icon: <TfiJoomla />,
+      icon: <FaCheckCircle />,
       heading: "Clear Process",
       text:
         "No hidden costs. We explain everything clearly from start to finish.",
     },
     {
       id: 5,
-      icon: <TfiJoomla />,
+      icon: <MdSupportAgent />,
       heading: "End-to-End Support",
       text:
         "We help you at every step—from documents to approval and even after you land.",
@@ -729,13 +752,13 @@ export const teamdata = {
   title1: "MEET OUR TEAM",
   title2: "Our Trusted Experts, Visa Consultants Team",
   team: [
-    { id: 1, img: team1, name: "Shivam Goyal", para: "Web Developer" },
+    { id: 1, img: team1, name: "Shreshth Taneja", para: "Founder & CEO" },
 
-    { id: 2, img: team2, name: "Meenakshi", para: "Writer" },
+    { id: 2, img: team2, name: "Rakshita Sobhti", para: "Ops Manager" },
 
-    { id: 3, img: team1, name: "Shivam Goyal", para: "Web Developer" },
+    { id: 3, img: team1, name: "Sahiba", para: "Case Manager" },
 
-    { id: 4, img: team1, name: "Shivam Goyal", para: "Web Developer" },
+    { id: 4, img: team1, name: "Shudhi Taneja", para: "Managing Director" },
   ],
 };
 
@@ -814,64 +837,48 @@ export const footer = {
   copyrightText: "Copyrights © 2024 . Designed and Manage by ",
 
   list2: {
-    title: "Trending Packages",
+    title: "Migrate",
     links: [
-      {
-        id: 1,
-        label: "Exotic kerala Tour 3 N | 4 D",
-        href: "/packages/exotic-kerala-tour 3 N | 4 D?categorys=domestic",
-      },
-      {
-        id: 2,
-        label: "Exotic kerala Tour 7 N | 8 D",
-        href: "/packages/exotic-kerala-tour-7 N | 8 D?categorys=domestic",
-      },
-      {
-        id: 3,
-        label: "Darjeeling Tour",
-        href: "/packages/darjeeling-tour?categorys=domestic",
-      },
-      {
-        id: 4,
-        label: "Assam Meghalaya Tour",
-        href: "/packages/assam-Meghalaya-tour?categorys=domestic",
-      },
-      {
-        id: 5,
-        label: "Dajeeling Gangtok Tour",
-        href: "/packages/darjeeling-gangtok-tour?categorys=domestic",
-      },
+    
+       {
+              id: 2,
+              label: "Atlantic Immigration Pilot",
+              href: "/visa/Atlantic Immigration Pilot",
+            },
+            { id: 3, label: "Caregivers", href: "/visa/Caregivers" },
+            {
+              id: 4,
+              label: "Canada Agri-Food Pilot",
+              href: "/visa/Canada Agri-Food Pilot",
+            },
+                    { id: 5, label: "Dubai Work Visa", href: "/visa/Dubai Work Visa" },
+
+                      { id: 6, label: "Qatar Work Visa", href: "/visa/Qatar Work Visa" },
+
+      { id: 7, label: "Netherlands", href: "/visa/Netherlands Work Visa" },
+            { id: 8, label: "Germany", href: "/visa/Germany Work Visa" },
     ],
   },
 
   list3: {
-    title: "Destinations",
+    title: "Services",
     links: [
-      {
-        id: 1,
-        label: "Golden Triangle",
-        href: "/destination/golden-triangle?categorys=domestic",
-      },
-      {
-        id: 2,
-        label: "Andaman & Nicobar",
-        href: "/destination/andaman-&-nicobar-islands?categorys=domestic",
-      },
-      {
-        id: 3,
-        label: "Kashmir",
-        href: "/destination/kashmir?categorys=domestic",
-      },
-      {
-        id: 4,
-        label: "Sikkim & Darjeeling",
-        href: "/destination/sikkim-&-darjeeling?categorys=domestic",
-      },
-      {
-        id: 5,
-        label: "Kerala",
-        href: "/destination/kerala?categorys=domestic",
-      },
+      { id: 1, label: "Post Landing", href: "/services/Post-Landing Services" },
+        { id: 2, label: "IELTS", href: "/services/IELTS Training Services" },
+        { id: 3, label: "PTE", href: "/services/PTE (Pearson Test of English)" },
+        { id: 4, label: "CELPIP", href: "/services/CELPIP (Canadian English Language Proficiency Index Program)" },
+        { id: 5, label: "Immigration Services", href: "/services/Immigration Services" },
+        {
+          id: 6,
+          label: "Career Counselling",
+          href: "/services/Career Counselling",
+        },
+
+        {
+          id: 8,
+          label: "Visa Documentation",
+          href: "/services/Visa Documentation",
+        },
     ],
   },
 
@@ -929,35 +936,37 @@ export const aboutchoose = {
   points: [
     {
       id: 1,
-      icon: <TfiJoomla />,
+      icon: <BsPersonFillCheck />
+,
       heading: "Expert Guidance",
       text:
         "Our team is familiar with the visa procedure and provides the appropriate advice.",
     },
     {
       id: 2,
-      icon: <TfiJoomla />,
+      icon: <FaLightbulb />,
       heading: "Custom Plans",
       text:
         "We develop a visa program that is tailored to your objectives and experiences.",
     },
     {
       id: 3,
-      icon: <TfiJoomla />,
+      icon: <BsBarChartFill />,
       heading: "Great Success Rate",
       text:
         "We are careful with what we do and most of our clients are approved.",
     },
     {
       id: 4,
-      icon: <TfiJoomla />,
+      icon: <PiStepsFill />
+,
       heading: "Clear Steps",
       text:
         "No confusion or hidden costs—we explain everything in simple terms.",
     },
     {
       id: 5,
-      icon: <TfiJoomla />,
+      icon: <MdSupportAgent />,
       heading: "Full Support",
       text:
         "We guide you at every step, starting with selecting the proper visa to landing in the foreign country.",

@@ -9,7 +9,7 @@ interface NavItem {
   label: string;
   href: string;
   subNav?: NavItem[];
-  subNavv?: NavItem[]; // for level 3 under certain items
+  subNavv?: NavItem[];
 }
 
 interface MenuMobileProps {
@@ -23,131 +23,70 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
   onItemClick,
   onTop
 }) => {
-  const [activeItem, setActiveItem] = useState<string | null>(null);
   const pathname = usePathname();
+  const [activeItem, setActiveItem] = useState<string | null>(null);
+  const [openMenus, setOpenMenus] = useState<Record<string, string | null>>({});
 
   useEffect(() => {
     const lastSegment = pathname?.split("/").filter(Boolean).pop();
-    let path = lastSegment || "home";
-    setActiveItem(path);
+    setActiveItem(lastSegment || "home");
   }, [pathname]);
 
-  const [openMenus, setOpenMenus] = useState<{
-    level1: string | null;
-    level2: string | null;
-    level3: string | null;
-  }>({
-    level1: null,
-    level2: null,
-    level3: null
-  });
-
-  const toggleLevel1 = (itemId: string) => {
-    setOpenMenus({ level1: itemId === openMenus.level1 ? null : itemId, level2: null, level3: null });
+  const toggleMenu = (level: number, id: string) => {
+    setOpenMenus((prev) => ({
+      ...prev,
+      [level]: prev[level] === id ? null : id
+    }));
   };
 
-  const toggleLevel2 = (itemId: string) => {
-    setOpenMenus(prev => ({ ...prev, level2: itemId === prev.level2 ? null : itemId, level3: null }));
-  };
+  const renderItems = (items: NavItem[], level = 1) =>
+    items.map((item) => {
+      const id = String(item.id);
+      const children =
+        level < 3 ? item.subNav : level === 3 ? item.subNavv : undefined;
+      const isOpen = openMenus[level] === id;
+      const hasChildren = !!children?.length;
+      const padding = ["px-4", "px-8", "px-12"][level - 1] || "px-4";
+      const hoverText = onTop ? "hover:text-color2" : "hover:text-color1";
+      const textColor =
+        activeItem === item.href
+          ? "text-color1"
+          : onTop
+          ? "text-white"
+          : "text-black";
 
-  const toggleLevel3 = (itemId: string) => {
-    setOpenMenus(prev => ({ ...prev, level3: itemId === prev.level3 ? null : itemId }));
-  };
+      return (
+        <div key={`${level}-${id}`}>
+          <div className={`flex items-center justify-between ${padding} py-2 ${textColor} ${hoverText}`}>
+            <Link
+              href={item.href}
+              className="whitespace-nowrap transition-all duration-300"
+              onClick={() => !hasChildren && handleClick(item.href)}
+            >
+              {item.label}
+            </Link>
+            {hasChildren && (
+              <IoIosArrowDown
+                className={`cursor-pointer transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+                onClick={() => toggleMenu(level, id)}
+              />
+            )}
+          </div>
+          {hasChildren && isOpen && <div>{renderItems(children, level + 1)}</div>}
+        </div>
+      );
+    });
 
-  const handleItemClick = (href: string) => {
+  const handleClick = (href: string) => {
     onItemClick(href);
     setIsMobileMenuOpen(false);
   };
 
-  const renderNavItems = (items: NavItem[], level = 1) => {
-  return items.map((item) => {
-    const idStr = item.id.toString();
-
-    // Get submenu at current level
-    const children =
-      level === 1 || level === 2
-        ? item.subNav
-        : level === 3
-        ? item.subNavv
-        : undefined;
-
-    const hasChildren = children && children.length > 0;
-
-    const isOpen =
-      level === 1
-        ? openMenus.level1 === idStr
-        : level === 2
-        ? openMenus.level2 === idStr
-        : level === 3
-        ? openMenus.level3 === idStr
-        : false;
-
-    const toggleFn =
-      level === 1
-        ? toggleLevel1
-        : level === 2
-        ? toggleLevel2
-        : toggleLevel3;
-
-    const paddingClass = level === 1 ? "px-4" : level === 2 ? "px-8" : "px-12";
-    const hoverText = onTop ? "hover:text-color2" : "hover:text-color1";
-    const textColor =
-      activeItem === item.href
-        ? "text-color1"
-        : onTop
-        ? "text-white"
-        : "text-black";
-
-    return (
-      <div key={`${level}-${item.id}`}>
-        <div
-          className={`flex items-center justify-between ${paddingClass} py-2 cursor-pointer ${textColor} ${hoverText}`}
-          onClick={() => {
-            if (hasChildren) {
-              toggleFn(idStr);
-            } else {
-              handleItemClick(item.href);
-            }
-          }}
-        >
-          {level === 1 ? (
-            <Link href={item.href} className="font transition-all duration-300">
-              {item.label}
-            </Link>
-          ) : (
-            <span className="whitespace-nowrap">{item.label}</span>
-          )}
-          {hasChildren && (
-            <IoIosArrowDown
-              className={`transition-transform duration-300 ${
-                isOpen ? "rotate-180" : "rotate-0"
-              }`}
-            />
-          )}
-        </div>
-
-        {/* RECURSIVE: render subNav at level 1 and 2, subNavv at level 3 */}
-        {hasChildren && isOpen && (
-          <div className="w-full">
-            {renderNavItems(children, level + 1)}
-          </div>
-        )}
-      </div>
-    );
-  });
-};
-
-
   return (
     <ul className="w-full flex flex-col">
-      {navigationMenu?.primaryMenu?.map((item: NavItem) => (
+      {[...(navigationMenu?.primaryMenu || []), ...(navigationMenu?.secondaryMenu || [])].map((item) => (
         <li key={item.id} className="border-b border-gray-100/20 last:border-none">
-          <div className="w-full">{renderNavItems([item], 1)}</div>
-        </li>
-      ))}
-      {navigationMenu?.secondaryMenu?.map((item: NavItem) => (
-        <li key={item.id} className="border-b border-gray-100/20 last:border-none">
-          <div className="w-full">{renderNavItems([item], 1)}</div>
+          {renderItems([item], 1)}
         </li>
       ))}
     </ul>

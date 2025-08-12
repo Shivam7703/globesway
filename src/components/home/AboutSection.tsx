@@ -21,11 +21,10 @@ function AboutSection() {
 
                  </div>
 
-                 <div className='absolute py-3 px-5 border-l-4 border-color1 bg-white -right-2 bottom-3 shadow-xl'> <h5 className='text-2xl md:text-4xl text-color1 font-bold'>28+</h5>
+                 <div className='absolute py-3 px-5 border-l-4 border-color1 bg-white -right-2 bottom-3 shadow-xl'> <h5 className='text-2xl md:text-4xl text-color1 font-bold'>18+</h5>
                  <p className='text-md md:text-xl  text-zinc-800 '>Years of Experience</p></div>
                  {data?.img2 && <Image src={data?.img2} alt='About' className=' absolute z-10 top-0 right-0 w-[70%] h-[70%] border-2 border-white object-cover'/>}
-                 {data?.img3 && <Image src={data?.img3} alt='About' className=' absolute z-10 -top-7  animate-spin-slow
- left-1  w-28 md:w-40 object-contain'/>}
+                
  
  </motion.div>
 

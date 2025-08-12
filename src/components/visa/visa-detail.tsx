@@ -66,6 +66,12 @@ export default function Visadetails({data}: any) {
     </table>
 </div>
     )}
+
+    {detail.img && ( <Image
+          src={detail?.img}
+          alt=""
+          className="w-full h-auto object-contain max-h-[450px] mx-auto"
+        />)}
   </div>
 ))}
 
