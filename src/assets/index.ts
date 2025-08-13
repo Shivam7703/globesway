@@ -95,6 +95,55 @@ import canatour1 from "@/assets/canada/tourist1.jpg";
 import canawork1 from "@/assets/canada/work.jpg";
 import canawork2 from "@/assets/canada/work2.jpg";
 
+// australia
+import auspart1 from "@/assets/australia/partner.jpg";
+import auspart2 from "@/assets/australia/partner2.jpg";
+import auspr1 from "@/assets/australia/pr1.jpg";
+import auspr2 from "@/assets/australia/pr2.jpg";
+import subclass186 from "@/assets/australia/subclass186.jpg";
+import subclass189 from "@/assets/australia/subclass189.jpg";
+import subclass482 from "@/assets/australia/subclass482.jpg";
+import subclass190 from "@/assets/australia/subclass190.jpg";
+import subclass491 from "@/assets/australia/subclass491.jpg";
+import austourist1 from "@/assets/australia/tourist.jpg";
+import austourist2 from "@/assets/australia/tourist2.jpg";
+import ausvisitor1 from "@/assets/australia/visitor.jpg";
+import ausvisitor2 from "@/assets/australia/visitor2.jpg";
+
+// europe
+import croatia1 from "@/assets/europe/crotia.jpg";
+import croatia2 from "@/assets/europe/croatia2.jpg";
+import germany1 from "@/assets/europe/germany1.jpg";
+import germany2 from "@/assets/europe/germany2.jpg";
+import greece1 from "@/assets/europe/greece1.jpg";
+import greece2 from "@/assets/europe/greece2.jpg";
+import ireland1 from "@/assets/europe/ireland1.jpg";
+import ireland2 from "@/assets/europe/ireland2.jpg";
+import lux1 from "@/assets/europe/lux1.jpg";
+import lux2 from "@/assets/europe/lux2.jpg";
+import nether1 from "@/assets/europe/nether1.jpg";
+import nether2 from "@/assets/europe/nether2.jpg";
+import norway1 from "@/assets/europe/norway.jpg";
+import norway2 from "@/assets/europe/norway2.jpg";
+import poland1 from "@/assets/europe/poland.jpg";
+import poland2 from "@/assets/europe/poland2.jpg";
+import romania1 from "@/assets/europe/romania.jpg";
+import romania2 from "@/assets/europe/romania2.jpg";
+import serbia1 from "@/assets/europe/serbia.jpg";
+import serbia2 from "@/assets/europe/serbia2.jpg";
+import uk1 from "@/assets/europe/uk1.jpg";
+import uk2 from "@/assets/europe/uk2.jpg";
+
+// gulf
+import dubaiWork1 from "@/assets/gulf/dubaiWork1.jpg";
+import dubaiWork2 from "@/assets/gulf/dubaiWork2.jpg";
+import dubaitour1 from "@/assets/gulf/dubaiTour1.jpg";
+import dubaitour2 from "@/assets/gulf/dubaiTour2.jpg";
+import qatarWork1 from "@/assets/gulf/qatarwork1.jpg";
+import qatarWork2 from "@/assets/gulf/qatarwork2.jpg";
+import qatarTour1 from "@/assets/gulf/qatartour1.jpg";
+import qatarTour2 from "@/assets/gulf/qatartour2.jpg";
+
 
 
 
@@ -103,7 +152,7 @@ export {
   logo, logo2,
 
   // Home Sections
-  about1, about2, about3,faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, test1, testbg, review, team1, team2, contact, missionbg,banner,mobbanner,
+  about1, about2, about3,faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, test1, testbg, review, team1, team2, contact, missionbg, banner, mobbanner,
 
   // country
   ausflag, aus,
@@ -120,5 +169,15 @@ export {
   ukflag, uk,
 
   // canada
-  canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2
+  canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2,
+
+  // australia
+  auspart1, auspart2, auspr1, auspr2, subclass186, subclass189, subclass482, subclass190, subclass491, austourist1, austourist2, ausvisitor1, ausvisitor2,
+
+ // europe
+  croatia1, croatia2, germany1, germany2, greece1, greece2, ireland1, ireland2, lux1, lux2, nether1, nether2, norway1, norway2, poland1, poland2, romania1, romania2, serbia1, serbia2, uk1, uk2,
+
+  // gulf
+  dubaiWork1, dubaiWork2, dubaitour1, dubaitour2, qatarWork1, qatarWork2, qatarTour1, qatarTour2
+
 };

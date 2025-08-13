@@ -1,4 +1,4 @@
-import { about2, canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2 } from "@/assets";
+import { about2, auspart1, auspart2, auspr1, auspr2, austourist1, austourist2, ausvisitor1, ausvisitor2, canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2, croatia1, croatia2, dubaitour1, dubaitour2, dubaiWork1, dubaiWork2, greece1, greece2, ireland1, ireland2, lux1, lux2, nether1, nether2, norway1, norway2, poland1, poland2, qatarTour1, qatarTour2, qatarWork1, qatarWork2, romania1, romania2, serbia1, serbia2, subclass186, subclass189, subclass190, subclass491, uk1, uk2 } from "@/assets";
 
 export const visas = [
   // PR Visas
@@ -340,7 +340,7 @@ export const visas = [
   },
   {
     id: 2,
-    img: about2, // Replace with your actual image reference
+    img: auspr1, // Replace with your actual image reference
     title: "Australia PR Visa",
     desc: [
       {
@@ -562,6 +562,7 @@ export const visas = [
             text: "Construction & Mining — Site Managers, Quantity Surveyors",
           },
         ],
+        img: auspr2,
       },
       {
         id: 7,
@@ -1010,7 +1011,7 @@ export const visas = [
 
   {
     id: 5,
-    img: about2, // Replace with your actual image reference
+    img: croatia1, // Replace with your actual image reference
     title: "Croatia Work Visa",
     desc: [
       {
@@ -1118,6 +1119,7 @@ export const visas = [
           { id: 5, text: "Scenic Lifestyle by the Adriatic Coast." },
           { id: 6, text: "Opportunity to Apply for Residency." },
         ],
+        img: croatia2,
       },
     ],
     questions: [
@@ -1149,7 +1151,7 @@ export const visas = [
   },
   {
     id: 6,
-    img: about2, // Replace with your actual image reference
+    img: serbia1, // Replace with your actual image reference
     title: "Serbia Work Visa",
     desc: [
       {
@@ -1256,6 +1258,7 @@ export const visas = [
           { id: 5, text: "Live in a Culturally Rich Country." },
           { id: 6, text: "Can Apply for Temporary Residency." },
         ],
+        img: serbia2, // Replace with your actual image reference
       },
     ],
     questions: [
@@ -1287,7 +1290,7 @@ export const visas = [
   },
   {
     id: 7,
-    img: about2, // Replace with your actual image reference
+    img: romania1, // Replace with your actual image reference
     title: "Romania Work Visa",
     desc: [
       {
@@ -1385,6 +1388,7 @@ export const visas = [
           { id: 5, text: "Safe and Friendly Lifestyle." },
           { id: 6, text: "European Work Experience." },
         ],
+        img: romania2, 
       },
     ],
     questions: [
@@ -1417,7 +1421,7 @@ export const visas = [
 
   {
     id: 8,
-    img: about2, // Replace with your actual image reference
+    img: poland1, // Replace with your actual image reference
     title: "Poland Work Visa",
     desc: [
       {
@@ -1496,6 +1500,7 @@ export const visas = [
             text: "Once approved, travel to Poland and register your residence",
           },
         ],
+        img: poland2,
       },
       {
         id: 8,
@@ -1547,7 +1552,7 @@ export const visas = [
 
   {
     id: 9,
-    img: about2, // Replace with your actual image reference
+    img: norway1, // Replace with your actual image reference
     title: "Norway Work Visa",
     desc: [
       {
@@ -1646,6 +1651,7 @@ export const visas = [
             text: "Upon approval, travel and register your residence in Norway",
           },
         ],
+        img: norway2, // Replace with your actual image reference
       },
       {
         id: 8,
@@ -1696,7 +1702,7 @@ export const visas = [
   },
   {
     id: 10,
-    img: about2, // Replace with your actual image reference
+    img: greece1, // Replace with your actual image reference
     title: "Greece Work Visa",
     desc: [
       {
@@ -1787,6 +1793,7 @@ export const visas = [
               "Register your address with the Greek authorities upon arrival",
           },
         ],
+        img:greece2
       },
       {
         id: 8,
@@ -1837,7 +1844,7 @@ export const visas = [
   },
   {
     id: 11,
-    img: about2, // Replace with your actual image reference
+    img: nether1, // Replace with your actual image reference
     title: "Netherlands Work Visa",
     desc: [
       {
@@ -1928,6 +1935,7 @@ export const visas = [
             text: "Await approval and receive a residence permit upon arrival",
           },
         ],
+        img:nether2
       },
       {
         id: 8,
@@ -2116,7 +2124,7 @@ export const visas = [
 
   {
     id: 13,
-    img: about2, // Replace with your actual image reference
+    img: lux1, // Replace with your actual image reference
     title: "Luxembourg Work Visa",
     desc: [
       {
@@ -2204,6 +2212,7 @@ export const visas = [
             text: "Travel to Luxembourg and apply for a residence card",
           },
         ],
+        img:lux2
       },
       {
         id: 8,
@@ -2254,7 +2263,7 @@ export const visas = [
   },
   {
     id: 14,
-    img: about2, // Replace with your actual image reference
+    img: ireland1, // Replace with your actual image reference
     title: "Ireland Work Visa",
     desc: [
       {
@@ -2341,6 +2350,7 @@ export const visas = [
               "Upon approval, enter Ireland and register with the immigration authorities",
           },
         ],
+        img:ireland2,
       },
       {
         id: 8,
@@ -2631,7 +2641,7 @@ export const visas = [
   },
   {
     id: 16,
-    img: about2, // Replace with your actual image reference
+    img: austourist1, // Replace with your actual image reference
     title: "Australia Tourist Visa",
     desc: [
       {
@@ -2822,6 +2832,7 @@ export const visas = [
               "Business Visitor stream: For business meetings or conferences (non-work-related)",
           },
         ],
+        img:austourist2
       },
       {
         id: 8,
@@ -2833,6 +2844,7 @@ export const visas = [
               "Processing times for an Australia tourist visa depend on your country, application volume, and completeness of your documents. On average, it may take between 2 to 4 weeks. Online applications tend to be quicker. Make sure to apply well in advance of your travel dates. For faster and accurate filing, reach out to the experts at Globesway Immigration.",
           },
         ],
+        img:austourist2
       },
       {
         id: 10,
@@ -2883,7 +2895,7 @@ export const visas = [
   },
   {
     id: 17,
-    img: about2, // Replace with your actual image reference
+    img: dubaitour1, // Replace with your actual image reference
     title: "Dubai Tourist Visa",
     desc: [
       {
@@ -3080,6 +3092,7 @@ export const visas = [
               "Dubai tourist visa applications are usually processed quickly, within 3 to 5 working days. Express services are available for urgent cases and may take just 24 to 48 hours. However, delays may occur if documents are incomplete. Globesway Immigration helps ensure everything is ready for smooth and fast approval.",
           },
         ],
+        img: dubaitour2,
       },
       {
         id: 2,
@@ -7411,7 +7424,7 @@ questions: [
 
    {
     id: 35,
-    img: about2, // Replace with your actual image reference
+    img: subclass186, // Replace with your actual image reference
     title: "Employer Nomination Scheme Visa (Subclass 186)",
    desc: [
   {
@@ -7574,7 +7587,7 @@ questions: [
 
    {
     id: 36,
-    img: about2, // Replace with your actual image reference
+    img: subclass189, // Replace with your actual image reference
     title: "Skilled Independent Visa (Subclass 189)",
    desc: [
   {
@@ -7677,7 +7690,7 @@ questions: [
 
    {
     id: 37,
-    img: about2, // Replace with your actual image reference
+    img: subclass190, // Replace with your actual image reference
     title: "Skilled Nominated Visa Subclass 190",
    desc: [
   {
@@ -7778,7 +7791,7 @@ questions: [
 
    {
     id: 38,
-    img: about2, // Replace with your actual image reference
+    img: subclass491, // Replace with your actual image reference
     title: "Skilled Work Regional Visa (Subclass 491)",
    desc: [
   {
@@ -7970,7 +7983,7 @@ questions: [
 
     {
     id: 40,
-    img: about2, // Replace with your actual image reference
+    img: ausvisitor1, // Replace with your actual image reference
     title: "Visitor Visa Subclass 600",
    desc: [
   {
@@ -8039,6 +8052,7 @@ questions: [
       { id: 4, text: "Option to extend visa (conditions apply)." },
       { id: 5, text: "Multiple entry options are available in some cases." },
     ],
+    img: ausvisitor2, // Replace with your actual image reference
   },
   {
     id: 6,
@@ -8085,7 +8099,7 @@ questions: [
 
     {
     id: 41,
-    img: about2, // Replace with your actual image reference
+    img: auspart1, // Replace with your actual image reference
     title: "Partner Visa Subclass 820",
  desc: [
   {
@@ -8153,7 +8167,8 @@ questions: [
       { id: 3, text: "Offers full access to Medicare." },
       { id: 4, text: "Leads to a permanent Partner Visa (Subclass 801)." },
       { id: 5, text: "Supports LGBTQ+ couples and both married and de facto partners." }
-    ]
+    ],
+    img: auspart2
   },
   {
     id: 6,
@@ -9371,7 +9386,7 @@ questions: [
 
      {
     id: 50,
-    img: about2, // Replace with your actual image reference
+    img: dubaiWork1, // Replace with your actual image reference
     title: "Dubai Work Visa",
     metaTitle:"Dubai Tourist & Work Visa Services – GlobesWay",
     metaDesc:"Apply for Dubai tourist & work visas with expert help from GlobesWay. Fast processing, full support, and no hidden charges.",
@@ -9530,6 +9545,7 @@ desc: [
         text: "Post-Landing Support: Help with accommodation, local registrations, and more.",
       },
     ],
+    img:dubaiWork2
   },
 ]
 ,
@@ -9559,7 +9575,7 @@ questions: [
 
      {
     id: 51,
-    img: about2, // Replace with your actual image reference
+    img: qatarWork1, // Replace with your actual image reference
     title: "Qatar Work Visa",
      metaTitle:"",
     metaDesc:"",
@@ -9769,6 +9785,7 @@ questions: [
           "It’s advisable to get your documents attested before applying, including educational certificates and police clearance.",
       },
     ],
+    img:qatarWork2
   },
   {
     id: 7,
@@ -9806,7 +9823,7 @@ questions: [
 
      {
     id: 52,
-    img: about2, // Replace with your actual image reference
+    img: qatarTour1, // Replace with your actual image reference
     title: "Qatar Tourist Visa",
      metaTitle:"Qatar Tourist & Work Visa Services – GlobesWay",
     metaDesc:"Apply for Qatar tourist & work visas with expert help from GlobesWay. Fast processing, full support, and no hidden charges.",
@@ -9976,6 +9993,7 @@ questions: [
       { id: 2, text: "Online visa: 3–5 working days (can vary)" },
       { id: 3, text: "Sponsored visa: 7–10 days, depending on the sponsor’s processing time" },
     ],
+    img:qatarTour2
   },
   {
     id: 7,
@@ -10066,7 +10084,7 @@ questions: [
 
      {
     id: 52,
-    img: about2, // Replace with your actual image reference
+    img: uk1, // Replace with your actual image reference
     title: "UK Work Visa",
      metaTitle:"",
     metaDesc:"",
@@ -10202,6 +10220,7 @@ questions: [
       { id: 6, text: "Travel to the UK—Once approved, you’ll receive your visa vignette and can travel." },
     ],
     table: {},
+    img:uk2
   },
   {
     id: 8,
