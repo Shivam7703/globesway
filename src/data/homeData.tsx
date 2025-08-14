@@ -314,11 +314,7 @@ export const navigationMenu = {
       href: "#",
       subNav: [
         { id: 1, label: "CRS Calculator", href: "/visa/CRS Calculator for Canada Immigration" },
-        {
-          id: 2,
-          label: "Canada 67 Points Calculator",
-          href: "/visa/Canada 67 Points Calculator (FSW Eligibility Calculator)",
-        },
+       
         { id: 3, label: "SINP Points Calculator", href: "/visa/Saskatchewan Immigrant Nominee Program Points Calculator" },
         { id: 4, label: "BC Points Calculator", href: "/visa/British Columbia (BC) PNP Points Calculator" },
         {

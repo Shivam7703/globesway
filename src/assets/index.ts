@@ -144,7 +144,38 @@ import qatarWork2 from "@/assets/gulf/qatarwork2.jpg";
 import qatarTour1 from "@/assets/gulf/qatartour1.jpg";
 import qatarTour2 from "@/assets/gulf/qatartour2.jpg";
 
-
+// pnp
+import pnpalbert from "@/assets/pnp/albert.jpg";
+import pnpalbert2 from "@/assets/pnp/albert2.jpg";
+import albertpoint from "@/assets/pnp/albertpoint.jpg";
+import pnpatlantic from "@/assets/pnp/atlantic.jpg";
+import pnpbc1 from "@/assets/pnp/bc1.jpg";
+import pnpbc2 from "@/assets/pnp/bc2.jpg";
+import bcpoint from "@/assets/pnp/bcpoint.jpg";
+import pnpbrunswick1 from "@/assets/pnp/brunswick1.jpg";
+import pnpbrunswick2 from "@/assets/pnp/brunswick2.jpg";
+import pnpcanada67 from "@/assets/pnp/canada67.jpg";
+import crspoint from "@/assets/pnp/crs.jpg";
+import pnpmanitoba1 from "@/assets/pnp/manitoba.jpg";
+import pnpmanitoba2 from "@/assets/pnp/manitoba2.jpg";
+import manipoint from "@/assets/pnp/manical.jpg";
+import pnpnf1 from "@/assets/pnp/nf1.jpg";
+import pnpnf2 from "@/assets/pnp/nf2.jpg";
+import pnpnova1 from "@/assets/pnp/nova.jpg";
+import pnpnova2 from "@/assets/pnp/nova2.jpg";
+import novapoint from "@/assets/pnp/novacal.jpg";
+import pnpontario1 from "@/assets/pnp/ontario.jpg";
+import pnpontario2 from "@/assets/pnp/ontario2.jpg";
+import ontariocal from "@/assets/pnp/ontariopoint.jpg";
+import pnppei1 from "@/assets/pnp/pei.jpg";
+import pnppei2 from "@/assets/pnp/pei2.webp";
+import pnpquebic1 from "@/assets/pnp/quebic1.jpg";
+import pnpquebic2 from "@/assets/pnp/quebic2.jpg";
+import quebicpoint from "@/assets/pnp/quebicpoint.jpg";
+import pnpsaskat from "@/assets/pnp/saskat.jpg";
+import saskatpoint from "@/assets/pnp/saspoint.jpg";
+import pnpyukon1 from "@/assets/pnp/yukon.jpg";
+import pnpyukon2 from "@/assets/pnp/yukon2.jpg";
 
 
 export {
@@ -178,6 +209,8 @@ export {
   croatia1, croatia2, germany1, germany2, greece1, greece2, ireland1, ireland2, lux1, lux2, nether1, nether2, norway1, norway2, poland1, poland2, romania1, romania2, serbia1, serbia2, uk1, uk2,
 
   // gulf
-  dubaiWork1, dubaiWork2, dubaitour1, dubaitour2, qatarWork1, qatarWork2, qatarTour1, qatarTour2
+  dubaiWork1, dubaiWork2, dubaitour1, dubaitour2, qatarWork1, qatarWork2, qatarTour1, qatarTour2,
 
+  // pnp
+pnpalbert, crspoint,albertpoint, manipoint, novapoint, ontariocal, pnpalbert2, pnpatlantic, pnpbc1,pnpbc2,pnpbrunswick1,pnpbrunswick2,pnpcanada67,pnpmanitoba1,pnpmanitoba2,pnpnf1,pnpnf2,pnpnova1,pnpnova2,pnpontario1,pnpontario2, pnppei1,pnppei2,pnpquebic1,pnpquebic2,pnpsaskat,pnpyukon1,pnpyukon2,quebicpoint,saskatpoint,bcpoint
 };

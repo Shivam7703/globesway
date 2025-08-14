@@ -1,4 +1,4 @@
-import { about2, auspart1, auspart2, auspr1, auspr2, austourist1, austourist2, ausvisitor1, ausvisitor2, canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2, croatia1, croatia2, dubaitour1, dubaitour2, dubaiWork1, dubaiWork2, greece1, greece2, ireland1, ireland2, lux1, lux2, nether1, nether2, norway1, norway2, poland1, poland2, qatarTour1, qatarTour2, qatarWork1, qatarWork2, romania1, romania2, serbia1, serbia2, subclass186, subclass189, subclass190, subclass491, uk1, uk2 } from "@/assets";
+import { about2, albertpoint, auspart1, auspart2, auspr1, auspr2, austourist1, austourist2, ausvisitor1, ausvisitor2, bcpoint, canaagri1, canaagri2, canacare1, canacare2, canaexpress1, canafam1, canaimmi1, canaimmi2, canapr1, canapr2, canaref1, canaref2, canatour1, canawork1, canawork2, croatia1, croatia2, dubaitour1, dubaitour2, dubaiWork1, dubaiWork2, greece1, greece2, ireland1, ireland2, lux1, lux2, nether1, nether2, norway1, norway2, pnpalbert, pnpalbert2, pnpatlantic, pnpbc1, pnpbc2, pnpbrunswick1, pnpbrunswick2,pnpcanada67,pnpmanitoba1,pnpmanitoba2,pnpnf1,pnpnf2,pnpnova1,pnpnova2,pnpontario1,pnpontario2, pnppei1,pnppei2,pnpquebic1,pnpquebic2,pnpsaskat,pnpyukon1,pnpyukon2,quebicpoint,saskatpoint, poland1, poland2, qatarTour1, qatarTour2, qatarWork1, qatarWork2, romania1, romania2, serbia1, serbia2, subclass186, subclass189, subclass190, subclass491, uk1, uk2, crspoint, manipoint, novapoint, ontariocal } from "@/assets";
 
 export const visas = [
   // PR Visas
@@ -5407,7 +5407,7 @@ export const visas = [
 
    {
     id: 23,
-    img: about2, // Replace with your actual image reference
+    img: pnpmanitoba1, // Replace with your actual image reference
     title: "Manitoba PNP",
     desc: [
       {
@@ -5520,7 +5520,8 @@ export const visas = [
             id: 1,
             text: "Choosing Globesway Immigration for your Manitoba PNP journey means partnering with experts who truly understand the province’s unique immigration pathways. With a proven track record of successful applications and personalized guidance, Globesway simplifies the entire process—from eligibility assessment to document preparation and submission. Their team stays updated on the latest program changes and offers tailored support, ensuring your application meets all criteria. Whether you're applying through the skilled worker stream, business investor stream, or international education stream, Globesway is committed to helping you take confident steps toward settling in Manitoba."
         }
-    ]
+    ],
+    img:pnpmanitoba2
 }
 
     ],
@@ -5551,7 +5552,7 @@ export const visas = [
 
    {
     id: 24,
-    img: about2, // Replace with your actual image reference
+    img: pnpyukon1, // Replace with your actual image reference
     title: "Yukon Nominee Program",
     desc: [
       {
@@ -5641,7 +5642,8 @@ export const visas = [
         { id: 6, text: "Proof of financial capacity to settle in Yukon." },
         { id: 7, text: "Medical examination reports and police clearance certificates." },
         { id: 8, text: "Evidence of past employment or relevant work experience." }
-    ]
+    ],
+    img:pnpyukon2
 },
 {
     id: 7,
@@ -5692,7 +5694,7 @@ questions: [
 
    {
     id: 25,
-    img: about2, // Replace with your actual image reference
+    img: pnpontario1, // Replace with your actual image reference
     title: "Ontario Provincial Nominee Program",
     desc: [
       {
@@ -5792,7 +5794,8 @@ questions: [
         { id: 7, text: "Proof of settlement funds." },
         { id: 8, text: "Police clearance certificate and recent medical examination." },
         { id: 9, text: "Proof of business ownership or financial documents (for entrepreneurs)." }
-    ]
+    ],
+    img:pnpontario2
 },
 {
     id: 7,
@@ -5833,7 +5836,7 @@ questions: [
 
    {
     id: 26,
-    img: about2, // Replace with your actual image reference
+    img: pnpnova1, // Replace with your actual image reference
     title: "Nova Scotia PNP",
     desc: [
       {
@@ -5923,7 +5926,8 @@ questions: [
         { id: 5, text: "Skilled Worker Stream—For high-skilled workers with job offers in in-demand occupations." },
         { id: 6, text: "Entrepreneur Stream—For experienced business people who want to establish or purchase a business in the province." },
         { id: 7, text: "International Graduate Entrepreneur Stream—For graduates of Nova Scotia institutions running a business in the province." }
-    ]
+    ],
+    img:pnpnova2
 },
 {
     id: 8,
@@ -5970,7 +5974,7 @@ questions: [
 
    {
     id: 27,
-    img: about2, // Replace with your actual image reference
+    img: pnpalbert, // Replace with your actual image reference
     title: "Alberta PNP (AAIP)",
     desc: [
       {
@@ -6078,6 +6082,7 @@ questions: [
       { id: 11, text: "Police clearance certificate." },
       { id: 12, text: "Business ownership documents (if applying under entrepreneur streams)." },
     ],
+    img:pnpalbert2
   },
   {
     id: 7,
@@ -6147,7 +6152,7 @@ questions: [
 
    {
     id: 28,
-    img: about2, // Replace with your actual image reference
+    img: pnpbc1, // Replace with your actual image reference
     title: "British Columbia PNP",
     desc: [
       {
@@ -6248,6 +6253,7 @@ questions: [
       { id: 2, text: "Entrepreneur Stream—Usually takes 6 to 8 weeks for initial review." },
       { id: 3, text: "PR Application through IRCC—After nomination, PR processing may take around 15 to 19 months, depending on the profile and volume of applications." },
     ],
+    img:pnpbc2
   },
   {
     id: 7,
@@ -6325,7 +6331,7 @@ questions: [
 
    {
     id: 29,
-    img: about2, // Replace with your actual image reference
+    img: pnpquebic1, // Replace with your actual image reference
     title: "Quebec Skilled Worker Program",
     desc: [
       {
@@ -6440,7 +6446,8 @@ questions: [
     { id: 7, text: "Police clearance certificate" },
     { id: 8, text: "Marriage certificate (if married)" },
     { id: 9, text: "Job offer from a Quebec employer (optional but adds value)" }
-  ]
+  ],
+  img:pnpquebic2
 },
 {
   id: 6,
@@ -6513,7 +6520,7 @@ questions: [
 
    {
     id: 30,
-    img: about2, // Replace with your actual image reference
+    img: pnpsaskat, // Replace with your actual image reference
     title: "Saskatchewan Provincial Nominee Program",
     desc: [
       {
@@ -6706,7 +6713,7 @@ questions: [
 
    {
     id: 31,
-    img: about2, // Replace with your actual image reference
+    img: pnpbrunswick1, // Replace with your actual image reference
     title: "New Brunswick PNP",
     desc: [
   {
@@ -6853,7 +6860,8 @@ questions: [
         text: "We also assist with job support, accommodation guidance, and more after your PR is approved."
       }
     ],
-    list: []
+    list: [],
+    img:pnpbrunswick2
   }
 ]
 ,
@@ -6883,7 +6891,8 @@ questions: [
 
    {
     id: 32,
-    img: about2, // Replace with your actual image reference
+    img: pnpatlantic
+    , // Replace with your actual image reference
     title: "Atlantic Immigration Program",
    desc: [
   {
@@ -7048,7 +7057,7 @@ questions: [
 
    {
     id: 33,
-    img: about2, // Replace with your actual image reference
+    img: pnppei1, // Replace with your actual image reference
     title: "Prince Edward Island PNP",
    desc: [
   {
@@ -7171,7 +7180,8 @@ questions: [
         id: 3,
         text: "Express Entry Stream: For candidates who already have a profile in Canada’s federal Express Entry system. If your job skills match the needs in PEI, you can be nominated, which boosts your CRS score and helps you get PR faster."
       }
-    ]
+    ],
+    img:pnppei2
   },
   {
     id: 8,
@@ -7218,7 +7228,7 @@ questions: [
 
    {
     id: 34,
-    img: about2, // Replace with your actual image reference
+    img: pnpnf2, // Replace with your actual image reference
     title: "Newfoundland & Labrador PNP",
   desc: [
   {
@@ -7375,6 +7385,7 @@ questions: [
           "Atlantic Immigration Program (AIP): Employer-driven program for skilled workers and graduates. NL employers hire foreign talent to meet labor shortages. A job offer is required.",
       },
     ],
+    img:pnpnf1
   },
   {
     id: 7,
@@ -8216,7 +8227,7 @@ questions: [
 
     {
     id: 42,
-    img: about2, // Replace with your actual image reference
+    img: crspoint, // Replace with your actual image reference
     title: "CRS Calculator for Canada Immigration",
  desc: [
   {
@@ -8326,10 +8337,11 @@ questions: [
       { id: 4, text: "Getting a provincial nomination (adds 600 points!)" },
       { id: 5, text: "Canadian job offers or study credentials" }
     ],
+    img:pnpcanada67
   },
   {
     id: 9,
-    heading: "Canada 67 Points Calculator (FSW Eligibility Calculator)",
+    heading: "Canada 67 Points Calculator",
     para: [
       {
         id: 1,
@@ -8449,7 +8461,7 @@ questions: [
 
      {
     id: 43,
-    img: about2, // Replace with your actual image reference
+    img: saskatpoint, // Replace with your actual image reference
     title: "Saskatchewan Immigrant Nominee Program Points Calculator",
   desc: [
   {
@@ -8610,7 +8622,7 @@ questions: [],
     },
   {
     id: 44,
-    img: about2, // Replace with your actual image reference
+    img: bcpoint, // Replace with your actual image reference
     title: "British Columbia (BC) PNP Points Calculator",
  desc: [
   {id:1,
@@ -8760,7 +8772,7 @@ questions: [
    
  {
     id: 45,
-    img: about2, // Replace with your actual image reference
+    img: manipoint, // Replace with your actual image reference
     title: "Manitoba Points Calculator",
  desc: [
   {
@@ -8887,7 +8899,7 @@ questions: [
 
      {
     id: 46,
-    img: about2, // Replace with your actual image reference
+    img: novapoint, // Replace with your actual image reference
     title: "Nova Scotia Points Calculator",
  desc: [
   {
@@ -9003,7 +9015,7 @@ questions: [
 
      {
     id: 47,
-    img: about2, // Replace with your actual image reference
+    img: albertpoint, // Replace with your actual image reference
     title: "Alberta Points Calculator (Alberta Advantage Immigration Program)",
 desc: [
   {
@@ -9081,7 +9093,7 @@ questions: [
 
      {
     id: 48,
-    img: about2, // Replace with your actual image reference
+    img: ontariocal, // Replace with your actual image reference
     title: "Ontario Points Calculator",
  desc: [
   {
@@ -9250,7 +9262,7 @@ questions: [
 
      {
     id: 49,
-    img: about2, // Replace with your actual image reference
+    img: quebicpoint, // Replace with your actual image reference
     title: "Quebec Points Calculator",
 desc: [
   {
