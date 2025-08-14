@@ -11,7 +11,7 @@ export default function Visadetails({data}: any) {
         <Image
           src={data?.img}
           alt=""
-          className="w-full h-auto object-contain max-h-[560px] mx-auto"
+          className="w-full object-cover lg:h-[550px] sm:h-[400px] h-52 mx-auto"
         />
         <h1 className="text-black md:text-5xl font-bold text-3xl">
           {data?.title}
@@ -70,7 +70,7 @@ export default function Visadetails({data}: any) {
     {detail.img && ( <Image
           src={detail?.img}
           alt=""
-          className="w-full h-auto object-contain max-h-[450px] mx-auto"
+          className="w-full object-cover lg:h-[550px] sm:h-[400px] h-52 mx-auto"
         />)}
   </div>
 ))}
