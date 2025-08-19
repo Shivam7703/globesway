@@ -12,7 +12,7 @@ export default function OurProcess() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="lg:px-28 md:px-20 sm:p-14  px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap relative justify-between gap-y-7 bg-white"
+      className="lg:px-28 md:px-20 sm:p-12  px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap relative justify-between gap-y-7 bg-white"
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.3, 1)}
@@ -47,13 +47,18 @@ export default function OurProcess() {
       >
         <div className="space-y-7 md:space-y-10">
           {data?.steps?.map((item: any) => (
-            <div key={item.id} className="flex gap-4 sm:gap-8 sm:p-9 p-6 bg-zinc-100 border rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div
+              key={item.id}
+              className="flex gap-4 sm:gap-8 sm:p-9 p-6 bg-zinc-100 border rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
               <div className="flex items-center max-w-12 justify-center -rotate-90 gap-3 text-color1">
                 <p className="font-medium">STEPS</p>{" "}
                 <h3 className="md:text-4xl font-bold text-2xl">0{item.id}</h3>{" "}
               </div>
               <div>
-                <h2 className="text-black text-xl  md:text-2xl font-semibold mb-2 sm:mb-4">{item.name}</h2>
+                <h2 className="text-black text-xl  md:text-2xl font-semibold mb-2 sm:mb-4">
+                  {item.name}
+                </h2>
                 <p className="leading-relaxed text-zinc-500">{item.para}</p>
               </div>
             </div>

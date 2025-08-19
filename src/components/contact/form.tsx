@@ -3,16 +3,20 @@ import { contactsec1 as data } from "@/data/homeData";
 
 function Form() {
   return (
-    <section className="lg:px-28 md:p-20 sm:p-14 p-7">
+    <section className="lg:px-28 md:p-20 sm:p-12 p-7">
       <div className="flex items-stretch flex-wrap mx-auto shadow-xl z-20">
-       
-
         <div className="md:w-[52%] md:px-16  p-7  w-full bg-white">
-            <h4 className='text-color1 font-medium text-lg w-max'>Send us email
-</h4>
-               <h2 className='text-zinc-800 font-extrabold text-3xl md:text-5xl '>Feel Free to Write
-</h2>
-          <form action="contact.php" method="POST" className=" w-full mt-6 md:mt-12">
+          <h4 className="text-color1 font-medium text-lg w-max">
+            Send us email
+          </h4>
+          <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl ">
+            Feel Free to Write
+          </h2>
+          <form
+            action="contact.php"
+            method="POST"
+            className=" w-full mt-6 md:mt-12"
+          >
             <div className="w-full flex justify-between flex-wrap gap-y-5">
               <div className="w-[48%]">
                 <input
@@ -70,14 +74,20 @@ function Form() {
           </form>
         </div>
 
-         {data && (
+        {data && (
           <div className="md:w-[42%] p-7 w-full">
-          <h4 className='text-color1 font-medium text-lg w-max'>Need any help?
-</h4>
-               <h2 className='text-zinc-800 font-extrabold text-3xl md:text-5xl '>Get in touch with us!
-</h2>
-            <p className="text-zinc-600">Have questions or need help? Contact our support team of friendly people and request fast assistance and professional advice concerning visas and travel plans. We are here to assist you all the way around.
-</p>
+            <h4 className="text-color1 font-medium text-lg w-max">
+              Need any help?
+            </h4>
+            <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl ">
+              Get in touch with us!
+            </h2>
+            <p className="text-zinc-600">
+              Have questions or need help? Contact our support team of friendly
+              people and request fast assistance and professional advice
+              concerning visas and travel plans. We are here to assist you all
+              the way around.
+            </p>
             <div className="mt-6 space-y-6">
               {data?.detail?.map((data: any) => (
                 <div
@@ -106,9 +116,6 @@ function Form() {
           </div>
         )}
       </div>
-
-
-   
     </section>
   );
 }

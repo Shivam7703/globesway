@@ -1,4 +1,3 @@
-
 import { banner, mobbanner } from '@/assets';
 import AboutSection from '@/components/home/AboutSection';
 import Blogs from '@/components/home/blog';

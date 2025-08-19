@@ -42,7 +42,11 @@ import missionbg from "@/assets/home/mission-bg.png";
 import banner from "@/assets/home/banner.jpg";
 import mobbanner from "@/assets/home/mob-banner.png"
 
-import test1 from "@/assets/home/test1.jpg";
+import testf from "@/assets/home/testf.jpg";
+import testf2 from "@/assets/home/testf2.jpg";
+import testm from "@/assets/home/testm.jpg";
+import testm2 from "@/assets/home/testm2.jpg";
+
 import review from "@/assets/review.png"
 
 // team
@@ -177,13 +181,20 @@ import saskatpoint from "@/assets/pnp/saspoint.jpg";
 import pnpyukon1 from "@/assets/pnp/yukon.jpg";
 import pnpyukon2 from "@/assets/pnp/yukon2.jpg";
 
+// blogs
+import canada_visitor_visa from "@/assets/blogs/canada visitor visa.jpg";
+import canada_pr_2025 from "@/assets/blogs/canada-pr-2025.jpg";
+import dubai_qatar_visa from "@/assets/blogs/dubai qatar visa.jpg";
+import europe_work_visa from "@/assets/blogs/europe work visa.jpg";
+import top_5_countries from "@/assets/blogs/Top 5 countries offering easy work visas in 2025.jpg";
+import visa_mistake from "@/assets/blogs/visa mistakes.jpg";
 
 export {
   // Logos
   logo, logo2,
 
   // Home Sections
-  about1, about2, about3,faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, test1, testbg, review, team1, team2, contact, missionbg, banner, mobbanner,
+  about1, about2, about3,faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, testf, testf2, testm, testm2, testbg, review, team1, team2, contact, missionbg, banner, mobbanner,
 
   // country
   ausflag, aus,
@@ -212,5 +223,8 @@ export {
   dubaiWork1, dubaiWork2, dubaitour1, dubaitour2, qatarWork1, qatarWork2, qatarTour1, qatarTour2,
 
   // pnp
-pnpalbert, crspoint,albertpoint, manipoint, novapoint, ontariocal, pnpalbert2, pnpatlantic, pnpbc1,pnpbc2,pnpbrunswick1,pnpbrunswick2,pnpcanada67,pnpmanitoba1,pnpmanitoba2,pnpnf1,pnpnf2,pnpnova1,pnpnova2,pnpontario1,pnpontario2, pnppei1,pnppei2,pnpquebic1,pnpquebic2,pnpsaskat,pnpyukon1,pnpyukon2,quebicpoint,saskatpoint,bcpoint
+pnpalbert, crspoint,albertpoint, manipoint, novapoint, ontariocal, pnpalbert2, pnpatlantic, pnpbc1,pnpbc2,pnpbrunswick1,pnpbrunswick2,pnpcanada67,pnpmanitoba1,pnpmanitoba2,pnpnf1,pnpnf2,pnpnova1,pnpnova2,pnpontario1,pnpontario2, pnppei1,pnppei2,pnpquebic1,pnpquebic2,pnpsaskat,pnpyukon1,pnpyukon2,quebicpoint,saskatpoint,bcpoint,
+
+// visa
+canada_visitor_visa, dubai_qatar_visa, canada_pr_2025, europe_work_visa, top_5_countries, visa_mistake
 };

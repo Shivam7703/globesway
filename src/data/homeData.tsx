@@ -30,7 +30,6 @@ import {
   person,
   team1,
   team2,
-  test1,
   workVisa,
   prVisa,
   spouseVisa,
@@ -42,6 +41,10 @@ import {
   tef,
   faq2,
   faq1,
+  testf2,
+  testm,
+  testf,
+  testm2,
 } from "@/assets";
 import { BiMaleFemale } from "react-icons/bi";
 import { BsBarChartFill, BsGraphUpArrow, BsPeopleFill, BsPersonFillCheck } from "react-icons/bs";
@@ -707,12 +710,12 @@ export const whychoose = {
 };
 
 export const testimonialdata = {
-  title1: "CLIENT TESTIMONIALS",
+  title1: "Client Testimonials",
   title2: "Real Feedback from Our Trusted Clients",
   testimonials: [
     {
       id: 1,
-      img: test1,
+      img: testm2,
       name: "Shivam Goyal",
       para:
         "Globesway Immigration is truly one of the best immigration consultants in Delhi. They explained everything clearly and guided me step by step through my Canada PR process. I got my approval without stress, and I’m so thankful for their support.",
@@ -720,24 +723,24 @@ export const testimonialdata = {
 
     {
       id: 2,
-      img: test1,
-      name: "Shivam Goyal",
+      img: testf,
+      name: "Varsha Dagar",
       para:
         "I chose Globesway because they’re known as the best immigration consultants in Delhi, and they truly lived up to it. The team made my Australia work permit application simple and easy to follow. They answered all my doubts and helped me get things done on time.",
     },
 
     {
       id: 3,
-      img: test1,
-      name: "Shivam Goyal",
+      img: testm,
+      name: "Pritam Jha",
       para:
         "For anyone looking to work in Germany, I highly recommend Globesway—the best immigration consultants in Delhi. Their expert team simplified the process and supported me at every step.",
     },
 
     {
       id: 4,
-      img: test1,
-      name: "Shivam Goyal",
+      img: testf2,
+      name: "Meenakshi Tiwari",
       para:
         "Getting my Singapore tourist visa was quick and easy with Globesway. As one of the best immigration consultants in Delhi, their team kept me informed and made the experience smooth.",
     },
@@ -758,65 +761,7 @@ export const teamdata = {
   ],
 };
 
-export const blogdata = {
-  title1: "Our Blogs",
-  title2: "Stay Updated with Our Latest News and Blogs",
-  blog: [
-    {
-      id: 1,
-      img: about1,
-      name: "Lorem ipsum dolor sit amet consectetur",
-      para:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aperiam blanditiis quam facere temporibus neque hic impedit quibusdam ducimus possimus consectetur a id. Beatae quae est, eius",
-      date: "05/08/2006",
-    },
 
-    {
-      id: 2,
-      img: about1,
-      name: "Lorem ipsum dolor sit amet consectetur",
-      para:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aperiam blanditiis quam facere temporibus neque hic impedit quibusdam ducimus possimus consectetur a id. Beatae quae est, eius",
-      date: "05/08/2006",
-    },
-
-    {
-      id: 3,
-      img: about1,
-      name: "Lorem ipsum dolor sit amet consectetur",
-      para:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aperiam blanditiis quam facere temporibus neque hic impedit quibusdam ducimus possimus consectetur a id. Beatae quae est, eius",
-      date: "05/08/2006",
-    },
-
-    {
-      id: 4,
-      img: about1,
-      name: "Lorem ipsum dolor sit amet consectetur",
-      para:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aperiam blanditiis quam facere temporibus neque hic impedit quibusdam ducimus possimus consectetur a id. Beatae quae est, eius",
-      date: "05/08/2006",
-    },
-
-    {
-      id: 5,
-      img: about1,
-      name: "Lorem ipsum dolor sit amet consectetur",
-      para:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aperiam blanditiis quam facere temporibus neque hic impedit quibusdam ducimus possimus consectetur a id. Beatae quae est, eius",
-      date: "05/08/2006",
-    },
-
-    {
-      id: 6,
-      img: about1,
-      name: "Lorem ipsum dolor sit amet consectetur",
-      para:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aperiam blanditiis quam facere temporibus neque hic impedit quibusdam ducimus possimus consectetur a id. Beatae quae est, eius",
-      date: "05/08/2006",
-    },
-  ],
-};
 
 export const footer = {
   logo: logo2,

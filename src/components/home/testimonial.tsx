@@ -36,7 +36,7 @@ export default function Testimonials() {
       140: {
         slidesPerView: 1,
       },
-      
+
       884: {
         slidesPerView: 2,
       },
@@ -44,7 +44,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className=" lg:px-28 bg-zinc-200 md:px-20 sm:p-14 p-7 text-center relative slider1 flex flex-col items-center">
+    <section className=" lg:px-28 bg-zinc-200 md:px-20 sm:p-10 p-7 text-center relative slider1 flex flex-col items-center">
       {data?.title1 && (
         <h4 className="text-color1 mx-auto font-medium text-lg w-max">
           {data?.title1}
@@ -80,24 +80,24 @@ export default function Testimonials() {
 
               <div className="w-2/3 px-5 pb-5">
                 <div className="flex items-end  justify-between pb-4 border-b-2">
-
-                  <div >
-   
-                              <h3 className="text-black md:text-2xl text-xl font-medium">
+                  <div>
+                    <h3 className="text-black md:text-2xl text-xl font-medium">
                       {cards?.name}
                     </h3>
                     <p className="text-zinc-600">Happy Client</p>
                   </div>
 
-                  <div className="text-zinc-300 group-hover:text-color1 duration-300 text-3xl md:text-5xl"><IoChatboxEllipsesSharp/></div>
+                  <div className="text-zinc-300 group-hover:text-color1 duration-300 text-3xl md:text-5xl">
+                    <IoChatboxEllipsesSharp />
+                  </div>
                 </div>
 
                 <p className=" mt-4 text-zinc-600">{cards?.para}</p>
-                 <Image
+                <Image
                   src={review}
                   alt={"testimonials"}
                   className="h-8 float-right object-contain w-max my-2"
-                />   
+                />
               </div>
             </div>
           </SwiperSlide>
