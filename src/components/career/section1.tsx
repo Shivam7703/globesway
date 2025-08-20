@@ -33,10 +33,10 @@ function Careersec1() {
       {data.map((item) => (
         <div
           key={item.id}
-          className="w-full md:w-[30%] bg-white shadow-lg p-6 rounded-lg"
+          className="w-full md:w-[32%] bg-zinc-100 border hover:translate-y-[-15px] duration-300 shadow-lg p-6 rounded-lg"
         >
           <div className="text-color1 text-4xl mb-4">{item.icon}</div>
-          <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+          <h3 className="text-xl text-black font-bold mb-2">{item.title}</h3>
           <p className="text-zinc-700 mb-4">{item.description}</p>
           <button className="bg-color1 text-white px-4 py-2 rounded hover:bg-color2 transition duration-300">
             {item.buttonText}

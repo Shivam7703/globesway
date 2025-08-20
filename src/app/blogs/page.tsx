@@ -13,8 +13,7 @@ function page() {
     <>
        <AllBanner img={about1}
             title={"Blogs"} slug={"blogs"} />
-            <Blogs/>
-            
+            <Blogs/>      
     </>
   )
 }

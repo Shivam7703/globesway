@@ -56,7 +56,6 @@ import { GrUserWorker, GrVisa } from "react-icons/gr";
 import { IoSettingsSharp } from "react-icons/io5";
 import { MdAttachEmail, MdBusinessCenter, MdMapsHomeWork, MdSupportAgent, MdTour, MdWifiCalling3 } from "react-icons/md";
 import { PiStepsFill } from "react-icons/pi";
-import { TfiJoomla } from "react-icons/tfi";
 
 export const navigationMenu = {
   primaryMenu: [
@@ -342,8 +341,8 @@ export const navigationMenu = {
       href: "#",
       subNav: [
         { id: 1, label: "Privacy & Policy", href: "/more/privacy-policy" },
-        { id: 2, label: "Careers", href: "/more/careers" },
-        { id: 3, label: "Success Stories", href: "/more/success-stories" },
+        { id: 2, label: "Careers", href: "/career" },
+        { id: 3, label: "Success Stories", href: "/success-stories" },
       ],
     },
   ],
