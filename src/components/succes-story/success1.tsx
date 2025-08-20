@@ -1,0 +1,91 @@
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Navigation } from "swiper/modules";
+import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
+
+export default function Success1() {
+  const data = [
+    { id: 1, text: "https://youtube.com/shorts/74vlFTJkSA0?si=_2hDpBGZIBLAONgO" },
+    { id: 2, text: "https://youtube.com/shorts/rP8UpKoWWP0?si=vpZsHgjt9yZV6HiG" },
+    { id: 3, text: "https://youtube.com/shorts/erYgw-0lnjg?si=kYIvH3SbN0K2iy0S" },
+    { id: 4, text: "https://youtube.com/shorts/DyHzebnvPJ8?si=IeFw-u5UQrSL88-i" },
+    { id: 5, text: "https://youtube.com/shorts/rP8UpKoWWP0?si=vpZsHgjt9yZV6HiG" },
+    { id: 6, text: "https://youtube.com/shorts/erYgw-0lnjg?si=kYIvH3SbN0K2iy0S" },
+  ];
+
+  const uniqueId = "success123";
+
+  const swiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: { clickable: true },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    speed: 1200,
+    loop: true,
+    navigation: {
+      nextEl: `.${uniqueId}-next`,
+      prevEl: `.${uniqueId}-prev`,
+    },
+    modules: [Autoplay, Navigation],
+    breakpoints: {
+      140: { slidesPerView: 1 },
+      468: { slidesPerView: 2 },
+      824: { slidesPerView: 3 },
+      1080: { slidesPerView: 4 },
+    },
+  };
+
+  // Convert Shorts URL into embeddable YouTube URL
+  const getEmbedUrl = (url: string) => {
+    const videoId = url.split("/shorts/")[1]?.split("?")[0];
+    return `https://www.youtube.com/embed/${videoId}`;
+  };
+
+  return (
+    <section className="lg:px-24 bg-zinc-200 md:px-20 sm:p-10 p-7 text-center relative slider1 flex flex-col items-center">
+      <h4 className="text-color1 mx-auto font-medium text-lg w-max">
+        Top Success Stories
+      </h4>
+
+      <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl max-w-2xl mx-auto mt-3 !leading-[1.1]">
+        Clients Stories
+      </h2>
+
+      <Swiper {...swiperOptions} className={`mySwiper w-full max-w-7xl mx-auto  md:mt-16 mt-9 ${uniqueId}`}>
+        {data?.map((cards) => (
+          <SwiperSlide
+            key={cards.id}
+            className="mb-12 w-full text-left rounded-2xl bg-white shadow-xl flex items-center justify-center "
+          >
+            <iframe
+              width="100%"
+              height="100%"
+              src={getEmbedUrl(cards.text)}
+              title={`YouTube video ${cards.id}`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-xl md:h-[400px] h-80 "
+            ></iframe>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      <div className="flex flex-wrap gap-5 mt-6">
+        <div className={`${uniqueId}-prev text-color1 hover:text-black text-3xl md:text-4xl duration-200`}>
+          <FaCircleChevronLeft />
+        </div>
+        <div className={`${uniqueId}-next text-color1 hover:text-black text-3xl md:text-4xl duration-200`}>
+          <FaCircleChevronRight />
+        </div>
+      </div>
+    </section>
+  );
+}

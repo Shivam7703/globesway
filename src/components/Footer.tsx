@@ -6,7 +6,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { TbBrandYoutubeFilled } from "react-icons/tb";
-import { navigationMenu } from "@/data/homeData";
+import { FootsecMenu, navigationMenu } from "@/data/homeData";
 import { datalist } from "motion/react-client";
 
 export default function Footer({ footer }: any) {
@@ -128,7 +128,7 @@ export default function Footer({ footer }: any) {
         {/* copyright  */}
 
         <div className="text-black space-y-7 bg-white py-6 px-6 md:px-24 ">
-          {navigationMenu?.secondaryMenu?.slice(0,6).map((item: any) => (
+          {FootsecMenu?.map((item: any) => (
             <div key={item.id}>
               <span className="font-bold">{item?.label}: </span>
               {item?.subNav?.map((navitem: any) => (
