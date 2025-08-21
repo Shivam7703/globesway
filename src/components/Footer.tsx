@@ -114,14 +114,13 @@ export default function Footer({ footer }: any) {
               {footer?.newLetter?.title}
             </h4>
             <p className=" transition:all text-base text-zinc-50 duration-300">
-              <strong>Phone: </strong>&nbsp;+91 1234567890
+              <strong>Phone: </strong>&nbsp;+91 92202 92921
             </p>
             <p className=" transition:all text-base text-zinc-50 duration-300">
               <strong>E-mail: </strong>&nbsp;hello@globesway.com
             </p>
             <p className=" transition:all text-base text-zinc-50 duration-300">
-              <strong>Address: </strong>&nbsp;A-60, SECTOR-58 NOIDA, UP-201301,
-              UTTAR PRADESH
+              <strong>Address: </strong>&nbsp;Office no. 887, 8th Floor, AGGARWAL MILLENIUM TOWER, II, Netaji Subhash Place, Pitampura, New Delhi, Delhi, 110034
             </p>
           </div>
         </div>

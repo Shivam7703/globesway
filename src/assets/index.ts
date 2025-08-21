@@ -6,6 +6,7 @@ import logo2 from "@/assets/logo-white.png";
 import about1 from "@/assets/home/about1.webp";
 import about2 from "@/assets/home/about1.jpg";
 import about3 from "@/assets/home/about3.png";
+import about4 from "@/assets/home/about2.jpg";
 import person from "@/assets/home/person.png";
 import businesVisa from "@/assets/home/bussiness-visa.jpg";
 import prVisa from "@/assets/home/pr-visa.jpg";
@@ -40,7 +41,9 @@ import tef from "@/assets/home/tef.png";
 import testbg from "@/assets/home/testimonial-bg.png";
 import missionbg from "@/assets/home/mission-bg.png";
 import banner from "@/assets/home/banner.jpg";
-import mobbanner from "@/assets/home/mob-banner.png"
+import banner2 from "@/assets/home/banner2.jpg";
+import banner3 from "@/assets/home/banner3.jpg";
+
 
 import testf from "@/assets/home/testf.jpg";
 import testf2 from "@/assets/home/testf2.jpg";
@@ -191,10 +194,10 @@ import visa_mistake from "@/assets/blogs/visa mistakes.jpg";
 
 export {
   // Logos
-  logo, logo2,
+  logo, logo2, banner2, banner3,
 
   // Home Sections
-  about1, about2, about3,faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, testf, testf2, testm, testm2, testbg, review, team1, team2, contact, missionbg, banner, mobbanner,
+  about1, about2, about3, about4, faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, testf, testf2, testm, testm2, testbg, review, team1, team2, contact, missionbg, banner, 
 
   // country
   ausflag, aus,

@@ -12,7 +12,7 @@ export default function OurProcess() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="lg:px-28 md:px-20 sm:p-12  px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap relative justify-between gap-y-7 bg-white"
+      className="lg:px-28 md:px-20 sm:p-12  px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap relative justify-between gap-y-7 bg-white max-md:overflow-hidden"
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.3, 1)}

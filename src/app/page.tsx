@@ -1,4 +1,3 @@
-import { banner, mobbanner } from '@/assets';
 import AboutSection from '@/components/home/AboutSection';
 import Blogs from '@/components/home/blog';
 import ChooseCountry from '@/components/home/choosecountry';
@@ -12,16 +11,14 @@ import Services from '@/components/home/services';
 import Testimonials from '@/components/home/testimonial';
 import Whychoose from '@/components/home/whychoose';
 import React from 'react';
-import Image from 'next/image';
 import Success1 from '@/components/succes-story/success1';
+import HomeBanner from '@/components/home/HomeBanner';
 
 
 export default function Home() {
   return (
     < >
-    <Image src={banner} alt='' className='w-full h-full max-sm:hidden  object-cover min-h-[440px]'></Image>  
-        <Image src={mobbanner} alt='' className='w-full h-full sm:hidden object-cover min-h-[440px]'></Image>  
-
+   <HomeBanner/>
   <Latestupdate/>
 <AboutSection />
 <Services/>

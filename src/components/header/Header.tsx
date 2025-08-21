@@ -59,7 +59,7 @@ const Header = ({ header }: any) => {
 
   return (
     <>
-      <div className="w-full md:h-32 h-14"></div>
+      <div className="w-full md:h-32 h-20"></div>
       <header
         className={`fixed  left-0 w-screen z-50 transition-all duration-300  
         ${isVisible ? "translate-y-0" : "-translate-y-full"}
@@ -83,7 +83,7 @@ const Header = ({ header }: any) => {
 
                 <li className="flex gap-2 text-sm">
                   <FaLocationDot className="text-color1 text-lg" />
-                  <p className="text-zinc-700">30 Broklyn Golden Street. USA</p>
+                  <p className="text-zinc-700">Office no. 887, 8th Floor, AGGARWAL MILLENIUM TOWER, Delhi, 110034</p>
                 </li>
               </ul>
                <div className="flex  gap-x-4   text-lg text-white">
@@ -144,7 +144,7 @@ const Header = ({ header }: any) => {
 
         {/* Mobile Section */}
         <div
-          className={`flex md:!hidden w-screen items-center  justify-between h-24 px-3 ${
+          className={`flex md:!hidden w-screen items-center  justify-between h-20 px-3 ${
             isAtTop ? "bg-color1" : " bg-white"
           }`}
         >

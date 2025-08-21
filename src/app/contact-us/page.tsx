@@ -13,7 +13,7 @@ function page() {
             <Form/>
                <div className=" w-full md:h-[550px] h-72">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.70783721605!2d77.09038143184443!3d28.60854037240093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bf3b54fb5f5%3A0x3c779acafc7267bb!2sRZ-105%20BLOCK-%20C%2C%20DABRI%20EXTENSION%20EAST!5e0!3m2!1sen!2sin!4v1727546752016!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.861245838251!2d77.14724467529147!3d28.693796975631276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034f8893d0cd%3A0x9f30cf26433038ae!2sGlobesway%20Immigration%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1755791802053!5m2!1sen!2sin"
           width="100%"
           height="100%"
         ></iframe>

@@ -1,60 +1,66 @@
 "use client";
-import React from "react";
-import Marquee from "react-fast-marquee";
+import { Autoplay, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade } from "swiper/modules";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
+import React, { useState } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
-import { sliderText } from "@/utils/motion";
-import Link from "next/link";
-import { MdArrowRightAlt } from "react-icons/md";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
+import { BannerData } from "@/data/homeData";
 
+export default function HomeBanner() {
+  const uniqueId = "banner12376";
 
-export default function HomeBanner({ data }: any) {
+  const swiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      clickable: true,
+    },
+    autoplay: {
+      delay: 5500,
+      disableOnInteraction: false,
+    },
+    loop: true,
+    navigation: {
+      nextEl: `.${uniqueId}-next`,
+      prevEl: `.${uniqueId}-prev`,
+    },
+    modules: [Autoplay, EffectFade, Navigation],
+    effect: "fade",
+  };
+
   return (
-    <section className="relative md:h-[105vh] h-[94vh] w-full ">             
-      {data?.imgs && 
-      <Marquee className="w-full h-full" speed={50} gradient={false} gradientWidth={0}>
-        {data?.imgs?.map((bnr: any) => (
-          <div key={bnr?.id} className="md:h-[105vh] h-[94vh]">
+    <section className="swiperstyle1 relative w-full">
+      <Swiper {...swiperOptions} className="mySwiper w-full">
+        {BannerData.map((item:any) => (
+          <SwiperSlide key={item.id} className="overflow-hidden w-full">
             <Image
-              src={bnr?.img}
-              alt={`banner-image`}
-              className="w-full h-full object-cover"
-              width={310} // Replace with your desired width
-              height={900} // Replace with your desired height
-              priority
-            />
-          </div>
+        src={item.img} // Use the dynamic image passed in
+        className="h-full !w-full max-h-[700px] object-contain md:object-right"
+        alt="banner image"
+      />
+          </SwiperSlide>
         ))}
-      </Marquee>}
+      </Swiper>
 
-      <div className="w-full h-full text-white absolute top-0 left-0 bg-[#00000056] z-10 flex justify-center items-center flex-col gap-6">
-      <AnimatePresence>
-      <motion.div
-                  
-                  variants={sliderText} // Using the sliderText motion variants
-                      initial="initial"
-                      animate="animate"
-                      exit="exit"
-                      transition={{ easings: ["easeIn", "easeOut"] }}
-                      className="max-w-3xl text-center space-y-6">
-
-{data.title &&  <motion.h2 className="lg:text-8xl md:text-6xl font-bold mb-8 text-5xl px-5 font1">
-                        {data?.title}
-                      </motion.h2>}
-                 
-                   <motion.p className="md:text-lg text-base px-5"> {data?.para}
-                   </motion.p>
-                   
-               
-                      </motion.div>
-      
-        </AnimatePresence>
-        <Link href={data?.href || "/"} className="w-min">
-            <div className="flex items-center justify-center rounded-3xl gap-4 text-nowrap px-6 py-2 bg-color1 text-white duration-300 hover:bg-color2">
-              <p className="text-base font-medium">{data?.btntext}</p><MdArrowRightAlt  className="mt-1 animate-x text-3xl"/>
-            </div>
-          </Link>
+      {/* Navigation buttons */}
+      <div
+        className={`${uniqueId}-next absolute z-40 p-2 bg-white shadow-lg bg-opacity-70  font-bold text-3xl text-color1 hover:text-color2 right-3 top-[55%] max-md:!hidden`}
+      >
+        <GrNext />
+      </div>
+      <div
+        className={`${uniqueId}-prev absolute z-40 p-2 bg-white shadow-lg bg-opacity-70 font-bold text-3xl hover:text-color2 text-color1 left-3 md:top-[55%] max-md:!hidden`}
+      >
+        <GrPrevious />
       </div>
     </section>
   );
 }
+

@@ -45,6 +45,10 @@ import {
   testm,
   testf,
   testm2,
+  banner2,
+  banner3,
+  banner,
+  about4,
 } from "@/assets";
 import { BiMaleFemale } from "react-icons/bi";
 import { BsBarChartFill, BsGraphUpArrow, BsPeopleFill, BsPersonFillCheck } from "react-icons/bs";
@@ -348,6 +352,13 @@ export const navigationMenu = {
   ],
 };
 
+export const BannerData = [{
+  id:1, img:banner
+},{
+  id:2, img:banner2
+},{
+  id:3, img:banner3
+}]
 // home page data
 export const aboutdata = {
   img1: about2,
@@ -866,8 +877,8 @@ export const aboutsec1 = {
 
 export const aboutchoose = {
   img1: about1,
-  img2: about1,
-  img3: about1,
+  img2: about4,
+  img3: about2,
 
   title1: "Why Choose Us?",
   title2: "Trusted by Thousands for Smooth Visa Support",
@@ -924,23 +935,23 @@ export const contactsec1 = {
       id: 1,
       icon: <MdWifiCalling3 />,
       title: "Call Us",
-      text: "+919810053278",
-      slug: "tel:+919810053278",
+      text: "+9192202 92921",
+      slug: "tel:+9192202 92921",
     },
     {
       id: 2,
       icon: <MdAttachEmail />,
       title: "Email Us",
       text: "hello@globesway.com",
-      slug: "mailto:ops@terrifictrip.com",
+      slug: "mailto:hello@globesway.com",
     },
     {
       id: 3,
       icon: <FaMapLocationDot />,
       title: "Address",
-      text: "66 broklyn golden street. New York",
+      text: "Office no. 887, 8th Floor, AGGARWAL MILLENIUM TOWER, II, Netaji Subhash Place, Pitampura, New Delhi, Delhi, 110034",
       slug:
-        "https://www.google.com/maps/place/Salcon+Rasvilas/@28.5275773,77.2176232,17z/data=!4m10!1m2!2m1!1sLGF,+Salcon+Ras+Vilas,+District+Center,+Saket,+New+Delhi+-+110017!3m6!1s0x390ce18b0950c389:0xebbb242665d51b64!8m2!3d28.5274299!4d77.2203153!15sCkFMR0YsIFNhbGNvbiBSYXMgVmlsYXMsIERpc3RyaWN0IENlbnRlciwgU2FrZXQsIE5ldyBEZWxoaSAtIDExMDAxN1o9IjtsZ2Ygc2FsY29uIHJhcyB2aWxhcyBkaXN0cmljdCBjZW50ZXIgc2FrZXQgbmV3IGRlbGhpIDExMDAxN5IBD2J1c2luZXNzX2NlbnRlcqoBbRABKgciA2xnZigAMh8QASIb2a9T93dOtfO3cyy1JfmEJvTV8BiBvqn5VSAXMj8QAiI7bGdmIHNhbGNvbiByYXMgdmlsYXMgZGlzdHJpY3QgY2VudGVyIHNha2V0IG5ldyBkZWxoaSAxMTAwMTfgAQA!16s%2Fg%2F124svs8ms?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D",
+        "https://www.google.com/maps/dir//Office+no.+887,+8th+Floor,+AGGARWAL+MILLENIUM+TOWER,+II,+Netaji+Subhash+Place,+Pitampura,+New+Delhi,+Delhi,+110034/@28.693772,77.0674182,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390d034f8893d0cd:0x9f30cf26433038ae!2m2!1d77.1498196!2d28.693797?entry=ttu&g_ep=EgoyMDI1MDgxOC4wIKXMDSoASAFQAw%3D%3D",
     },
   ],
 };
