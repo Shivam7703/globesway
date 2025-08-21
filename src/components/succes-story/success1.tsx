@@ -6,16 +6,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
+import Link from "next/link";
+import { successstory } from "@/data/homeData";
 
-export default function Success1() {
-  const data = [
-    { id: 1, text: "https://youtube.com/shorts/74vlFTJkSA0?si=_2hDpBGZIBLAONgO" },
-    { id: 2, text: "https://youtube.com/shorts/rP8UpKoWWP0?si=vpZsHgjt9yZV6HiG" },
-    { id: 3, text: "https://youtube.com/shorts/erYgw-0lnjg?si=kYIvH3SbN0K2iy0S" },
-    { id: 4, text: "https://youtube.com/shorts/DyHzebnvPJ8?si=IeFw-u5UQrSL88-i" },
-    { id: 5, text: "https://youtube.com/shorts/rP8UpKoWWP0?si=vpZsHgjt9yZV6HiG" },
-    { id: 6, text: "https://youtube.com/shorts/erYgw-0lnjg?si=kYIvH3SbN0K2iy0S" },
-  ];
+type Success1Props = {
+  isHome: boolean;
+};
+
+export default function Success1({ isHome }: Success1Props) {
 
   const uniqueId = "success123";
 
@@ -49,17 +47,42 @@ export default function Success1() {
   };
 
   return (
-    <section className="lg:px-24 bg-zinc-200 md:px-20 sm:p-10 p-7 text-center relative slider1 flex flex-col items-center">
+    <section className="lg:px-24 md:px-20 sm:p-10 p-7 text-center relative slider1 flex flex-col items-center">
+
+      {!isHome && (<>
       <h4 className="text-color1 mx-auto font-medium text-lg w-max">
         Top Success Stories
       </h4>
 
-      <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl max-w-2xl mx-auto mt-3 !leading-[1.1]">
+      <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl max-w-2xl mx-auto  !leading-[1.1]">
         Clients Stories
-      </h2>
-
+      </h2></>
+)}
+{(isHome && 
+       <div className="flex justify-between max-w-7xl mx-auto w-full gap-y-4 flex-wrap items-end">
+              <div className="max-w-3xl ">
+                
+                  <h4 className="text-color1 font-medium text-lg w-max">
+        Top Success Stories
+                  </h4>
+                
+                <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl !leading-[1.1]">
+        Clients Stories
+                </h2>
+              </div>
+              <Link href={"/success-stories"} className="w-max">
+                <div className="flex gap-2 p-2 text-white border rounded-[29px] group relative bg-gradient-to-l from-red-900 to-color1 overflow-hidden  h-full">
+                  <p className="mx-5 font-semibold font1 text-sm md:text-base z-20">
+                    View All {">"}
+                  </p>
+      
+                  <div className="group-hover:w-full duration-300 h-full bg-gradient-to-l from-blue-900 to-color2 absolute z-10 w-0 top-0 right-0"></div>
+                </div>
+              </Link>{" "}
+            </div>
+)}
       <Swiper {...swiperOptions} className={`mySwiper w-full max-w-7xl mx-auto  md:mt-16 mt-9 ${uniqueId}`}>
-        {data?.map((cards) => (
+        {(successstory && (isHome ? successstory.slice(0, 6) : successstory)).map((cards) => (
           <SwiperSlide
             key={cards.id}
             className="mb-12 w-full text-left rounded-2xl bg-white shadow-xl flex items-center justify-center "

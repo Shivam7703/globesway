@@ -13,6 +13,7 @@ import Testimonials from '@/components/home/testimonial';
 import Whychoose from '@/components/home/whychoose';
 import React from 'react';
 import Image from 'next/image';
+import Success1 from '@/components/succes-story/success1';
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
 <CoachingOffer/>
 <FaqSection/>
 <Testimonials/>
+<Success1 isHome={true} />
 <Team/>
 <Blogs/>
   </>

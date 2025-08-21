@@ -1092,8 +1092,6 @@ export const FootsecMenu =[
       ],
     },
 
-  
-
     {
       id: 3,
       label: "Work Permit",
@@ -1188,4 +1186,13 @@ export const FootsecMenu =[
       ],
     },
   
+  ];
+
+    export  const successstory = [
+    { id: 1, text: "https://youtube.com/shorts/74vlFTJkSA0?si=_2hDpBGZIBLAONgO" },
+    { id: 2, text: "https://youtube.com/shorts/rP8UpKoWWP0?si=vpZsHgjt9yZV6HiG" },
+    { id: 3, text: "https://youtube.com/shorts/erYgw-0lnjg?si=kYIvH3SbN0K2iy0S" },
+    { id: 4, text: "https://youtube.com/shorts/DyHzebnvPJ8?si=IeFw-u5UQrSL88-i" },
+    { id: 5, text: "https://youtube.com/shorts/rP8UpKoWWP0?si=vpZsHgjt9yZV6HiG" },
+    { id: 6, text: "https://youtube.com/shorts/erYgw-0lnjg?si=kYIvH3SbN0K2iy0S" },
   ];

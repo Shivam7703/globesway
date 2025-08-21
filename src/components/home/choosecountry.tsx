@@ -49,7 +49,7 @@ export default function ChooseCountry() {
     <section className="lg:px-28 md:px-20 sm:px-12 px-7 relative">
       {/* Top Heading */}
 
-      <div className="flex justify-between gap-y-4 flex-wrap items-end">
+      <div className="flex max-w-7xl mx-auto justify-between gap-y-4 flex-wrap items-end">
         <div className="max-w-3xl ">
           {choosecountry?.title1 && (
             <h4 className="text-color1 font-medium text-lg w-max">
@@ -74,7 +74,7 @@ export default function ChooseCountry() {
       {/* Swiper */}
       <Swiper
         {...swiperOptions}
-        className={`mySwiper md:mt-16 mt-9 w-full max-w-fit px-5 ${uniqueId}`}
+        className={`mySwiper max-w-7xl mx-auto md:mt-16 mt-9 w-full px-5 ${uniqueId}`}
       >
         {choosecountry?.countries?.map((cards: any) => (
           <SwiperSlide

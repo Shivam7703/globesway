@@ -9,7 +9,7 @@ function page() {
     <>
        <AllBanner img={about1}
             title={"Success Stories"} slug={"success-stories"} />
-            <Success1/>
+            <Success1 isHome={false}/>
          </>
   )
 }

@@ -9,7 +9,7 @@ export default function CoachingOffer() {
     <section className="lg:px-28 md:px-20 sm:p-12 p-7 relative">
       {/* Top Heading */}
 
-      <div className="flex justify-between flex-wrap ">
+      <div className="flex justify-between max-w-7xl mx-auto flex-wrap ">
         <div className="md:w-[48%] w-full">
           {coachingofferdata?.title1 && (
             <h4 className="text-color1 font-medium text-lg w-max">
@@ -21,7 +21,7 @@ export default function CoachingOffer() {
           </h2>
         </div>
 
-        <div className="md:w-[48%] w-full mt-5 md:mt-12 md:text-lg font-normal text-zinc-700">
+        <div className="md:w-[48%] max-w-7xl mx-auto w-full mt-5 md:mt-12 md:text-lg font-normal text-zinc-700">
           <p>{coachingofferdata?.para}</p>
         </div>
       </div>
