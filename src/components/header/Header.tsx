@@ -90,33 +90,33 @@ const Header = ({ header }: any) => {
                                 <FaFacebook
                                   className="text-color1 hover:text-color2 duration-300 "
                                   onClick={() =>
-                                    window.open("", "_blank")
+                                    window.open("https://www.facebook.com/globeswayimmigration", "_blank")
                                   }
                                 />
                                 <AiFillInstagram
                                   className="text-color1 hover:text-color2 duration-300"
                                   onClick={() =>
-                                    window.open("", "_blank")
+                                    window.open("https://www.instagram.com/globeswayimmigration/", "_blank")
                                   }
                                 />
                                 <FaLinkedinIn
                                   className="text-color1 hover:text-color2 duration-300"
                                   onClick={() =>
-                                    window.open("", "_blank")
+                                    window.open("https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all", "_blank")
                                   }
                                 />
                              
                                 <TbBrandYoutubeFilled
                                   className="text-color1 hover:text-color2 duration-300"
                                   onClick={() =>
-                                    window.open("", "_blank")
+                                    window.open("https://www.youtube.com/@GlobeswayImmigration", "_blank")
                                   }
                                 />
                               
                                 <FaXTwitter
                                   className="text-color1 hover:text-color2 duration-300"
                                   onClick={() =>
-                                    window.open("", "_blank")
+                                    window.open("https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all", "_blank")
                                   }
                                 />
                               

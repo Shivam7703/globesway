@@ -768,11 +768,11 @@ export const footer = {
     "We work with passion to make immigration easy and help people start a new life in another country.",
 
   socials: {
-    facebook: "https://www.facebook.com/",
-    twitter: "https://twitter.com/",
-    instagram: "https://www.instagram.com//",
-    linkedin: "https://www.linkedin.com/school//",
-    youtube: "https://www.youtube.com/c/",
+    facebook: "https://www.facebook.com/globeswayimmigration",
+    twitter: "https://www.youtube.com/@GlobeswayImmigration",
+    instagram: "https://www.instagram.com/globeswayimmigration/",
+    linkedin: "https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all",
+    youtube: "https://www.youtube.com/@GlobeswayImmigration",
   },
   copyrightText: "Copyrights © 2024 . Designed and Manage by ",
 
