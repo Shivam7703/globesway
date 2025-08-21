@@ -7,7 +7,7 @@ function OpenRole() {
           
           title: "HR Executive",
           description:
-            "We are looking for talented individuals to join our team and help us achieve our mission. If you are passionate about your work and want to make a difference, we would love to hear from you.",
+            "We are looking for a dedicated HR Executive to join our team. Your role will be to handle recruitment, employee relations, and day-to-day HR operations. If you are organized, people-friendly, and passionate about building a positive workplace, then this role is for you.",
           buttonText: "Apply Now",
         },
         {
@@ -15,7 +15,7 @@ function OpenRole() {
           
           title: "Immigration Consultant",
           description:
-            "We are looking for talented individuals to join our team and help us achieve our mission. If you are passionate about your work and want to make a difference, we would love to hear from you.",
+            "We are looking for skilled Immigration Consultants who can guide clients with the right visa solutions. Your role will be to assess eligibility, explain processes, and support clients in their journey abroad. If you have strong communication skills and a passion for helping people achieve global opportunities, this role is for you.",
           buttonText: "Apply Now",
         },
         {
@@ -23,7 +23,7 @@ function OpenRole() {
           
           title: "Visa Case Manager",
           description:
-            "We are looking for talented individuals to join our team and help us achieve our mission. If you are passionate about your work and want to make a difference, we would love to hear from you.",
+            "We are looking for detail-oriented Visa Case Managers to manage client applications and documentation. Your role will involve coordinating with clients, preparing files, and ensuring smooth visa processing. If you are organized, accurate, and eager to grow in the immigration industry, this is for you.",
           buttonText: "Apply Now",
         },
       ];

@@ -6,25 +6,25 @@ function Careersec1() {
     {
       id: 1,
       icon: <IoRocketSharp />,
-      title: "Join Our Team",
+      title: "Visa Officers",
       description:
-        "We are looking for talented individuals to join our team and help us achieve our mission. If you are passionate about your work and want to make a difference, we would love to hear from you.",
+        "We are looking for Visa Officers to join our team. Your role will be to handle visa applications, check documents, and guide clients through the process. If you are detail-oriented, good with communication, and want to grow in the immigration field, this role is for you.",
       buttonText: "View Openings",
     },
     {
       id: 2,
       icon: <IoRocketSharp />,
-      title: "Join Our Team",
+      title: "Immigration Consultants",
       description:
-        "We are looking for talented individuals to join our team and help us achieve our mission. If you are passionate about your work and want to make a difference, we would love to hear from you.",
+        "We are looking for Immigration Consultants who can advise and support clients in choosing the right visa pathway. The role includes assessing eligibility, preparing applications, and providing clear guidance. If you have knowledge of immigration rules, strong communication skills, and enjoy helping people achieve their goals, we’d love to have you on our team.",
       buttonText: "View Openings",
     },
     {
       id: 3,
       icon: <IoRocketSharp />,
-      title: "Join Our Team",
+      title: "Legal Assistants",
       description:
-        "We are looking for talented individuals to join our team and help us achieve our mission. If you are passionate about your work and want to make a difference, we would love to hear from you.",
+        "We are looking for Legal Assistants to help our consultants and lawyers with immigration cases. The role involves preparing documents, keeping records, and assisting in research. If you are organized, reliable, and interested in legal work, this position is a great way to start your career.",
       buttonText: "View Openings",
     },
   ];
