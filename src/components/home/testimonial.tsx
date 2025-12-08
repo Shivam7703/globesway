@@ -67,13 +67,15 @@ export default function Testimonials() {
             <div className=" w-full pt-5 h-full overflow-hidden gap-4 flex group">
               <div className="w-1/3 relative  min-h-36">
                 <Image
+                  title="Best immigration consultants in Delhi"
                   src={testbg}
-                  alt={"testimonials"}
+                  alt={"Best immigration consultants in Delhi"}
                   className="absolute top-0 rounded-t-[60px] object-cover object-top -z-10 w-full h-full"
                 />
                 <Image
+                  title="Best immigration consultants in Delhi"
                   src={cards?.img}
-                  alt={"testimonials"}
+                  alt={"Best immigration consultants in Delhi"}
                   className="mx-auto rounded-full w-4/5 mt-4"
                 />
               </div>
@@ -94,8 +96,9 @@ export default function Testimonials() {
 
                 <p className=" mt-4 text-zinc-600">{cards?.para}</p>
                 <Image
+                  title="Best immigration consultants in Delhi"
                   src={review}
-                  alt={"testimonials"}
+                  alt={"Best immigration consultants in Delhi"}
                   className="h-8 float-right object-contain w-max my-2"
                 />
               </div>

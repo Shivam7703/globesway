@@ -60,10 +60,14 @@ export default function ChooseCountry() {
             {choosecountry?.title2}{" "}
           </h2>
         </div>
-        <Link href={"/"} className="w-max">
+        <Link
+          title="Best immigration consultants in Delhi"
+          href={"/contact-us"}
+          className="w-max"
+        >
           <div className="flex gap-2 p-2 text-white border rounded-[29px] group relative bg-gradient-to-l from-red-900 to-color1 overflow-hidden  h-full">
             <p className="mx-5 font-semibold font1 text-sm md:text-base z-20">
-              View All Country {">"}
+              Know More {">"}
             </p>
 
             <div className="group-hover:w-full duration-300 h-full bg-gradient-to-l from-blue-900 to-color2 absolute z-10 w-0 top-0 right-0"></div>
@@ -84,22 +88,28 @@ export default function ChooseCountry() {
             {/* Card Content */}
             <div className="md:w-full md:h-56 mx-auto h-48 overflow-hidden relative">
               <Image
+                title="Best immigration consultants in Delhi"
                 src={cards.img}
-                alt="tour"
+                alt="Best immigration consultants in Delhi"
                 fill
                 className="transition-all duration-500 w-full h-full object-center object-cover group-hover:scale-110"
               />
               <div className="h-20 absolute -bottom-12 left-0 bg-zinc-200 w-full  rounded-tl-[50%] rounded-tr-[50%]"></div>
 
               <Image
+                title="Best immigration consultants in Delhi"
                 src={cards.flag}
-                alt="tour"
+                alt="Best immigration consultants in Delhi"
                 className="transition-all duration-500 group-hover:-rotate-180 w-14 h-14 object-contain absolute bottom-1 border border-color2 shadow-md left-[40%]  rounded-full"
               />
             </div>
 
             <div className="bg-zinc-200 w-full space-y-3 p-4">
-              <Link href={"#"} className="">
+              <Link
+                title="Best immigration consultants in Delhi"
+                href={cards.href}
+                className=""
+              >
                 <h3 className="font-bold font1 hover:text-color1 text-black text-xl md:text-2xl mb-2">
                   {cards?.name}
                 </h3>

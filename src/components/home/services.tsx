@@ -67,8 +67,9 @@ export default function Services() {
             {/* Card Content */}
             <div className="w-full md:h-64 h-56 mb-2   overflow-hidden relative">
               <Image
+                title="Best immigration consultants in Delhi"
                 src={cards.img}
-                alt="services"
+                alt="Best immigration consultants in Delhi"
                 fill
                 className="transition-all duration-500 w-full h-full object-cover group-hover:scale-110"
               />
@@ -78,7 +79,11 @@ export default function Services() {
                 {cards?.icon}
               </div>
               <div className="bg-white w-full p-4">
-                <Link href={cards?.href || "#"} className="">
+                <Link
+                  title="Best immigration consultants in Delhi"
+                  href={cards?.href || "#"}
+                  className=""
+                >
                   <h2 className="text-black font-bold text-lg group-hover:text-color1 duration-300">
                     {cards?.title}
                   </h2>{" "}

@@ -16,19 +16,20 @@ export default function Team() {
       </h2>
 
       <div
-        className={`flex gap-y-6 flex-wrap justify-between md:mt-16 mt-9 w-full`}
+        className={`flex gap-y-6 flex-wrap justify-between max-w-5xl mx-auto md:mt-16 mt-9 w-full`}
       >
         {data?.team?.map((cards: any) => (
           <div
             key={cards.id}
-            className="lg:w-[23%] sm:w-[48%] text-center w-full group"
+            className="lg:w-[31%] sm:w-[48%] text-center w-full group"
           >
             {/* Card Content */}
             <div className="w-full h-max overflow-hidden group-hover:rounded-t-[250px] duration-500 relative">
               <div className="w-full absolute bottom-0 left-0 h-0 group-hover:h-full bg-gradient-to-t from-color1 to-transparent duration-500"></div>
               <Image
+                title="Best immigration consultants in Delhi"
                 src={cards.img}
-                alt="tour"
+                alt="Best immigration consultants in Delhi"
                 className="transition-all duration-500 w-full object-contain h-auto"
               />
             </div>

@@ -37,40 +37,51 @@ export default function Aboutchoose() {
         </ul>
       </div>
       <div className="sm:w-[48%] w-full relative lg:h-[590px] sm:h-[770px] min-h-72 flex justify-between items-center ">
-        <div
+        {/* <div
           className="hover14 h-[70%]
         w-[48%] "
         >
           {" "}
           <Image
+            title="Best immigration consultants in Delhi"
             src={data?.img1}
-            alt="FAQ"
+            alt="Best immigration consultants in Delhi"
             className="h-full w-full object-cover"
           />
-        </div>
-
-        <div
+        </div> */}
+ <Image
+              title="Best immigration consultants in Delhi"
+              src={data?.img2}
+              alt="Best immigration consultants in Delhi"
+              className="h-full w-full object-cover"
+            />
+        {/* <div
           className="h-full flex flex-col justify-between
         w-[48%] "
         >
           <div className="!h-[48%] hover14 overflow-hidden w-full">
             <Image
+              title="Best immigration consultants in Delhi"
               src={data?.img2}
-              alt="FAQ"
+              alt="Best immigration consultants in Delhi"
               className="h-full w-full object-cover"
             />
           </div>
           <div className="!h-[48%] hover14 overflow-hidden w-full">
             <Image
+              title="Best immigration consultants in Delhi"
               src={data?.img3}
-              alt="FAQ"
+              alt="Best immigration consultants in Delhi"
               className="h-full w-full object-cover"
             />
           </div>
-        </div>
+        </div> */}
 
-         <div className='absolute text-white py-3 px-5 animate-bounce bg-color1 -left-4  bottom-0 z-[200] shadow-xl'> <h5 className='text-3xl md:text-5xl font-bold'>10k+</h5>
-                 <p className='text-md md:text-xl mt-2'>Trusted Customer</p></div>
+        <div className="absolute text-white py-3 px-5 animate-bounce bg-color1 -left-4  bottom-0 z-[200] shadow-xl">
+          {" "}
+          <h5 className="text-3xl md:text-5xl font-bold">10k+</h5>
+          <p className="text-md md:text-xl mt-2">Trusted Customer</p>
+        </div>
       </div>
     </section>
   );

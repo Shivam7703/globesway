@@ -3,6 +3,8 @@ import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 import { navigationMenu } from "@/data/homeData";
 import { usePathname } from "next/navigation";
+import { logoall } from "@/assets";
+import Image from "next/image";
 
 interface NavItem {
   id: number | string;
@@ -58,7 +60,7 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
       return (
         <div key={`${level}-${id}`}>
           <div className={`flex items-center justify-between ${padding} py-2 ${textColor} ${hoverText}`}>
-            <Link
+            <Link title={item.label}
               href={item.href}
               className="whitespace-nowrap transition-all duration-300"
               onClick={() => !hasChildren && handleClick(item.href)}
@@ -89,6 +91,13 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
           {renderItems([item], 1)}
         </li>
       ))}
+
+       <Image
+                    title="Best immigration consultants in Delhi"
+                    src={logoall}
+                    alt="Best immigration consultants in Delhi"
+                    className="h-full w-[70%] mx-auto mt-16 object-cover"
+                  />
     </ul>
   );
 };

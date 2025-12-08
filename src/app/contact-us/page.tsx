@@ -1,25 +1,187 @@
-import { about1 } from '@/assets'
-import AllBanner from '@/components/banner'
-import Form from '@/components/contact/form'
-import Contactsec1 from '@/components/contact/section1'
-import React from 'react'
+// app/contact-us/page.tsx
+import { Metadata } from "next";
+import { about1 } from "@/assets";
+import AllBanner from "@/components/banner";
+import Form from "@/components/contact/form";
+import Contactsec1 from "@/components/contact/section1";
+import React from "react";
 
-function page() {
+export const metadata: Metadata = {
+  title: "Connect with Globesway Immigration Experts",
+  description:
+    "Reach out to Globesway Immigration for expert guidance on PR, study abroad, and visas. Get quick answers and start your immigration journey today.",
+  keywords:
+    "Globesway Immigration, Contact Globesway, Immigration Consultants, Contact Immigration Expert, Immigration Help",
+  alternates: {
+    canonical: "https://globeswayimmigration.com/contact-us",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "Connect with Globesway Immigration Experts",
+    description:
+      "Reach out to Globesway Immigration for expert guidance on PR, study abroad, and visas. Get quick answers and start your immigration journey today.",
+    url: "https://globeswayimmigration.com/contact-us",
+    siteName: "Globesway Immigration",
+    images: [
+      {
+        url: "https://globeswayimmigration.com/logo.webp",
+        width: 1200,
+        height: 630,
+        alt: "Globesway Immigration Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Connect with Globesway Immigration Experts",
+    description:
+      "Reach out to Globesway Immigration for expert guidance on PR, study abroad, and visas. Get quick answers and start your immigration journey today.",
+    images: ["https://globeswayimmigration.com/logo.webp"],
+  },
+};
+
+export default function ContactPage() {
+  const pageUrl = "https://globeswayimmigration.com/contact-us";
+
+  // ContactPage schema markup
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    url: pageUrl,
+    name: "Contact Globesway Immigration",
+    description:
+      "Contact Globesway Immigration experts for assistance with PR, study abroad, work visas, and immigration services.",
+    mainEntity: {
+      "@type": "Organization",
+      name: "Globesway Immigration",
+      url: "https://globeswayimmigration.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://globeswayimmigration.com/logo.webp",
+      },
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+91-92202 92921",
+          contactType: "customer support",
+          areaServed: "IN",
+          availableLanguage: ["English", "Hindi"],
+          contactOption: "TollFree",
+        },
+        {
+          "@type": "ContactPoint",
+          email: "info@globeswayimmigration.com",
+          contactType: "customer support",
+          areaServed: "IN",
+        },
+      ],
+      address: {
+        "@type": "PostalAddress",
+        addressCountry: "IN",
+        addressLocality: "Delhi",
+        addressRegion: "Delhi",
+      },
+      sameAs: [
+        "https://www.facebook.com/globeswayimmigration",
+        "https://www.instagram.com/globeswayimmigration",
+        "https://www.linkedin.com/company/globeswayimmigration",
+      ],
+    },
+  };
+
+  // LocalBusiness schema for better local SEO
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "Globesway Immigration",
+    description: "Professional immigration consultancy services",
+    url: "https://globeswayimmigration.com",
+    telephone: "+91-92202 92921",
+    priceRange: "$$",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "IN",
+      addressLocality: "Delhi",
+      addressRegion: "Delhi",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "28.7041",
+      longitude: "77.1025",
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "18:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Saturday",
+        opens: "10:00",
+        closes: "16:00",
+      },
+    ],
+    serviceArea: {
+      "@type": "Country",
+      name: "India",
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://globeswayimmigration.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Contact Us",
+        item: pageUrl,
+      },
+    ],
+  };
+
   return (
     <>
-      <AllBanner img={about1}
-            title={"Contact Us"} slug={"contact-us"} para={"lorem the jority have suffered alteration in some form by randomised words which don't look even slightly believable."}/>
-            <Contactsec1/>
-            <Form/>
-               <div className=" w-full md:h-[550px] h-72">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.861245838251!2d77.14724467529147!3d28.693796975631276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034f8893d0cd%3A0x9f30cf26433038ae!2sGlobesway%20Immigration%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1755791802053!5m2!1sen!2sin"
-          width="100%"
-          height="100%"
-        ></iframe>
-      </div>
-    </>
-  )
-}
+      <main>
+        <AllBanner img={about1} title="Contact Us" slug="contact-us" />
+        <Contactsec1 />
+        <Form />
+      </main>
 
-export default page
+      {/* JSON-LD Structured Data - Contact Page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
+
+      {/* JSON-LD Structured Data - Local Business */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
+      />
+
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+    </>
+  );
+}

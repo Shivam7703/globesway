@@ -21,14 +21,14 @@ export default function CoachingOffer() {
           </h2>
         </div>
 
-        <div className="md:w-[48%] max-w-7xl mx-auto w-full mt-5 md:mt-12 md:text-lg font-normal text-zinc-700">
+        <div className="md:w-[48%]  mx-auto w-full mt-5 md:mt-12 md:text-lg font-normal text-zinc-700">
           <p>{coachingofferdata?.para}</p>
         </div>
       </div>
 
       {/* Swiper */}
       <div
-        className={`flex gap-y-6 flex-wrap justify-between md:mt-16 mt-9 w-full`}
+        className={`flex gap-y-6 max-w-7xl mx-auto flex-wrap justify-between md:mt-16 mt-9 w-full`}
       >
         {coachingofferdata?.coaching?.map((cards: any) => (
           <div
@@ -38,8 +38,9 @@ export default function CoachingOffer() {
             {/* Card Content */}
             <div className="md:h-72 mx-auto h-56 overflow-hidden relative">
               <Image
+                title="Best immigration consultants in Delhi"
                 src={cards.img}
-                alt="tour"
+                alt="Best immigration consultants in Delhi"
                 fill
                 className="transition-all duration-500 w-full h-full object-center object-cover group-hover:scale-110"
               />
@@ -57,7 +58,11 @@ export default function CoachingOffer() {
                   <p className="text-sm text-zinc-600 font-medium ">
                     {cards?.para.slice(0, 95)}...
                   </p>
-                  <Link href={""} className="float-right text-3xl text-color2">
+                  <Link
+                    title="Best immigration consultants in Delhi"
+                    href={""}
+                    className="float-right text-3xl text-color2"
+                  >
                     <LuArrowDownRight />
                   </Link>
                 </div>

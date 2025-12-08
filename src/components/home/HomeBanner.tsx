@@ -38,13 +38,14 @@ export default function HomeBanner() {
   return (
     <section className="swiperstyle1 relative w-full">
       <Swiper {...swiperOptions} className="mySwiper w-full">
-        {BannerData.map((item:any) => (
+        {BannerData.map((item: any) => (
           <SwiperSlide key={item.id} className="overflow-hidden w-full">
             <Image
-        src={item.img} // Use the dynamic image passed in
-        className="h-full !w-full max-h-[700px] object-contain md:object-right"
-        alt="banner image"
-      />
+              title="Best immigration consultants in Delhi"
+              src={item.img} // Use the dynamic image passed in
+              className="h-full !w-full max-h-[700px] object-contain md:object-right"
+              alt="Immigration consultants in Delhi NCR"
+            />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -63,4 +64,3 @@ export default function HomeBanner() {
     </section>
   );
 }
-

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
        animation: {
-        'spin-slow': 'spin 5s linear infinite',
+        
       },
       colors: {
         color1: '#E31E23',

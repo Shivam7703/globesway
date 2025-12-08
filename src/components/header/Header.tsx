@@ -66,63 +66,85 @@ const Header = ({ header }: any) => {
         ${isAtTop ? "text-color1 top-0" : "md:-top-32 -top-1"}`}
       >
         <div className="hidden md:flex items-center justify-between shadow-lg bg-red-50 h-32 px-5 lg:px-10">
-          <Link className="w-[10%]" href={header?.href || "/"}>
+          <Link
+            title="Best immigration consultants in Delhi"
+            className="w-[10%]"
+            href={header?.href || "/"}
+          >
             <Image
+              title="Best immigration consultants in Delhi"
               src={isAtTop ? logo : logo}
-              alt="logo"
+              alt="Best immigration consultants in Delhi"
               className=" h-16 w-min object-contain md:h-32 my-1"
             />
           </Link>
-          <div className=" max-md:hidden lg:w-[66%]">
+          <div className=" max-md:hidden lg:w-[75%]">
             <div className="flex justify-between items-center">
               <ul className="flex gap-4 bg-red-50 p-3">
                 <li className="flex gap-2 text-sm">
                   <IoIosMail className="text-color1 text-lg" />
-                  <p className="text-zinc-700">info@example.com</p>
+                  <p className="text-zinc-700"><a href="mailto:info@globeswayimmigration.com">info@globeswayimmigration.com</a></p>
                 </li>
 
                 <li className="flex gap-2 text-sm">
                   <FaLocationDot className="text-color1 text-lg" />
-                  <p className="text-zinc-700">Office no. 887, 8th Floor, AGGARWAL MILLENIUM TOWER, Delhi, 110034</p>
+                  <p className="text-zinc-700"><a href="https://www.google.com/maps/place/Globesway+Immigration+Pvt.+Ltd./@28.6937074,77.1472447,17z/data=!3m1!4b1!4m6!3m5!1s0x390d034f8893d0cd:0x9f30cf26433038ae!8m2!3d28.6937074!4d77.1498196!16s%2Fg%2F11x7qhnmst?entry=ttu&g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D">
+                    Office no. 886-887, 8th Floor, AGGARWAL MILLENNIUM TOWER 2,
+                    Delhi, 110034</a>
+                  </p>
                 </li>
               </ul>
-               <div className="flex  gap-x-4   text-lg text-white">
-                                <FaFacebook
-                                  className="text-color1 hover:text-color2 duration-300 "
-                                  onClick={() =>
-                                    window.open("https://www.facebook.com/globeswayimmigration", "_blank")
-                                  }
-                                />
-                                <AiFillInstagram
-                                  className="text-color1 hover:text-color2 duration-300"
-                                  onClick={() =>
-                                    window.open("https://www.instagram.com/globeswayimmigration/", "_blank")
-                                  }
-                                />
-                                <FaLinkedinIn
-                                  className="text-color1 hover:text-color2 duration-300"
-                                  onClick={() =>
-                                    window.open("https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all", "_blank")
-                                  }
-                                />
-                             
-                                <TbBrandYoutubeFilled
-                                  className="text-color1 hover:text-color2 duration-300"
-                                  onClick={() =>
-                                    window.open("https://www.youtube.com/@GlobeswayImmigration", "_blank")
-                                  }
-                                />
-                              
-                                <FaXTwitter
-                                  className="text-color1 hover:text-color2 duration-300"
-                                  onClick={() =>
-                                    window.open("https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all", "_blank")
-                                  }
-                                />
-                              
-                            </div>
+              <div className="flex  gap-x-4   text-lg text-white">
+                <FaFacebook
+                  className="text-color1 hover:text-color2 duration-300 "
+                  onClick={() =>
+                    window.open(
+                      "https://www.facebook.com/globeswayimmigration",
+                      "_blank"
+                    )
+                  }
+                />
+                <AiFillInstagram
+                  className="text-color1 hover:text-color2 duration-300"
+                  onClick={() =>
+                    window.open(
+                      "https://www.instagram.com/globeswayimmigration/",
+                      "_blank"
+                    )
+                  }
+                />
+                <FaLinkedinIn
+                  className="text-color1 hover:text-color2 duration-300"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all",
+                      "_blank"
+                    )
+                  }
+                />
+
+                <TbBrandYoutubeFilled
+                  className="text-color1 hover:text-color2 duration-300"
+                  onClick={() =>
+                    window.open(
+                      "https://www.youtube.com/@GlobeswayImmigration",
+                      "_blank"
+                    )
+                  }
+                />
+
+                {/* <FaXTwitter
+                  className="text-color1 hover:text-color2 duration-300"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/company/globesway-immigration/posts/?feedView=all",
+                      "_blank"
+                    )
+                  }
+                /> */}
+              </div>
             </div>
-            <div className="p-4 w-full bg-white ">
+            <div className="p-4 w-full bg-white flex">
               <Menu
                 navItemsArray={navItems}
                 onTop={isAtTop}
@@ -149,10 +171,14 @@ const Header = ({ header }: any) => {
           }`}
         >
           <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
-            <Link href={header?.href || "/"}>
+            <Link
+              title="Best immigration consultants in Delhi"
+              href={header?.href || "/"}
+            >
               <Image
+                title="Best immigration consultants in Delhi"
                 src={isAtTop ? logo2 : logo}
-                alt="logo"
+                alt="Best immigration consultants in Delhi"
                 className="w-[80px] object-contain"
               />
             </Link>
@@ -173,7 +199,7 @@ const Header = ({ header }: any) => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed h-screen left-0 top-24  md:hidden  overflow-x-hidden duration-300 transition-all ${
+          className={`fixed h-screen left-0 top-20  md:hidden  overflow-x-hidden duration-300 transition-all ${
             isAtTop ? "bg-black" : " bg-white"
           }${isMobileMenuOpen ? " !w-full" : " !w-0"}`}
         >
@@ -195,7 +221,8 @@ function RightSide(onTop: any) {
   return (
     <div className="h-max border-2 border-red-100">
       <a
-        href="tel:+911234567890"
+        title="Best immigration consultants in Delhi"
+        href="tel:+919220292921"
         className={` text-center shadow-lg flex text-white group relative bg-gradient-to-l from-red-900 to-color1 overflow-hidden rounded-sm font1 gap-2  md:text-lg font-bold   
  px-6 py-4  w-max h-max`}
       >

@@ -29,8 +29,8 @@ export default function OurProcess() {
         <p className="font-medium text-zinc-600">{data.para}</p>
 
         <div className="w-max">
-          <Link
-            href={"/"}
+          <Link title="Best immigration consultants in Delhi"
+            href={"/contact-us"}
             className="flex gap-2 p-2 text-white border rounded-[28px] group relative bg-gradient-to-l from-red-900 to-color1 overflow-hidden  h-full"
           >
             <p className="mx-5 font-semibold font1 text-sm md:text-base z-20">

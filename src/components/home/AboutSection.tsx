@@ -21,27 +21,29 @@ function AboutSection() {
         <div className="space-y-7 overflow-hidden hover14 relative h-full ">
           {data?.img1 && (
             <Image
+              title="Best immigration consultants in Delhi"
               src={data?.img1}
-              alt="About"
-              className="absolute bottom-0 left-0 h-[70%] w-[70%] object-cover"
+              alt="Best immigration consultants in Delhi"
+              className="absolute bottom-0 left-0 h-[100%] w-[80%] object-cover"
             />
           )}
         </div>
 
         <div className="absolute py-3 px-5 border-l-4 border-color1 bg-white -right-2 bottom-3 shadow-xl">
           {" "}
-          <h5 className="text-2xl md:text-4xl text-color1 font-bold">18+</h5>
+          <h5 className="text-2xl md:text-4xl text-color1 font-bold">8+</h5>
           <p className="text-md md:text-xl  text-zinc-800 ">
             Years of Experience
           </p>
         </div>
-        {data?.img2 && (
+        {/* {data?.img2 && (
           <Image
+            title="Best immigration consultants in Delhi"
             src={data?.img2}
-            alt="About"
+            alt="Best immigration consultants in Delhi"
             className=" absolute z-10 top-0 right-0 w-[70%] h-[70%] border-2 border-white object-cover"
           />
-        )}
+        )} */}
       </motion.div>
 
       <motion.div
@@ -53,9 +55,9 @@ function AboutSection() {
             {data?.title1}
           </h4>
         )}
-        <h2 className="text-zinc-800 font-extrabold text-3xl md:text-5xl ">
+        <h1 className="text-zinc-800 font-extrabold text-3xl md:text-5xl ">
           {data?.title2}{" "}
-        </h2>
+        </h1>
 
         {data?.para && (
           <p className="text-zinc-600 text-sm md:text-base">{data?.para}</p>

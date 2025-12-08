@@ -9,8 +9,9 @@ export default function Visadetails({ data }: any) {
     <div className="flex flex-wrap justify-between gap-y-7 lg:px-28 md:p-20 sm:p-12 p-7 relative min-h-screen w-full">
       <div className="text-zinc-600 md:w-[64%] w-full space-y-6 md:space-y-9">
         <Image
+          title="Best immigration consultants in Delhi"
           src={data?.img}
-          alt=""
+          alt={data?.title}
           className="w-full object-cover lg:h-[450px] sm:h-[400px] h-52 mx-auto"
         />
         <h1 className="text-zinc-900 md:text-5xl font-bold text-3xl">
@@ -73,8 +74,9 @@ export default function Visadetails({ data }: any) {
 
             {detail.img && (
               <Image
+                title="Best immigration consultants in Delhi"
                 src={detail?.img}
-                alt=""
+                alt="Best immigration consultants in Delhi"
                 className="w-full object-cover lg:h-[450px] sm:h-[400px] h-52 mx-auto"
               />
             )}

@@ -73,7 +73,7 @@ h4::after {
 
 
 .ser-bg{
-  background-image: url("../assets/home/bg.jpg");
+  background-image: url("../assets/home/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -140,6 +140,43 @@ section{
   animation: shine 0.85s ease-in-out;
 }
 
+.pop {
+  position: fixed;
+  z-index: 50;
+  left: 20px;
+  animation: slideUp 14s linear infinite;
+}
+
+@keyframes slideUp {
+  0% {
+    bottom: 10px;
+  }
+  20% {
+    bottom: 10px;
+  }
+  30% {
+    bottom: -300px;
+  }
+  80% {
+    bottom: -300px;
+  }
+  90% , 100%{
+    bottom: 10px;
+  }
+}
+
+.animate-scal {
+  animation: scaleUpDown 1.3s ease-in-out infinite;
+}
+
+@keyframes scaleUpDown {
+  0%, 100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
 
 /* scroll */
 ::-webkit-scrollbar {
