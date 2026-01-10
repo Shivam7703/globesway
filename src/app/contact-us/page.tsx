@@ -7,7 +7,7 @@ import Contactsec1 from "@/components/contact/section1";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Connect with Globesway Immigration Experts",
+  title: "Contact Us for Quick Support & Information",
   description:
     "Reach out to Globesway Immigration for expert guidance on PR, study abroad, and visas. Get quick answers and start your immigration journey today.",
   keywords:
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Connect with Globesway Immigration Experts",
+    title: "Contact Us for Quick Support & Information",
     description:
       "Reach out to Globesway Immigration for expert guidance on PR, study abroad, and visas. Get quick answers and start your immigration journey today.",
     url: "https://globeswayimmigration.com/contact-us",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Connect with Globesway Immigration Experts",
+    title: "Contact Us for Quick Support & Information",
     description:
       "Reach out to Globesway Immigration for expert guidance on PR, study abroad, and visas. Get quick answers and start your immigration journey today.",
     images: ["https://globeswayimmigration.com/logo.webp"],

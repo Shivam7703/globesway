@@ -11,7 +11,7 @@ import { Metadata } from "next";
 import Aboutsec2 from "@/components/about/section2";
 
 export const metadata: Metadata = {
-  title: "Best Immigration Consultants in Delhi | Immigration | Visas",
+  title: "About Us - Globesway Immigration Consultant",
   description:
     "Globesway Immigration, top consultants in Delhi, offers expert visa guidance, high success rates, and complete support for your global journey.",
   keywords:
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://globeswayimmigration.com/about-us",
   },
   openGraph: {
-    title: "Best Immigration Consultants in Delhi | Immigration | Visas",
+    title: "About Us - Globesway Immigration Consultant",
     description:
       "Globesway Immigration, top consultants in Delhi, offers expert visa guidance, high success rates, and complete support for your global journey.",
     url: "https://globeswayimmigration.com/about-us",

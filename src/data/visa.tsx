@@ -364,8 +364,37 @@ export const visas = [
           { id: 6, text: "Social Security & Retirement Benefits." },
         ],
       },
-      {
+        {
         id: 12,
+        heading: "How much will it cost to apply for Canada PR?",
+        para: [
+          {
+            id: 1,
+            text:
+              "Before starting your Canada PR journey, it is important to understand the overall expenses involved.",
+          },
+        ],
+        list: [
+          {
+            id: 1,
+            text: "The total cost of applying for Canada PR generally ranges from ₹80,000 to ₹4,00,000+.",
+          },
+          {
+            id: 2,
+            text: "The final amount depends on your profile, chosen immigration program, IELTS, ECA, medical examinations, police clearance, and consultancy services.",
+          },
+          {
+            id: 3,
+            text: "While government fees are fixed, additional service charges may vary.",
+          },
+          {
+            id: 4,
+            text: "Overall, the total expense differs from case to case.",
+          },
+        ],
+      },
+      {
+        id: 13,
         heading: "Why Choose Globesway Immigration?",
         para: [
           {
@@ -7620,7 +7649,7 @@ export const visas = [
           },
         ],
       },
-      [
+      
         {
           id: 2,
           heading: "Benefits of the Saskatchewan PNP",
@@ -7939,7 +7968,6 @@ export const visas = [
             },
           ],
         },
-      ],
     ],
     questions: [
       {

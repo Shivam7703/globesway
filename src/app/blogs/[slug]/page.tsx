@@ -42,12 +42,6 @@ export async function generateMetadata({
 
   if (!singleBlog) {
     return {
-      title: "Blog Not Found | Globesway Immigration",
-      description: "The requested blog article could not be found.",
-      robots: {
-        index: false,
-        follow: false,
-      },
     };
   }
 

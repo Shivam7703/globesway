@@ -40,14 +40,7 @@ export async function generateMetadata({
   );
 
   if (!singleVisa) {
-    return {
-      title: "Visa Not Found | Globesway Immigration",
-      description: "The requested visa details could not be found.",
-      robots: {
-        index: false,
-        follow: false,
-      },
-    };
+    return {    };
   }
 
   const pageUrl = `https://globeswayimmigration.com/visa/${decodedSlug}`;

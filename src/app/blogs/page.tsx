@@ -6,7 +6,7 @@ import { getBlogs } from "@/lib/getBlogs";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "Stay Updated with our Latest News & Blogs",
+  title: "Blogs | Latest Immigration News",
   description:
     "Explore our latest news, trending blogs, and expert insights. Stay informed with fresh updates to keep you ahead in knowledge and ideas.",
   keywords:
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Stay Updated with our Latest News & Blogs",
+    title: "Blogs | Latest Immigration News",
     description:
       "Explore our latest news, trending blogs, and expert insights. Stay informed with fresh updates to keep you ahead in knowledge and ideas.",
     url: "https://globeswayimmigration.com/blogs",
@@ -58,7 +58,7 @@ export default async function BlogsPage() {
 
   return (
     <>
-      <main>
+      <main className="ser-bg">
         <h1 className="hidden">Stay Updated with Our Latest News and Blogs</h1>
         <AllBanner
           img={about1}

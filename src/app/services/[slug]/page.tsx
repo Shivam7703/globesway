@@ -41,12 +41,6 @@ export async function generateMetadata({
 
   if (!singleService) {
     return {
-      title: "Service Not Found | Globesway Immigration",
-      description: "The requested service could not be found.",
-      robots: {
-        index: false,
-        follow: false,
-      },
     };
   }
 

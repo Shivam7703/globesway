@@ -15,8 +15,7 @@ export interface Blog {
 export async function getBlogs(): Promise<Blog[]> {
   const res = await fetch('https://globeswayimmigration.com/backend/getarticle.php', {
     method: "GET",
-    cache: "no-store",          
-    next: { revalidate: 3600 }, // ISR for page
+    next: { revalidate: 500 }, // ISR for page
   });
 
   if (!res.ok) {
