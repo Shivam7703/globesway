@@ -49,12 +49,12 @@ export default function Aboutchoose() {
             className="h-full w-full object-cover"
           />
         </div> */}
- <Image
-              title="Best immigration consultants in Delhi"
-              src={data?.img2}
-              alt="Best immigration consultants in Delhi"
-              className="h-full w-full object-cover"
-            />
+        <Image
+          title="Best immigration consultants in Delhi"
+          src={data?.img2}
+          alt="Best immigration consultants in Delhi"
+          className="h-full w-full object-cover"
+        />
         {/* <div
           className="h-full flex flex-col justify-between
         w-[48%] "

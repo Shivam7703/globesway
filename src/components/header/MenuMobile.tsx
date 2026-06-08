@@ -23,7 +23,7 @@ interface MenuMobileProps {
 const MenuMobile: React.FC<MenuMobileProps> = ({
   setIsMobileMenuOpen,
   onItemClick,
-  onTop
+  onTop,
 }) => {
   const pathname = usePathname();
   const [activeItem, setActiveItem] = useState<string | null>(null);
@@ -37,7 +37,7 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
   const toggleMenu = (level: number, id: string) => {
     setOpenMenus((prev) => ({
       ...prev,
-      [level]: prev[level] === id ? null : id
+      [level]: prev[level] === id ? null : id,
     }));
   };
 
@@ -59,8 +59,11 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
 
       return (
         <div key={`${level}-${id}`}>
-          <div className={`flex items-center justify-between ${padding} py-2 ${textColor} ${hoverText}`}>
-            <Link title={item.label}
+          <div
+            className={`flex items-center justify-between ${padding} py-2 ${textColor} ${hoverText}`}
+          >
+            <Link
+              title={item.label}
               href={item.href}
               className="whitespace-nowrap transition-all duration-300"
               onClick={() => !hasChildren && handleClick(item.href)}
@@ -69,12 +72,16 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
             </Link>
             {hasChildren && (
               <IoIosArrowDown
-                className={`cursor-pointer transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+                className={`cursor-pointer transition-transform duration-300 ${
+                  isOpen ? "rotate-180" : ""
+                }`}
                 onClick={() => toggleMenu(level, id)}
               />
             )}
           </div>
-          {hasChildren && isOpen && <div>{renderItems(children, level + 1)}</div>}
+          {hasChildren && isOpen && (
+            <div>{renderItems(children, level + 1)}</div>
+          )}
         </div>
       );
     });
@@ -86,18 +93,24 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
 
   return (
     <ul className="w-full flex flex-col">
-      {[...(navigationMenu?.primaryMenu || []), ...(navigationMenu?.secondaryMenu || [])].map((item) => (
-        <li key={item.id} className="border-b border-gray-100/20 last:border-none">
+      {[
+        ...(navigationMenu?.primaryMenu || []),
+        ...(navigationMenu?.secondaryMenu || []),
+      ].map((item) => (
+        <li
+          key={item.id}
+          className="border-b border-gray-100/20 last:border-none"
+        >
           {renderItems([item], 1)}
         </li>
       ))}
 
-       <Image
-                    title="Best immigration consultants in Delhi"
-                    src={logoall}
-                    alt="Best immigration consultants in Delhi"
-                    className="h-full w-[70%] mx-auto mt-16 object-cover"
-                  />
+      <Image
+        title="Best immigration consultants in Delhi"
+        src={logoall}
+        alt="Best immigration consultants in Delhi"
+        className="h-full w-[70%] mx-auto mt-16 object-cover"
+      />
     </ul>
   );
 };

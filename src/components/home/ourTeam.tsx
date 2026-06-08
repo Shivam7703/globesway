@@ -21,7 +21,7 @@ export default function Team() {
         {data?.team?.map((cards: any) => (
           <div
             key={cards.id}
-            className="lg:w-[31%] sm:w-[48%] text-center w-full group"
+            className=" sm:w-[45%] text-center w-full group"
           >
             {/* Card Content */}
             <div className="w-full h-max overflow-hidden group-hover:rounded-t-[250px] duration-500 relative">

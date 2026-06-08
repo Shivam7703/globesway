@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
+        <Script async 
           src={`https://www.googletagmanager.com/gtag/js?id=G-5XGX7LJ5NS`}
           strategy="beforeInteractive"
         />

@@ -8,14 +8,10 @@ import React from "react";
 export default function Page(): JSX.Element {
   return (
     <>
-      <AllBanner
-        img={about1}
-        title="Success Stories"
-        slug="success-stories"
-      />
+      <AllBanner img={about1} title="Success Stories" slug="success-stories" />
       <Success1 isHome={false} />
       <Stamp />
-      <Itc/>
+      <Itc />
     </>
   );
 }

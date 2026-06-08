@@ -13,7 +13,7 @@ function Queans({ faqData, title1, title2 }:any) {
        <div
         className=' w-full space-y-4'>
      {title1 && <h4 className='text-color1 font-medium text-lg w-max'>{title1}</h4>}
-         {title2 && <h2 className='text-zinc-800 font-bold text-3xl md:text-5xl !leading-[1.1]'>{title2} </h2>}
+         {title2 && <h6 className='text-zinc-800 font-bold text-3xl md:text-5xl !leading-[1.1]'>{title2} </h6>}
        {/* Cities as FAQ */}
        {faqData?.map((city :any , index: number) => (
                 <div key={index} className=" bg-zinc-100 p-5 rounded-lg">

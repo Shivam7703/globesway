@@ -47,11 +47,9 @@ import {
   banner,
   about4,
   banner4,
-  ravi,
   shresth,
-  sahiba,
-  rakshita,
   documentation1,
+  cofounder,
 } from "@/assets";
 import { animate } from "motion";
 import { BiMaleFemale } from "react-icons/bi";
@@ -123,7 +121,7 @@ export const navigationMenu = {
     },
     { id: 4, label: "Blogs", href: "/blogs" },
     { id: 5, label: "Contact Us", href: "/contact-us" },
-    { id: 6, label: "Pay Now", href: "/payment", animate: true},
+    { id: 6, label: "Pay Now", href: "/payment", animate: true },
   ],
 
   secondaryMenu: [
@@ -903,12 +901,12 @@ export const teamdata = {
     { id: 1, img: shresth, name: "Shreshth Taneja", para: "Founder & CEO" },
     {
       id: 4,
-      img: rakshita,
+      img: cofounder,
       name: "Rakshita Sobti",
-      para: "Co-Founder",
+      para: "Director & Co-Founder",
     },
 
-    { id: 2, img: ravi, name: "Ravi Kumar", para: "Branch Manager" },
+    // { id: 2, img: ravi, name: "Ravi Kumar", para: "Branch Manager" },
     // { id: 3, img: sahiba, name: "Sahiba Kaur", para: "Documentation Manager" },
   ],
 };
@@ -1097,9 +1095,9 @@ export const contactsec1 = {
       icon: <FaMapLocationDot />,
       title: "Address",
       text:
-        "Office no. 886-887, 8th Floor, AGGARWAL MILLENNIUM TOWER 2, Netaji Subhash Place, Pitampura, New Delhi, Delhi, 110034",
+        " Office 905, 9th Floor, Gopal Heights, Netaji Subhash Place, Delhi-110034",
       slug:
-        "https://www.google.com/maps/dir//Office+no.+887,+8th+Floor,+AGGARWAL+MILLENIUM+TOWER,+II,+Netaji+Subhash+Place,+Pitampura,+New+Delhi,+Delhi,+110034/@28.693772,77.0674182,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390d034f8893d0cd:0x9f30cf26433038ae!2m2!1d77.1498196!2d28.693797?entry=ttu&g_ep=EgoyMDI1MDgxOC4wIKXMDSoASAFQAw%3D%3D",
+        "https://www.google.com/maps/place/GLOBESWAY+IMMIGRATION+-+Best+Immigration+Consultants+%7C+Canada+PR+%26+Australia+PR+%7C+Visa+Consultants+In+Delhi/@28.6722542,77.1529361,13z/data=!4m10!1m2!2m1!1sOffice+905,+9th+Floor,+Gopal+Heights,+Netaji+Subhash+Place,+Delhi-110034!3m6!1s0x390d034f8893d0cd:0x9f30cf26433038ae!8m2!3d28.6914597!4d77.1503297!15sCkhPZmZpY2UgOTA1LCA5dGggRmxvb3IsIEdvcGFsIEhlaWdodHMsIE5ldGFqaSBTdWJoYXNoIFBsYWNlLCBEZWxoaS0xMTAwMzRaRiJEb2ZmaWNlIDkwNSA5dGggZmxvb3IgZ29wYWwgaGVpZ2h0cyBuZXRhamkgc3ViaGFzaCBwbGFjZSBkZWxoaSAxMTAwMzSSASZpbW1pZ3JhdGlvbl9hbmRfbmF0dXJhbGl6YXRpb25fc2VydmljZeABAA!16s%2Fg%2F11x7qhnmst?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D",
     },
   ],
 };

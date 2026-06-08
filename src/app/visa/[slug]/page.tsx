@@ -40,7 +40,7 @@ export async function generateMetadata({
   );
 
   if (!singleVisa) {
-    return {    };
+    return {};
   }
 
   const pageUrl = `https://globeswayimmigration.com/visa/${decodedSlug}`;

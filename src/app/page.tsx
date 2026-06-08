@@ -19,10 +19,13 @@ import Stamp from "@/components/succes-story/stamp";
 import Itc from "@/components/succes-story/itc";
 import { getBlogs } from "@/lib/getBlogs";
 
+// ✅ ISR — revalidate this page every 500 seconds (matches getBlogs fetch)
+export const revalidate = 2500;
+
 export const metadata: Metadata = {
-  title: "Best Immigration Consultants in Delhi | Visa Services",
+  title: "Best Immigration Consultants in Delhi NCR | Trusted Visa Services",
   description:
-    "Globesway Immigration offers expert visa services for PR, work, study, spouse, and tourist visas. Trusted consultants in Delhi with 99% success.",
+    "Globesway Immigration, the top Immigration Consultants In Delhi NCR, provides expert Visa Solutions In Delhi Like PR Visa & Work Visa. 99% clients satisfaction",
   keywords:
     "Visa, Work Permit, Work Visa, Tourist Visa, Best immigration consultants in Delhi",
   alternates: {
@@ -33,9 +36,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Best Immigration Consultants in Delhi | Visa Services",
+    title: "Best Immigration Consultants in Delhi NCR | Trusted Visa Services",
     description:
-      "Globesway Immigration offers expert visa services for PR, work, study, spouse, and tourist visas. Trusted consultants in Delhi with 99% success.",
+      "Globesway Immigration, the top Immigration Consultants In Delhi NCR, provides expert Visa Solutions In Delhi Like PR Visa & Work Visa. 99% clients satisfaction",
     url: "https://globeswayimmigration.com/",
     siteName: "Globesway Immigration",
     images: [
@@ -49,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Immigration Consultants in Delhi | Visa Services",
+    title: "Best Immigration Consultants in Delhi NCR | Trusted Visa Services",
     description:
       "Globesway Immigration offers expert visa services for PR, work, study, spouse, and tourist visas. Trusted consultants in Delhi with 99% success.",
     images: ["https://globeswayimmigration.com/default.webp"],
@@ -57,6 +60,8 @@ export const metadata: Metadata = {
 };
 
 export default async function Home() {
+  // ✅ This fetch uses ISR via revalidate: 500 in getBlogs()
+  // Next.js deduplicates this call automatically if used elsewhere on the page
   const allBlogs = await getBlogs();
 
   const structuredData = {
@@ -100,7 +105,7 @@ export default async function Home() {
         <Stamp />
         <Itc />
         <Team />
-        <Blogs data={allBlogs} isHome={true} currentPage={1} itemsPerPage={12}/>
+        <Blogs data={allBlogs} isHome={true} currentPage={1} itemsPerPage={12} />
       </main>
 
       {/* JSON-LD Schema for SEO */}

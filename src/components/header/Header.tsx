@@ -83,14 +83,22 @@ const Header = ({ header }: any) => {
               <ul className="flex gap-4 bg-red-50 p-3">
                 <li className="flex gap-2 text-sm">
                   <IoIosMail className="text-color1 text-lg" />
-                  <p className="text-zinc-700"><a href="mailto:info@globeswayimmigration.com">info@globeswayimmigration.com</a></p>
+                  <p className="text-zinc-700">
+                    <a href="mailto:info@globeswayimmigration.com">
+                      info@globeswayimmigration.com
+                    </a>
+                  </p>
                 </li>
 
                 <li className="flex gap-2 text-sm">
                   <FaLocationDot className="text-color1 text-lg" />
-                  <p className="text-zinc-700"><a href="https://www.google.com/maps/place/Globesway+Immigration+Pvt.+Ltd./@28.6937074,77.1472447,17z/data=!3m1!4b1!4m6!3m5!1s0x390d034f8893d0cd:0x9f30cf26433038ae!8m2!3d28.6937074!4d77.1498196!16s%2Fg%2F11x7qhnmst?entry=ttu&g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D">
-                    Office no. 886-887, 8th Floor, AGGARWAL MILLENNIUM TOWER 2,
-                    Delhi, 110034</a>
+                  <p className="text-zinc-700">
+                    <a href="https://www.google.com/maps/place/GLOBESWAY+IMMIGRATION+-+Best+Immigration+Consultants+%7C+Canada+PR+%26+Australia+PR+%7C+Visa+Consultants+In+Delhi/@28.6722542,77.1529361,13z/data=!4m10!1m2!2m1!1sOffice+905,+9th+Floor,+Gopal+Heights,+Netaji+Subhash+Place,+Delhi-110034!3m6!1s0x390d034f8893d0cd:0x9f30cf26433038ae!8m2!3d28.6914597!4d77.1503297!15sCkhPZmZpY2UgOTA1LCA5dGggRmxvb3IsIEdvcGFsIEhlaWdodHMsIE5ldGFqaSBTdWJoYXNoIFBsYWNlLCBEZWxoaS0xMTAwMzRaRiJEb2ZmaWNlIDkwNSA5dGggZmxvb3IgZ29wYWwgaGVpZ2h0cyBuZXRhamkgc3ViaGFzaCBwbGFjZSBkZWxoaSAxMTAwMzSSASZpbW1pZ3JhdGlvbl9hbmRfbmF0dXJhbGl6YXRpb25fc2VydmljZeABAA!16s%2Fg%2F11x7qhnmst?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Office 905, 9th Floor, Gopal Heights, Netaji Subhash Place, Delhi-110034
+                    </a>
                   </p>
                 </li>
               </ul>

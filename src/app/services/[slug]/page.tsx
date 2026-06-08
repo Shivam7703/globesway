@@ -40,8 +40,7 @@ export async function generateMetadata({
   );
 
   if (!singleService) {
-    return {
-    };
+    return {};
   }
 
   const pageUrl = `https://globeswayimmigration.com/services/${decodedSlug}`;

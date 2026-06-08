@@ -6,6 +6,7 @@ import { sliderText } from "@/utils/motion";
 import Link from "next/link";
 import { allbanner } from "@/assets";
 
+
 export default function AllBanner({ img, title, slug }: any) {
   return (
     <section className="relative min-h-[440px] h-[60vh] w-full ">

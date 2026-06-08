@@ -1,22 +1,20 @@
 import React from "react";
-import { founder, rakshita } from "@/assets";
+import { cofounder, founder, rakshita } from "@/assets";
 import Image from "next/image";
-import { LuQuote } from "react-icons/lu"; 
+import { LuQuote } from "react-icons/lu";
 const Aboutsec2 = () => {
   return (
     <section className="relative overflow-hidden pb-16 p-6">
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto group relative z-10">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 items-center gap-12 ">
           {/* Image Section */}
           <div className="relative group col-span-1">
-           
             <div className="relative overflow-hidden rounded-3xl mt-3">
               <div className="aspect-[4/5] relative">
-
                 <Image
                   src={founder}
                   alt="Best Immigration Consultants - Shreshth Taneja"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                   fill
                 />
 
@@ -38,7 +36,6 @@ const Aboutsec2 = () => {
           <div className="md:space-y-14 space-y-6 col-span-1 lg:col-span-2">
             {/* Header */}
             <div className="">
-              
               <h2 className="text-4xl -mt-2  lg:text-5xl font-bold text-black">
                 Meet Our Founder
               </h2>
@@ -100,15 +97,14 @@ const Aboutsec2 = () => {
           </div>
         </div>
       </div>
-     <div className="max-w-7xl mx-auto relative z-10 mt-8">
-  <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12 items-center">
-
-    {/* TEXT SECTION */}
-    <div className="md:space-y-14 space-y-6 col-span-1 lg:col-span-2 order-2 md:order-1">
-     {/* Header */}
+      <div className="max-w-7xl mx-auto group relative z-10 mt-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12 items-center">
+          {/* TEXT SECTION */}
+          <div className="md:space-y-14 space-y-6 col-span-1 lg:col-span-2 order-2 md:order-1">
+            {/* Header */}
             <div className="">
               <h2 className="text-4xl -mt-2  lg:text-5xl font-bold text-black">
-                Meet Our Co-founder
+                Meet Our Co-Founder
               </h2>
             </div>
 
@@ -124,24 +120,32 @@ const Aboutsec2 = () => {
 
                 <blockquote className="text-gray-700 text-lg leading-relaxed mb-6">
                   <span className="font-semibold text-color2">
-Rakshita Sobti {" "}
+                    Rakshita Sobti{" "}
                   </span>
-                   is the guiding force behind our commitment to excellence in{" "}
+                  is the guiding force behind our commitment to excellence in{" "}
                   <span className="font-semibold text-color2">
-global migration.                  </span>
-                  With deep expertise in Canada & Australia PR and Europe work visas, she delivers strategic, discreet, and highly personalized guidance for families and professionals seeking international opportunities. <br /> <br />
+                    global migration.{" "}
+                  </span>
+                  With deep expertise in Canada & Australia PR and Europe work
+                  visas, she delivers strategic, discreet, and highly
+                  personalized guidance for families and professionals seeking
+                  international opportunities. <br /> <br />
                   <span className="font-semibold text-black">
-“Migration is not just about moving countries—it’s about securing a future. Every client deserves honest guidance, thoughtful strategy, and complete confidence at every step.”                  </span>{" "}
-                 
-                  .
+                    “Migration is not just about moving countries—it’s about
+                    securing a future. Every client deserves honest guidance,
+                    thoughtful strategy, and complete confidence at every step.”
+                  </span>{" "}
                 </blockquote>
 
                 {/* Author */}
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="font-bold text-xl text-gray-900">
-— Rakshita Sobti                    </p>
-                    <p className="text-color1 font-medium">Co-founder</p>
+                      — Rakshita Sobti{" "}
+                    </p>
+                    <p className="text-color1 font-medium">
+                      Director & Co-Founder
+                    </p>
                   </div>
 
                   <div className="flex space-x-1">
@@ -156,17 +160,16 @@ global migration.                  </span>
                 <LuQuote className="w-12 h-12 text-color1/60" />
               </div>
             </div>
-    </div>
+          </div>
 
-    {/* IMAGE SECTION */}
-    <div className=" col-span-1 order-1 md:order-2">
-      <div className="relative overflow-hidden rounded-3xl mt-3">
+          {/* IMAGE SECTION */}
+          <div className=" col-span-1 order-1 md:order-2">
+            <div className="relative overflow-hidden rounded-3xl mt-3">
               <div className="aspect-[4/5] relative">
-
                 <Image
-                  src={rakshita}
+                  src={cofounder}
                   alt="Best Immigration Consultants - Rakshita Sobti"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                   fill
                 />
 
@@ -176,18 +179,17 @@ global migration.                  </span>
                     <p className="text-sm font-semibold text-gray-800">
                       Ms. Rakshita Sobti
                     </p>
-                    <p className="text-xs text-gray-600">Co-founder</p>
+                    <p className="text-xs text-gray-600">
+                      Director & Co-Founder
+                    </p>
                   </div>
                 </div>
               </div>
-
               <div className="absolute inset-0 rounded-3xl border border-white/20"></div>
             </div>
-    </div>
-
-  </div>
-</div>
-
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

@@ -1,3 +1,5 @@
+// app/blogs/page.tsx
+
 import { Metadata } from "next";
 import { about1 } from "@/assets";
 import AllBanner from "@/components/banner";
@@ -5,8 +7,11 @@ import BlogsClient from "@/components/blogs/BlogsClient";
 import { getBlogs } from "@/lib/getBlogs";
 import { Suspense } from "react";
 
+// ✅ ISR — revalidate every 500s (matches getBlogs fetch revalidate)
+export const revalidate = 2500;
+
 export const metadata: Metadata = {
-  title: "Blogs | Latest Immigration News",
+  title: "Blogs | Latest Immigration News",
   description:
     "Explore our latest news, trending blogs, and expert insights. Stay informed with fresh updates to keep you ahead in knowledge and ideas.",
   keywords:
@@ -19,7 +24,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Blogs | Latest Immigration News",
+    title: "Blogs | Latest Immigration News",
     description:
       "Explore our latest news, trending blogs, and expert insights. Stay informed with fresh updates to keep you ahead in knowledge and ideas.",
     url: "https://globeswayimmigration.com/blogs",
@@ -36,6 +41,7 @@ export const metadata: Metadata = {
 };
 
 export default async function BlogsPage() {
+  // ✅ fetch-level revalidate: 500 already set inside getBlogs()
   const allBlogs = await getBlogs();
 
   const schemaData = {
@@ -67,12 +73,14 @@ export default async function BlogsPage() {
           para="Stay informed with Globesway Immigration blogs—covering the latest visa updates, immigration trends, and expert insights to guide your global journey."
         />
 
-        {/* Wrap Client Component in Suspense */}
-        <Suspense fallback={
-          <div className="flex justify-center items-center min-h-[400px]">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-color1"></div>
-          </div>
-        }>
+        {/* ✅ Suspense handles BlogsClient (client component) gracefully */}
+        <Suspense
+          fallback={
+            <div className="flex justify-center items-center min-h-[400px]">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-color1"></div>
+            </div>
+          }
+        >
           <BlogsClient allBlogs={allBlogs} />
         </Suspense>
       </main>

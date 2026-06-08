@@ -86,6 +86,7 @@ import {
   manipoint,
   novapoint,
   ontariocal,
+  germany,
 } from "@/assets";
 
 export const visas = [
@@ -364,7 +365,7 @@ export const visas = [
           { id: 6, text: "Social Security & Retirement Benefits." },
         ],
       },
-        {
+      {
         id: 12,
         heading: "How much will it cost to apply for Canada PR?",
         para: [
@@ -377,15 +378,18 @@ export const visas = [
         list: [
           {
             id: 1,
-            text: "The total cost of applying for Canada PR generally ranges from ₹80,000 to ₹4,00,000+.",
+            text:
+              "The total cost of applying for Canada PR generally ranges from ₹80,000 to ₹4,00,000+.",
           },
           {
             id: 2,
-            text: "The final amount depends on your profile, chosen immigration program, IELTS, ECA, medical examinations, police clearance, and consultancy services.",
+            text:
+              "The final amount depends on your profile, chosen immigration program, IELTS, ECA, medical examinations, police clearance, and consultancy services.",
           },
           {
             id: 3,
-            text: "While government fees are fixed, additional service charges may vary.",
+            text:
+              "While government fees are fixed, additional service charges may vary.",
           },
           {
             id: 4,
@@ -2156,7 +2160,7 @@ export const visas = [
 
   {
     id: 12,
-    img: about2,
+    img: germany,
     metaTitle: "Germany Work Visa—Apply Step by Step",
     metaDesc:
       "Apply for a Germany work visa today. Follow the step-by-step process for successful application, faster approval, and bright career opportunities abroad.",
@@ -7649,325 +7653,323 @@ export const visas = [
           },
         ],
       },
-      
-        {
-          id: 2,
-          heading: "Benefits of the Saskatchewan PNP",
-          list: [
-            {
-              id: 1,
-              text:
-                "The process is fast. In many cases, applications are processed in under 3 months.",
-            },
-            {
-              id: 2,
-              text: "Some categories don’t require a job offer to apply.",
-            },
-            {
-              id: 3,
-              text:
-                "You can include your spouse and children in your application.",
-            },
-            {
-              id: 4,
-              text: "The province helps new immigrants settle comfortably.",
-            },
-            {
-              id: 5,
-              text:
-                "You’ll get access to healthcare, free public education, and other provincial benefits.",
-            },
-            {
-              id: 6,
-              text:
-                "Several streams make it easier to find a program that suits your background.",
-            },
-            {
-              id: 7,
-              text:
-                "You can invest in businesses or farms under specific categories",
-            },
-            {
-              id: 8,
-              text: "Saskatchewan has a strong job market in many sectors.",
-            },
-            {
-              id: 9,
-              text:
-                "The cost of living is lower compared to other Canadian provinces.",
-            },
-            {
-              id: 10,
-              text:
-                "Education is free till higher secondary in public schools.",
-            },
-          ],
-        },
-        {
-          id: 3,
-          heading: "Eligibility Criteria for Saskatchewan PNP",
-          para: [
-            {
-              id: 1,
-              text:
-                "While each stream has different requirements, there are some basic criteria all applicants must meet—",
-            },
-          ],
-          list: [
-            {
-              id: 1,
-              text: "You must have work experience related to your job field.",
-            },
-            {
-              id: 2,
-              text:
-                "A relevant diploma, bachelor’s, or master’s degree is required from a recognized institution.",
-            },
-            {
-              id: 3,
-              text:
-                "You must show proof of language skills (English or French).",
-            },
-            {
-              id: 4,
-              text:
-                "Some programs may ask for a Canadian Language Benchmark (CLB) score of 4 to 5.",
-            },
-            { id: 5, text: "A valid job offer is required for some streams." },
-            { id: 6, text: "You must have enough settlement funds." },
-            {
-              id: 7,
-              text:
-                "Medical records and police clearance certificates are needed.",
-            },
-            {
-              id: 8,
-              text:
-                "You must show the intention to settle in Saskatchewan long-term.",
-            },
-          ],
-        },
-        {
-          id: 4,
-          heading: "How to Apply for Saskatchewan PNP",
-          para: [
-            {
-              id: 1,
-              text:
-                "The application process is mostly online and depends on the stream you apply for. Here's a general step-by-step process—",
-            },
-          ],
-          list: [
-            {
-              id: 1,
-              text:
-                "Check all the eligibility requirements for your desired stream.",
-            },
-            {
-              id: 2,
-              text:
-                "Gather all the required documents, including test scores and work proof.",
-            },
-            {
-              id: 3,
-              text: "Take your language proficiency test (like IELTS).",
-            },
-            {
-              id: 4,
-              text:
-                "Submit an Expression of Interest (EOI) through the SINP system.",
-            },
-            {
-              id: 5,
-              text: "If selected, you’ll receive an Invitation to Apply (ITA).",
-            },
-            {
-              id: 6,
-              text:
-                "Submit your complete application and documents in PDF format.",
-            },
-            {
-              id: 7,
-              text:
-                "If approved, you’ll receive a Provincial Nomination Certification",
-            },
-            {
-              id: 8,
-              text:
-                "Apply for Canadian Permanent Residence through IRCC with your nomination.",
-            },
-          ],
-        },
-        {
-          id: 5,
-          heading: "Required Documents for Saskatchewan PNP",
-          para: [
-            {
-              id: 1,
-              text:
-                "The documents may vary by stream, but here are the most common ones—",
-            },
-          ],
-          list: [
-            { id: 1, text: "Passport and government-issued ID" },
-            { id: 2, text: "Birth certificate" },
-            { id: 3, text: "Language test results (IELTS or TEF)" },
-            {
-              id: 4,
-              text: "Educational credentials (degrees, diplomas, transcripts)",
-            },
-            { id: 5, text: "Proof of work experience" },
-            { id: 6, text: "Police clearance certificate" },
-            { id: 7, text: "Medical examination results" },
-            { id: 8, text: "Employment offer (if required)" },
-            { id: 9, text: "Proof of settlement funds" },
-            { id: 10, text: "Marriage certificate (if applicable)" },
-          ],
-        },
-        {
-          id: 6,
-          heading: "Processing Time for Saskatchewan PNP",
-          para: [
-            {
-              id: 2,
-              text:
-                "Some streams, like Occupation-In-Demand, can be faster. A well-prepared application with complete and valid documents helps speed up the process. Always stay updated through the official SINP website or consult with an immigration expert like Globesway.",
-            },
-            {
-              id: 1,
-              text:
-                "Processing time usually ranges between 6 to 12 months, depending on—",
-            },
-          ],
-          list: [
-            { id: 1, text: "The stream you apply under" },
-            { id: 2, text: "The volume of applications" },
-            { id: 3, text: "Accuracy and completeness of your documents" },
-          ],
-        },
-        {
-          id: 7,
-          heading: "Streams Under Saskatchewan PNP",
-          para: [
-            {
-              id: 1,
-              text:
-                "Saskatchewan offers multiple immigration streams to match different candidate profiles—",
-            },
-          ],
-          list: [
-            { id: 1, text: "International Skilled Worker Category" },
-            {
-              id: 2,
-              text:
-                "Employment Offer—For candidates with a valid job offer from a Saskatchewan employer.",
-            },
-            {
-              id: 3,
-              text:
-                "Occupation-In-Demand—For skilled workers without a job offer but in an in-demand occupation.",
-            },
-            {
-              id: 4,
-              text:
-                "Express Entry—For candidates already in the Express Entry pool who want to live in Saskatchewan.",
-            },
-            { id: 5, text: "Saskatchewan Experience Category" },
-            {
-              id: 6,
-              text:
-                "Skilled Workers with Work Permits—For individuals working in Saskatchewan for at least 6 months.",
-            },
-            {
-              id: 7,
-              text:
-                "Agriculture Workers—For semi-skilled workers in farming, working for at least 6 months.",
-            },
-            {
-              id: 8,
-              text:
-                "Health Professionals—For doctors, nurses, and other healthcare workers.",
-            },
-            {
-              id: 9,
-              text:
-                "Hospitality Workers—For those in food service or hotel industries, working for at least 3 months.",
-            },
-            {
-              id: 10,
-              text:
-                "Long-Haul Truck Drivers—With 6 months of experience in Saskatchewan.",
-            },
-            {
-              id: 11,
-              text:
-                "Students—Graduates from Saskatchewan institutions looking to settle in the province.",
-            },
-            { id: 12, text: "Entrepreneur and Farm Category" },
-            {
-              id: 13,
-              text:
-                "Entrepreneurs—For people who want to start or invest in a business in Saskatchewan.",
-            },
-            {
-              id: 14,
-              text:
-                "Farm Operators—For experienced farmers looking to start or buy a farm in the province.",
-            },
-            { id: 15, text: "International Graduate Entrepreneur Category" },
-            {
-              id: 16,
-              text:
-                "For international students who graduated from a Saskatchewan college or university and want to start a business.",
-            },
-          ],
-        },
-        {
-          id: 8,
-          heading: "Why Choose Globesway Immigration?",
-          list: [
-            {
-              id: 1,
-              text:
-                "We guide you at every step, from selecting the right stream to submitting a perfect application.",
-            },
-            {
-              id: 2,
-              text:
-                "We don’t follow a “one-size-fits-all” model—our solutions are based on your profile and goals.",
-            },
-            {
-              id: 3,
-              text:
-                "We offer transparent pricing, no hidden charges, and regular updates on your case.",
-            },
-            {
-              id: 4,
-              text:
-                "Our team stays updated on all immigration rules and ensures your application meets legal standards.",
-            },
-            {
-              id: 5,
-              text:
-                "We offer free consultation sessions to help you decide the best immigration option.",
-            },
-            {
-              id: 6,
-              text:
-                "Our success rate is high, and we’re trusted by thousands of clients for genuine and reliable service.",
-            },
-            {
-              id: 7,
-              text:
-                "Need help post-PR? We support job hunting and settling in selected cases.",
-            },
-            {
-              id: 8,
-              text:
-                "With years of experience, we make your immigration journey easier, faster, and safer.",
-            },
-          ],
-        },
+
+      {
+        id: 2,
+        heading: "Benefits of the Saskatchewan PNP",
+        list: [
+          {
+            id: 1,
+            text:
+              "The process is fast. In many cases, applications are processed in under 3 months.",
+          },
+          {
+            id: 2,
+            text: "Some categories don’t require a job offer to apply.",
+          },
+          {
+            id: 3,
+            text:
+              "You can include your spouse and children in your application.",
+          },
+          {
+            id: 4,
+            text: "The province helps new immigrants settle comfortably.",
+          },
+          {
+            id: 5,
+            text:
+              "You’ll get access to healthcare, free public education, and other provincial benefits.",
+          },
+          {
+            id: 6,
+            text:
+              "Several streams make it easier to find a program that suits your background.",
+          },
+          {
+            id: 7,
+            text:
+              "You can invest in businesses or farms under specific categories",
+          },
+          {
+            id: 8,
+            text: "Saskatchewan has a strong job market in many sectors.",
+          },
+          {
+            id: 9,
+            text:
+              "The cost of living is lower compared to other Canadian provinces.",
+          },
+          {
+            id: 10,
+            text: "Education is free till higher secondary in public schools.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        heading: "Eligibility Criteria for Saskatchewan PNP",
+        para: [
+          {
+            id: 1,
+            text:
+              "While each stream has different requirements, there are some basic criteria all applicants must meet—",
+          },
+        ],
+        list: [
+          {
+            id: 1,
+            text: "You must have work experience related to your job field.",
+          },
+          {
+            id: 2,
+            text:
+              "A relevant diploma, bachelor’s, or master’s degree is required from a recognized institution.",
+          },
+          {
+            id: 3,
+            text: "You must show proof of language skills (English or French).",
+          },
+          {
+            id: 4,
+            text:
+              "Some programs may ask for a Canadian Language Benchmark (CLB) score of 4 to 5.",
+          },
+          { id: 5, text: "A valid job offer is required for some streams." },
+          { id: 6, text: "You must have enough settlement funds." },
+          {
+            id: 7,
+            text:
+              "Medical records and police clearance certificates are needed.",
+          },
+          {
+            id: 8,
+            text:
+              "You must show the intention to settle in Saskatchewan long-term.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        heading: "How to Apply for Saskatchewan PNP",
+        para: [
+          {
+            id: 1,
+            text:
+              "The application process is mostly online and depends on the stream you apply for. Here's a general step-by-step process—",
+          },
+        ],
+        list: [
+          {
+            id: 1,
+            text:
+              "Check all the eligibility requirements for your desired stream.",
+          },
+          {
+            id: 2,
+            text:
+              "Gather all the required documents, including test scores and work proof.",
+          },
+          {
+            id: 3,
+            text: "Take your language proficiency test (like IELTS).",
+          },
+          {
+            id: 4,
+            text:
+              "Submit an Expression of Interest (EOI) through the SINP system.",
+          },
+          {
+            id: 5,
+            text: "If selected, you’ll receive an Invitation to Apply (ITA).",
+          },
+          {
+            id: 6,
+            text:
+              "Submit your complete application and documents in PDF format.",
+          },
+          {
+            id: 7,
+            text:
+              "If approved, you’ll receive a Provincial Nomination Certification",
+          },
+          {
+            id: 8,
+            text:
+              "Apply for Canadian Permanent Residence through IRCC with your nomination.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        heading: "Required Documents for Saskatchewan PNP",
+        para: [
+          {
+            id: 1,
+            text:
+              "The documents may vary by stream, but here are the most common ones—",
+          },
+        ],
+        list: [
+          { id: 1, text: "Passport and government-issued ID" },
+          { id: 2, text: "Birth certificate" },
+          { id: 3, text: "Language test results (IELTS or TEF)" },
+          {
+            id: 4,
+            text: "Educational credentials (degrees, diplomas, transcripts)",
+          },
+          { id: 5, text: "Proof of work experience" },
+          { id: 6, text: "Police clearance certificate" },
+          { id: 7, text: "Medical examination results" },
+          { id: 8, text: "Employment offer (if required)" },
+          { id: 9, text: "Proof of settlement funds" },
+          { id: 10, text: "Marriage certificate (if applicable)" },
+        ],
+      },
+      {
+        id: 6,
+        heading: "Processing Time for Saskatchewan PNP",
+        para: [
+          {
+            id: 2,
+            text:
+              "Some streams, like Occupation-In-Demand, can be faster. A well-prepared application with complete and valid documents helps speed up the process. Always stay updated through the official SINP website or consult with an immigration expert like Globesway.",
+          },
+          {
+            id: 1,
+            text:
+              "Processing time usually ranges between 6 to 12 months, depending on—",
+          },
+        ],
+        list: [
+          { id: 1, text: "The stream you apply under" },
+          { id: 2, text: "The volume of applications" },
+          { id: 3, text: "Accuracy and completeness of your documents" },
+        ],
+      },
+      {
+        id: 7,
+        heading: "Streams Under Saskatchewan PNP",
+        para: [
+          {
+            id: 1,
+            text:
+              "Saskatchewan offers multiple immigration streams to match different candidate profiles—",
+          },
+        ],
+        list: [
+          { id: 1, text: "International Skilled Worker Category" },
+          {
+            id: 2,
+            text:
+              "Employment Offer—For candidates with a valid job offer from a Saskatchewan employer.",
+          },
+          {
+            id: 3,
+            text:
+              "Occupation-In-Demand—For skilled workers without a job offer but in an in-demand occupation.",
+          },
+          {
+            id: 4,
+            text:
+              "Express Entry—For candidates already in the Express Entry pool who want to live in Saskatchewan.",
+          },
+          { id: 5, text: "Saskatchewan Experience Category" },
+          {
+            id: 6,
+            text:
+              "Skilled Workers with Work Permits—For individuals working in Saskatchewan for at least 6 months.",
+          },
+          {
+            id: 7,
+            text:
+              "Agriculture Workers—For semi-skilled workers in farming, working for at least 6 months.",
+          },
+          {
+            id: 8,
+            text:
+              "Health Professionals—For doctors, nurses, and other healthcare workers.",
+          },
+          {
+            id: 9,
+            text:
+              "Hospitality Workers—For those in food service or hotel industries, working for at least 3 months.",
+          },
+          {
+            id: 10,
+            text:
+              "Long-Haul Truck Drivers—With 6 months of experience in Saskatchewan.",
+          },
+          {
+            id: 11,
+            text:
+              "Students—Graduates from Saskatchewan institutions looking to settle in the province.",
+          },
+          { id: 12, text: "Entrepreneur and Farm Category" },
+          {
+            id: 13,
+            text:
+              "Entrepreneurs—For people who want to start or invest in a business in Saskatchewan.",
+          },
+          {
+            id: 14,
+            text:
+              "Farm Operators—For experienced farmers looking to start or buy a farm in the province.",
+          },
+          { id: 15, text: "International Graduate Entrepreneur Category" },
+          {
+            id: 16,
+            text:
+              "For international students who graduated from a Saskatchewan college or university and want to start a business.",
+          },
+        ],
+      },
+      {
+        id: 8,
+        heading: "Why Choose Globesway Immigration?",
+        list: [
+          {
+            id: 1,
+            text:
+              "We guide you at every step, from selecting the right stream to submitting a perfect application.",
+          },
+          {
+            id: 2,
+            text:
+              "We don’t follow a “one-size-fits-all” model—our solutions are based on your profile and goals.",
+          },
+          {
+            id: 3,
+            text:
+              "We offer transparent pricing, no hidden charges, and regular updates on your case.",
+          },
+          {
+            id: 4,
+            text:
+              "Our team stays updated on all immigration rules and ensures your application meets legal standards.",
+          },
+          {
+            id: 5,
+            text:
+              "We offer free consultation sessions to help you decide the best immigration option.",
+          },
+          {
+            id: 6,
+            text:
+              "Our success rate is high, and we’re trusted by thousands of clients for genuine and reliable service.",
+          },
+          {
+            id: 7,
+            text:
+              "Need help post-PR? We support job hunting and settling in selected cases.",
+          },
+          {
+            id: 8,
+            text:
+              "With years of experience, we make your immigration journey easier, faster, and safer.",
+          },
+        ],
+      },
     ],
     questions: [
       {
@@ -10638,110 +10640,288 @@ export const visas = [
           { id: 6, text: "Adaptability—Max 10 points" },
         ],
         table: {
-  theading: [
-    { id: 1, text: "Selection Factor" },
-    { id: 2, text: "Criteria" },
-    { id: 3, text: "Points" },
-  ],
-  trows: [
-    {
-      id: 1,
-      tcols: [
-        { id: 1, text: "Age" },
-        { id: 2, text: "18–35 years" },
-        { id: 3, text: "12" },
-      ],
-    },
-    { id: 2, tcols: [{ id: 1, text: "" }, { id: 2, text: "36 years" }, { id: 3, text: "11" }] },
-    { id: 3, tcols: [{ id: 1, text: "" }, { id: 2, text: "37 years" }, { id: 3, text: "10" }] },
-    { id: 4, tcols: [{ id: 1, text: "" }, { id: 2, text: "38 years" }, { id: 3, text: "9" }] },
-    { id: 5, tcols: [{ id: 1, text: "" }, { id: 2, text: "39 years" }, { id: 3, text: "8" }] },
-    { id: 6, tcols: [{ id: 1, text: "" }, { id: 2, text: "40 years" }, { id: 3, text: "7" }] },
-    { id: 7, tcols: [{ id: 1, text: "" }, { id: 2, text: "41 years" }, { id: 3, text: "6" }] },
-    { id: 8, tcols: [{ id: 1, text: "" }, { id: 2, text: "42 years" }, { id: 3, text: "5" }] },
-    { id: 9, tcols: [{ id: 1, text: "" }, { id: 2, text: "43 years" }, { id: 3, text: "4" }] },
-    { id: 10, tcols: [{ id: 1, text: "" }, { id: 2, text: "44 years" }, { id: 3, text: "3" }] },
-    { id: 11, tcols: [{ id: 1, text: "" }, { id: 2, text: "45 years" }, { id: 3, text: "2" }] },
-    { id: 12, tcols: [{ id: 1, text: "" }, { id: 2, text: "46 years" }, { id: 3, text: "1" }] },
-    { id: 13, tcols: [{ id: 1, text: "" }, { id: 2, text: "47 years & above" }, { id: 3, text: "0" }] },
+          theading: [
+            { id: 1, text: "Selection Factor" },
+            { id: 2, text: "Criteria" },
+            { id: 3, text: "Points" },
+          ],
+          trows: [
+            {
+              id: 1,
+              tcols: [
+                { id: 1, text: "Age" },
+                { id: 2, text: "18–35 years" },
+                { id: 3, text: "12" },
+              ],
+            },
+            {
+              id: 2,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "36 years" },
+                { id: 3, text: "11" },
+              ],
+            },
+            {
+              id: 3,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "37 years" },
+                { id: 3, text: "10" },
+              ],
+            },
+            {
+              id: 4,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "38 years" },
+                { id: 3, text: "9" },
+              ],
+            },
+            {
+              id: 5,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "39 years" },
+                { id: 3, text: "8" },
+              ],
+            },
+            {
+              id: 6,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "40 years" },
+                { id: 3, text: "7" },
+              ],
+            },
+            {
+              id: 7,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "41 years" },
+                { id: 3, text: "6" },
+              ],
+            },
+            {
+              id: 8,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "42 years" },
+                { id: 3, text: "5" },
+              ],
+            },
+            {
+              id: 9,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "43 years" },
+                { id: 3, text: "4" },
+              ],
+            },
+            {
+              id: 10,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "44 years" },
+                { id: 3, text: "3" },
+              ],
+            },
+            {
+              id: 11,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "45 years" },
+                { id: 3, text: "2" },
+              ],
+            },
+            {
+              id: 12,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "46 years" },
+                { id: 3, text: "1" },
+              ],
+            },
+            {
+              id: 13,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "47 years & above" },
+                { id: 3, text: "0" },
+              ],
+            },
 
-    {
-      id: 14,
-      tcols: [
-        { id: 1, text: "Education" },
-        { id: 2, text: "Doctoral (PhD) level" },
-        { id: 3, text: "25" },
-      ],
-    },
-    { id: 15, tcols: [{ id: 1, text: "" }, { id: 2, text: "Master’s / Professional degree" }, { id: 3, text: "23" }] },
-    { id: 16, tcols: [{ id: 1, text: "" }, { id: 2, text: "Two or more post-secondary credentials (one with at least 3 years)" }, { id: 3, text: "22" }] },
-    { id: 17, tcols: [{ id: 1, text: "" }, { id: 2, text: "Three-year post-secondary credential" }, { id: 3, text: "21" }] },
-    { id: 18, tcols: [{ id: 1, text: "" }, { id: 2, text: "Two-year post-secondary credential" }, { id: 3, text: "19" }] },
-    { id: 19, tcols: [{ id: 1, text: "" }, { id: 2, text: "One-year post-secondary credential" }, { id: 3, text: "15" }] },
-    { id: 20, tcols: [{ id: 1, text: "" }, { id: 2, text: "Secondary school" }, { id: 3, text: "5" }] },
+            {
+              id: 14,
+              tcols: [
+                { id: 1, text: "Education" },
+                { id: 2, text: "Doctoral (PhD) level" },
+                { id: 3, text: "25" },
+              ],
+            },
+            {
+              id: 15,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Master’s / Professional degree" },
+                { id: 3, text: "23" },
+              ],
+            },
+            {
+              id: 16,
+              tcols: [
+                { id: 1, text: "" },
+                {
+                  id: 2,
+                  text:
+                    "Two or more post-secondary credentials (one with at least 3 years)",
+                },
+                { id: 3, text: "22" },
+              ],
+            },
+            {
+              id: 17,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Three-year post-secondary credential" },
+                { id: 3, text: "21" },
+              ],
+            },
+            {
+              id: 18,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Two-year post-secondary credential" },
+                { id: 3, text: "19" },
+              ],
+            },
+            {
+              id: 19,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "One-year post-secondary credential" },
+                { id: 3, text: "15" },
+              ],
+            },
+            {
+              id: 20,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Secondary school" },
+                { id: 3, text: "5" },
+              ],
+            },
 
-    {
-      id: 21,
-      tcols: [
-        { id: 1, text: "Work Experience" },
-        { id: 2, text: "1 year" },
-        { id: 3, text: "9" },
-      ],
-    },
-    { id: 22, tcols: [{ id: 1, text: "" }, { id: 2, text: "2–3 years" }, { id: 3, text: "11" }] },
-    { id: 23, tcols: [{ id: 1, text: "" }, { id: 2, text: "4–5 years" }, { id: 3, text: "13" }] },
-    { id: 24, tcols: [{ id: 1, text: "" }, { id: 2, text: "6+ years" }, { id: 3, text: "15" }] },
+            {
+              id: 21,
+              tcols: [
+                { id: 1, text: "Work Experience" },
+                { id: 2, text: "1 year" },
+                { id: 3, text: "9" },
+              ],
+            },
+            {
+              id: 22,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "2–3 years" },
+                { id: 3, text: "11" },
+              ],
+            },
+            {
+              id: 23,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "4–5 years" },
+                { id: 3, text: "13" },
+              ],
+            },
+            {
+              id: 24,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "6+ years" },
+                { id: 3, text: "15" },
+              ],
+            },
 
-    {
-      id: 25,
-      tcols: [
-        { id: 1, text: "Language Proficiency (English/French)" },
-        { id: 2, text: "CLB 9 or higher" },
-        { id: 3, text: "24 (first language)" },
-      ],
-    },
-    { id: 26, tcols: [{ id: 1, text: "" }, { id: 2, text: "Second official language" }, { id: 3, text: "Up to 4" }] },
+            {
+              id: 25,
+              tcols: [
+                { id: 1, text: "Language Proficiency (English/French)" },
+                { id: 2, text: "CLB 9 or higher" },
+                { id: 3, text: "24 (first language)" },
+              ],
+            },
+            {
+              id: 26,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Second official language" },
+                { id: 3, text: "Up to 4" },
+              ],
+            },
 
-    {
-      id: 27,
-      tcols: [
-        { id: 1, text: "Arranged Employment" },
-        { id: 2, text: "Valid Canadian job offer" },
-        { id: 3, text: "10" },
-      ],
-    },
+            {
+              id: 27,
+              tcols: [
+                { id: 1, text: "Arranged Employment" },
+                { id: 2, text: "Valid Canadian job offer" },
+                { id: 3, text: "10" },
+              ],
+            },
 
-    {
-      id: 28,
-      tcols: [
-        { id: 1, text: "Adaptability" },
-        { id: 2, text: "Spouse’s education" },
-        { id: 3, text: "5" },
-      ],
-    },
-    { id: 29, tcols: [{ id: 1, text: "" }, { id: 2, text: "Previous study in Canada" }, { id: 3, text: "5" }] },
-    { id: 30, tcols: [{ id: 1, text: "" }, { id: 2, text: "Previous work in Canada" }, { id: 3, text: "10" }] },
-    { id: 31, tcols: [{ id: 1, text: "" }, { id: 2, text: "Relatives in Canada" }, { id: 3, text: "5" }] },
+            {
+              id: 28,
+              tcols: [
+                { id: 1, text: "Adaptability" },
+                { id: 2, text: "Spouse’s education" },
+                { id: 3, text: "5" },
+              ],
+            },
+            {
+              id: 29,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Previous study in Canada" },
+                { id: 3, text: "5" },
+              ],
+            },
+            {
+              id: 30,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Previous work in Canada" },
+                { id: 3, text: "10" },
+              ],
+            },
+            {
+              id: 31,
+              tcols: [
+                { id: 1, text: "" },
+                { id: 2, text: "Relatives in Canada" },
+                { id: 3, text: "5" },
+              ],
+            },
 
-    {
-      id: 32,
-      tcols: [
-        { id: 1, text: "Total" },
-        { id: 2, text: "Maximum Points" },
-        { id: 3, text: "100" },
-      ],
-    },
-    {
-      id: 33,
-      tcols: [
-        { id: 1, text: "Eligibility" },
-        { id: 2, text: "Minimum Required" },
-        { id: 3, text: "67" },
-      ],
-    },
-  ],
-}
-,
+            {
+              id: 32,
+              tcols: [
+                { id: 1, text: "Total" },
+                { id: 2, text: "Maximum Points" },
+                { id: 3, text: "100" },
+              ],
+            },
+            {
+              id: 33,
+              tcols: [
+                { id: 1, text: "Eligibility" },
+                { id: 2, text: "Minimum Required" },
+                { id: 3, text: "67" },
+              ],
+            },
+          ],
+        },
       },
       {
         id: 11,

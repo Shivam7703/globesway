@@ -158,7 +158,7 @@ export default function PrivacyPolicy() {
           <b>Phone:</b> +91 92202 92921
         </p>
         <p className="text-sm">
-          <b>Office Address:</b> Office no. 886-887, 8th Floor, AGGARWAL MILLENNIUM TOWER 2, Netaji Subhash Place, Pitampura, New Delhi, Delhi, 110034
+          <b>Office Address:</b>  Office 905, 9th Floor, Gopal Heights, Netaji Subhash Place, Delhi-110034
         </p>
       </Section>
     </main>

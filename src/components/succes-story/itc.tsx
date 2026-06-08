@@ -7,7 +7,29 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
-import { itc1, itc10, itc11, itc2, itc3, itc4, itc5, itc6, itc7, itc8, itc9, itc12, itc13, itc14, itc15, itc16, itc17, itc18, itc19, itc20, itc21 } from "@/assets";
+import {
+  itc1,
+  itc10,
+  itc11,
+  itc2,
+  itc3,
+  itc4,
+  itc5,
+  itc6,
+  itc7,
+  itc8,
+  itc9,
+  itc12,
+  itc13,
+  itc14,
+  itc15,
+  itc16,
+  itc17,
+  itc18,
+  itc19,
+  itc20,
+  itc21,
+} from "@/assets";
 import Image from "next/image";
 
 export default function Itc() {
@@ -97,8 +119,15 @@ export default function Itc() {
             key={cards.id}
             className="mb-12 w-full text-left relative rounded-2xl shadow-xl flex items-center justify-center"
           >
-            <div onClick={() => handleImageClick(index)} className="cursor-pointer relative">
-              <Image src={cards.img} alt="Best Immigration Consultants" className="w-full h-full object-cover" />
+            <div
+              onClick={() => handleImageClick(index)}
+              className="cursor-pointer relative"
+            >
+              <Image
+                src={cards.img}
+                alt="Best Immigration Consultants"
+                className="w-full h-full object-cover"
+              />
               <div className="text-white bg-color1 bg-opacity-80 p-4 absolute bottom-0 left-0 w-full">
                 <p className="text-sm font-semibold">{cards.text}</p>
               </div>
@@ -156,9 +185,7 @@ export default function Itc() {
             <Image
               src={stamp[photoIndex].img}
               alt={stamp[photoIndex].text}
-              className="w-full h-full object-contain"
-              width={1200}
-              height={800}
+              className="w-auto mx-auto max-h-screen h-full object-contain"
             />
             {/* Image Caption */}
             <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-4 text-center">

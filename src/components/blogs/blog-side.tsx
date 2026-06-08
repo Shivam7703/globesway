@@ -39,8 +39,6 @@ const data = [
   },
 ];
 
-
-
 async function BlogAside() {
   const blogsData = await getBlogs();
   const latestBlogs = blogsData.slice(0, 3); // Get first 3 blogs
@@ -51,7 +49,6 @@ async function BlogAside() {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "");
-
 
   return (
     <div className="space-y-6">
@@ -143,20 +140,20 @@ async function BlogAside() {
           width={400}
           height={520}
         />
-        
+
         {/* Enhanced gradient overlay */}
-        
+
         <div className="absolute z-20 w-full  bg-gradient-to-t from-black via-black/50 to-black/0 group-hover:backdrop-blur-none backdrop-blur-sm p-8 md:p-10 flex text-white items-end h-full top-0 left-0">
           <div className="space-y-3 transform group-hover:translate-y-0 translate-y-1 transition-transform duration-300">
             {/* Badge */}
-              <h4 className="text-xs font-extrabold text-white tracking-wide">
-                NEED HELP!
-              </h4>
-            
+            <h4 className="text-xs font-extrabold text-white tracking-wide">
+              NEED HELP!
+            </h4>
+
             <h2 className="sm:text-4xl text-3xl font-bold leading-tight">
               Contact Support
             </h2>
-            
+
             <p className="text-sm leading-relaxed text-gray-100 max-w-sm">
               Contact our support team of friendly people and request fast
               assistance and professional advice concerning visas and travel
@@ -179,7 +176,6 @@ async function BlogAside() {
             </Link>
           </div>
         </div>
-
       </div>
     </div>
   );

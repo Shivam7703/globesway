@@ -18,16 +18,16 @@ function AboutSection() {
         variants={fadeIn("right", "tween", 0.3, 1)}
         className="sm:w-[45%] w-full min-h-[450px] relative  group"
       >
-        <div className="space-y-7  relative h-full ">
-      l    {data?.img1 && (
+        <div className="space-y-7 relative h-full ">
+          {data?.img1 && (
             <video
       src="https://globeswayimmigration.com/about.mp4"
       autoPlay
       loop
-      muted
+      muted 
         playsInline
 
-      className="absolute bottom-0 left-0 h-[100%] w-[90%] object-cover"
+      className="absolute bottom-0 left-0 h-[100%] w-[90%] object-contain"
     />
              
           )}
@@ -35,19 +35,12 @@ function AboutSection() {
 
         <div className="absolute py-3 px-5 border-l-4 border-color1 bg-white -right-2 bottom-1 shadow-xl">
           {" "}
-          <h5 className="text-2xl md:text-4xl text-color1 font-bold">9+</h5>
+          <h5 className="text-2xl md:text-4xl text-color1 font-bold">8+</h5>
           <p className="text-sm md:text-xl  text-zinc-800 ">
             Years of Experience
           </p>
         </div>
-        {/* {data?.img2 && (
-          <Image
-            title="Best immigration consultants in Delhi"
-            src={data?.img2}
-            alt="Best immigration consultants in Delhi"
-            className=" absolute z-10 top-0 right-0 w-[70%] h-[70%] border-2 border-white object-cover"
-          />
-        )} */}
+       
       </motion.div>
 
       <motion.div

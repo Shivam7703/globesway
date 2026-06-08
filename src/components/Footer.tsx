@@ -118,15 +118,35 @@ export default function Footer({ footer }: any) {
               {footer?.newLetter?.title}
             </h4>
             <p className=" transition:all text-base text-zinc-50 duration-300">
-              <strong>Phone: </strong>&nbsp;<a href="tel:+919220292921" target="_blank" rel="noopener noreferrer">+91 92202 92921</a>
+              <strong>Phone: </strong>&nbsp;
+              <a
+                href="tel:+919220292921"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +91 92202 92921
+              </a>
             </p>
             <p className=" transition:all text-base text-zinc-50 duration-300">
-              <strong>E-mail: </strong>&nbsp; <a href="mailto:info@globeswayimmigration.com" target="_blank" rel="noopener noreferrer">info@globeswayimmigration.com</a>
+              <strong>E-mail: </strong>&nbsp;{" "}
+              <a
+                href="mailto:info@globeswayimmigration.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                info@globeswayimmigration.com
+              </a>
             </p>
             <p className=" transition:all text-base text-zinc-50 duration-300">
-              <strong>Address: </strong>&nbsp;<a href="https://www.google.com/maps/place/Globesway+Immigration+Pvt.+Ltd./@28.6937074,77.1472447,17z/data=!3m1!4b1!4m6!3m5!1s0x390d034f8893d0cd:0x9f30cf26433038ae!8m2!3d28.6937074!4d77.1498196!16s%2Fg%2F11x7qhnmst?entry=ttu&g_ep=EgoyMDI1MTEzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Office no. 886-887, 8th Floor,
-              AGGARWAL MILLENNIUM TOWER 2, Netaji Subhash Place, Pitampura, New
-              Delhi, Delhi, 110034</a>
+              <strong>Address: </strong>&nbsp;
+              <a
+                href="https://www.google.com/maps/place/GLOBESWAY+IMMIGRATION+-+Best+Immigration+Consultants+%7C+Canada+PR+%26+Australia+PR+%7C+Visa+Consultants+In+Delhi/@28.6722542,77.1529361,13z/data=!4m10!1m2!2m1!1sOffice+905,+9th+Floor,+Gopal+Heights,+Netaji+Subhash+Place,+Delhi-110034!3m6!1s0x390d034f8893d0cd:0x9f30cf26433038ae!8m2!3d28.6914597!4d77.1503297!15sCkhPZmZpY2UgOTA1LCA5dGggRmxvb3IsIEdvcGFsIEhlaWdodHMsIE5ldGFqaSBTdWJoYXNoIFBsYWNlLCBEZWxoaS0xMTAwMzRaRiJEb2ZmaWNlIDkwNSA5dGggZmxvb3IgZ29wYWwgaGVpZ2h0cyBuZXRhamkgc3ViaGFzaCBwbGFjZSBkZWxoaSAxMTAwMzSSASZpbW1pZ3JhdGlvbl9hbmRfbmF0dXJhbGl6YXRpb25fc2VydmljZeABAA!16s%2Fg%2F11x7qhnmst?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Office 905, 9th Floor, Gopal Heights, Netaji Subhash Place, Delhi-110034
+              </a>
             </p>
           </div>
         </div>

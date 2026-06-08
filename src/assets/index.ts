@@ -32,6 +32,7 @@ import pte from "@/assets/home/pte.webp";
 import pte1 from "@/assets/home/pte1.webp";
 import pte2 from "@/assets/home/pte2.webp";
 import founder from "@/assets/home/founder.png";
+import cofounder from "@/assets/home/co-founder.jpg";
 
 import stamp3 from "@/assets/home/stamp3.webp";
 import stamp5 from "@/assets/home/stamp5.webp";
@@ -84,9 +85,7 @@ import testm2 from "@/assets/home/testm2.webp";
 import review from "@/assets/review.webp"
 
 // team
-import ravi from "@/assets/home/ravi.webp";
 import shresth from "@/assets/home/shresth.webp";
-import sahiba from "@/assets/home/sahiba.webp";
 import rakshita from "@/assets/home/rakshita.webp";
 
 // country 
@@ -234,7 +233,7 @@ export {
   logo, logo2, banner3,
 
   // Home Sections
-  about1, about2, about3, about4, faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, testf, testf2, testm, testm2, testbg, review, ravi, shresth,sahiba, rakshita, contact, missionbg, banner, banner4, allbanner,pay, stamp3,  stamp5, itc1, itc2, itc3, itc4, itc5, itc6, itc7, itc8, itc9, itc10, itc11,
+  about1, about2, about3, about4, faq1, faq2, person, businesVisa,  prVisa, spouseVisa, touristVisa, workVisa, canadaVisa, ielts, ielts1, ielts2, pte, pte1, pte2, celpip1, documentation1, documentation2, profile1, profile2, career1, career2, immigration1, immigration2, postLanding1, postLanding2, celpip, tef, testf, testf2, testm, testm2, testbg, review, shresth, rakshita, contact, missionbg, banner, banner4, allbanner,pay, stamp3,  stamp5, itc1, itc2, itc3, itc4, itc5, itc6, itc7, itc8, itc9, itc10, itc11,
 itc12, itc13, itc14, itc15, itc16, itc17, itc18, itc19, itc20, itc21, stamp6, stamp8,
 
   // country
@@ -245,7 +244,7 @@ itc12, itc13, itc14, itc15, itc16, itc17, itc18, itc19, itc20, itc21, stamp6, st
   gerflag, germany,
   italyflag, italy,
   netherflag, nether,
-  portflag, portugal,founder,
+  portflag, portugal,founder,cofounder,
   singapoflag, singapore,
   spainflag, spain,
   swedenflag, sweden,
