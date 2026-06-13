@@ -627,7 +627,7 @@ export const choosecountry = {
       name: "Italy",
       img: italy,
       flag: italyflag,
-      href: "/contact-us",
+      href: "/contact-us/",
       para: "Settle in Italy to enjoy rich culture and beautiful cities.",
     },
     {
@@ -643,7 +643,7 @@ export const choosecountry = {
       name: "Portugal",
       img: portugal,
       flag: portflag,
-      href: "/contact-us",
+      href: "/contact-us/",
       para: "Enjoy peaceful living and golden visas in Portugal.",
     },
     {
@@ -651,7 +651,7 @@ export const choosecountry = {
       name: "Sweden",
       img: sweden,
       flag: swedenflag,
-      href: "/contact-us",
+      href: "/contact-us/",
       para: "Live in Sweden with a high quality of life and safety.",
     },
     {
@@ -667,7 +667,7 @@ export const choosecountry = {
       name: "Singapore",
       img: singapore,
       flag: singapoflag,
-      href: "/contact-us",
+      href: "/contact-us/",
       para: "Work and grow in Singapore’s clean, modern, and smart city.",
     },
     {
@@ -683,7 +683,7 @@ export const choosecountry = {
       name: "France",
       img: france,
       flag: franceflag,
-      href: "/contact-us",
+      href: "/contact-us/",
       para: "Live in France and enjoy art, food, and family life.",
     },
     {
@@ -699,7 +699,7 @@ export const choosecountry = {
       name: "Spain",
       img: spain,
       flag: spainflag,
-      href: "/contact-us",
+      href: "/contact-us/",
       para: "Spain offers warm weather, rich culture, and an easy lifestyle.",
     },
   ],

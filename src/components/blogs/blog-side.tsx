@@ -68,7 +68,7 @@ async function BlogAside() {
               <Link
                 title="Best immigration consultants in Delhi"
                 className="flex items-stretch"
-                href={service?.href}
+                href={`${service?.href}/`}
               >
                 <div className="pt-5 px-2 bg-zinc-200 text-zinc-700 group-hover:text-white group-hover:bg-black group-hover:px-4 duration-300 transition-all flex items-start">
                   <FaChevronRight className="text-sm" />
@@ -93,7 +93,7 @@ async function BlogAside() {
           {latestBlogs.map((blog: any, index: number) => (
             <Link
               key={blog?.id || index}
-              href={`/blogs/${createSlug(blog.title)}`}
+              href={`/blogs/${createSlug(blog.title)}/`}
               title={blog?.title}
               className="block group"
             >
@@ -162,7 +162,7 @@ async function BlogAside() {
 
             <Link
               title="Best immigration consultants in Delhi"
-              href={"/contact-us"}
+              href={"/contact-us/"}
               className="inline-block pt-3"
             >
               <div className="flex gap-2 p-2 max-w-fit rounded-3xl text-black hover:text-white font-medium group/btn relative bg-white overflow-hidden items-center flex-row shadow-lg hover:shadow-2xl transition-all duration-300">

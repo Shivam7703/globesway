@@ -84,7 +84,7 @@ export default function Footer({ footer }: any) {
                 <li key={i}>
                   <Link
                     title={d?.label}
-                    href={d?.href}
+                    href={`${d?.href}/`}
                     className=" transition:all text-base text-zinc-50 duration-300 hover:text-zinc-300 "
                   >
                     {"-"} {d?.label}
@@ -102,7 +102,7 @@ export default function Footer({ footer }: any) {
                 <li key={i}>
                   <Link
                     title={d?.label}
-                    href={d?.href}
+                    href={`${d?.href}/`}
                     className=" transition:all text-base text-zinc-50 duration-300 hover:text-zinc-300"
                   >
                     {"-"} {d?.label}
@@ -161,7 +161,7 @@ export default function Footer({ footer }: any) {
                   <Link
                     title={navitem?.label}
                     className="text-zinc-700"
-                    href={navitem?.href}
+                    href={`${navitem?.href}/`}
                   >
                     {navitem?.label}
                     {"  "}&nbsp; | {"  "}&nbsp;
@@ -172,7 +172,7 @@ export default function Footer({ footer }: any) {
                         title={subNavItem?.label}
                         className="text-zinc-700"
                         key={subNavItem?.id}
-                        href={subNavItem?.href}
+                        href={`${subNavItem?.href}/`}
                       >
                         {subNavItem?.label}
                         {"  "}&nbsp; | {"  "}&nbsp;
@@ -182,7 +182,7 @@ export default function Footer({ footer }: any) {
                           title={data?.label}
                           className="text-zinc-700"
                           key={data?.id}
-                          href={data?.href}
+                          href={`${data?.href}/`}
                         >
                           {data?.label}
                           {"  "}&nbsp; | {"  "}&nbsp;
@@ -209,7 +209,7 @@ export default function Footer({ footer }: any) {
           <span className="hover:text-main transition-all font-extrabold cursor-pointer">
             <a
               title="Best immigration consultants in Delhi"
-              href="https://skywarddigitalsolutions.com"
+              href="https://skywarddigitalsolutions.com/"
             >
               Skyward Digital Solutions
             </a>

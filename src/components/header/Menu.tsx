@@ -53,7 +53,7 @@ const Menu = ({ onTop, Isprimary, Items }: any) => {
                 <div key={nav.id} className="group/subnav relative">
                   <Link
                     title={nav?.label}
-                    href={nav.href || "#"}
+                    href={`${nav.href}/` || "#"}
                     className={`hover:bg-color1 relative w-full flex gap-4 justify-between hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${
                       activeItem ===
                       (nav?.href?.split("/").filter(Boolean).pop() || "home")
@@ -77,7 +77,7 @@ const Menu = ({ onTop, Isprimary, Items }: any) => {
                         >
                           <Link
                             title={subNav?.label}
-                            href={subNav.href || "#"}
+                            href={`${subNav.href}/` || "#"}
                             className={`hover:bg-color1 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${
                               activeItem ===
                               (subNav?.href?.split("/").filter(Boolean).pop() ||
@@ -100,7 +100,7 @@ const Menu = ({ onTop, Isprimary, Items }: any) => {
                                 <Link
                                   title={subSubNav?.label}
                                   key={subSubNav.id}
-                                  href={subSubNav.href || "#"}
+                                  href={`${subSubNav.href}/` || "#"}
                                   className={`hover:bg-color1 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${
                                     activeItem ===
                                     (subSubNav?.href
